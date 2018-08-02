@@ -1,0 +1,27 @@
+var searchData=
+[
+  ['g',['G',['../struct_ruyi_1_1_s_d_k_1_1_input_manager_1_1_key.html#aac445ba69ee7e6295ed80fb9e2432dbea29ee27c75285947aa3ff450c28f69f09',1,'Ruyi::SDK::InputManager::Key']]],
+  ['gameinfo',['GameInfo',['../struct_ruyi_1_1_s_d_k_1_1_common_type_1_1_notification_type.html#aba5a7592b5c630fea0d5c2e42ce9d137a24d620a2b5c1a91e90c6d3c3f69eeb95',1,'Ruyi::SDK::CommonType::NotificationType']]],
+  ['gamepad',['GamePad',['../struct_ruyi_1_1_s_d_k_1_1_common_type_1_1_input_category.html#a5b8acd06c98a75bbefde420a97435ef6a9eea8fc4a15cfd6cf3b4849e346c35b3',1,'Ruyi::SDK::CommonType::InputCategory']]],
+  ['gamepad_5fa',['GamePad_A',['../struct_ruyi_1_1_s_d_k_1_1_common_type_1_1_ruyi_game_pad_button_flags.html#a44abbb568a0d76d685ad07340792b78eab8e54282d977d5c4ca250f2280e2e9c0',1,'Ruyi::SDK::CommonType::RuyiGamePadButtonFlags']]],
+  ['gamepad_5fb',['GamePad_B',['../struct_ruyi_1_1_s_d_k_1_1_common_type_1_1_ruyi_game_pad_button_flags.html#a44abbb568a0d76d685ad07340792b78eaeb308b4aebb93f4970179c2f2259f434',1,'Ruyi::SDK::CommonType::RuyiGamePadButtonFlags']]],
+  ['gamepad_5fback',['GamePad_Back',['../struct_ruyi_1_1_s_d_k_1_1_common_type_1_1_ruyi_game_pad_button_flags.html#a44abbb568a0d76d685ad07340792b78eaabcb70f3baf449fb8137c4bee11f8fc6',1,'Ruyi::SDK::CommonType::RuyiGamePadButtonFlags']]],
+  ['gamepad_5fdown',['GamePad_Down',['../struct_ruyi_1_1_s_d_k_1_1_common_type_1_1_ruyi_game_pad_button_flags.html#a44abbb568a0d76d685ad07340792b78ea2a3cbbccb2bb53467a9cdfe14d3ae9e2',1,'Ruyi::SDK::CommonType::RuyiGamePadButtonFlags']]],
+  ['gamepad_5fl3',['GamePad_L3',['../struct_ruyi_1_1_s_d_k_1_1_common_type_1_1_ruyi_game_pad_button_flags.html#a44abbb568a0d76d685ad07340792b78ea08c26a3336cbaf9b2604c152c947d103',1,'Ruyi::SDK::CommonType::RuyiGamePadButtonFlags']]],
+  ['gamepad_5flb',['GamePad_LB',['../struct_ruyi_1_1_s_d_k_1_1_common_type_1_1_ruyi_game_pad_button_flags.html#a44abbb568a0d76d685ad07340792b78eae30e3412c7c86fcabfd20ed2eb1cd477',1,'Ruyi::SDK::CommonType::RuyiGamePadButtonFlags']]],
+  ['gamepad_5fleft',['GamePad_Left',['../struct_ruyi_1_1_s_d_k_1_1_common_type_1_1_ruyi_game_pad_button_flags.html#a44abbb568a0d76d685ad07340792b78eae65ea03a81c38385c865567b3ce6972d',1,'Ruyi::SDK::CommonType::RuyiGamePadButtonFlags']]],
+  ['gamepad_5fljoyx',['GamePad_LJoyX',['../struct_ruyi_1_1_s_d_k_1_1_common_type_1_1_ruyi_game_pad_button_flags.html#a44abbb568a0d76d685ad07340792b78ea80a4697304d944997f6bd3badb8a3e54',1,'Ruyi::SDK::CommonType::RuyiGamePadButtonFlags']]],
+  ['gamepad_5fljoyy',['GamePad_LJoyY',['../struct_ruyi_1_1_s_d_k_1_1_common_type_1_1_ruyi_game_pad_button_flags.html#a44abbb568a0d76d685ad07340792b78ea9a9d926fb1ffbbb876ce284fe8484e20',1,'Ruyi::SDK::CommonType::RuyiGamePadButtonFlags']]],
+  ['gamepad_5flt',['GamePad_LT',['../struct_ruyi_1_1_s_d_k_1_1_common_type_1_1_ruyi_game_pad_button_flags.html#a44abbb568a0d76d685ad07340792b78ea8ff77f83e9d273ef4c63c5fc6b39e567',1,'Ruyi::SDK::CommonType::RuyiGamePadButtonFlags']]],
+  ['gamepad_5fr3',['GamePad_R3',['../struct_ruyi_1_1_s_d_k_1_1_common_type_1_1_ruyi_game_pad_button_flags.html#a44abbb568a0d76d685ad07340792b78ea0ac82a766f67ce7eb8cbf805ecf8721b',1,'Ruyi::SDK::CommonType::RuyiGamePadButtonFlags']]],
+  ['gamepad_5frb',['GamePad_RB',['../struct_ruyi_1_1_s_d_k_1_1_common_type_1_1_ruyi_game_pad_button_flags.html#a44abbb568a0d76d685ad07340792b78eaf540a454d24c663f2af47990a7ee05d9',1,'Ruyi::SDK::CommonType::RuyiGamePadButtonFlags']]],
+  ['gamepad_5fright',['GamePad_Right',['../struct_ruyi_1_1_s_d_k_1_1_common_type_1_1_ruyi_game_pad_button_flags.html#a44abbb568a0d76d685ad07340792b78eadb93513fc7b9e26174936f43bc1fda43',1,'Ruyi::SDK::CommonType::RuyiGamePadButtonFlags']]],
+  ['gamepad_5frjoyx',['GamePad_RJoyX',['../struct_ruyi_1_1_s_d_k_1_1_common_type_1_1_ruyi_game_pad_button_flags.html#a44abbb568a0d76d685ad07340792b78ea8b98e794f3f616da716e4d19c0b718d3',1,'Ruyi::SDK::CommonType::RuyiGamePadButtonFlags']]],
+  ['gamepad_5frjoyy',['GamePad_RJoyY',['../struct_ruyi_1_1_s_d_k_1_1_common_type_1_1_ruyi_game_pad_button_flags.html#a44abbb568a0d76d685ad07340792b78ea31b90ab49347d73aea957efd7692a006',1,'Ruyi::SDK::CommonType::RuyiGamePadButtonFlags']]],
+  ['gamepad_5frt',['GamePad_RT',['../struct_ruyi_1_1_s_d_k_1_1_common_type_1_1_ruyi_game_pad_button_flags.html#a44abbb568a0d76d685ad07340792b78ea3070b98558603780164e0547e7ca3523',1,'Ruyi::SDK::CommonType::RuyiGamePadButtonFlags']]],
+  ['gamepad_5fstart',['GamePad_Start',['../struct_ruyi_1_1_s_d_k_1_1_common_type_1_1_ruyi_game_pad_button_flags.html#a44abbb568a0d76d685ad07340792b78ea6ae1bbaccd8fd26ac4810dd47a9f3247',1,'Ruyi::SDK::CommonType::RuyiGamePadButtonFlags']]],
+  ['gamepad_5fup',['GamePad_Up',['../struct_ruyi_1_1_s_d_k_1_1_common_type_1_1_ruyi_game_pad_button_flags.html#a44abbb568a0d76d685ad07340792b78ea8102119be6916992048e7e531b5802d0',1,'Ruyi::SDK::CommonType::RuyiGamePadButtonFlags']]],
+  ['gamepad_5fx',['GamePad_X',['../struct_ruyi_1_1_s_d_k_1_1_common_type_1_1_ruyi_game_pad_button_flags.html#a44abbb568a0d76d685ad07340792b78eaf68cb69d019e4bd85753b32de6339b02',1,'Ruyi::SDK::CommonType::RuyiGamePadButtonFlags']]],
+  ['gamepad_5fy',['GamePad_Y',['../struct_ruyi_1_1_s_d_k_1_1_common_type_1_1_ruyi_game_pad_button_flags.html#a44abbb568a0d76d685ad07340792b78ea218e02a5cfd6e60e2dfe03611c6a098f',1,'Ruyi::SDK::CommonType::RuyiGamePadButtonFlags']]],
+  ['grave',['Grave',['../struct_ruyi_1_1_s_d_k_1_1_input_manager_1_1_key.html#aac445ba69ee7e6295ed80fb9e2432dbea43433c872f4b569912dbcb20c7e6c4a9',1,'Ruyi::SDK::InputManager::Key']]]
+];

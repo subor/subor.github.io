@@ -1,0 +1,6 @@
+var searchData=
+[
+  ['nodelist',['NodeList',['../class_ruyi_1_1_s_d_k_1_1_setting_system_1_1_api_1_1_node_list.html#a75a4920cb95c3b3d197ddb34416594a6',1,'Ruyi::SDK::SettingSystem::Api::NodeList::NodeList(const NodeList &amp;)'],['../class_ruyi_1_1_s_d_k_1_1_setting_system_1_1_api_1_1_node_list.html#a6147d3c57d7a05da2b27f3176599c6d2',1,'Ruyi::SDK::SettingSystem::Api::NodeList::NodeList()']]],
+  ['notification',['notification',['../class_ruyi_1_1_s_d_k_1_1_common_type_1_1notification.html#a3e7c1384edb8016cc52d5829b44bb56b',1,'Ruyi::SDK::CommonType::notification::notification(const notification &amp;)'],['../class_ruyi_1_1_s_d_k_1_1_common_type_1_1notification.html#a49fce041148e078292ce4423de30a7b8',1,'Ruyi::SDK::CommonType::notification::notification()']]],
+  ['notifytakescreenshot',['NotifyTakeScreenShot',['../class_ruyi_1_1_s_d_k_1_1_overlay_manager_external_1_1_notify_take_screen_shot.html#a16264f49c781c7af333f63ce67acc5e7',1,'Ruyi::SDK::OverlayManagerExternal::NotifyTakeScreenShot::NotifyTakeScreenShot(const NotifyTakeScreenShot &amp;)'],['../class_ruyi_1_1_s_d_k_1_1_overlay_manager_external_1_1_notify_take_screen_shot.html#a035e62a4fe0191ec86f596b22c192e49',1,'Ruyi::SDK::OverlayManagerExternal::NotifyTakeScreenShot::NotifyTakeScreenShot()']]]
+];
