@@ -100,8 +100,8 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:ad06072380219f023ece46aacc4b76d9f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a0c47fb7aca9ec1ff1c0699bf297d85a1"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ruyi_1_1_s_d_k_1_1_setting_system_1_1_api_1_1_setting_system_service_if.html#a0c47fb7aca9ec1ff1c0699bf297d85a1">GetCategoryNode</a> (::<a class="el" href="class_ruyi_1_1_s_d_k_1_1_setting_system_1_1_api_1_1_setting_tree.html">Ruyi::SDK::SettingSystem::Api::SettingTree</a> &amp;_return)=0</td></tr>
 <tr class="separator:a0c47fb7aca9ec1ff1c0699bf297d85a1"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a5d176549f60c96adef0e9b07a9294892"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ruyi_1_1_s_d_k_1_1_setting_system_1_1_api_1_1_setting_system_service_if.html#a5d176549f60c96adef0e9b07a9294892">GetChildNode</a> (::<a class="el" href="class_ruyi_1_1_s_d_k_1_1_setting_system_1_1_api_1_1_node_list.html">Ruyi::SDK::SettingSystem::Api::NodeList</a> &amp;_return, const std::string &amp;parent, const ::<a class="el" href="struct_ruyi_1_1_s_d_k_1_1_setting_system_1_1_api_1_1_node_type.html#a4fe81f9cdddf441abc563fc5132a22ee">Ruyi::SDK::SettingSystem::Api::NodeType::type</a> nodeType)=0</td></tr>
-<tr class="separator:a5d176549f60c96adef0e9b07a9294892"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a87566df33d7b6b53412511353c18597f"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ruyi_1_1_s_d_k_1_1_setting_system_1_1_api_1_1_setting_system_service_if.html#a87566df33d7b6b53412511353c18597f">GetChildNode</a> (::<a class="el" href="class_ruyi_1_1_s_d_k_1_1_setting_system_1_1_api_1_1_node_list.html">Ruyi::SDK::SettingSystem::Api::NodeList</a> &amp;_return, const std::string &amp;parent, const ::<a class="el" href="struct_ruyi_1_1_s_d_k_1_1_setting_system_1_1_api_1_1_node_type.html#a4fe81f9cdddf441abc563fc5132a22ee">Ruyi::SDK::SettingSystem::Api::NodeType::type</a> nodeType, const std::string &amp;param)=0</td></tr>
+<tr class="separator:a87566df33d7b6b53412511353c18597f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a3c80625af55e762759732ed8ad71b548"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ruyi_1_1_s_d_k_1_1_setting_system_1_1_api_1_1_setting_system_service_if.html#a3c80625af55e762759732ed8ad71b548">SetSettingItem</a> (const std::string &amp;key, const std::string &amp;val)=0</td></tr>
 <tr class="separator:a3c80625af55e762759732ed8ad71b548"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a3b14e3e196a92bcfa3090702bd1574b1"><td class="memItemLeft" align="right" valign="top">virtual int32_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ruyi_1_1_s_d_k_1_1_setting_system_1_1_api_1_1_setting_system_service_if.html#a3b14e3e196a92bcfa3090702bd1574b1">SetSettingItems</a> (const std::map&lt; std::string, std::string &gt; &amp;keyValues)=0</td></tr>
@@ -120,8 +120,12 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:aec2822f087940bc9ec1a85208350b7b3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a148d66c6f55695b7043f86a582a328f0"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ruyi_1_1_s_d_k_1_1_setting_system_1_1_api_1_1_setting_system_service_if.html#a148d66c6f55695b7043f86a582a328f0">SettingItemNotify</a> (const std::string &amp;key, const ::<a class="el" href="namespace_ruyi_1_1_s_d_k_1_1_setting_system_1_1_api.html#a723256200e55ff8cba9ebe51dbd6802d">Ruyi::SDK::SettingSystem::Api::JSON</a> &amp;contents)=0</td></tr>
 <tr class="separator:a148d66c6f55695b7043f86a582a328f0"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a96656dae0fbe19610bb42b00d87a475d"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ruyi_1_1_s_d_k_1_1_setting_system_1_1_api_1_1_setting_system_service_if.html#a96656dae0fbe19610bb42b00d87a475d">SetNetworkSettings</a> (const bool EnableDHCP, const std::string &amp;IpAddress, const std::string &amp;SubMask, const std::string &amp;Gateway, const std::string &amp;MainDNS, const std::string &amp;SubDNS)=0</td></tr>
-<tr class="separator:a96656dae0fbe19610bb42b00d87a475d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5bf3c619a24ed63cce8ea8aff15e40da"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ruyi_1_1_s_d_k_1_1_setting_system_1_1_api_1_1_setting_system_service_if.html#a5bf3c619a24ed63cce8ea8aff15e40da">GetNetworkAdapterSettings</a> (::<a class="el" href="class_ruyi_1_1_s_d_k_1_1_setting_system_1_1_api_1_1_network_settings.html">Ruyi::SDK::SettingSystem::Api::NetworkSettings</a> &amp;_return)=0</td></tr>
+<tr class="separator:a5bf3c619a24ed63cce8ea8aff15e40da"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0196ef5f2e4235dbfe5c01cc7e5fc1dc"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ruyi_1_1_s_d_k_1_1_setting_system_1_1_api_1_1_setting_system_service_if.html#a0196ef5f2e4235dbfe5c01cc7e5fc1dc">GetLanNetworkName</a> (std::string &amp;_return)=0</td></tr>
+<tr class="separator:a0196ef5f2e4235dbfe5c01cc7e5fc1dc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7e634e8e2a8e4f7ac108ffeb80fed77f"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ruyi_1_1_s_d_k_1_1_setting_system_1_1_api_1_1_setting_system_service_if.html#a7e634e8e2a8e4f7ac108ffeb80fed77f">SetNetworkSettings</a> (const bool isWLan, const bool EnableDHCP, const std::string &amp;IpAddress, const std::string &amp;SubMask, const std::string &amp;Gateway, const std::string &amp;MainDNS, const std::string &amp;SubDNS)=0</td></tr>
+<tr class="separator:a7e634e8e2a8e4f7ac108ffeb80fed77f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a3af375dbf1826772c141dd96c0a21d8f"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ruyi_1_1_s_d_k_1_1_setting_system_1_1_api_1_1_setting_system_service_if.html#a3af375dbf1826772c141dd96c0a21d8f">SetNetworkProxy</a> (const std::string &amp;ProxyServer, const std::string &amp;ProxyPort)=0</td></tr>
 <tr class="separator:a3af375dbf1826772c141dd96c0a21d8f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:afaa8c53beccfe0ef37d394b403792a25"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ruyi_1_1_s_d_k_1_1_setting_system_1_1_api_1_1_setting_system_service_if.html#afaa8c53beccfe0ef37d394b403792a25">ConnectToWifi</a> (const std::string &amp;profileName, const std::string &amp;key)=0</td></tr>
@@ -132,10 +136,22 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:aade4fa1a3349717867be71d71ee7e612"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a8e5770674de9b4f58f916feaf95fd29a"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ruyi_1_1_s_d_k_1_1_setting_system_1_1_api_1_1_setting_system_service_if.html#a8e5770674de9b4f58f916feaf95fd29a">RuyiTestNetwork</a> (::<a class="el" href="class_ruyi_1_1_s_d_k_1_1_setting_system_1_1_api_1_1_ruyi_network_test_result.html">Ruyi::SDK::SettingSystem::Api::RuyiNetworkTestResult</a> &amp;_return)=0</td></tr>
 <tr class="separator:a8e5770674de9b4f58f916feaf95fd29a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9adc97aa9d19526115c046018feb83c2"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ruyi_1_1_s_d_k_1_1_setting_system_1_1_api_1_1_setting_system_service_if.html#a9adc97aa9d19526115c046018feb83c2">RuyiStartNetworkSpeedTest</a> (const int32_t userindex)=0</td></tr>
+<tr class="separator:a9adc97aa9d19526115c046018feb83c2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abe123ebde1dce809c828eaee18788673"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ruyi_1_1_s_d_k_1_1_setting_system_1_1_api_1_1_setting_system_service_if.html#abe123ebde1dce809c828eaee18788673">RuyiStopNetworkSpeedTest</a> (const int32_t userindex)=0</td></tr>
+<tr class="separator:abe123ebde1dce809c828eaee18788673"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a8e3c8144744c267e38f8f3c4f0e53d5e"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ruyi_1_1_s_d_k_1_1_setting_system_1_1_api_1_1_setting_system_service_if.html#a8e3c8144744c267e38f8f3c4f0e53d5e">GetAvailableWifi</a> (std::vector&lt; ::<a class="el" href="class_ruyi_1_1_s_d_k_1_1_setting_system_1_1_api_1_1_wifi_entity.html">Ruyi::SDK::SettingSystem::Api::WifiEntity</a> &gt; &amp;_return)=0</td></tr>
 <tr class="separator:a8e3c8144744c267e38f8f3c4f0e53d5e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a237986f64530f56660933c4ec103e515"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ruyi_1_1_s_d_k_1_1_setting_system_1_1_api_1_1_setting_system_service_if.html#a237986f64530f56660933c4ec103e515">DisconnectWifi</a> ()=0</td></tr>
 <tr class="separator:a237986f64530f56660933c4ec103e515"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5b1b87cb060efe6464d5ebda6a75ad73"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ruyi_1_1_s_d_k_1_1_setting_system_1_1_api_1_1_setting_system_service_if.html#a5b1b87cb060efe6464d5ebda6a75ad73">DiscoverBluetoothDevice</a> ()=0</td></tr>
+<tr class="separator:a5b1b87cb060efe6464d5ebda6a75ad73"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0b1a91569aaf68684f9f9cf5cd9908be"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ruyi_1_1_s_d_k_1_1_setting_system_1_1_api_1_1_setting_system_service_if.html#a0b1a91569aaf68684f9f9cf5cd9908be">ConnectBluetoothDevice</a> (const std::string &amp;DeviceName, const std::string &amp;DeviceAddress)=0</td></tr>
+<tr class="separator:a0b1a91569aaf68684f9f9cf5cd9908be"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acb4c749741bd85eb87f2c5f77112c40c"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ruyi_1_1_s_d_k_1_1_setting_system_1_1_api_1_1_setting_system_service_if.html#acb4c749741bd85eb87f2c5f77112c40c">DisconnectBluetoothDevice</a> (const std::string &amp;DeviceName, const std::string &amp;DeviceAddress)=0</td></tr>
+<tr class="separator:acb4c749741bd85eb87f2c5f77112c40c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9ae3a33136ac750ca0797df922c208bc"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ruyi_1_1_s_d_k_1_1_setting_system_1_1_api_1_1_setting_system_service_if.html#a9ae3a33136ac750ca0797df922c208bc">RemoveBluetoothDevice</a> (const std::string &amp;DeviceName, const std::string &amp;DeviceAddress)=0</td></tr>
+<tr class="separator:a9ae3a33136ac750ca0797df922c208bc"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="a49d892b78477dee2f77e79dea4d50705"></a>
@@ -164,6 +180,44 @@ Public Member Functions</h2></td></tr>
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
+<a id="a0b1a91569aaf68684f9f9cf5cd9908be"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0b1a91569aaf68684f9f9cf5cd9908be">&#9670;&nbsp;</a></span>ConnectBluetoothDevice()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual bool Ruyi::SDK::SettingSystem::Api::SettingSystemServiceIf::ConnectBluetoothDevice </td>
+          <td>(</td>
+          <td class="paramtype">const std::string &amp;&#160;</td>
+          <td class="paramname"><em>DeviceName</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const std::string &amp;&#160;</td>
+          <td class="paramname"><em>DeviceAddress</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">pure virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Implemented in <a class="el" href="class_ruyi_1_1_s_d_k_1_1_setting_system_1_1_api_1_1_setting_system_service_concurrent_client.html#a7f6f04acd7c53577ba4aa4a041a17c61">Ruyi::SDK::SettingSystem::Api::SettingSystemServiceConcurrentClient</a>, <a class="el" href="class_ruyi_1_1_s_d_k_1_1_setting_system_1_1_api_1_1_setting_system_service_multiface.html#ab4b271441d60d1294131e0b1168d9895">Ruyi::SDK::SettingSystem::Api::SettingSystemServiceMultiface</a>, <a class="el" href="class_ruyi_1_1_s_d_k_1_1_setting_system_1_1_api_1_1_setting_system_service_client.html#ac71b95c5f094b753b5ec32ddbdf1712b">Ruyi::SDK::SettingSystem::Api::SettingSystemServiceClient</a>, and <a class="el" href="class_ruyi_1_1_s_d_k_1_1_setting_system_1_1_api_1_1_setting_system_service_null.html#a099206878daf7274afe6504cd095de31">Ruyi::SDK::SettingSystem::Api::SettingSystemServiceNull</a>.</p>
+
+</div>
+</div>
 <a id="afaa8c53beccfe0ef37d394b403792a25"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#afaa8c53beccfe0ef37d394b403792a25">&#9670;&nbsp;</a></span>ConnectToWifi()</h2>
 
@@ -202,6 +256,44 @@ Public Member Functions</h2></td></tr>
 
 </div>
 </div>
+<a id="acb4c749741bd85eb87f2c5f77112c40c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#acb4c749741bd85eb87f2c5f77112c40c">&#9670;&nbsp;</a></span>DisconnectBluetoothDevice()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual bool Ruyi::SDK::SettingSystem::Api::SettingSystemServiceIf::DisconnectBluetoothDevice </td>
+          <td>(</td>
+          <td class="paramtype">const std::string &amp;&#160;</td>
+          <td class="paramname"><em>DeviceName</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const std::string &amp;&#160;</td>
+          <td class="paramname"><em>DeviceAddress</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">pure virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Implemented in <a class="el" href="class_ruyi_1_1_s_d_k_1_1_setting_system_1_1_api_1_1_setting_system_service_concurrent_client.html#ace53d509a542e687adedf2b3175ee2de">Ruyi::SDK::SettingSystem::Api::SettingSystemServiceConcurrentClient</a>, <a class="el" href="class_ruyi_1_1_s_d_k_1_1_setting_system_1_1_api_1_1_setting_system_service_multiface.html#a769145bd9dfd47e8ba25078ddd490b05">Ruyi::SDK::SettingSystem::Api::SettingSystemServiceMultiface</a>, <a class="el" href="class_ruyi_1_1_s_d_k_1_1_setting_system_1_1_api_1_1_setting_system_service_client.html#a7e8248e595e4ceec150824c37b003635">Ruyi::SDK::SettingSystem::Api::SettingSystemServiceClient</a>, and <a class="el" href="class_ruyi_1_1_s_d_k_1_1_setting_system_1_1_api_1_1_setting_system_service_null.html#a9b0a4a6fba0c8b17063ef6e1f936bbed">Ruyi::SDK::SettingSystem::Api::SettingSystemServiceNull</a>.</p>
+
+</div>
+</div>
 <a id="a237986f64530f56660933c4ec103e515"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a237986f64530f56660933c4ec103e515">&#9670;&nbsp;</a></span>DisconnectWifi()</h2>
 
@@ -226,6 +318,33 @@ Public Member Functions</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Implemented in <a class="el" href="class_ruyi_1_1_s_d_k_1_1_setting_system_1_1_api_1_1_setting_system_service_concurrent_client.html#a517992c590e14619ad242c1de8fba8b7">Ruyi::SDK::SettingSystem::Api::SettingSystemServiceConcurrentClient</a>, <a class="el" href="class_ruyi_1_1_s_d_k_1_1_setting_system_1_1_api_1_1_setting_system_service_multiface.html#acc42e618fedb2512f540ce3121c54a86">Ruyi::SDK::SettingSystem::Api::SettingSystemServiceMultiface</a>, <a class="el" href="class_ruyi_1_1_s_d_k_1_1_setting_system_1_1_api_1_1_setting_system_service_client.html#ad161dd706553fe2106f7b4553dfa8534">Ruyi::SDK::SettingSystem::Api::SettingSystemServiceClient</a>, and <a class="el" href="class_ruyi_1_1_s_d_k_1_1_setting_system_1_1_api_1_1_setting_system_service_null.html#a8d92ad2e0dd0b62dfd3c7ee98b442e30">Ruyi::SDK::SettingSystem::Api::SettingSystemServiceNull</a>.</p>
+
+</div>
+</div>
+<a id="a5b1b87cb060efe6464d5ebda6a75ad73"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5b1b87cb060efe6464d5ebda6a75ad73">&#9670;&nbsp;</a></span>DiscoverBluetoothDevice()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual bool Ruyi::SDK::SettingSystem::Api::SettingSystemServiceIf::DiscoverBluetoothDevice </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">pure virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Implemented in <a class="el" href="class_ruyi_1_1_s_d_k_1_1_setting_system_1_1_api_1_1_setting_system_service_concurrent_client.html#a4b120a9d2f5d65f11a498d5f581660b1">Ruyi::SDK::SettingSystem::Api::SettingSystemServiceConcurrentClient</a>, <a class="el" href="class_ruyi_1_1_s_d_k_1_1_setting_system_1_1_api_1_1_setting_system_service_multiface.html#ab2200dd8cccca70814913aa87c7b17cb">Ruyi::SDK::SettingSystem::Api::SettingSystemServiceMultiface</a>, <a class="el" href="class_ruyi_1_1_s_d_k_1_1_setting_system_1_1_api_1_1_setting_system_service_client.html#a5887893d71551263e6ad710518c77276">Ruyi::SDK::SettingSystem::Api::SettingSystemServiceClient</a>, and <a class="el" href="class_ruyi_1_1_s_d_k_1_1_setting_system_1_1_api_1_1_setting_system_service_null.html#a27a104f0a62a3d335a694160919045b0">Ruyi::SDK::SettingSystem::Api::SettingSystemServiceNull</a>.</p>
 
 </div>
 </div>
@@ -286,8 +405,8 @@ Public Member Functions</h2></td></tr>
 
 </div>
 </div>
-<a id="a5d176549f60c96adef0e9b07a9294892"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a5d176549f60c96adef0e9b07a9294892">&#9670;&nbsp;</a></span>GetChildNode()</h2>
+<a id="a87566df33d7b6b53412511353c18597f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a87566df33d7b6b53412511353c18597f">&#9670;&nbsp;</a></span>GetChildNode()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -311,7 +430,13 @@ Public Member Functions</h2></td></tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">const ::<a class="el" href="struct_ruyi_1_1_s_d_k_1_1_setting_system_1_1_api_1_1_node_type.html#a4fe81f9cdddf441abc563fc5132a22ee">Ruyi::SDK::SettingSystem::Api::NodeType::type</a>&#160;</td>
-          <td class="paramname"><em>nodeType</em>&#160;</td>
+          <td class="paramname"><em>nodeType</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const std::string &amp;&#160;</td>
+          <td class="paramname"><em>param</em>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -325,8 +450,73 @@ Public Member Functions</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
+<p>Get child nodes of specified setting item or setting category</p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">parent</td><td>The parent node</td></tr>
+    <tr><td class="paramname">nodeType</td><td>Specifies whether the child nodes containing setting item or setting category, or both</td></tr>
+    <tr><td class="paramname">param</td><td>The parameter passed to the function which will be called while getting the item value </td></tr>
+  </table>
+  </dd>
+</dl>
 
-<p>Implemented in <a class="el" href="class_ruyi_1_1_s_d_k_1_1_setting_system_1_1_api_1_1_setting_system_service_concurrent_client.html#a4d0aafbe716334c1e33ddb3bb8183b2e">Ruyi::SDK::SettingSystem::Api::SettingSystemServiceConcurrentClient</a>, <a class="el" href="class_ruyi_1_1_s_d_k_1_1_setting_system_1_1_api_1_1_setting_system_service_multiface.html#a6a5f2fa0fae9f3a0a8c3b931a052d5b5">Ruyi::SDK::SettingSystem::Api::SettingSystemServiceMultiface</a>, <a class="el" href="class_ruyi_1_1_s_d_k_1_1_setting_system_1_1_api_1_1_setting_system_service_client.html#a2b6cea4237ea68b017e2e48c86dfc0ea">Ruyi::SDK::SettingSystem::Api::SettingSystemServiceClient</a>, and <a class="el" href="class_ruyi_1_1_s_d_k_1_1_setting_system_1_1_api_1_1_setting_system_service_null.html#ab2d022a2cb5c48e532611b934c2b2c49">Ruyi::SDK::SettingSystem::Api::SettingSystemServiceNull</a>.</p>
+<p>Implemented in <a class="el" href="class_ruyi_1_1_s_d_k_1_1_setting_system_1_1_api_1_1_setting_system_service_concurrent_client.html#ad51bbe62e0b852dece3950acad9f9a8a">Ruyi::SDK::SettingSystem::Api::SettingSystemServiceConcurrentClient</a>, <a class="el" href="class_ruyi_1_1_s_d_k_1_1_setting_system_1_1_api_1_1_setting_system_service_multiface.html#a00ec6a31fdc9de450644b300f83fc83f">Ruyi::SDK::SettingSystem::Api::SettingSystemServiceMultiface</a>, <a class="el" href="class_ruyi_1_1_s_d_k_1_1_setting_system_1_1_api_1_1_setting_system_service_client.html#a0651e8c7114a008c78e715043cd62984">Ruyi::SDK::SettingSystem::Api::SettingSystemServiceClient</a>, and <a class="el" href="class_ruyi_1_1_s_d_k_1_1_setting_system_1_1_api_1_1_setting_system_service_null.html#aea3ac3182fef9a840978147de7acab22">Ruyi::SDK::SettingSystem::Api::SettingSystemServiceNull</a>.</p>
+
+</div>
+</div>
+<a id="a0196ef5f2e4235dbfe5c01cc7e5fc1dc"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0196ef5f2e4235dbfe5c01cc7e5fc1dc">&#9670;&nbsp;</a></span>GetLanNetworkName()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual void Ruyi::SDK::SettingSystem::Api::SettingSystemServiceIf::GetLanNetworkName </td>
+          <td>(</td>
+          <td class="paramtype">std::string &amp;&#160;</td>
+          <td class="paramname"><em>_return</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">pure virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Implemented in <a class="el" href="class_ruyi_1_1_s_d_k_1_1_setting_system_1_1_api_1_1_setting_system_service_concurrent_client.html#a8006896314116583ab882b2b718d1751">Ruyi::SDK::SettingSystem::Api::SettingSystemServiceConcurrentClient</a>, <a class="el" href="class_ruyi_1_1_s_d_k_1_1_setting_system_1_1_api_1_1_setting_system_service_multiface.html#aef62cdd0a925db9a4578fbc3892f7923">Ruyi::SDK::SettingSystem::Api::SettingSystemServiceMultiface</a>, <a class="el" href="class_ruyi_1_1_s_d_k_1_1_setting_system_1_1_api_1_1_setting_system_service_client.html#ad73300ba0282ed3d3e63300bd4eeebe4">Ruyi::SDK::SettingSystem::Api::SettingSystemServiceClient</a>, and <a class="el" href="class_ruyi_1_1_s_d_k_1_1_setting_system_1_1_api_1_1_setting_system_service_null.html#a3814aca7ea7eacc4a41d1c77ea644c6d">Ruyi::SDK::SettingSystem::Api::SettingSystemServiceNull</a>.</p>
+
+</div>
+</div>
+<a id="a5bf3c619a24ed63cce8ea8aff15e40da"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5bf3c619a24ed63cce8ea8aff15e40da">&#9670;&nbsp;</a></span>GetNetworkAdapterSettings()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual void Ruyi::SDK::SettingSystem::Api::SettingSystemServiceIf::GetNetworkAdapterSettings </td>
+          <td>(</td>
+          <td class="paramtype">::<a class="el" href="class_ruyi_1_1_s_d_k_1_1_setting_system_1_1_api_1_1_network_settings.html">Ruyi::SDK::SettingSystem::Api::NetworkSettings</a> &amp;&#160;</td>
+          <td class="paramname"><em>_return</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">pure virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Implemented in <a class="el" href="class_ruyi_1_1_s_d_k_1_1_setting_system_1_1_api_1_1_setting_system_service_concurrent_client.html#a024c6c0ceec837c28518fddd80137842">Ruyi::SDK::SettingSystem::Api::SettingSystemServiceConcurrentClient</a>, <a class="el" href="class_ruyi_1_1_s_d_k_1_1_setting_system_1_1_api_1_1_setting_system_service_multiface.html#a7ea397b4cf94d4a94967b620b9af972f">Ruyi::SDK::SettingSystem::Api::SettingSystemServiceMultiface</a>, <a class="el" href="class_ruyi_1_1_s_d_k_1_1_setting_system_1_1_api_1_1_setting_system_service_client.html#aabd96d8615a4792ada31e0d90e64fceb">Ruyi::SDK::SettingSystem::Api::SettingSystemServiceClient</a>, and <a class="el" href="class_ruyi_1_1_s_d_k_1_1_setting_system_1_1_api_1_1_setting_system_service_null.html#a54e54c86b3944d4ffba1ce33b4295310">Ruyi::SDK::SettingSystem::Api::SettingSystemServiceNull</a>.</p>
 
 </div>
 </div>
@@ -533,6 +723,44 @@ Public Member Functions</h2></td></tr>
 
 </div>
 </div>
+<a id="a9ae3a33136ac750ca0797df922c208bc"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9ae3a33136ac750ca0797df922c208bc">&#9670;&nbsp;</a></span>RemoveBluetoothDevice()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual bool Ruyi::SDK::SettingSystem::Api::SettingSystemServiceIf::RemoveBluetoothDevice </td>
+          <td>(</td>
+          <td class="paramtype">const std::string &amp;&#160;</td>
+          <td class="paramname"><em>DeviceName</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const std::string &amp;&#160;</td>
+          <td class="paramname"><em>DeviceAddress</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">pure virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Implemented in <a class="el" href="class_ruyi_1_1_s_d_k_1_1_setting_system_1_1_api_1_1_setting_system_service_concurrent_client.html#af325fae392944cb1c8e349f8a22cbd0d">Ruyi::SDK::SettingSystem::Api::SettingSystemServiceConcurrentClient</a>, <a class="el" href="class_ruyi_1_1_s_d_k_1_1_setting_system_1_1_api_1_1_setting_system_service_multiface.html#aa22a483052cc690de1523bd414c239ed">Ruyi::SDK::SettingSystem::Api::SettingSystemServiceMultiface</a>, <a class="el" href="class_ruyi_1_1_s_d_k_1_1_setting_system_1_1_api_1_1_setting_system_service_client.html#ae2773a452c772c72db11728338d2a37a">Ruyi::SDK::SettingSystem::Api::SettingSystemServiceClient</a>, and <a class="el" href="class_ruyi_1_1_s_d_k_1_1_setting_system_1_1_api_1_1_setting_system_service_null.html#aefed36f97a6bb0b83a9a28e495d01f2e">Ruyi::SDK::SettingSystem::Api::SettingSystemServiceNull</a>.</p>
+
+</div>
+</div>
 <a id="aec2822f087940bc9ec1a85208350b7b3"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#aec2822f087940bc9ec1a85208350b7b3">&#9670;&nbsp;</a></span>RemoveUserAppData()</h2>
 
@@ -667,6 +895,62 @@ Public Member Functions</h2></td></tr>
 
 </div>
 </div>
+<a id="a9adc97aa9d19526115c046018feb83c2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9adc97aa9d19526115c046018feb83c2">&#9670;&nbsp;</a></span>RuyiStartNetworkSpeedTest()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual bool Ruyi::SDK::SettingSystem::Api::SettingSystemServiceIf::RuyiStartNetworkSpeedTest </td>
+          <td>(</td>
+          <td class="paramtype">const int32_t&#160;</td>
+          <td class="paramname"><em>userindex</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">pure virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Implemented in <a class="el" href="class_ruyi_1_1_s_d_k_1_1_setting_system_1_1_api_1_1_setting_system_service_concurrent_client.html#afbcbb1821aa4d91ac1198a558a50b1f9">Ruyi::SDK::SettingSystem::Api::SettingSystemServiceConcurrentClient</a>, <a class="el" href="class_ruyi_1_1_s_d_k_1_1_setting_system_1_1_api_1_1_setting_system_service_multiface.html#ac76498bc7f9aa973d399459274e78375">Ruyi::SDK::SettingSystem::Api::SettingSystemServiceMultiface</a>, <a class="el" href="class_ruyi_1_1_s_d_k_1_1_setting_system_1_1_api_1_1_setting_system_service_client.html#aeafc6459b6c05cbe564c9c7b8d5ce32d">Ruyi::SDK::SettingSystem::Api::SettingSystemServiceClient</a>, and <a class="el" href="class_ruyi_1_1_s_d_k_1_1_setting_system_1_1_api_1_1_setting_system_service_null.html#a4e61e0c6d6bffae39f7fe77526a56d61">Ruyi::SDK::SettingSystem::Api::SettingSystemServiceNull</a>.</p>
+
+</div>
+</div>
+<a id="abe123ebde1dce809c828eaee18788673"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#abe123ebde1dce809c828eaee18788673">&#9670;&nbsp;</a></span>RuyiStopNetworkSpeedTest()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual bool Ruyi::SDK::SettingSystem::Api::SettingSystemServiceIf::RuyiStopNetworkSpeedTest </td>
+          <td>(</td>
+          <td class="paramtype">const int32_t&#160;</td>
+          <td class="paramname"><em>userindex</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">pure virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Implemented in <a class="el" href="class_ruyi_1_1_s_d_k_1_1_setting_system_1_1_api_1_1_setting_system_service_concurrent_client.html#a0c0dc8c78187ae94baac66ee14392000">Ruyi::SDK::SettingSystem::Api::SettingSystemServiceConcurrentClient</a>, <a class="el" href="class_ruyi_1_1_s_d_k_1_1_setting_system_1_1_api_1_1_setting_system_service_multiface.html#af986660edcea112b9f9661e3a1ac0104">Ruyi::SDK::SettingSystem::Api::SettingSystemServiceMultiface</a>, <a class="el" href="class_ruyi_1_1_s_d_k_1_1_setting_system_1_1_api_1_1_setting_system_service_client.html#aa8385caf4f1746b737197b3d8ed0f952">Ruyi::SDK::SettingSystem::Api::SettingSystemServiceClient</a>, and <a class="el" href="class_ruyi_1_1_s_d_k_1_1_setting_system_1_1_api_1_1_setting_system_service_null.html#a5c388485246e54c9898a0005b9a3aedf">Ruyi::SDK::SettingSystem::Api::SettingSystemServiceNull</a>.</p>
+
+</div>
+</div>
 <a id="a8e5770674de9b4f58f916feaf95fd29a"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a8e5770674de9b4f58f916feaf95fd29a">&#9670;&nbsp;</a></span>RuyiTestNetwork()</h2>
 
@@ -778,8 +1062,8 @@ Public Member Functions</h2></td></tr>
 
 </div>
 </div>
-<a id="a96656dae0fbe19610bb42b00d87a475d"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a96656dae0fbe19610bb42b00d87a475d">&#9670;&nbsp;</a></span>SetNetworkSettings()</h2>
+<a id="a7e634e8e2a8e4f7ac108ffeb80fed77f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7e634e8e2a8e4f7ac108ffeb80fed77f">&#9670;&nbsp;</a></span>SetNetworkSettings()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -790,6 +1074,12 @@ Public Member Functions</h2></td></tr>
         <tr>
           <td class="memname">virtual bool Ruyi::SDK::SettingSystem::Api::SettingSystemServiceIf::SetNetworkSettings </td>
           <td>(</td>
+          <td class="paramtype">const bool&#160;</td>
+          <td class="paramname"><em>isWLan</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
           <td class="paramtype">const bool&#160;</td>
           <td class="paramname"><em>EnableDHCP</em>, </td>
         </tr>
@@ -836,7 +1126,7 @@ Public Member Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Implemented in <a class="el" href="class_ruyi_1_1_s_d_k_1_1_setting_system_1_1_api_1_1_setting_system_service_concurrent_client.html#a2ed9ef04231779173ea0562f0545de9a">Ruyi::SDK::SettingSystem::Api::SettingSystemServiceConcurrentClient</a>, <a class="el" href="class_ruyi_1_1_s_d_k_1_1_setting_system_1_1_api_1_1_setting_system_service_multiface.html#a0a79ab7af496ac4ae8bac7bf1f58a2e3">Ruyi::SDK::SettingSystem::Api::SettingSystemServiceMultiface</a>, <a class="el" href="class_ruyi_1_1_s_d_k_1_1_setting_system_1_1_api_1_1_setting_system_service_client.html#ab6c9b9d1bb500170b83c10ac82857b6a">Ruyi::SDK::SettingSystem::Api::SettingSystemServiceClient</a>, and <a class="el" href="class_ruyi_1_1_s_d_k_1_1_setting_system_1_1_api_1_1_setting_system_service_null.html#a812b7ea8683fc5b78d15241ba7abd476">Ruyi::SDK::SettingSystem::Api::SettingSystemServiceNull</a>.</p>
+<p>Implemented in <a class="el" href="class_ruyi_1_1_s_d_k_1_1_setting_system_1_1_api_1_1_setting_system_service_concurrent_client.html#a746a24ef10f49bd123286f1ae04624d7">Ruyi::SDK::SettingSystem::Api::SettingSystemServiceConcurrentClient</a>, <a class="el" href="class_ruyi_1_1_s_d_k_1_1_setting_system_1_1_api_1_1_setting_system_service_multiface.html#a656d8d8bdbb0f44ceaa205a65191fbde">Ruyi::SDK::SettingSystem::Api::SettingSystemServiceMultiface</a>, <a class="el" href="class_ruyi_1_1_s_d_k_1_1_setting_system_1_1_api_1_1_setting_system_service_client.html#a30420711204113aaaae97207320ec874">Ruyi::SDK::SettingSystem::Api::SettingSystemServiceClient</a>, and <a class="el" href="class_ruyi_1_1_s_d_k_1_1_setting_system_1_1_api_1_1_setting_system_service_null.html#a8390d3ee16b4829a60acd7eba4afe5f5">Ruyi::SDK::SettingSystem::Api::SettingSystemServiceNull</a>.</p>
 
 </div>
 </div>

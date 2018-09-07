@@ -21,5 +21,6 @@ var searchData=
   ['matchmaking_5fturnshieldoff',['MatchMaking_TurnShieldOff',['../class_brain_cloud_service_handler.html#a2128cb7eafb56e3afa2ddc6ddb6bf160',1,'BrainCloudServiceHandler']]],
   ['matchmaking_5fturnshieldon',['MatchMaking_TurnShieldOn',['../class_brain_cloud_service_handler.html#aeb4b97b5e60be7c3ed288c499ab47ae8',1,'BrainCloudServiceHandler']]],
   ['matchmaking_5fturnshieldonfor',['MatchMaking_TurnShieldOnFor',['../class_brain_cloud_service_handler.html#acfe8c3c8e4219094ee9d8de2bde7fc98',1,'BrainCloudServiceHandler']]],
+  ['modulebaseinfo',['ModuleBaseInfo',['../class_ruyi_1_1_s_d_k_1_1_common_type_1_1_module_base_info.html#a9fe77f15c413877f2b8ebb1bc1422047',1,'Ruyi::SDK::CommonType::ModuleBaseInfo::ModuleBaseInfo(const ModuleBaseInfo &amp;)'],['../class_ruyi_1_1_s_d_k_1_1_common_type_1_1_module_base_info.html#acc3a58752dffe9cbcca5da64406cc3ac',1,'Ruyi::SDK::CommonType::ModuleBaseInfo::ModuleBaseInfo()']]],
   ['modulesetting',['ModuleSetting',['../class_ruyi_1_1_s_d_k_1_1_common_type_1_1_module_setting.html#a0f8ce8b678a8c6819a6baf69ae34b10b',1,'Ruyi::SDK::CommonType::ModuleSetting::ModuleSetting(const ModuleSetting &amp;)'],['../class_ruyi_1_1_s_d_k_1_1_common_type_1_1_module_setting.html#a352a793d5f2cd764c1603e6e2ebc45d4',1,'Ruyi::SDK::CommonType::ModuleSetting::ModuleSetting()']]]
 ];

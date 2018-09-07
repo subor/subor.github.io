@@ -21,16 +21,16 @@
     <HelpKINode Title="about .Client class" Url="html/b5353b78-4ef1-58d2-398e-fcf0bed29274.htm" />
     <HelpKINode Title="about .Client class" Url="html/b3e265fa-0f75-8007-9e4b-b1dcee8551de.htm" />
     <HelpKINode Title="about .Client class" Url="html/d5cdb863-023a-97d1-f0d8-cc09a5b4c910.htm" />
-    <HelpKINode Title="constructor" Url="html/fafad7a3-8feb-9131-78e9-814416b627b1.htm" />
-    <HelpKINode Title="constructor" Url="html/cd11a213-9154-3eb6-2f88-41ff60c8276b.htm" />
-    <HelpKINode Title="constructor" Url="html/0db118d4-ac3d-cbbe-a2e5-827ba3186da0.htm" />
-    <HelpKINode Title="constructor" Url="html/33b7466a-e74f-ffde-5b92-45052e8fa477.htm" />
-    <HelpKINode Title="constructor" Url="html/ec6c91d1-e558-ecdb-b6dd-269740029bb7.htm" />
-    <HelpKINode Title="constructor" Url="html/bae0e075-251e-fd15-b925-868190efb0a1.htm" />
-    <HelpKINode Title="constructor" Url="html/16b11ae9-c1a5-e533-6b20-4fcdd56b6e05.htm" />
-    <HelpKINode Title="constructor" Url="html/a589c7ef-f930-84ac-0ec4-75c05e5bcd89.htm" />
     <HelpKINode Title="constructor" Url="html/0f8849e7-26e4-8d02-42df-f7d3eb52ab37.htm" />
+    <HelpKINode Title="constructor" Url="html/0db118d4-ac3d-cbbe-a2e5-827ba3186da0.htm" />
+    <HelpKINode Title="constructor" Url="html/a589c7ef-f930-84ac-0ec4-75c05e5bcd89.htm" />
+    <HelpKINode Title="constructor" Url="html/ec6c91d1-e558-ecdb-b6dd-269740029bb7.htm" />
+    <HelpKINode Title="constructor" Url="html/cd11a213-9154-3eb6-2f88-41ff60c8276b.htm" />
+    <HelpKINode Title="constructor" Url="html/16b11ae9-c1a5-e533-6b20-4fcdd56b6e05.htm" />
+    <HelpKINode Title="constructor" Url="html/33b7466a-e74f-ffde-5b92-45052e8fa477.htm" />
     <HelpKINode Title="constructor" Url="html/e01323bc-c8a8-ae07-654c-989c63543d24.htm" />
+    <HelpKINode Title="constructor" Url="html/fafad7a3-8feb-9131-78e9-814416b627b1.htm" />
+    <HelpKINode Title="constructor" Url="html/bae0e075-251e-fd15-b925-868190efb0a1.htm" />
   </HelpKINode>
   <HelpKINode Title=".Client.AsyncMatch_AbandonMatch method" Url="html/d2c89ae2-c9a1-c0b2-f0cb-fb44d7720ccd.htm" />
   <HelpKINode Title=".Client.AsyncMatch_AbandonMatchAsync method" Url="html/e0ffabe9-32b5-cf1d-98db-919093bb84e3.htm" />
@@ -60,6 +60,8 @@
   <HelpKINode Title=".Client.Authentication_AuthenticateEmailPasswordAsync method" Url="html/8f68c91f-a12c-68bf-7d4a-4658f364f10a.htm" />
   <HelpKINode Title=".Client.Authentication_AuthenticateExternal method" Url="html/f92cddc4-4eb6-cd09-17e2-87645f7ccae7.htm" />
   <HelpKINode Title=".Client.Authentication_AuthenticateExternalAsync method" Url="html/90d5fb0a-16e7-6cff-b15d-9801cdbe5510.htm" />
+  <HelpKINode Title=".Client.Authentication_AuthenticatePhone method" Url="html/1d550bea-3add-4a33-74fa-39007550aea4.htm" />
+  <HelpKINode Title=".Client.Authentication_AuthenticatePhoneAsync method" Url="html/2add5d38-d7c1-1717-6157-50c61e4597b0.htm" />
   <HelpKINode Title=".Client.Authentication_AuthenticateUniversal method" Url="html/6e46c02c-7282-b2ea-2293-04d8960fe655.htm" />
   <HelpKINode Title=".Client.Authentication_AuthenticateUniversalAsync method" Url="html/bb2845ce-3fc7-d8ff-7f02-a2a513f3138c.htm" />
   <HelpKINode Title=".Client.Authentication_AuthenticateWechat method" Url="html/9d6a5280-38fd-5825-40d0-ea541de25c31.htm" />
@@ -72,19 +74,21 @@
   <HelpKINode Title=".Client.Authentication_GetWeChatQRPageURLAsync method" Url="html/83435c9d-7f83-5f1a-764b-7aac710f54ed.htm" />
   <HelpKINode Title=".Client.Authentication_Initialize method" Url="html/4727be1d-350e-944e-850f-169d183cc6e7.htm" />
   <HelpKINode Title=".Client.Authentication_InitializeAsync method" Url="html/3b3470d2-335d-c0a3-ba00-5e90d397f6d5.htm" />
+  <HelpKINode Title=".Client.Authentication_RequestSmsCode method" Url="html/bdf6d1df-5f7e-0724-a694-167bec770bc2.htm" />
+  <HelpKINode Title=".Client.Authentication_RequestSmsCodeAsync method" Url="html/dd9c6302-9814-8176-0d8c-1b87be3d01d0.htm" />
   <HelpKINode Title=".Client.Authentication_ResetEmailPassword method" Url="html/612aacbf-ad27-6411-17e1-4e3931123897.htm" />
   <HelpKINode Title=".Client.Authentication_ResetEmailPasswordAsync method" Url="html/7e1b62e3-d0c6-eeea-91fb-b95540dc440a.htm" />
   <HelpKINode Title=".Client.Client constructor">
-    <HelpKINode Title="Client Constructor " Url="html/0f8849e7-26e4-8d02-42df-f7d3eb52ab37.htm" />
-    <HelpKINode Title="Client Constructor " Url="html/e01323bc-c8a8-ae07-654c-989c63543d24.htm" />
-    <HelpKINode Title="Client Constructor " Url="html/cd11a213-9154-3eb6-2f88-41ff60c8276b.htm" />
-    <HelpKINode Title="Client Constructor " Url="html/ec6c91d1-e558-ecdb-b6dd-269740029bb7.htm" />
-    <HelpKINode Title="Client Constructor " Url="html/33b7466a-e74f-ffde-5b92-45052e8fa477.htm" />
-    <HelpKINode Title="Client Constructor " Url="html/a589c7ef-f930-84ac-0ec4-75c05e5bcd89.htm" />
+    <HelpKINode Title="Client Constructor " Url="html/16b11ae9-c1a5-e533-6b20-4fcdd56b6e05.htm" />
     <HelpKINode Title="Client Constructor " Url="html/fafad7a3-8feb-9131-78e9-814416b627b1.htm" />
     <HelpKINode Title="Client Constructor " Url="html/bae0e075-251e-fd15-b925-868190efb0a1.htm" />
+    <HelpKINode Title="Client Constructor " Url="html/cd11a213-9154-3eb6-2f88-41ff60c8276b.htm" />
+    <HelpKINode Title="Client Constructor " Url="html/e01323bc-c8a8-ae07-654c-989c63543d24.htm" />
+    <HelpKINode Title="Client Constructor " Url="html/33b7466a-e74f-ffde-5b92-45052e8fa477.htm" />
+    <HelpKINode Title="Client Constructor " Url="html/ec6c91d1-e558-ecdb-b6dd-269740029bb7.htm" />
+    <HelpKINode Title="Client Constructor " Url="html/0f8849e7-26e4-8d02-42df-f7d3eb52ab37.htm" />
     <HelpKINode Title="Client Constructor " Url="html/0db118d4-ac3d-cbbe-a2e5-827ba3186da0.htm" />
-    <HelpKINode Title="Client Constructor " Url="html/16b11ae9-c1a5-e533-6b20-4fcdd56b6e05.htm" />
+    <HelpKINode Title="Client Constructor " Url="html/a589c7ef-f930-84ac-0ec4-75c05e5bcd89.htm" />
   </HelpKINode>
   <HelpKINode Title=".Client.Client_EnableLogging method" Url="html/95fce5d2-99dc-2e4f-6582-4fc08a9dba13.htm" />
   <HelpKINode Title=".Client.Client_EnableLoggingAsync method" Url="html/574c0199-34a2-13f6-e4f3-c01cea89ab62.htm" />
@@ -134,6 +138,8 @@
   <HelpKINode Title=".Client.Client_SetUploadLowTransferRateTimeoutAsync method" Url="html/22644552-51f7-4958-ffa4-d8aec07fbc15.htm" />
   <HelpKINode Title=".Client.Client_Update method" Url="html/7484dea2-51cd-9889-bf28-b1f456d5041f.htm" />
   <HelpKINode Title=".Client.Client_UpdateAsync method" Url="html/e8dadbd9-bf77-84ba-2278-1c6bcb9707be.htm" />
+  <HelpKINode Title=".Client.ConnectBluetoothDevice method" Url="html/f2cb943c-97fe-9ca7-d8c0-e12de1c18ab2.htm" />
+  <HelpKINode Title=".Client.ConnectBluetoothDeviceAsync method" Url="html/e8844267-5514-b8fd-38e2-6a0a481ce492.htm" />
   <HelpKINode Title=".Client.ConnectToWifi method" Url="html/35eb18ff-e9cc-c482-f917-ed56be31ef4c.htm" />
   <HelpKINode Title=".Client.ConnectToWifiAsync method" Url="html/adeb7bb6-2c65-1314-8f1c-8e90f56139b0.htm" />
   <HelpKINode Title=".Client.DataStream_CustomPageEvent method" Url="html/fdcffc06-3c78-0fa3-75f6-81fd232701ce.htm" />
@@ -142,8 +148,12 @@
   <HelpKINode Title=".Client.DataStream_CustomScreenEventAsync method" Url="html/b6d5f40f-cd6f-c148-eeab-3a884f6fe2dc.htm" />
   <HelpKINode Title=".Client.DataStream_CustomTrackEvent method" Url="html/2bcf9e67-9eb4-e8d7-ea2a-a6ad658b7e9b.htm" />
   <HelpKINode Title=".Client.DataStream_CustomTrackEventAsync method" Url="html/ce9659bd-1b3f-1aca-9bc0-a79fcd0fdd8c.htm" />
+  <HelpKINode Title=".Client.DisconnectBluetoothDevice method" Url="html/ff71c20f-2a29-1069-bc15-fb8d79439d2b.htm" />
+  <HelpKINode Title=".Client.DisconnectBluetoothDeviceAsync method" Url="html/6f8d813b-118b-d9a5-3616-ed4c3d25ba5b.htm" />
   <HelpKINode Title=".Client.DisconnectWifi method" Url="html/841ed0d5-fc49-347e-864e-bcbec9a435b1.htm" />
   <HelpKINode Title=".Client.DisconnectWifiAsync method" Url="html/8ce39e2f-f03e-1653-5ae6-1d077378a55e.htm" />
+  <HelpKINode Title=".Client.DiscoverBluetoothDevice method" Url="html/321274d8-859d-eeaf-0277-483e6753521d.htm" />
+  <HelpKINode Title=".Client.DiscoverBluetoothDeviceAsync method" Url="html/462d7499-97e7-8a06-8e73-87d087f07efd.htm" />
   <HelpKINode Title=".Client.Dispose method">
     <HelpKINode Title="BrainCloudService.Client.Dispose Method " Url="html/05f32015-8a68-5c8e-f2a5-f54cebf4b4e0.htm" />
     <HelpKINode Title="ExternalOverlayManagerService.Client.Dispose Method " Url="html/57a98efc-2713-c2ff-3aa3-6ad8a2af20fd.htm" />
@@ -234,8 +244,12 @@
   <HelpKINode Title=".Client.Friend_FindUsersByExactNameAsync method" Url="html/1ed897cd-ca0c-c9e3-d5f4-09084361ed21.htm" />
   <HelpKINode Title=".Client.Friend_FindUsersBySubstrName method" Url="html/bc117f8d-0653-1e40-8e00-e68cf3d1e4d3.htm" />
   <HelpKINode Title=".Client.Friend_FindUsersBySubstrNameAsync method" Url="html/51638df6-84a9-341a-3f3b-6084fa69e683.htm" />
+  <HelpKINode Title=".Client.Friend_GetSummaryDataForFriends method" Url="html/4f46af6d-a8b2-2057-116c-c69698dde703.htm" />
+  <HelpKINode Title=".Client.Friend_GetSummaryDataForFriendsAsync method" Url="html/324ddc46-944e-0832-c662-cb745f583d7c.htm" />
   <HelpKINode Title=".Client.Friend_GetSummaryDataForProfileId method" Url="html/3adb523f-6791-8a1d-163b-29d0e9f83742.htm" />
   <HelpKINode Title=".Client.Friend_GetSummaryDataForProfileIdAsync method" Url="html/dec1bd22-82e9-00ed-7724-e855b031bc4f.htm" />
+  <HelpKINode Title=".Client.Friend_GetSummaryDataForProfileIds method" Url="html/fcc2b407-5e97-ba45-ec06-bdd2994f72de.htm" />
+  <HelpKINode Title=".Client.Friend_GetSummaryDataForProfileIdsAsync method" Url="html/153f234c-dd04-00f4-5508-4a0cf65f3d2c.htm" />
   <HelpKINode Title=".Client.Friend_GetUsersOnlineStatus method" Url="html/7e716685-95cb-07bf-ac04-e43dcc669df6.htm" />
   <HelpKINode Title=".Client.Friend_GetUsersOnlineStatusAsync method" Url="html/6ab73df5-c59a-d15a-afc1-80b79fa5d460.htm" />
   <HelpKINode Title=".Client.Friend_ListFriendInvitationsReceived method" Url="html/419b6ec8-44c5-7f57-dc7f-27bbe6719ab0.htm" />
@@ -298,8 +312,10 @@
   <HelpKINode Title=".Client.GetAvailableWifiAsync method" Url="html/84d8ef38-319b-3179-2a30-3ca5292c8407.htm" />
   <HelpKINode Title=".Client.GetCategoryNode method" Url="html/76cd173e-0246-9abd-1fa8-53a168ec5e1c.htm" />
   <HelpKINode Title=".Client.GetCategoryNodeAsync method" Url="html/83f22b2c-34b7-d3f1-e703-7ccfdb5286f5.htm" />
-  <HelpKINode Title=".Client.GetChildNode method" Url="html/cb9c3413-8101-dc98-6fe7-d3f9fc1fb085.htm" />
-  <HelpKINode Title=".Client.GetChildNodeAsync method" Url="html/aecf07a2-a354-682f-0209-1145bf282867.htm" />
+  <HelpKINode Title=".Client.GetChildNode method" Url="html/3eddec0f-5e10-e3f9-7ffb-cac4d590aa25.htm" />
+  <HelpKINode Title=".Client.GetChildNodeAsync method" Url="html/33ac9176-e4c1-8061-0828-3431635caade.htm" />
+  <HelpKINode Title=".Client.GetConnectedGamepads method" Url="html/cc845685-b3c5-a0de-7796-b48da2859b34.htm" />
+  <HelpKINode Title=".Client.GetConnectedGamepadsAsync method" Url="html/ecb3d6fa-4f39-584f-5f95-86367ba178a6.htm" />
   <HelpKINode Title=".Client.GetCurrentLanguage method" Url="html/07d0e362-e795-e710-2e86-269b7f2f0a4d.htm" />
   <HelpKINode Title=".Client.GetCurrentLanguageAsync method" Url="html/314595f1-d2ac-f427-d02f-b4a48993ee1c.htm" />
   <HelpKINode Title=".Client.GetFileName method" Url="html/971ce17c-192c-3b34-9b33-13e589258695.htm" />
@@ -668,12 +684,18 @@
   <HelpKINode Title=".Client.PushNotification_SendSimplePushNotificationAsync method" Url="html/1ae30324-7bfb-c1a1-e0d1-c82a474c8144.htm" />
   <HelpKINode Title=".Client.PushNotification_SendTemplatedPushNotificationToGroup method" Url="html/6a0e0140-23ee-aee0-84a2-92587c5e0074.htm" />
   <HelpKINode Title=".Client.PushNotification_SendTemplatedPushNotificationToGroupAsync method" Url="html/f7d95d1e-414b-22a7-5ec5-6fc9c6a64808.htm" />
+  <HelpKINode Title=".Client.RemoveBluetoothDevice method" Url="html/6c4cd1c4-5566-8358-8633-bcec99bd5dd2.htm" />
+  <HelpKINode Title=".Client.RemoveBluetoothDeviceAsync method" Url="html/4a1909cc-f88a-c81f-35da-f01d862e5947.htm" />
   <HelpKINode Title=".Client.RemoveUserAppData method" Url="html/bcff7150-4d48-2eec-6942-12d3d36f7a80.htm" />
   <HelpKINode Title=".Client.RemoveUserAppDataAsync method" Url="html/3c2072d7-d3a5-7c80-c963-2a7dd4985697.htm" />
   <HelpKINode Title=".Client.RestoreDefault method" Url="html/e85dec23-b989-38c7-a3f3-09edf5e67d30.htm" />
   <HelpKINode Title=".Client.RestoreDefaultAsync method" Url="html/b399011d-5497-7360-4d96-ac34871940ec.htm" />
   <HelpKINode Title=".Client.RestoreUserDefault method" Url="html/39e3d440-7e4a-1cfd-22c1-18c871040f54.htm" />
   <HelpKINode Title=".Client.RestoreUserDefaultAsync method" Url="html/8cb2c976-f3dd-d520-b5bc-ef504b44c555.htm" />
+  <HelpKINode Title=".Client.RuyiStartNetworkSpeedTest method" Url="html/1451c37d-fbd7-f936-a584-6d7fb1d57d88.htm" />
+  <HelpKINode Title=".Client.RuyiStartNetworkSpeedTestAsync method" Url="html/2eff39db-a67f-77f6-046b-a20fda887e98.htm" />
+  <HelpKINode Title=".Client.RuyiStopNetworkSpeedTest method" Url="html/4b4e7788-61e5-a6df-5c30-95ed59b2449c.htm" />
+  <HelpKINode Title=".Client.RuyiStopNetworkSpeedTestAsync method" Url="html/22e30a3e-9396-5af3-cb29-c22ace03754c.htm" />
   <HelpKINode Title=".Client.RuyiTestNetwork method" Url="html/9c535d26-ec15-cf5e-79aa-be43f49e5128.htm" />
   <HelpKINode Title=".Client.RuyiTestNetworkAsync method" Url="html/233b7a23-8975-6f30-974a-10e88f36f9e5.htm" />
   <HelpKINode Title=".Client.Say method" Url="html/f4873eb0-f2a2-7b0f-7b83-0c6d886cbcc8.htm" />
@@ -696,6 +718,10 @@
   <HelpKINode Title=".Client.SearchSettingItemsAsync method" Url="html/a741a0bd-a19b-f6dd-38ca-ed5fffcd2677.htm" />
   <HelpKINode Title=".Client.SendMsg method" Url="html/8e8c3634-1fbb-36eb-be88-e5b486a795f7.htm" />
   <HelpKINode Title=".Client.SendMsgAsync method" Url="html/2f019963-b1d4-18c7-1809-bcddae472d7f.htm" />
+  <HelpKINode Title=".Client.SetGamepadLight method" Url="html/522bf486-7c6e-77f6-d184-5e1e913d1428.htm" />
+  <HelpKINode Title=".Client.SetGamepadLightAsync method" Url="html/63690388-7931-e0e8-e24b-6197aa3ff0ad.htm" />
+  <HelpKINode Title=".Client.SetGamepadVibration method" Url="html/c03ea6e0-e005-e0e8-0586-54355a5ecb5f.htm" />
+  <HelpKINode Title=".Client.SetGamepadVibrationAsync method" Url="html/1bd10afc-3aed-df08-a8ed-5e13c4c002d5.htm" />
   <HelpKINode Title=".Client.SetNetworkProxy method" Url="html/a561e815-58ef-edae-b8f8-1b1a1ad9cdd7.htm" />
   <HelpKINode Title=".Client.SetNetworkProxyAsync method" Url="html/ddb2c276-4408-6cbf-4469-73c4fadf396e.htm" />
   <HelpKINode Title=".Client.SetNetworkSettings method" Url="html/03330bf6-9cbb-87b9-2166-133b09a17250.htm" />
@@ -884,11 +910,13 @@
     <HelpKINode Title="properties" Url="html/cb0e2d14-e557-b7bb-74b4-74b31766b6b2.htm" />
   </HelpKINode>
   <HelpKINode Title="ActionTrigger.ActionTrigger constructor" Url="html/953e72ed-5888-076d-7931-04bfcc36f2ec.htm" />
+  <HelpKINode Title="ActionTrigger.Id property" Url="html/3064d801-19c5-ceb5-ff7c-677e6fafd391.htm" />
   <HelpKINode Title="ActionTrigger.InputCagetory property" Url="html/5307254f-0f7a-507f-2b53-f7ad6114cca3.htm" />
   <HelpKINode Title="ActionTrigger.Isset structure">
     <HelpKINode Title="ActionTrigger.Isset Structure" Url="html/ca21462d-12b5-31a1-6a36-814e642c4fc3.htm" />
     <HelpKINode Title="about ActionTrigger.Isset structure" Url="html/ca21462d-12b5-31a1-6a36-814e642c4fc3.htm" />
   </HelpKINode>
+  <HelpKINode Title="ActionTrigger.Isset.Id field" Url="html/41f58262-96b3-37b0-75ed-8f6b45b7a292.htm" />
   <HelpKINode Title="ActionTrigger.Isset.InputCagetory field" Url="html/4583ca2d-03c8-1aea-5954-cc1ce55d4965.htm" />
   <HelpKINode Title="ActionTrigger.Isset.TriggerButtons field" Url="html/14eb9494-9f8a-b7c5-ae90-f856056ec8dc.htm" />
   <HelpKINode Title="ActionTrigger.Isset.TriggerValue field" Url="html/677a0501-6b17-4339-5736-6472b4e7f8dc.htm" />
@@ -1051,16 +1079,16 @@
   <HelpKINode Title="AppDataRecord.ToString method" Url="html/101c28d3-4374-5e4e-3cb6-efdf917c6f40.htm" />
   <HelpKINode Title="AppDataRecord.Write method" Url="html/d286d0d4-7255-eb22-3a40-74ee80da408e.htm" />
   <HelpKINode Title="AppDataRecord.__isset field" Url="html/f6d073c4-94fc-a734-ccaa-90a1003717af.htm" />
-  <HelpKINode Title="appId field" Url="html/b16542a2-4cff-cf59-9f8e-62a4f1759b57.htm" />
   <HelpKINode Title="appid field">
     <HelpKINode Title="SubscribeReply.Isset.appid Field" Url="html/6a13b0f4-5c00-a31d-b92c-55ae5853db15.htm" />
     <HelpKINode Title="SubscribeRequest.Isset.appid Field" Url="html/5c206476-4973-c340-0312-ea77f29acc21.htm" />
   </HelpKINode>
-  <HelpKINode Title="AppId property" Url="html/33a14773-f2dc-9b2b-230b-1d0e682af996.htm" />
+  <HelpKINode Title="appId field" Url="html/b16542a2-4cff-cf59-9f8e-62a4f1759b57.htm" />
   <HelpKINode Title="Appid property">
     <HelpKINode Title="SubscribeReply.Appid Property " Url="html/97d3efa3-3715-f307-1639-4d139b671444.htm" />
     <HelpKINode Title="SubscribeRequest.Appid Property " Url="html/1bbe4ee5-fc09-5b75-f7df-86845839171a.htm" />
   </HelpKINode>
+  <HelpKINode Title="AppId property" Url="html/33a14773-f2dc-9b2b-230b-1d0e682af996.htm" />
   <HelpKINode Title="Applications enumeration member" Url="html/5f8f146b-80ac-9763-7e1a-151e8b3d36cb.htm" />
   <HelpKINode Title="appServerUrl field">
     <HelpKINode Title="RuyiNetGetCDNResponse.Data.appServerUrl Field" Url="html/8ea12867-c11b-aa14-a165-8d9ee26acb0d.htm" />
@@ -1105,6 +1133,8 @@
   <HelpKINode Title="Authentication_AuthenticateEmailPasswordAsync method" Url="html/8f68c91f-a12c-68bf-7d4a-4658f364f10a.htm" />
   <HelpKINode Title="Authentication_AuthenticateExternal method" Url="html/f92cddc4-4eb6-cd09-17e2-87645f7ccae7.htm" />
   <HelpKINode Title="Authentication_AuthenticateExternalAsync method" Url="html/90d5fb0a-16e7-6cff-b15d-9801cdbe5510.htm" />
+  <HelpKINode Title="Authentication_AuthenticatePhone method" Url="html/1d550bea-3add-4a33-74fa-39007550aea4.htm" />
+  <HelpKINode Title="Authentication_AuthenticatePhoneAsync method" Url="html/2add5d38-d7c1-1717-6157-50c61e4597b0.htm" />
   <HelpKINode Title="Authentication_AuthenticateUniversal method" Url="html/6e46c02c-7282-b2ea-2293-04d8960fe655.htm" />
   <HelpKINode Title="Authentication_AuthenticateUniversalAsync method" Url="html/bb2845ce-3fc7-d8ff-7f02-a2a513f3138c.htm" />
   <HelpKINode Title="Authentication_AuthenticateWechat method" Url="html/9d6a5280-38fd-5825-40d0-ea541de25c31.htm" />
@@ -1117,6 +1147,8 @@
   <HelpKINode Title="Authentication_GetWeChatQRPageURLAsync method" Url="html/83435c9d-7f83-5f1a-764b-7aac710f54ed.htm" />
   <HelpKINode Title="Authentication_Initialize method" Url="html/4727be1d-350e-944e-850f-169d183cc6e7.htm" />
   <HelpKINode Title="Authentication_InitializeAsync method" Url="html/3b3470d2-335d-c0a3-ba00-5e90d397f6d5.htm" />
+  <HelpKINode Title="Authentication_RequestSmsCode method" Url="html/bdf6d1df-5f7e-0724-a694-167bec770bc2.htm" />
+  <HelpKINode Title="Authentication_RequestSmsCodeAsync method" Url="html/dd9c6302-9814-8176-0d8c-1b87be3d01d0.htm" />
   <HelpKINode Title="Authentication_ResetEmailPassword method" Url="html/612aacbf-ad27-6411-17e1-4e3931123897.htm" />
   <HelpKINode Title="Authentication_ResetEmailPasswordAsync method" Url="html/7e1b62e3-d0c6-eeea-91fb-b95540dc440a.htm" />
   <HelpKINode Title="AutoJoinStrategy enumeration" Url="html/2efeef1c-30fd-eb71-6e71-975141710258.htm" />
@@ -1158,6 +1190,8 @@
   <HelpKINode Title="BackupData method" Url="html/1ba4b7eb-016c-8e4b-b479-3453f16b232c.htm" />
   <HelpKINode Title="BAD_GATEWAY field" Url="html/79e88798-6b52-e232-da35-e09c82bcea34.htm" />
   <HelpKINode Title="BAD_REQUEST field" Url="html/9f003a56-16be-5b27-bf97-73cb233fea34.htm" />
+  <HelpKINode Title="baseInfo field" Url="html/90f905de-3ee2-2a3c-5bd4-f1218857f749.htm" />
+  <HelpKINode Title="BaseInfo property" Url="html/1a3d2a19-4408-2181-4212-3c3b8bda0139.htm" />
   <HelpKINode Title="Basic enumeration member" Url="html/7716e9f4-e741-d56a-e127-06aec31db4a2.htm" />
   <HelpKINode Title="Battery enumeration member" Url="html/9a145f38-0f0b-22a7-bd11-109d805622bb.htm" />
   <HelpKINode Title="BCSERVICE enumeration member" Url="html/fed01917-bdcd-1fbf-6740-db16dbb53d04.htm" />
@@ -1403,16 +1437,16 @@
   <HelpKINode Title="children field" Url="html/49ad6a4f-07d6-4826-7486-f42bb3804fa5.htm" />
   <HelpKINode Title="Children property" Url="html/c9d96144-43e8-b9c6-b657-99424c1ae2af.htm" />
   <HelpKINode Title="Client class">
-    <HelpKINode Title="methods" Url="html/c45a12cb-3c09-a681-3702-fcbeaf4a3382.htm" />
-    <HelpKINode Title="methods" Url="html/ba2aea25-1c2d-e8ad-c823-65a296295955.htm" />
-    <HelpKINode Title="methods" Url="html/8d974ec9-81d8-1336-5d7e-76d4ac7d5c94.htm" />
     <HelpKINode Title="methods" Url="html/4e43ee02-f2c1-0803-2c8f-31cbb347c47c.htm" />
     <HelpKINode Title="methods" Url="html/2cfc82f7-3160-bcd1-4e46-8f553d065e26.htm" />
-    <HelpKINode Title="methods" Url="html/1534c074-a084-e010-c6b7-40c10a1c1bec.htm" />
-    <HelpKINode Title="methods" Url="html/c1334f93-e185-c48f-72f4-60f483793f3c.htm" />
-    <HelpKINode Title="methods" Url="html/b239059b-653a-497b-a8da-45b7f3f3305f.htm" />
     <HelpKINode Title="methods" Url="html/f0cf4006-04b0-f9f8-5bcb-6b840d0c685d.htm" />
+    <HelpKINode Title="methods" Url="html/ba2aea25-1c2d-e8ad-c823-65a296295955.htm" />
+    <HelpKINode Title="methods" Url="html/c45a12cb-3c09-a681-3702-fcbeaf4a3382.htm" />
+    <HelpKINode Title="methods" Url="html/1534c074-a084-e010-c6b7-40c10a1c1bec.htm" />
+    <HelpKINode Title="methods" Url="html/8d974ec9-81d8-1336-5d7e-76d4ac7d5c94.htm" />
     <HelpKINode Title="methods" Url="html/a806c08c-cce2-a8f7-fd1c-0ce301382355.htm" />
+    <HelpKINode Title="methods" Url="html/b239059b-653a-497b-a8da-45b7f3f3305f.htm" />
+    <HelpKINode Title="methods" Url="html/c1334f93-e185-c48f-72f4-60f483793f3c.htm" />
   </HelpKINode>
   <HelpKINode Title="CLIENT_CLOSED_REQUEST field" Url="html/5cf14b27-aec9-526d-a0db-b63864196215.htm" />
   <HelpKINode Title="Client_EnableLogging method" Url="html/95fce5d2-99dc-2e4f-6582-4fc08a9dba13.htm" />
@@ -1485,7 +1519,11 @@
   <HelpKINode Title="Concat&lt;TPlayer&gt; method" Url="html/cbeed408-2764-3997-5020-3cf847b5f27d.htm" />
   <HelpKINode Title="condition field" Url="html/c36203f2-ea7b-6f7a-f861-7f9b55db17ac.htm" />
   <HelpKINode Title="Condition property" Url="html/8f1ea30c-7d08-720a-02da-74cb7af2d263.htm" />
+  <HelpKINode Title="configHash field" Url="html/e2f8f9a8-a64e-8ec3-d32b-60b2852aa345.htm" />
+  <HelpKINode Title="ConfigHash property" Url="html/4bdd08c2-baf5-062b-783a-3e391216b732.htm" />
   <HelpKINode Title="CONFLICT field" Url="html/532d124c-64c3-aadb-3967-5131bd58dad8.htm" />
+  <HelpKINode Title="ConnectBluetoothDevice method" Url="html/f2cb943c-97fe-9ca7-d8c0-e12de1c18ab2.htm" />
+  <HelpKINode Title="ConnectBluetoothDeviceAsync method" Url="html/e8844267-5514-b8fd-38e2-6a0a481ce492.htm" />
   <HelpKINode Title="Connected field" Url="html/9cc43b0a-b4cd-5a08-dfe7-d055771362c3.htm" />
   <HelpKINode Title="Connected property" Url="html/6c44eee8-2cd7-65db-a271-fd25e940c031.htm" />
   <HelpKINode Title="connection field" Url="html/2630e65a-8b08-ab5d-fcbd-af6c64e10cf8.htm" />
@@ -1505,14 +1543,14 @@
   </HelpKINode>
   <HelpKINode Title="content field" Url="html/0228082e-c29c-f413-f478-72b811777eba.htm" />
   <HelpKINode Title="Content property" Url="html/1a234864-e139-9e45-7923-908acf1b7aae.htm" />
-  <HelpKINode Title="contents field" Url="html/296c3cd6-795f-54e4-ebd6-20d57b725f76.htm" />
-  <HelpKINode Title="Contents property" Url="html/eb6564d1-8597-c465-8537-bb87952aa640.htm" />
+  <HelpKINode Title="contents field" Url="html/d98fdf70-ba90-41f4-1200-a670742d9770.htm" />
+  <HelpKINode Title="Contents property" Url="html/2f318631-e75c-f7d3-da58-713e83b08973.htm" />
   <HelpKINode Title="CONTINUE field" Url="html/2225fafc-f823-298c-7e78-9a7d04e8a50a.htm" />
   <HelpKINode Title="Convert enumeration member" Url="html/5f8f146b-80ac-9763-7e1a-151e8b3d36cb.htm" />
   <HelpKINode Title="Count property" Url="html/5d4272c7-5188-2bcd-989c-387a7658fc58.htm" />
   <HelpKINode Title="CreateBasicVariable method" Url="html/ff5e8244-3aa0-1e8c-84a7-44a75be784eb.htm" />
-  <HelpKINode Title="CREATED enumeration member" Url="html/9eba7e88-8313-1f3b-36d8-5afb35442db9.htm" />
   <HelpKINode Title="Created enumeration member" Url="html/8aeea686-6cc4-d579-cbb4-b2f6398535f5.htm" />
+  <HelpKINode Title="CREATED enumeration member" Url="html/9eba7e88-8313-1f3b-36d8-5afb35442db9.htm" />
   <HelpKINode Title="created field">
     <HelpKINode Title="RuyiNetLobbyResponseData.created Field" Url="html/d8e844ad-54cf-ff6f-1fd4-0dbf7e594eda.htm" />
     <HelpKINode Title="RuyiNetPartyData.created Field" Url="html/e7826858-86dd-6573-d5f0-c14bc8cc9190.htm" />
@@ -1559,11 +1597,17 @@
     <HelpKINode Title="SocialLeaderboardType Enumeration" Url="html/c69450cd-614a-cc2f-7330-04bdf4d91ad2.htm" />
   </HelpKINode>
   <HelpKINode Title="CumulativeTo method" Url="html/0a90368b-1e93-124a-76f1-9da2c32734e5.htm" />
+  <HelpKINode Title="curInternetConnection field" Url="html/39b17481-2c2a-333f-73a5-9ef03f7630c4.htm" />
+  <HelpKINode Title="CurInternetConnection property" Url="html/fa70e561-2c22-723d-81b6-e6c2e38fd2fa.htm" />
+  <HelpKINode Title="curLanAdapter field" Url="html/cbae68ed-22c7-90a2-940e-5bd6a608ee06.htm" />
+  <HelpKINode Title="CurLanAdapter property" Url="html/4a61aa7f-43b4-ceb7-073f-925144f06375.htm" />
   <HelpKINode Title="CurrentPlayers property" Url="html/d603a95c-c985-790f-2574-6a7b42567685.htm" />
   <HelpKINode Title="CurrentTime field" Url="html/5df20320-6316-b6d5-38f6-97960f7c9b64.htm" />
   <HelpKINode Title="CurrentTime property" Url="html/72567566-4fb5-fa37-baee-9137ede1b20e.htm" />
   <HelpKINode Title="currentVersionId field" Url="html/d2c22272-4128-7a6d-acaa-952e915207bc.htm" />
   <HelpKINode Title="CurrentVersionId property" Url="html/875665f9-e297-96b1-9d51-e82c47565c87.htm" />
+  <HelpKINode Title="curWlanAdapter field" Url="html/71d54af3-4823-bb57-57e3-02e856811332.htm" />
+  <HelpKINode Title="CurWlanAdapter property" Url="html/c86fd84e-8266-d8a9-f667-38edc8c01597.htm" />
   <HelpKINode Title="D enumeration member" Url="html/5f8f146b-80ac-9763-7e1a-151e8b3d36cb.htm" />
   <HelpKINode Title="D0 enumeration member" Url="html/5f8f146b-80ac-9763-7e1a-151e8b3d36cb.htm" />
   <HelpKINode Title="D1 enumeration member" Url="html/5f8f146b-80ac-9763-7e1a-151e8b3d36cb.htm" />
@@ -1580,33 +1624,34 @@
     <HelpKINode Title="RuyiNetRotationType Enumeration" Url="html/8454fab1-5031-a5a8-4d91-107d1943e043.htm" />
   </HelpKINode>
   <HelpKINode Title="Data class">
-    <HelpKINode Title="fields" Url="html/89e70155-5d42-6126-7311-2c6d67c7f4ee.htm" />
-    <HelpKINode Title="fields" Url="html/fd988c41-9629-e4de-6727-0f927fabf2c6.htm" />
-    <HelpKINode Title="fields" Url="html/f08683b5-85cd-5276-95f2-d86756f1d276.htm" />
-    <HelpKINode Title="fields" Url="html/de8348be-5132-37e5-6bdc-9c09da1200da.htm" />
-    <HelpKINode Title="fields" Url="html/47f5c628-4f83-7c1f-a65c-ac3bf767f031.htm" />
-    <HelpKINode Title="fields" Url="html/bb94ffab-6077-fbc7-6b66-a2b75eb4d96e.htm" />
-    <HelpKINode Title="fields" Url="html/9ff9c971-5404-ada6-d9e9-c26bf3e26029.htm" />
     <HelpKINode Title="fields" Url="html/5226fd49-9f93-de51-7b0a-83778e6310d4.htm" />
-    <HelpKINode Title="fields" Url="html/551f615f-59f3-2a17-7a77-267ff8e34133.htm" />
-    <HelpKINode Title="fields" Url="html/e4bee4d2-d553-1cdd-dc3b-4da83dce4d0d.htm" />
-    <HelpKINode Title="fields" Url="html/008c929b-5470-5073-ac3b-48856d0e3e3a.htm" />
-    <HelpKINode Title="fields" Url="html/01cd7a73-2ddb-664d-946c-73c79c74af87.htm" />
-    <HelpKINode Title="fields" Url="html/4ded20a1-0b20-2898-0173-500e4b798f52.htm" />
-    <HelpKINode Title="fields" Url="html/69a50d70-0dc5-98df-c496-7e7dd72661a4.htm" />
-    <HelpKINode Title="fields" Url="html/98df8d09-175f-61df-3a0b-2934d9666bbe.htm" />
-    <HelpKINode Title="fields" Url="html/c1ab3f22-5c50-cce9-bd41-f2f8560e7253.htm" />
-    <HelpKINode Title="fields" Url="html/ad507e04-f149-3075-4c70-d71dd1bf8eeb.htm" />
-    <HelpKINode Title="fields" Url="html/f60077db-bde2-c01a-d7c5-483d5d57187a.htm" />
-    <HelpKINode Title="fields" Url="html/06114bbc-503a-b14f-ef01-dda0ed1efeae.htm" />
-    <HelpKINode Title="fields" Url="html/18722704-4325-a3a4-0f43-565cd2c865e0.htm" />
-    <HelpKINode Title="fields" Url="html/0de8ebb5-6c30-bec8-469b-f002a92859a0.htm" />
-    <HelpKINode Title="fields" Url="html/2e65ded7-f7c6-4229-ac5c-403d7bbedbd6.htm" />
-    <HelpKINode Title="fields" Url="html/cd6bcc07-5857-1d7c-6462-3df2649c1b47.htm" />
+    <HelpKINode Title="fields" Url="html/fd988c41-9629-e4de-6727-0f927fabf2c6.htm" />
     <HelpKINode Title="fields" Url="html/2cacd108-7b38-8841-0372-93ccf165d241.htm" />
+    <HelpKINode Title="fields" Url="html/06114bbc-503a-b14f-ef01-dda0ed1efeae.htm" />
+    <HelpKINode Title="fields" Url="html/cd6bcc07-5857-1d7c-6462-3df2649c1b47.htm" />
+    <HelpKINode Title="fields" Url="html/f60077db-bde2-c01a-d7c5-483d5d57187a.htm" />
+    <HelpKINode Title="fields" Url="html/89e70155-5d42-6126-7311-2c6d67c7f4ee.htm" />
     <HelpKINode Title="fields" Url="html/32257ec2-79ca-6dba-31b1-d87fabd34d9a.htm" />
-    <HelpKINode Title="fields" Url="html/bc2f8983-7858-6703-761f-58eac83f6aa1.htm" />
+    <HelpKINode Title="fields" Url="html/98df8d09-175f-61df-3a0b-2934d9666bbe.htm" />
+    <HelpKINode Title="fields" Url="html/2d5e2501-8461-f72e-b85f-0b1456bb84b7.htm" />
+    <HelpKINode Title="fields" Url="html/47f5c628-4f83-7c1f-a65c-ac3bf767f031.htm" />
+    <HelpKINode Title="fields" Url="html/2e65ded7-f7c6-4229-ac5c-403d7bbedbd6.htm" />
+    <HelpKINode Title="fields" Url="html/de8348be-5132-37e5-6bdc-9c09da1200da.htm" />
+    <HelpKINode Title="fields" Url="html/01cd7a73-2ddb-664d-946c-73c79c74af87.htm" />
     <HelpKINode Title="fields" Url="html/da0589c9-0c52-56c3-758f-46f37eda292f.htm" />
+    <HelpKINode Title="fields" Url="html/f08683b5-85cd-5276-95f2-d86756f1d276.htm" />
+    <HelpKINode Title="fields" Url="html/18722704-4325-a3a4-0f43-565cd2c865e0.htm" />
+    <HelpKINode Title="fields" Url="html/c1ab3f22-5c50-cce9-bd41-f2f8560e7253.htm" />
+    <HelpKINode Title="fields" Url="html/9ff9c971-5404-ada6-d9e9-c26bf3e26029.htm" />
+    <HelpKINode Title="fields" Url="html/69a50d70-0dc5-98df-c496-7e7dd72661a4.htm" />
+    <HelpKINode Title="fields" Url="html/551f615f-59f3-2a17-7a77-267ff8e34133.htm" />
+    <HelpKINode Title="fields" Url="html/bc2f8983-7858-6703-761f-58eac83f6aa1.htm" />
+    <HelpKINode Title="fields" Url="html/0de8ebb5-6c30-bec8-469b-f002a92859a0.htm" />
+    <HelpKINode Title="fields" Url="html/008c929b-5470-5073-ac3b-48856d0e3e3a.htm" />
+    <HelpKINode Title="fields" Url="html/ad507e04-f149-3075-4c70-d71dd1bf8eeb.htm" />
+    <HelpKINode Title="fields" Url="html/4ded20a1-0b20-2898-0173-500e4b798f52.htm" />
+    <HelpKINode Title="fields" Url="html/bb94ffab-6077-fbc7-6b66-a2b75eb4d96e.htm" />
+    <HelpKINode Title="fields" Url="html/e4bee4d2-d553-1cdd-dc3b-4da83dce4d0d.htm" />
   </HelpKINode>
   <HelpKINode Title="data field">
     <HelpKINode Title="AppData.Isset.data Field" Url="html/5651e4aa-6cdb-14a0-c4aa-38066b44b622.htm" />
@@ -1633,6 +1678,7 @@
     <HelpKINode Title="RuyiNetGetProfilesResponse.data Field" Url="html/efb76e19-7a4d-5e29-8f41-f5431ff5c812.htm" />
     <HelpKINode Title="RuyiNetGetSocialLeaderboardResponse.data Field" Url="html/c05e1b28-aaf3-2917-5c0a-e9bcf9072396.htm" />
     <HelpKINode Title="RuyiNetGetSummaryDataForProfileIdResponse.data Field" Url="html/c7ce5e61-451c-0cd4-3c34-08b532a86ad2.htm" />
+    <HelpKINode Title="RuyiNetGetSummaryDataMultipleResponse.data Field" Url="html/9f4dc1fd-af8e-a6c4-7bcd-bd6d230632af.htm" />
     <HelpKINode Title="RuyiNetListAllLeaderboardsResponse.data Field" Url="html/30736f60-a379-0b41-c8a9-2474b2c03b44.htm" />
     <HelpKINode Title="RuyiNetListAllLeaderboardsResponse.Data.LeaderboardInfo.data Field" Url="html/8e7edf14-e8bc-2602-5fbb-e666c6c3ec00.htm" />
     <HelpKINode Title="RuyiNetListFriendsResponse.data Field" Url="html/5d4b2c9e-734b-2574-860b-a6eb99962d66.htm" />
@@ -1755,17 +1801,19 @@
   <HelpKINode Title="Determinant property" Url="html/18238de8-d42b-fb6c-771f-00540079284d.htm" />
   <HelpKINode Title="DEVELOPER_MODE enumeration member" Url="html/fed01917-bdcd-1fbf-6740-db16dbb53d04.htm" />
   <HelpKINode Title="DeviceId field">
-    <HelpKINode Title="RuyiGamePadInput.Isset.DeviceId Field" Url="html/d2cde8a7-9f1f-defe-a19d-bfeffef05589.htm" />
-    <HelpKINode Title="RuyiJoystickInput.Isset.DeviceId Field" Url="html/f7188c4e-c67b-89f1-259f-49006c853956.htm" />
     <HelpKINode Title="RuyiKeyboardInput.Isset.DeviceId Field" Url="html/0bcef65e-fbff-9f2b-1771-e76102605d78.htm" />
     <HelpKINode Title="RuyiMouseInput.Isset.DeviceId Field" Url="html/1ea2e7c5-924d-2db6-f3d6-2115e1230b6e.htm" />
+    <HelpKINode Title="RuyiJoystickInput.Isset.DeviceId Field" Url="html/f7188c4e-c67b-89f1-259f-49006c853956.htm" />
+    <HelpKINode Title="RuyiGamePadInput.Isset.DeviceId Field" Url="html/d2cde8a7-9f1f-defe-a19d-bfeffef05589.htm" />
   </HelpKINode>
   <HelpKINode Title="deviceId field">
     <HelpKINode Title="AxisActionTriggered.Isset.deviceId Field" Url="html/8bb09dc0-b462-9bc5-9436-58cb526112e7.htm" />
+    <HelpKINode Title="GamepadInfo.Isset.deviceId Field" Url="html/b51871d3-9951-27cd-9307-42840d2f5fdb.htm" />
     <HelpKINode Title="InputActionTriggered.Isset.deviceId Field" Url="html/dd511416-c8b1-d709-3c33-27017efbc288.htm" />
   </HelpKINode>
   <HelpKINode Title="DeviceId property">
     <HelpKINode Title="AxisActionTriggered.DeviceId Property " Url="html/7fc615e0-2de6-c2f7-b33d-c55f540b246e.htm" />
+    <HelpKINode Title="GamepadInfo.DeviceId Property " Url="html/63d2d939-32f9-f652-dd57-7ea6caa0c7a6.htm" />
     <HelpKINode Title="InputActionTriggered.DeviceId Property " Url="html/3bb2f296-c09b-3c41-e5b0-b9da3a08ffe2.htm" />
     <HelpKINode Title="RuyiGamePadInput.DeviceId Property " Url="html/ab125758-cf0a-f4a6-d737-bb6b0d1e5cf2.htm" />
     <HelpKINode Title="RuyiJoystickInput.DeviceId Property " Url="html/5f3c2e21-8f65-e651-77ab-aa64922309eb.htm" />
@@ -1786,8 +1834,12 @@
     <HelpKINode Title="properties" Url="html/40d91cb8-f65b-adb3-67e3-f224f413c93a.htm" />
   </HelpKINode>
   <HelpKINode Title="DiagonalMatrix.DiagonalMatrix constructor" Url="html/a5543452-705c-e134-cd7f-b123eb385c99.htm" />
+  <HelpKINode Title="DisconnectBluetoothDevice method" Url="html/ff71c20f-2a29-1069-bc15-fb8d79439d2b.htm" />
+  <HelpKINode Title="DisconnectBluetoothDeviceAsync method" Url="html/6f8d813b-118b-d9a5-3616-ed4c3d25ba5b.htm" />
   <HelpKINode Title="DisconnectWifi method" Url="html/841ed0d5-fc49-347e-864e-bcbec9a435b1.htm" />
   <HelpKINode Title="DisconnectWifiAsync method" Url="html/8ce39e2f-f03e-1653-5ae6-1d077378a55e.htm" />
+  <HelpKINode Title="DiscoverBluetoothDevice method" Url="html/321274d8-859d-eeaf-0277-483e6753521d.htm" />
+  <HelpKINode Title="DiscoverBluetoothDeviceAsync method" Url="html/462d7499-97e7-8a06-8e73-87d087f07efd.htm" />
   <HelpKINode Title="display field">
     <HelpKINode Title="SettingCategory.Isset.display Field" Url="html/08628b58-596e-a737-2f44-496e2abdae24.htm" />
     <HelpKINode Title="SettingItem.Isset.display Field" Url="html/15c2d939-140d-62fa-c8c0-d91d9689f59c.htm" />
@@ -1974,6 +2026,27 @@
   <HelpKINode Title="eUIType enumeration" Url="html/014797d2-3bba-b17c-7377-23c749041757.htm" />
   <HelpKINode Title="event field" Url="html/b63c4d50-3707-0c79-c24a-3553fc57c178.htm" />
   <HelpKINode Title="Event property" Url="html/fdb01320-b6b2-57b0-8b93-5b98c2f63080.htm" />
+  <HelpKINode Title="EventNotification class">
+    <HelpKINode Title="EventNotification Class" Url="html/04cc34ed-6fac-5dd8-d396-edb0e4ea613f.htm" />
+    <HelpKINode Title="about EventNotification class" Url="html/04cc34ed-6fac-5dd8-d396-edb0e4ea613f.htm" />
+    <HelpKINode Title="constructor" Url="html/6158bcf1-4af8-2b44-55b2-7eab42c20f06.htm" />
+    <HelpKINode Title="fields" Url="html/5bf27544-1682-73b0-b519-3108b83ce1b9.htm" />
+    <HelpKINode Title="methods" Url="html/0e0d3079-58d2-a6f2-bf9e-284af0eff814.htm" />
+    <HelpKINode Title="properties" Url="html/9f8bd3e4-b0ca-d1c1-0913-eda701945834.htm" />
+  </HelpKINode>
+  <HelpKINode Title="EventNotification.Contents property" Url="html/2f318631-e75c-f7d3-da58-713e83b08973.htm" />
+  <HelpKINode Title="EventNotification.EventNotification constructor" Url="html/6158bcf1-4af8-2b44-55b2-7eab42c20f06.htm" />
+  <HelpKINode Title="EventNotification.Isset structure">
+    <HelpKINode Title="EventNotification.Isset Structure" Url="html/ce7e4ac8-467f-e440-34d3-028ddf626268.htm" />
+    <HelpKINode Title="about EventNotification.Isset structure" Url="html/ce7e4ac8-467f-e440-34d3-028ddf626268.htm" />
+  </HelpKINode>
+  <HelpKINode Title="EventNotification.Isset.contents field" Url="html/d98fdf70-ba90-41f4-1200-a670742d9770.htm" />
+  <HelpKINode Title="EventNotification.Isset.key field" Url="html/dbffa7a2-f51b-f269-87aa-27dd2ea15522.htm" />
+  <HelpKINode Title="EventNotification.Key property" Url="html/ff65476d-900e-178b-f9ab-7c12ce6e15fe.htm" />
+  <HelpKINode Title="EventNotification.Read method" Url="html/184ef94f-3067-2c35-364e-6099dedcc79e.htm" />
+  <HelpKINode Title="EventNotification.ToString method" Url="html/b116111d-0411-ddc0-ad77-755d929f6b64.htm" />
+  <HelpKINode Title="EventNotification.Write method" Url="html/338b6181-67ba-f0df-ed22-250e49969791.htm" />
+  <HelpKINode Title="EventNotification.__isset field" Url="html/b8b4d612-d047-9ef0-c9d3-6576e2e7d68b.htm" />
   <HelpKINode Title="EventType field">
     <HelpKINode Title="ServiceLaunchEvent.Isset.EventType Field" Url="html/6cae5177-4467-67b2-ab83-e90c12c06940.htm" />
     <HelpKINode Title="UserShellEvent.Isset.EventType Field" Url="html/c3de70ad-7684-5fc8-6f3c-9af560997578.htm" />
@@ -2222,11 +2295,11 @@
   </HelpKINode>
   <HelpKINode Title="fileDetails field" Url="html/98d5deb0-8277-eb51-32ac-fad7435609c7.htm" />
   <HelpKINode Title="fileList field" Url="html/400eaec1-31d0-60d8-c28c-587ef04b9f64.htm" />
+  <HelpKINode Title="Filename field" Url="html/3b7e82de-2ccf-d022-3cf2-2190aaedeb67.htm" />
   <HelpKINode Title="filename field">
     <HelpKINode Title="File.Isset.filename Field" Url="html/4636353e-bca5-7cce-c92e-ae77af8039c6.htm" />
     <HelpKINode Title="RuyiNetUploadFileResponse.Data.FileDetails.filename Field" Url="html/c1a97a18-e7b7-5278-1d5f-0c874730ecf9.htm" />
   </HelpKINode>
-  <HelpKINode Title="Filename field" Url="html/3b7e82de-2ccf-d022-3cf2-2190aaedeb67.htm" />
   <HelpKINode Title="Filename property">
     <HelpKINode Title="File.Filename Property " Url="html/2b49ccba-9a9f-299e-33a7-d924a8d7b02d.htm" />
     <HelpKINode Title="VoiceCommand.Filename Property " Url="html/962e442c-3bb4-814c-e5d6-657922ec99bf.htm" />
@@ -2353,8 +2426,12 @@
   <HelpKINode Title="Friend_FindUsersByExactNameAsync method" Url="html/1ed897cd-ca0c-c9e3-d5f4-09084361ed21.htm" />
   <HelpKINode Title="Friend_FindUsersBySubstrName method" Url="html/bc117f8d-0653-1e40-8e00-e68cf3d1e4d3.htm" />
   <HelpKINode Title="Friend_FindUsersBySubstrNameAsync method" Url="html/51638df6-84a9-341a-3f3b-6084fa69e683.htm" />
+  <HelpKINode Title="Friend_GetSummaryDataForFriends method" Url="html/4f46af6d-a8b2-2057-116c-c69698dde703.htm" />
+  <HelpKINode Title="Friend_GetSummaryDataForFriendsAsync method" Url="html/324ddc46-944e-0832-c662-cb745f583d7c.htm" />
   <HelpKINode Title="Friend_GetSummaryDataForProfileId method" Url="html/3adb523f-6791-8a1d-163b-29d0e9f83742.htm" />
   <HelpKINode Title="Friend_GetSummaryDataForProfileIdAsync method" Url="html/dec1bd22-82e9-00ed-7724-e855b031bc4f.htm" />
+  <HelpKINode Title="Friend_GetSummaryDataForProfileIds method" Url="html/fcc2b407-5e97-ba45-ec06-bdd2994f72de.htm" />
+  <HelpKINode Title="Friend_GetSummaryDataForProfileIdsAsync method" Url="html/153f234c-dd04-00f4-5508-4a0cf65f3d2c.htm" />
   <HelpKINode Title="Friend_GetUsersOnlineStatus method" Url="html/7e716685-95cb-07bf-ac04-e43dcc669df6.htm" />
   <HelpKINode Title="Friend_GetUsersOnlineStatusAsync method" Url="html/6ab73df5-c59a-d15a-afc1-80b79fa5d460.htm" />
   <HelpKINode Title="Friend_ListFriendInvitationsReceived method" Url="html/419b6ec8-44c5-7f57-dc7f-27bbe6719ab0.htm" />
@@ -2421,6 +2498,27 @@
   <HelpKINode Title="GameInfo.InitialMean property" Url="html/4c24ed6b-6a0f-ebe8-570c-7ea4435e8ac0.htm" />
   <HelpKINode Title="GameInfo.InitialStandardDeviation property" Url="html/dd33e175-6caa-145e-b200-70d322c458e9.htm" />
   <HelpKINode Title="GamePad enumeration member" Url="html/bb8e447a-85a4-4499-bf65-c91b3a8f5440.htm" />
+  <HelpKINode Title="GamepadInfo class">
+    <HelpKINode Title="GamepadInfo Class" Url="html/11a9d2e2-2762-1360-840d-ee7fabcfe394.htm" />
+    <HelpKINode Title="about GamepadInfo class" Url="html/11a9d2e2-2762-1360-840d-ee7fabcfe394.htm" />
+    <HelpKINode Title="constructor" Url="html/61b15933-a96d-5acd-de54-8d4acd5c3c0f.htm" />
+    <HelpKINode Title="fields" Url="html/10c0edb4-004f-5ce3-f204-debd6fd68962.htm" />
+    <HelpKINode Title="methods" Url="html/f65a3ee3-b3d4-67b8-5f4e-6bfa77338add.htm" />
+    <HelpKINode Title="properties" Url="html/1fd73886-b9f4-cfb1-44e0-f65f9a269f48.htm" />
+  </HelpKINode>
+  <HelpKINode Title="GamepadInfo.DeviceId property" Url="html/63d2d939-32f9-f652-dd57-7ea6caa0c7a6.htm" />
+  <HelpKINode Title="GamepadInfo.GamepadInfo constructor" Url="html/61b15933-a96d-5acd-de54-8d4acd5c3c0f.htm" />
+  <HelpKINode Title="GamepadInfo.Isset structure">
+    <HelpKINode Title="GamepadInfo.Isset Structure" Url="html/25954e37-18c1-0484-acdb-26d6d8218909.htm" />
+    <HelpKINode Title="about GamepadInfo.Isset structure" Url="html/25954e37-18c1-0484-acdb-26d6d8218909.htm" />
+  </HelpKINode>
+  <HelpKINode Title="GamepadInfo.Isset.deviceId field" Url="html/b51871d3-9951-27cd-9307-42840d2f5fdb.htm" />
+  <HelpKINode Title="GamepadInfo.Isset.isWireless field" Url="html/5eea85ab-f4e8-96d6-88b3-1f199764500c.htm" />
+  <HelpKINode Title="GamepadInfo.IsWireless property" Url="html/cd92fe31-59d0-223e-98d1-d087fbbf0c66.htm" />
+  <HelpKINode Title="GamepadInfo.Read method" Url="html/0898f22e-d7bd-a927-bde0-8473d71386ac.htm" />
+  <HelpKINode Title="GamepadInfo.ToString method" Url="html/4bd405cc-1384-43fd-3fff-7bc3433c78fe.htm" />
+  <HelpKINode Title="GamepadInfo.Write method" Url="html/d9250490-6387-6256-9c3e-6e851c6f0b75.htm" />
+  <HelpKINode Title="GamepadInfo.__isset field" Url="html/35f8f695-bd52-03fd-3b27-eb9ab5cda60f.htm" />
   <HelpKINode Title="GamePad_A enumeration member" Url="html/f06e7e6d-80f7-85c3-baf4-e9e78a45ac0f.htm" />
   <HelpKINode Title="GamePad_B enumeration member" Url="html/f06e7e6d-80f7-85c3-baf4-e9e78a45ac0f.htm" />
   <HelpKINode Title="GamePad_Back enumeration member" Url="html/f06e7e6d-80f7-85c3-baf4-e9e78a45ac0f.htm" />
@@ -2586,8 +2684,10 @@
   <HelpKINode Title="GetCategoryNode method" Url="html/76cd173e-0246-9abd-1fa8-53a168ec5e1c.htm" />
   <HelpKINode Title="GetCategoryNodeAsync method" Url="html/83f22b2c-34b7-d3f1-e703-7ccfdb5286f5.htm" />
   <HelpKINode Title="GetCDNUrl method" Url="html/56567ca7-cc13-f748-fbcb-a15804b62e0e.htm" />
-  <HelpKINode Title="GetChildNode method" Url="html/cb9c3413-8101-dc98-6fe7-d3f9fc1fb085.htm" />
-  <HelpKINode Title="GetChildNodeAsync method" Url="html/aecf07a2-a354-682f-0209-1145bf282867.htm" />
+  <HelpKINode Title="GetChildNode method" Url="html/3eddec0f-5e10-e3f9-7ffb-cac4d590aa25.htm" />
+  <HelpKINode Title="GetChildNodeAsync method" Url="html/33ac9176-e4c1-8061-0828-3431635caade.htm" />
+  <HelpKINode Title="GetConnectedGamepads method" Url="html/cc845685-b3c5-a0de-7796-b48da2859b34.htm" />
+  <HelpKINode Title="GetConnectedGamepadsAsync method" Url="html/ecb3d6fa-4f39-584f-5f95-86367ba178a6.htm" />
   <HelpKINode Title="GetCurrentLanguage method" Url="html/07d0e362-e795-e710-2e86-269b7f2f0a4d.htm" />
   <HelpKINode Title="GetCurrentLanguageAsync method" Url="html/314595f1-d2ac-f427-d02f-b4a48993ee1c.htm" />
   <HelpKINode Title="GetDrawMarginFromDrawProbability method" Url="html/fcbccfb5-70cc-9c18-3207-4eb202cefdcf.htm" />
@@ -2656,6 +2756,7 @@
   <HelpKINode Title="GetStrings method" Url="html/758cb4f2-cb98-0fc5-b779-b85cd2080619.htm" />
   <HelpKINode Title="GetStringsAsync method" Url="html/d5366302-ffcc-2ae6-a734-946c3d5ff6d9.htm" />
   <HelpKINode Title="GetSummaryDataForPlayerId method" Url="html/1fcc0751-907b-dad4-86b6-8586d02af0a4.htm" />
+  <HelpKINode Title="GetSummaryDataForPlayerIds method" Url="html/93cb7152-906d-5553-af7c-7151c6ffd9c5.htm" />
   <HelpKINode Title="GetType method" Url="html/a26e448b-a0f6-9caa-7a26-ef8e775a29c4.htm" />
   <HelpKINode Title="GetTypeByClassName method" Url="html/cd1a1a4b-34da-bb2e-cfcf-1523eeabea96.htm" />
   <HelpKINode Title="GetUpdatedRatings method" Url="html/147140f1-1c1b-6995-ec70-917a51218f40.htm" />
@@ -2801,13 +2902,17 @@
   <HelpKINode Title="HTTP_SUBSCRIBE enumeration member" Url="html/fed01917-bdcd-1fbf-6740-db16dbb53d04.htm" />
   <HelpKINode Title="HTTP_VERSION_NOT_SUPPORTED field" Url="html/1f4f9dea-42d2-465b-5fbd-066418ec19b8.htm" />
   <HelpKINode Title="I enumeration member" Url="html/5f8f146b-80ac-9763-7e1a-151e8b3d36cb.htm" />
+  <HelpKINode Title="icon field" Url="html/563dd0ff-e787-7167-bc9c-c9005a692a98.htm" />
+  <HelpKINode Title="Icon property" Url="html/053eb0c4-2904-be36-40fb-bc47155f59de.htm" />
   <HelpKINode Title="id field">
-    <HelpKINode Title="AppDataRecord.Isset.id Field" Url="html/c0483fe2-0521-789b-eaa0-e4b5f185943a.htm" />
     <HelpKINode Title="CategoryNode.Isset.id Field" Url="html/fd0c8062-4a7a-a3ef-3f84-0d0d50dff499.htm" />
+    <HelpKINode Title="AppDataRecord.Isset.id Field" Url="html/c0483fe2-0521-789b-eaa0-e4b5f185943a.htm" />
     <HelpKINode Title="SettingCategory.Isset.id Field" Url="html/1b73d827-ee1e-5a21-caf7-168eede8e99e.htm" />
     <HelpKINode Title="SettingItem.Isset.id Field" Url="html/24f574d1-7a81-836d-712e-fabdfe3e664b.htm" />
   </HelpKINode>
+  <HelpKINode Title="Id field" Url="html/41f58262-96b3-37b0-75ed-8f6b45b7a292.htm" />
   <HelpKINode Title="Id property">
+    <HelpKINode Title="ActionTrigger.Id Property " Url="html/3064d801-19c5-ceb5-ff7c-677e6fafd391.htm" />
     <HelpKINode Title="AppDataRecord.Id Property " Url="html/e18b1a4c-3a2a-64f1-83e8-961c85025730.htm" />
     <HelpKINode Title="CategoryNode.Id Property " Url="html/4976c0f3-5ad8-766a-0dcc-f1a7ee1c7889.htm" />
     <HelpKINode Title="Player(T).Id Property " Url="html/8e5010d1-dc3e-4482-2be9-342408557ca2.htm" />
@@ -2975,10 +3080,10 @@
   <HelpKINode Title="invitedPendingMemberCount field" Url="html/a74d4c6c-12e8-bc32-0a7b-2df6629472bc.htm" />
   <HelpKINode Title="invites field" Url="html/d692db03-47f2-b2c5-e1cc-a68efe3ad59d.htm" />
   <HelpKINode Title="IOT_BLUETOOTH enumeration member" Url="html/fed01917-bdcd-1fbf-6740-db16dbb53d04.htm" />
-  <HelpKINode Title="IpAddress field" Url="html/b1c5fa6d-51c8-a800-2bdd-e818284bf28f.htm" />
   <HelpKINode Title="ipaddress field" Url="html/eaba42ce-804c-da91-738e-36eebf87a457.htm" />
-  <HelpKINode Title="IpAddress property" Url="html/1940146f-7222-8b17-567a-50255248e875.htm" />
+  <HelpKINode Title="IpAddress field" Url="html/b1c5fa6d-51c8-a800-2bdd-e818284bf28f.htm" />
   <HelpKINode Title="Ipaddress property" Url="html/56b3d1c6-0424-a95b-a38e-f0596d85e502.htm" />
+  <HelpKINode Title="IpAddress property" Url="html/1940146f-7222-8b17-567a-50255248e875.htm" />
   <HelpKINode Title="IPublishEndpoint interface">
     <HelpKINode Title="IPublishEndpoint Interface" Url="html/5a34e826-343f-7017-a134-3fa96f42f26b.htm" />
     <HelpKINode Title="about IPublishEndpoint interface" Url="html/5a34e826-343f-7017-a134-3fa96f42f26b.htm" />
@@ -3012,64 +3117,68 @@
   <HelpKINode Title="IsReleased field" Url="html/698b6c90-0524-c74b-af3c-1d55aaa0410d.htm" />
   <HelpKINode Title="IsReleased property" Url="html/d8383cc9-1021-3dfb-c62f-d4cd9338b41d.htm" />
   <HelpKINode Title="Isset structure">
-    <HelpKINode Title="fields" Url="html/99891b18-4213-8d40-dc26-b80e95ad77f5.htm" />
-    <HelpKINode Title="fields" Url="html/715fa346-008e-cc89-f6f8-fb017f5edba6.htm" />
-    <HelpKINode Title="fields" Url="html/e9b3eb98-b506-4c8e-ac29-012ecc24b9f2.htm" />
-    <HelpKINode Title="fields" Url="html/5cc4539e-fb8e-158f-ca84-ec5bb14b41f0.htm" />
-    <HelpKINode Title="fields" Url="html/af763ade-d869-ae61-a08b-851a69e7e107.htm" />
-    <HelpKINode Title="fields" Url="html/eeaa74fd-cb82-6103-d332-15a4a7b6124e.htm" />
-    <HelpKINode Title="fields" Url="html/492fa766-0e14-e7d2-e6ce-54b59b4c79d0.htm" />
-    <HelpKINode Title="fields" Url="html/abfa543a-ebe9-c0c0-195d-e9df457b8d71.htm" />
-    <HelpKINode Title="fields" Url="html/b3d1db7c-1b0a-8575-1cc6-4adb9b3595e3.htm" />
-    <HelpKINode Title="fields" Url="html/90ec1764-0d67-19f2-d8c7-4920711e81a3.htm" />
-    <HelpKINode Title="fields" Url="html/a947b1f8-980f-8a7f-183b-a0eb4d78353e.htm" />
-    <HelpKINode Title="fields" Url="html/b719fc98-1824-0015-3741-f082ba9bf6bd.htm" />
-    <HelpKINode Title="fields" Url="html/cd6d0f7b-155e-fe6a-4a52-0a91f2706a46.htm" />
-    <HelpKINode Title="fields" Url="html/7818af0c-e3ea-6ebe-49e2-29366e1e0f21.htm" />
-    <HelpKINode Title="fields" Url="html/806ed3ff-d3c1-8e8f-d183-866f1b9c34f5.htm" />
-    <HelpKINode Title="fields" Url="html/ffec381e-5bcc-9128-458a-a79e0d521426.htm" />
-    <HelpKINode Title="fields" Url="html/70fac2f0-1531-7aff-9b0f-25e3af4140a8.htm" />
-    <HelpKINode Title="fields" Url="html/5c53e804-4fa1-9e61-7dd9-e360225c992f.htm" />
-    <HelpKINode Title="fields" Url="html/a8cd9bb9-46a3-216c-70c1-b504a9b73602.htm" />
-    <HelpKINode Title="fields" Url="html/666cb761-aa20-02be-5a55-e348395feeff.htm" />
-    <HelpKINode Title="fields" Url="html/8499e96c-8b9d-50da-c31d-32faea920814.htm" />
-    <HelpKINode Title="fields" Url="html/a68774e4-2451-3ae4-c491-b67a154aaf86.htm" />
-    <HelpKINode Title="fields" Url="html/a0a780e6-64a9-d25f-bc90-dfca55e99f86.htm" />
-    <HelpKINode Title="fields" Url="html/786198be-16ea-5a17-8112-33a33d5e9cad.htm" />
-    <HelpKINode Title="fields" Url="html/81295fd2-79ff-b972-343c-27b7395d4497.htm" />
-    <HelpKINode Title="fields" Url="html/396e58f9-ab5d-26a6-9372-3a4a748ce040.htm" />
-    <HelpKINode Title="fields" Url="html/56d126f8-35f4-1d4d-b595-b43d8fecdb49.htm" />
-    <HelpKINode Title="fields" Url="html/0297414b-0258-c72f-d8c8-400354a367dc.htm" />
-    <HelpKINode Title="fields" Url="html/3b8ae916-ee75-6f11-b222-4eac7a17263b.htm" />
-    <HelpKINode Title="fields" Url="html/78ad1c04-3a31-7868-0d30-523b49e6c4c6.htm" />
-    <HelpKINode Title="fields" Url="html/cff3403f-7471-bd7f-4803-7c6e641c3e28.htm" />
-    <HelpKINode Title="fields" Url="html/a57d25d0-1cb6-33ef-4f23-633367f0067a.htm" />
-    <HelpKINode Title="fields" Url="html/a3ed84e0-727e-0fd1-b4f6-76fdec248cb2.htm" />
-    <HelpKINode Title="fields" Url="html/e64a0f8d-69ad-1c14-0113-76b5babe6288.htm" />
-    <HelpKINode Title="fields" Url="html/5ff4aba4-ea8e-c4e9-6aa7-5d37126033d8.htm" />
-    <HelpKINode Title="fields" Url="html/86f65132-24d7-27f2-9ebb-a44b97f58c68.htm" />
-    <HelpKINode Title="fields" Url="html/01de922c-c861-599d-304c-4df376550615.htm" />
-    <HelpKINode Title="fields" Url="html/7fcc610a-769d-c256-ecfe-8001b3e2d038.htm" />
-    <HelpKINode Title="fields" Url="html/a69ec29d-f4e2-ba92-f006-5494b0e84973.htm" />
-    <HelpKINode Title="fields" Url="html/101f9829-6b15-c884-e093-692e927a8566.htm" />
-    <HelpKINode Title="fields" Url="html/92e06010-0256-4554-3fca-43d6592f90ca.htm" />
-    <HelpKINode Title="fields" Url="html/deca0606-2e6a-dab9-7f1a-6ffa1bc3d16a.htm" />
-    <HelpKINode Title="fields" Url="html/eaa48753-1f50-a278-a48c-8c1edcac62b1.htm" />
     <HelpKINode Title="fields" Url="html/000a5127-f8ff-91e4-403d-39fecb232e36.htm" />
-    <HelpKINode Title="fields" Url="html/6aa8def8-558d-731c-9366-af9f9d3d0254.htm" />
-    <HelpKINode Title="fields" Url="html/7db248fc-b7d1-88f1-a3ea-dd600369ec23.htm" />
-    <HelpKINode Title="fields" Url="html/4c79074f-7266-9f11-e6f7-d291691dc6fa.htm" />
-    <HelpKINode Title="fields" Url="html/42aa6006-d10e-1cfa-b205-277be5a64bfd.htm" />
-    <HelpKINode Title="fields" Url="html/424aa84e-650a-66f4-7e32-22895354e9f3.htm" />
-    <HelpKINode Title="fields" Url="html/66a6d109-824e-95e2-e9d9-e0e787b973a6.htm" />
-    <HelpKINode Title="fields" Url="html/4a1bf10e-8268-15d6-5811-af93f06fb08d.htm" />
-    <HelpKINode Title="fields" Url="html/5d335f4e-0cc3-68df-639c-3413da656293.htm" />
-    <HelpKINode Title="fields" Url="html/3715c652-62ce-d75c-044b-5123621a7b47.htm" />
-    <HelpKINode Title="fields" Url="html/932629e1-f430-dd8c-5899-6a98052a8f77.htm" />
-    <HelpKINode Title="fields" Url="html/bb727085-6a30-a44a-f212-22c24015725e.htm" />
-    <HelpKINode Title="fields" Url="html/03a7a54c-e581-b36e-2698-a14f2c8a206a.htm" />
-    <HelpKINode Title="fields" Url="html/cb58004b-0477-42c1-bc4f-26969c72af35.htm" />
+    <HelpKINode Title="fields" Url="html/715fa346-008e-cc89-f6f8-fb017f5edba6.htm" />
     <HelpKINode Title="fields" Url="html/d3375f7c-ca42-678b-9e1c-afa40bfb6110.htm" />
+    <HelpKINode Title="fields" Url="html/cb58004b-0477-42c1-bc4f-26969c72af35.htm" />
+    <HelpKINode Title="fields" Url="html/70fac2f0-1531-7aff-9b0f-25e3af4140a8.htm" />
+    <HelpKINode Title="fields" Url="html/0bd47e41-a2ec-2ca8-0dbe-fd00646c0d20.htm" />
+    <HelpKINode Title="fields" Url="html/0297414b-0258-c72f-d8c8-400354a367dc.htm" />
+    <HelpKINode Title="fields" Url="html/932629e1-f430-dd8c-5899-6a98052a8f77.htm" />
+    <HelpKINode Title="fields" Url="html/7818af0c-e3ea-6ebe-49e2-29366e1e0f21.htm" />
+    <HelpKINode Title="fields" Url="html/99891b18-4213-8d40-dc26-b80e95ad77f5.htm" />
+    <HelpKINode Title="fields" Url="html/e64a0f8d-69ad-1c14-0113-76b5babe6288.htm" />
+    <HelpKINode Title="fields" Url="html/492fa766-0e14-e7d2-e6ce-54b59b4c79d0.htm" />
+    <HelpKINode Title="fields" Url="html/4a1bf10e-8268-15d6-5811-af93f06fb08d.htm" />
+    <HelpKINode Title="fields" Url="html/786198be-16ea-5a17-8112-33a33d5e9cad.htm" />
+    <HelpKINode Title="fields" Url="html/de3b4cca-0140-7682-2bd8-9797aa35d225.htm" />
+    <HelpKINode Title="fields" Url="html/7fcc610a-769d-c256-ecfe-8001b3e2d038.htm" />
+    <HelpKINode Title="fields" Url="html/a57d25d0-1cb6-33ef-4f23-633367f0067a.htm" />
+    <HelpKINode Title="fields" Url="html/b3d1db7c-1b0a-8575-1cc6-4adb9b3595e3.htm" />
+    <HelpKINode Title="fields" Url="html/bb727085-6a30-a44a-f212-22c24015725e.htm" />
+    <HelpKINode Title="fields" Url="html/af763ade-d869-ae61-a08b-851a69e7e107.htm" />
+    <HelpKINode Title="fields" Url="html/7db248fc-b7d1-88f1-a3ea-dd600369ec23.htm" />
+    <HelpKINode Title="fields" Url="html/03a7a54c-e581-b36e-2698-a14f2c8a206a.htm" />
+    <HelpKINode Title="fields" Url="html/4c79074f-7266-9f11-e6f7-d291691dc6fa.htm" />
+    <HelpKINode Title="fields" Url="html/3715c652-62ce-d75c-044b-5123621a7b47.htm" />
+    <HelpKINode Title="fields" Url="html/81295fd2-79ff-b972-343c-27b7395d4497.htm" />
+    <HelpKINode Title="fields" Url="html/424aa84e-650a-66f4-7e32-22895354e9f3.htm" />
+    <HelpKINode Title="fields" Url="html/a947b1f8-980f-8a7f-183b-a0eb4d78353e.htm" />
+    <HelpKINode Title="fields" Url="html/86f65132-24d7-27f2-9ebb-a44b97f58c68.htm" />
+    <HelpKINode Title="fields" Url="html/66a6d109-824e-95e2-e9d9-e0e787b973a6.htm" />
+    <HelpKINode Title="fields" Url="html/666cb761-aa20-02be-5a55-e348395feeff.htm" />
+    <HelpKINode Title="fields" Url="html/a0dae66e-53d1-c603-1c49-7208ad72c0a3.htm" />
+    <HelpKINode Title="fields" Url="html/a3ed84e0-727e-0fd1-b4f6-76fdec248cb2.htm" />
+    <HelpKINode Title="fields" Url="html/a68774e4-2451-3ae4-c491-b67a154aaf86.htm" />
+    <HelpKINode Title="fields" Url="html/cff3403f-7471-bd7f-4803-7c6e641c3e28.htm" />
+    <HelpKINode Title="fields" Url="html/8499e96c-8b9d-50da-c31d-32faea920814.htm" />
+    <HelpKINode Title="fields" Url="html/eaa48753-1f50-a278-a48c-8c1edcac62b1.htm" />
+    <HelpKINode Title="fields" Url="html/01de922c-c861-599d-304c-4df376550615.htm" />
+    <HelpKINode Title="fields" Url="html/396e58f9-ab5d-26a6-9372-3a4a748ce040.htm" />
+    <HelpKINode Title="fields" Url="html/5c7999b3-c354-6150-b508-c6da2b64b797.htm" />
+    <HelpKINode Title="fields" Url="html/deca0606-2e6a-dab9-7f1a-6ffa1bc3d16a.htm" />
+    <HelpKINode Title="fields" Url="html/cd6d0f7b-155e-fe6a-4a52-0a91f2706a46.htm" />
+    <HelpKINode Title="fields" Url="html/92e06010-0256-4554-3fca-43d6592f90ca.htm" />
+    <HelpKINode Title="fields" Url="html/42aa6006-d10e-1cfa-b205-277be5a64bfd.htm" />
+    <HelpKINode Title="fields" Url="html/5c53e804-4fa1-9e61-7dd9-e360225c992f.htm" />
+    <HelpKINode Title="fields" Url="html/a0a780e6-64a9-d25f-bc90-dfca55e99f86.htm" />
+    <HelpKINode Title="fields" Url="html/56d126f8-35f4-1d4d-b595-b43d8fecdb49.htm" />
+    <HelpKINode Title="fields" Url="html/5ff4aba4-ea8e-c4e9-6aa7-5d37126033d8.htm" />
+    <HelpKINode Title="fields" Url="html/eeaa74fd-cb82-6103-d332-15a4a7b6124e.htm" />
+    <HelpKINode Title="fields" Url="html/a69ec29d-f4e2-ba92-f006-5494b0e84973.htm" />
+    <HelpKINode Title="fields" Url="html/6aa8def8-558d-731c-9366-af9f9d3d0254.htm" />
+    <HelpKINode Title="fields" Url="html/3cfd9cb1-99e3-796d-235b-507ba7595bc1.htm" />
+    <HelpKINode Title="fields" Url="html/e9b3eb98-b506-4c8e-ac29-012ecc24b9f2.htm" />
+    <HelpKINode Title="fields" Url="html/ffec381e-5bcc-9128-458a-a79e0d521426.htm" />
+    <HelpKINode Title="fields" Url="html/806ed3ff-d3c1-8e8f-d183-866f1b9c34f5.htm" />
+    <HelpKINode Title="fields" Url="html/b719fc98-1824-0015-3741-f082ba9bf6bd.htm" />
+    <HelpKINode Title="fields" Url="html/5d335f4e-0cc3-68df-639c-3413da656293.htm" />
+    <HelpKINode Title="fields" Url="html/101f9829-6b15-c884-e093-692e927a8566.htm" />
+    <HelpKINode Title="fields" Url="html/a8cd9bb9-46a3-216c-70c1-b504a9b73602.htm" />
+    <HelpKINode Title="fields" Url="html/78ad1c04-3a31-7868-0d30-523b49e6c4c6.htm" />
+    <HelpKINode Title="fields" Url="html/90ec1764-0d67-19f2-d8c7-4920711e81a3.htm" />
+    <HelpKINode Title="fields" Url="html/5cc4539e-fb8e-158f-ca84-ec5bb14b41f0.htm" />
+    <HelpKINode Title="fields" Url="html/abfa543a-ebe9-c0c0-195d-e9df457b8d71.htm" />
   </HelpKINode>
   <HelpKINode Title="IsSplitter method" Url="html/60b06114-14c6-60d3-92e9-bf6186593b52.htm" />
   <HelpKINode Title="IsStoppingMessage method" Url="html/e4fdfa4d-ecfb-98d2-35b6-909c52de732c.htm" />
@@ -3106,6 +3215,8 @@
   <HelpKINode Title="IsValid property" Url="html/e33503cb-dec0-8b40-d64e-23cb641870a3.htm" />
   <HelpKINode Title="isWifi field" Url="html/0b8da8de-4c9a-2e3c-80a2-61e86c48fe03.htm" />
   <HelpKINode Title="IsWifi property" Url="html/e3f484e4-bc78-1e1c-48cf-da17f655a632.htm" />
+  <HelpKINode Title="isWireless field" Url="html/5eea85ab-f4e8-96d6-88b3-1f199764500c.htm" />
+  <HelpKINode Title="IsWireless property" Url="html/cd92fe31-59d0-223e-98d1-d087fbbf0c66.htm" />
   <HelpKINode Title="IsWorking property" Url="html/7fa04f6a-e39d-9781-a215-25c1676e10a7.htm" />
   <HelpKINode Title="item field" Url="html/29d09ac5-45de-7bed-5f95-999b5fc7e012.htm" />
   <HelpKINode Title="Item property">
@@ -3137,14 +3248,14 @@
   <HelpKINode Title="Kanji enumeration member" Url="html/5f8f146b-80ac-9763-7e1a-151e8b3d36cb.htm" />
   <HelpKINode Title="Key enumeration" Url="html/5f8f146b-80ac-9763-7e1a-151e8b3d36cb.htm" />
   <HelpKINode Title="Key field">
-    <HelpKINode Title="RuyiKeyboardInput.Isset.Key Field" Url="html/3dfa1da8-7669-1ac8-12c0-104c201c84fb.htm" />
     <HelpKINode Title="TriggerKeys.Isset.Key Field" Url="html/9acd1e7b-1b52-a914-695c-a8466ae6e74a.htm" />
+    <HelpKINode Title="RuyiKeyboardInput.Isset.Key Field" Url="html/3dfa1da8-7669-1ac8-12c0-104c201c84fb.htm" />
   </HelpKINode>
-  <HelpKINode Title="key field" Url="html/83d38ae5-ea93-5434-9904-c3f1b3d5b873.htm" />
+  <HelpKINode Title="key field" Url="html/dbffa7a2-f51b-f269-87aa-27dd2ea15522.htm" />
   <HelpKINode Title="Key property">
+    <HelpKINode Title="EventNotification.Key Property " Url="html/ff65476d-900e-178b-f9ab-7c12ce6e15fe.htm" />
     <HelpKINode Title="KeyedVariable(TKey, TValue).Key Property " Url="html/168b2c4e-6e97-c371-64fa-24772507eb06.htm" />
     <HelpKINode Title="RuyiKeyboardInput.Key Property " Url="html/e4050774-1700-4b94-39d0-a80e391e8ad4.htm" />
-    <HelpKINode Title="SettingItemNotification.Key Property " Url="html/ab8cee62-5afb-f85d-09d5-99980310e4be.htm" />
     <HelpKINode Title="TriggerKeys.Key Property " Url="html/1f835a49-f9bf-3b0a-9d4f-23ca2081b76d.htm" />
   </HelpKINode>
   <HelpKINode Title="Keyboard enumeration member" Url="html/bb8e447a-85a4-4499-bf65-c91b3a8f5440.htm" />
@@ -3433,8 +3544,8 @@
     <HelpKINode Title="GaussianDistribution.Mean Property " Url="html/ed3e13d3-b64e-2f69-23e9-307a2684e6ce.htm" />
     <HelpKINode Title="Rating.Mean Property " Url="html/8cb958f2-7c87-7a14-5495-59406cb23304.htm" />
   </HelpKINode>
-  <HelpKINode Title="Media enumeration member" Url="html/7716e9f4-e741-d56a-e127-06aec31db4a2.htm" />
   <HelpKINode Title="MEDIA enumeration member" Url="html/fed01917-bdcd-1fbf-6740-db16dbb53d04.htm" />
+  <HelpKINode Title="Media enumeration member" Url="html/7716e9f4-e741-d56a-e127-06aec31db4a2.htm" />
   <HelpKINode Title="Media property" Url="html/41381f13-fdcd-2b61-9796-f7a483a7ddaa.htm" />
   <HelpKINode Title="MediaFile class">
     <HelpKINode Title="MediaFile Class" Url="html/99fd0fcd-17c2-6df3-292c-8b9883d56a88.htm" />
@@ -3527,6 +3638,29 @@
   <HelpKINode Title="Minus enumeration member" Url="html/5f8f146b-80ac-9763-7e1a-151e8b3d36cb.htm" />
   <HelpKINode Title="MISDIRECTED_REQUEST field" Url="html/821049a6-1a54-e24c-1978-95fae6dadcb7.htm" />
   <HelpKINode Title="Mobile enumeration member" Url="html/6b8983af-82d2-d189-14b8-cdebffa8c9e3.htm" />
+  <HelpKINode Title="ModuleBaseInfo class">
+    <HelpKINode Title="ModuleBaseInfo Class" Url="html/a9d553d7-483e-656a-359e-61fac31a6394.htm" />
+    <HelpKINode Title="about ModuleBaseInfo class" Url="html/a9d553d7-483e-656a-359e-61fac31a6394.htm" />
+    <HelpKINode Title="constructor" Url="html/c5618280-7838-fa0b-1bc1-f9fb97642fd9.htm" />
+    <HelpKINode Title="fields" Url="html/5d4a7732-2eee-b4a0-4bd6-41b52d8cee47.htm" />
+    <HelpKINode Title="methods" Url="html/c12957f8-90d3-167c-3c16-73abd4128ced.htm" />
+    <HelpKINode Title="properties" Url="html/3d02133c-d3c4-ab44-30e7-c72d9eaace87.htm" />
+  </HelpKINode>
+  <HelpKINode Title="ModuleBaseInfo.ConfigHash property" Url="html/4bdd08c2-baf5-062b-783a-3e391216b732.htm" />
+  <HelpKINode Title="ModuleBaseInfo.Isset structure">
+    <HelpKINode Title="ModuleBaseInfo.Isset Structure" Url="html/0586f9f6-7640-b010-99cc-ba533ec48e02.htm" />
+    <HelpKINode Title="about ModuleBaseInfo.Isset structure" Url="html/0586f9f6-7640-b010-99cc-ba533ec48e02.htm" />
+  </HelpKINode>
+  <HelpKINode Title="ModuleBaseInfo.Isset.configHash field" Url="html/e2f8f9a8-a64e-8ec3-d32b-60b2852aa345.htm" />
+  <HelpKINode Title="ModuleBaseInfo.Isset.name field" Url="html/aa45c378-054e-527b-54bd-ebaa458ccb6c.htm" />
+  <HelpKINode Title="ModuleBaseInfo.Isset.version field" Url="html/999f1cf3-1d58-f5a6-3e46-9902fbf37367.htm" />
+  <HelpKINode Title="ModuleBaseInfo.ModuleBaseInfo constructor" Url="html/c5618280-7838-fa0b-1bc1-f9fb97642fd9.htm" />
+  <HelpKINode Title="ModuleBaseInfo.Name property" Url="html/88f206ca-9d0c-9d9e-fd8c-46c1c671f665.htm" />
+  <HelpKINode Title="ModuleBaseInfo.Read method" Url="html/0bfae346-9ac4-fa2c-bc08-ae0bb1ec5f0e.htm" />
+  <HelpKINode Title="ModuleBaseInfo.ToString method" Url="html/5a5d6dc6-060d-c6f6-54b2-a328a50726d6.htm" />
+  <HelpKINode Title="ModuleBaseInfo.Version property" Url="html/453ffb98-ff0b-4dca-3e09-b9514b284691.htm" />
+  <HelpKINode Title="ModuleBaseInfo.Write method" Url="html/9322e4fb-984f-732a-27c5-b3ef94d6ce56.htm" />
+  <HelpKINode Title="ModuleBaseInfo.__isset field" Url="html/022003de-22bd-91a6-432f-fb562af1f512.htm" />
   <HelpKINode Title="ModuleSetting class">
     <HelpKINode Title="ModuleSetting Class" Url="html/345763d5-bcd4-9a5c-8552-f7385985fb72.htm" />
     <HelpKINode Title="about ModuleSetting class" Url="html/345763d5-bcd4-9a5c-8552-f7385985fb72.htm" />
@@ -3535,21 +3669,19 @@
     <HelpKINode Title="methods" Url="html/a46b1a05-f9b1-e09a-2534-53008db0d2bd.htm" />
     <HelpKINode Title="properties" Url="html/354ffcc7-30fc-e0db-439a-7f7313f2d90a.htm" />
   </HelpKINode>
+  <HelpKINode Title="ModuleSetting.BaseInfo property" Url="html/1a3d2a19-4408-2181-4212-3c3b8bda0139.htm" />
   <HelpKINode Title="ModuleSetting.Categories property" Url="html/291d6273-5f08-b985-a403-2b83f368f1e3.htm" />
   <HelpKINode Title="ModuleSetting.Isset structure">
     <HelpKINode Title="ModuleSetting.Isset Structure" Url="html/1f67a176-7dcc-e058-0162-176180b19a79.htm" />
     <HelpKINode Title="about ModuleSetting.Isset structure" Url="html/1f67a176-7dcc-e058-0162-176180b19a79.htm" />
   </HelpKINode>
+  <HelpKINode Title="ModuleSetting.Isset.baseInfo field" Url="html/90f905de-3ee2-2a3c-5bd4-f1218857f749.htm" />
   <HelpKINode Title="ModuleSetting.Isset.categories field" Url="html/ba829e30-37be-f259-5ef3-440c7c32d5d8.htm" />
-  <HelpKINode Title="ModuleSetting.Isset.name field" Url="html/e260857d-5664-6980-6133-1e7acd77392e.htm" />
   <HelpKINode Title="ModuleSetting.Isset.settings field" Url="html/127bc7b3-4d96-d562-5f65-f1587e515c3f.htm" />
-  <HelpKINode Title="ModuleSetting.Isset.version field" Url="html/72727731-0283-acb0-d640-b0d4416c3d8a.htm" />
   <HelpKINode Title="ModuleSetting.ModuleSetting constructor" Url="html/b9a91cb6-716d-2a00-c9a5-3a2df3e0950d.htm" />
-  <HelpKINode Title="ModuleSetting.Name property" Url="html/a013fb4a-fdb6-fedb-b210-429f6b619407.htm" />
   <HelpKINode Title="ModuleSetting.Read method" Url="html/b56f14e6-937f-1f88-4faf-0007c9023c8d.htm" />
   <HelpKINode Title="ModuleSetting.Settings property" Url="html/ff0dcba3-a3d1-34a4-53f6-4903a6f03acc.htm" />
   <HelpKINode Title="ModuleSetting.ToString method" Url="html/9868acb2-8af8-61c4-e42f-ca5f849581b4.htm" />
-  <HelpKINode Title="ModuleSetting.Version property" Url="html/cb3a8a21-c049-c3f5-d94c-e2d52ceff108.htm" />
   <HelpKINode Title="ModuleSetting.Write method" Url="html/cc5c7b7d-97fe-bb1c-ed48-fec14a44b710.htm" />
   <HelpKINode Title="ModuleSetting.__isset field" Url="html/d1791bc7-a4b1-b50b-5194-4e81aeb41907.htm" />
   <HelpKINode Title="MONTHLY enumeration member">
@@ -3591,13 +3723,13 @@
     <HelpKINode Title="activeDependency.Isset.name Field" Url="html/503c0dd5-946a-3d5d-b842-59a21db4a528.htm" />
     <HelpKINode Title="AxisActionTriggered.Isset.name Field" Url="html/67f62791-d791-1f14-b46f-b96aabc09e4c.htm" />
     <HelpKINode Title="InputActionTriggered.Isset.name Field" Url="html/de9914c5-b234-ac7d-5827-d68e785b9470.htm" />
-    <HelpKINode Title="MediaFile.Isset.name Field" Url="html/e569210e-bb27-257d-71f4-d662364b7605.htm" />
-    <HelpKINode Title="ModuleSetting.Isset.name Field" Url="html/e260857d-5664-6980-6133-1e7acd77392e.htm" />
-    <HelpKINode Title="RuyiNetGetGlobalLeaderboardPageResponse.Data.LeaderboardEntry.name Field" Url="html/69ec7d7a-fb79-4d48-cc87-766f65ac3b8f.htm" />
+    <HelpKINode Title="ModuleBaseInfo.Isset.name Field" Url="html/aa45c378-054e-527b-54bd-ebaa458ccb6c.htm" />
     <HelpKINode Title="RuyiNetGetSocialLeaderboardResponse.Data.LeaderboardEntry.name Field" Url="html/a3a0d943-44f2-26b1-c3f6-e434386456e2.htm" />
     <HelpKINode Title="RuyiNetResponseGroup.name Field" Url="html/be35889d-24d6-074e-c231-25ff40316118.htm" />
     <HelpKINode Title="RuyiNetworkSettingNameValue.Isset.name Field" Url="html/90a4cc8c-03da-e2b6-6c5b-52afe640d912.htm" />
+    <HelpKINode Title="RuyiNetGetGlobalLeaderboardPageResponse.Data.LeaderboardEntry.name Field" Url="html/69ec7d7a-fb79-4d48-cc87-766f65ac3b8f.htm" />
     <HelpKINode Title="StopMsg.Isset.name Field" Url="html/ea76c8ae-ab7a-45c4-7a1e-47b121d25099.htm" />
+    <HelpKINode Title="MediaFile.Isset.name Field" Url="html/e569210e-bb27-257d-71f4-d662364b7605.htm" />
   </HelpKINode>
   <HelpKINode Title="Name field">
     <HelpKINode Title="RuyiNetworkStatus.Isset.Name Field" Url="html/665a19cb-b77b-2b7c-49d7-2d3bf9639a5f.htm" />
@@ -3608,7 +3740,7 @@
     <HelpKINode Title="AxisActionTriggered.Name Property " Url="html/439a67ca-d622-8db6-dc0c-c337c05f7107.htm" />
     <HelpKINode Title="InputActionTriggered.Name Property " Url="html/1b1f7540-c6bb-328f-95f7-f8efe8b301ab.htm" />
     <HelpKINode Title="MediaFile.Name Property " Url="html/fb00ff85-dd01-5565-e652-1962267eedd2.htm" />
-    <HelpKINode Title="ModuleSetting.Name Property " Url="html/a013fb4a-fdb6-fedb-b210-429f6b619407.htm" />
+    <HelpKINode Title="ModuleBaseInfo.Name Property " Url="html/88f206ca-9d0c-9d9e-fd8c-46c1c671f665.htm" />
     <HelpKINode Title="RuyiNetFriendSummaryData.Name Property " Url="html/4d6310b7-7a79-fbc4-3372-61c4509c3c19.htm" />
     <HelpKINode Title="RuyiNetLeaderboardEntry.Name Property " Url="html/b91d6d53-fcb8-0bef-ddad-bbf400bfbe6e.htm" />
     <HelpKINode Title="RuyiNetworkSettingNameValue.Name Property " Url="html/82c92dfe-2adb-ff5f-9cfc-a6cdf544c422.htm" />
@@ -3616,6 +3748,35 @@
     <HelpKINode Title="StopMsg.Name Property " Url="html/f8c91a44-d98d-a6da-c8dc-7990bc8a1aa8.htm" />
     <HelpKINode Title="WifiEntity.Name Property " Url="html/8b396a81-41dd-131e-7a6d-0a43a85420f7.htm" />
   </HelpKINode>
+  <HelpKINode Title="NetworkConnectionStatus class">
+    <HelpKINode Title="NetworkConnectionStatus Class" Url="html/1a94793e-119f-46c1-6bbb-b5647922b5d0.htm" />
+    <HelpKINode Title="about NetworkConnectionStatus class" Url="html/1a94793e-119f-46c1-6bbb-b5647922b5d0.htm" />
+    <HelpKINode Title="constructor" Url="html/4310a17e-dc8b-0964-abaf-7cb0bf2552cc.htm" />
+    <HelpKINode Title="fields" Url="html/24607e0d-ff16-ce0c-8779-41e725af05d2.htm" />
+    <HelpKINode Title="methods" Url="html/8912a4dd-cbd5-18e4-c99a-26fe440b7d9f.htm" />
+    <HelpKINode Title="properties" Url="html/b94f13cd-eb43-8217-0d32-954ef2ecef9a.htm" />
+  </HelpKINode>
+  <HelpKINode Title="NetworkConnectionStatus.CurInternetConnection property" Url="html/fa70e561-2c22-723d-81b6-e6c2e38fd2fa.htm" />
+  <HelpKINode Title="NetworkConnectionStatus.CurLanAdapter property" Url="html/4a61aa7f-43b4-ceb7-073f-925144f06375.htm" />
+  <HelpKINode Title="NetworkConnectionStatus.CurWlanAdapter property" Url="html/c86fd84e-8266-d8a9-f667-38edc8c01597.htm" />
+  <HelpKINode Title="NetworkConnectionStatus.Isset structure">
+    <HelpKINode Title="NetworkConnectionStatus.Isset Structure" Url="html/8ff5ad99-cf0d-d4cc-88b2-9e55e28d3789.htm" />
+    <HelpKINode Title="about NetworkConnectionStatus.Isset structure" Url="html/8ff5ad99-cf0d-d4cc-88b2-9e55e28d3789.htm" />
+  </HelpKINode>
+  <HelpKINode Title="NetworkConnectionStatus.Isset.curInternetConnection field" Url="html/39b17481-2c2a-333f-73a5-9ef03f7630c4.htm" />
+  <HelpKINode Title="NetworkConnectionStatus.Isset.curLanAdapter field" Url="html/cbae68ed-22c7-90a2-940e-5bd6a608ee06.htm" />
+  <HelpKINode Title="NetworkConnectionStatus.Isset.curWlanAdapter field" Url="html/71d54af3-4823-bb57-57e3-02e856811332.htm" />
+  <HelpKINode Title="NetworkConnectionStatus.Isset.preInternetConnection field" Url="html/8ca12fbd-6155-8f34-7042-4bfc1bf0f985.htm" />
+  <HelpKINode Title="NetworkConnectionStatus.Isset.preLanAdapter field" Url="html/1814e620-1d5b-49bf-6124-9840fac426ec.htm" />
+  <HelpKINode Title="NetworkConnectionStatus.Isset.preWlanAdapter field" Url="html/17524af5-5ded-b60a-9c8c-238d64424f3f.htm" />
+  <HelpKINode Title="NetworkConnectionStatus.NetworkConnectionStatus constructor" Url="html/4310a17e-dc8b-0964-abaf-7cb0bf2552cc.htm" />
+  <HelpKINode Title="NetworkConnectionStatus.PreInternetConnection property" Url="html/931b7334-13cd-2314-cf52-554196d9b512.htm" />
+  <HelpKINode Title="NetworkConnectionStatus.PreLanAdapter property" Url="html/f4eb7399-0bc8-e40a-f09a-67e164d12d8a.htm" />
+  <HelpKINode Title="NetworkConnectionStatus.PreWlanAdapter property" Url="html/834fdd1c-2a72-ab39-7053-e00decaef42a.htm" />
+  <HelpKINode Title="NetworkConnectionStatus.Read method" Url="html/7605a3c4-dc0f-0ce2-1a10-d3bda183bf0b.htm" />
+  <HelpKINode Title="NetworkConnectionStatus.ToString method" Url="html/403e3090-75c9-c4c6-5d7d-3c9961fa2429.htm" />
+  <HelpKINode Title="NetworkConnectionStatus.Write method" Url="html/739f1e75-41b5-651c-8d53-b7db5c44f1db.htm" />
+  <HelpKINode Title="NetworkConnectionStatus.__isset field" Url="html/d2417fa6-d1e0-ce52-92ae-1f4153468e56.htm" />
   <HelpKINode Title="networkType field" Url="html/1bc3a86b-2de8-c8c7-3003-eca53717ddc4.htm" />
   <HelpKINode Title="NetworkType property" Url="html/0ab93c6c-1683-1e68-4fb1-60f5c182e60c.htm" />
   <HelpKINode Title="NETWORK_AUTHENTICATION_REQUIRED field" Url="html/16fc5bbd-d459-5776-0b0c-970b177aff96.htm" />
@@ -3890,6 +4051,8 @@
   <HelpKINode Title="PauseMsg.Url property" Url="html/4388eb39-6396-a0c3-28d1-f1d381617754.htm" />
   <HelpKINode Title="PauseMsg.Write method" Url="html/89ae9a31-51e9-2e0f-7670-c0374a52bc06.htm" />
   <HelpKINode Title="PauseMsg.__isset field" Url="html/f3eaf1ed-0941-494c-e601-222e10f1b114.htm" />
+  <HelpKINode Title="PayloadType field" Url="html/586d6200-495c-f5d0-210d-f53ececa7bab.htm" />
+  <HelpKINode Title="PayloadType property" Url="html/674527a4-e297-661c-71b9-18597282e133.htm" />
   <HelpKINode Title="PAYLOAD_TOO_LARGE field" Url="html/096bce0c-ed70-2376-46bf-2cb5a6201ce4.htm" />
   <HelpKINode Title="PAYMENT_REQUIRED field" Url="html/18500d80-c2df-defd-3558-59a5a504b962.htm" />
   <HelpKINode Title="PC enumeration member">
@@ -3989,6 +4152,7 @@
   <HelpKINode Title="Player&lt;T&gt;.Player constructor" Url="html/58e6c464-6f5f-6f28-9943-252fd595c098.htm" />
   <HelpKINode Title="Player&lt;T&gt;.ToString method" Url="html/76e03d6a-889a-d8be-899c-8c7adedf81db.htm" />
   <HelpKINode Title="playerId field">
+    <HelpKINode Title="RuyiNetFriendResponseSummaryData.playerId Field" Url="html/e3cbd55f-8aab-6c91-6a6b-01422da7e447.htm" />
     <HelpKINode Title="RuyiNetGetGlobalLeaderboardPageResponse.Data.LeaderboardEntry.playerId Field" Url="html/21eca134-e7e6-6177-a9c0-58a1e10b5edf.htm" />
     <HelpKINode Title="RuyiNetGetGroupSocialLeaderboardResponse.Data.LeaderboardEntry.playerId Field" Url="html/b30ecc7a-853f-4d02-cf1e-280bcf84df77.htm" />
     <HelpKINode Title="RuyiNetGetSocialLeaderboardResponse.Data.LeaderboardEntry.playerId Field" Url="html/ab72755b-b125-bd1c-1f36-efd75dc6cb2d.htm" />
@@ -3998,7 +4162,10 @@
     <HelpKINode Title="RuyiNetFriendSummaryData.PlayerId Property " Url="html/11674641-d0ee-e45c-391f-70beaa46f2b7.htm" />
     <HelpKINode Title="RuyiNetLeaderboardEntry.PlayerId Property " Url="html/5616b096-06db-55de-9a62-3bb93f0c7125.htm" />
   </HelpKINode>
-  <HelpKINode Title="playerName field" Url="html/8dbe56bd-ff81-755c-1bfd-dd24c5eb1c48.htm" />
+  <HelpKINode Title="playerName field">
+    <HelpKINode Title="RuyiNetFriendResponseSummaryData.playerName Field" Url="html/671cb562-7bcb-a9c4-f08a-685a53e4744a.htm" />
+    <HelpKINode Title="RuyiNetGetGroupSocialLeaderboardResponse.Data.LeaderboardEntry.playerName Field" Url="html/8dbe56bd-ff81-755c-1bfd-dd24c5eb1c48.htm" />
+  </HelpKINode>
   <HelpKINode Title="PlayersRange class">
     <HelpKINode Title="PlayersRange Class" Url="html/3ae7ee16-1efc-e3e0-e5e8-eb1397b28aae.htm" />
     <HelpKINode Title="about PlayersRange class" Url="html/3ae7ee16-1efc-e3e0-e5e8-eb1397b28aae.htm" />
@@ -4113,7 +4280,13 @@
   <HelpKINode Title="PrecisionMean property" Url="html/f98a68f6-983a-135a-e688-17eb99138f21.htm" />
   <HelpKINode Title="PRECONDITION_FAILED field" Url="html/04bfa53d-da9d-ad9e-0619-f06c7930d102.htm" />
   <HelpKINode Title="PRECONDITION_REQUIRED field" Url="html/7fe0dc06-89a0-f659-6b99-12a71617fe7e.htm" />
+  <HelpKINode Title="preInternetConnection field" Url="html/8ca12fbd-6155-8f34-7042-4bfc1bf0f985.htm" />
+  <HelpKINode Title="PreInternetConnection property" Url="html/931b7334-13cd-2314-cf52-554196d9b512.htm" />
+  <HelpKINode Title="preLanAdapter field" Url="html/1814e620-1d5b-49bf-6124-9840fac426ec.htm" />
+  <HelpKINode Title="PreLanAdapter property" Url="html/f4eb7399-0bc8-e40a-f09a-67e164d12d8a.htm" />
   <HelpKINode Title="PreviousTrack enumeration member" Url="html/5f8f146b-80ac-9763-7e1a-151e8b3d36cb.htm" />
+  <HelpKINode Title="preWlanAdapter field" Url="html/17524af5-5ded-b60a-9c8c-238d64424f3f.htm" />
+  <HelpKINode Title="PreWlanAdapter property" Url="html/834fdd1c-2a72-ab39-7053-e00decaef42a.htm" />
   <HelpKINode Title="PrintScreen enumeration member" Url="html/5f8f146b-80ac-9763-7e1a-151e8b3d36cb.htm" />
   <HelpKINode Title="PROCESSING field" Url="html/e364ad5a-32cf-36a9-a827-6924cfbabfca.htm" />
   <HelpKINode Title="Product_GetCurrency method" Url="html/c713e13b-99ba-ee16-f8e2-ff00668c206d.htm" />
@@ -4137,15 +4310,12 @@
   <HelpKINode Title="profileId field">
     <HelpKINode Title="RutiNetFriendResponseOnlineStatus.profileId Field" Url="html/0d770310-0105-03a4-a729-d7472ffb09af.htm" />
     <HelpKINode Title="RuyiNetFriendResponseOnlineStatus.profileId Field" Url="html/42f4b705-63c7-ffe2-170f-0cef5805641b.htm" />
-    <HelpKINode Title="RuyiNetFriendResponseSummaryData.profileId Field" Url="html/7fa18ce8-baee-4ec6-618f-4aaa65283a77.htm" />
     <HelpKINode Title="RuyiNetListUserFilesResponse.Data.FileDetails.profileId Field" Url="html/ef1b3668-19da-1849-6f70-ccb34520f94e.htm" />
     <HelpKINode Title="RuyiNetProfile.profileId Field" Url="html/6e93ecd1-47e6-78ee-2391-cd5c98ee280b.htm" />
     <HelpKINode Title="RuyiNetUploadFileResponse.Data.FileDetails.profileId Field" Url="html/9325d3e3-0f90-49ee-ae4d-010b565ef134.htm" />
   </HelpKINode>
-  <HelpKINode Title="profileName field">
-    <HelpKINode Title="RuyiNetFriendResponseSummaryData.profileName Field" Url="html/4c7febce-a814-1e99-bf0e-d57be897b83b.htm" />
-    <HelpKINode Title="RuyiNetProfile.profileName Field" Url="html/aa82faa4-b3a9-22c1-1963-4e2300e0615c.htm" />
-  </HelpKINode>
+  <HelpKINode Title="profileName field" Url="html/aa82faa4-b3a9-22c1-1963-4e2300e0615c.htm" />
+  <HelpKINode Title="profiles field" Url="html/e1e375b4-a720-a3aa-f5c9-537ac95e828b.htm" />
   <HelpKINode Title="ProfileService property" Url="html/a1135799-2cdb-f72e-ba7d-2c098f908a71.htm" />
   <HelpKINode Title="Provisional class">
     <HelpKINode Title="methods" Url="html/242491ab-a38e-16dd-510f-b6470c0531a6.htm" />
@@ -4154,6 +4324,25 @@
   <HelpKINode Title="Proxy property" Url="html/a48ce5b9-7e15-2e53-9235-53bf46a6fc40.htm" />
   <HelpKINode Title="PROXY_AUTHENTICATION_REQUIRED field" Url="html/2ec355d5-d28d-88de-fe05-80c598819681.htm" />
   <HelpKINode Title="PubChannelID method" Url="html/04e20253-da63-8e1f-79da-33a5baf38566.htm" />
+  <HelpKINode Title="PubHeader class">
+    <HelpKINode Title="PubHeader Class" Url="html/7959ebca-a30a-a8b2-60e2-cb71729cd185.htm" />
+    <HelpKINode Title="about PubHeader class" Url="html/7959ebca-a30a-a8b2-60e2-cb71729cd185.htm" />
+    <HelpKINode Title="constructor" Url="html/552cb08f-32f8-6abb-0d14-22d83aa09c2a.htm" />
+    <HelpKINode Title="fields" Url="html/02f7c144-859f-b8b1-06c9-edd0790c1319.htm" />
+    <HelpKINode Title="methods" Url="html/579906cf-f326-355d-f2ca-89ae59be1ee2.htm" />
+    <HelpKINode Title="properties" Url="html/76eb21db-4c43-1271-7e7d-0cb40437d744.htm" />
+  </HelpKINode>
+  <HelpKINode Title="PubHeader.Isset structure">
+    <HelpKINode Title="PubHeader.Isset Structure" Url="html/6e2b0489-00cf-c304-9d91-2eb3fbc1b4bd.htm" />
+    <HelpKINode Title="about PubHeader.Isset structure" Url="html/6e2b0489-00cf-c304-9d91-2eb3fbc1b4bd.htm" />
+  </HelpKINode>
+  <HelpKINode Title="PubHeader.Isset.PayloadType field" Url="html/586d6200-495c-f5d0-210d-f53ececa7bab.htm" />
+  <HelpKINode Title="PubHeader.PayloadType property" Url="html/674527a4-e297-661c-71b9-18597282e133.htm" />
+  <HelpKINode Title="PubHeader.PubHeader constructor" Url="html/552cb08f-32f8-6abb-0d14-22d83aa09c2a.htm" />
+  <HelpKINode Title="PubHeader.Read method" Url="html/6b56e560-938f-fb7e-eca4-9a95d48bc625.htm" />
+  <HelpKINode Title="PubHeader.ToString method" Url="html/f9760ce1-9416-352f-73a5-ade58037d171.htm" />
+  <HelpKINode Title="PubHeader.Write method" Url="html/4af752ce-c627-e783-1f86-cf10cd5b2cfd.htm" />
+  <HelpKINode Title="PubHeader.__isset field" Url="html/16eb8ca7-0820-4d74-890d-b3afb3816ac0.htm" />
   <HelpKINode Title="PublisherLogger class">
     <HelpKINode Title="PublisherLogger Class" Url="html/68a65a2f-21fa-02cb-fbee-beafb8b68cfe.htm" />
     <HelpKINode Title="about PublisherLogger class" Url="html/68a65a2f-21fa-02cb-fbee-beafb8b68cfe.htm" />
@@ -4362,10 +4551,12 @@
     <HelpKINode Title="CategoryNode.Read Method " Url="html/80902916-5539-71dc-1416-b1b98a951ebe.htm" />
     <HelpKINode Title="dataListItem.Read Method " Url="html/205b60af-8bbb-bc77-7687-36f8081dba74.htm" />
     <HelpKINode Title="ErrorException.Read Method " Url="html/ac531923-c734-6c50-596e-189e07013b6e.htm" />
+    <HelpKINode Title="EventNotification.Read Method " Url="html/184ef94f-3067-2c35-364e-6099dedcc79e.htm" />
     <HelpKINode Title="ExternalErrorInfos.Read Method " Url="html/066f77ea-b9ff-60ad-41f9-8d17303a897f.htm" />
     <HelpKINode Title="File.Read Method " Url="html/5abe9c75-dc35-dece-dc8f-1adc485a6c96.htm" />
     <HelpKINode Title="FileUploadFailedResult.Read Method " Url="html/2f4c84e8-5c68-bb6e-6238-60e3a765b993.htm" />
     <HelpKINode Title="FileUploadSuccessResult.Read Method " Url="html/7587ef92-bac1-8fc9-6bde-eba41070ca71.htm" />
+    <HelpKINode Title="GamepadInfo.Read Method " Url="html/0898f22e-d7bd-a927-bde0-8473d71386ac.htm" />
     <HelpKINode Title="GetLocalPathResult.Read Method " Url="html/db7ed3a5-5858-56d7-a9ed-c6ce34083845.htm" />
     <HelpKINode Title="InputActionEvent.Read Method " Url="html/9907bd0b-cbed-3a36-12f5-c27b1794b579.htm" />
     <HelpKINode Title="InputActionTriggered.Read Method " Url="html/ab08c89e-49b1-e134-383b-7057bb9879ff.htm" />
@@ -4373,7 +4564,9 @@
     <HelpKINode Title="LanguageChangedMsg.Read Method " Url="html/84c8f98d-38ce-dc32-f759-31d57ea17571.htm" />
     <HelpKINode Title="MediaFile.Read Method " Url="html/41d97e24-e3ba-0a83-18d7-a6f69f15bada.htm" />
     <HelpKINode Title="MediaFileEvent.Read Method " Url="html/80376a6a-9b5b-b84b-49be-4d69c384502c.htm" />
+    <HelpKINode Title="ModuleBaseInfo.Read Method " Url="html/0bfae346-9ac4-fa2c-bc08-ae0bb1ec5f0e.htm" />
     <HelpKINode Title="ModuleSetting.Read Method " Url="html/b56f14e6-937f-1f88-4faf-0007c9023c8d.htm" />
+    <HelpKINode Title="NetworkConnectionStatus.Read Method " Url="html/7605a3c4-dc0f-0ce2-1a10-d3bda183bf0b.htm" />
     <HelpKINode Title="NodeList.Read Method " Url="html/dbe61b11-dec2-9e5b-973b-10b59aa808d1.htm" />
     <HelpKINode Title="notification.Read Method " Url="html/d97c8b6b-4c7e-4be9-3bb1-77d4b56ad659.htm" />
     <HelpKINode Title="NotifyTakeScreenShot.Read Method " Url="html/fcc998a6-2b17-46f3-0837-93d4604349f7.htm" />
@@ -4381,6 +4574,7 @@
     <HelpKINode Title="PlaybackProgressMsg.Read Method " Url="html/7675565a-b339-5d0d-6498-409b92fe4714.htm" />
     <HelpKINode Title="PlayMsg.Read Method " Url="html/7a6d4285-56e8-3f01-0c9e-95bf222a4518.htm" />
     <HelpKINode Title="PopupNotification.Read Method " Url="html/4adcace6-bb1f-743e-c48c-8b07d160b21a.htm" />
+    <HelpKINode Title="PubHeader.Read Method " Url="html/6b56e560-938f-fb7e-eca4-9a95d48bc625.htm" />
     <HelpKINode Title="QueryMsg.Read Method " Url="html/262cd733-aac7-cb92-0ff8-76123682fa17.htm" />
     <HelpKINode Title="QueryResultMsg.Read Method " Url="html/9fad5fad-1957-e73c-d650-dc8ac3235ca4.htm" />
     <HelpKINode Title="range.Read Method " Url="html/4d37594d-dfa6-3984-740b-b7af6d0373be.htm" />
@@ -4398,7 +4592,6 @@
     <HelpKINode Title="ServiceLaunchEvent.Read Method " Url="html/e6a60785-d92b-ec4d-4996-482492093714.htm" />
     <HelpKINode Title="SettingCategory.Read Method " Url="html/0d12a7ea-167c-d784-e5db-a7ad5a2218c7.htm" />
     <HelpKINode Title="SettingItem.Read Method " Url="html/6ecbbb44-3ff2-b3a3-be95-70ea04aa5545.htm" />
-    <HelpKINode Title="SettingItemNotification.Read Method " Url="html/c7c6cfda-9804-b63a-68ed-9b7ecd9c4641.htm" />
     <HelpKINode Title="SettingSearchResult.Read Method " Url="html/dd1893c8-c201-f7d0-142a-e32d3f1b0894.htm" />
     <HelpKINode Title="SettingTree.Read Method " Url="html/e9f85d35-c85d-5b23-e673-087ec528e64e.htm" />
     <HelpKINode Title="SettingValue.Read Method " Url="html/31b37f3e-ed2e-9d70-d8c0-9970a208f6d2.htm" />
@@ -4435,6 +4628,8 @@
   <HelpKINode Title="ReleaseNotesLocation property" Url="html/40a01278-db1f-158b-58cf-624df14f59e0.htm" />
   <HelpKINode Title="RemoteAddress property" Url="html/1e07ee8f-8791-4fe5-c4d6-9cf34cb56cd2.htm" />
   <HelpKINode Title="RemoteIpAddress property" Url="html/55ec6310-c93b-5d57-991e-a4742e0d2d27.htm" />
+  <HelpKINode Title="RemoveBluetoothDevice method" Url="html/6c4cd1c4-5566-8358-8633-bcec99bd5dd2.htm" />
+  <HelpKINode Title="RemoveBluetoothDeviceAsync method" Url="html/4a1909cc-f88a-c81f-35da-f01d862e5947.htm" />
   <HelpKINode Title="RemoveFriend method" Url="html/4315e92d-6bd7-cbbf-0118-3a5b6708b677.htm" />
   <HelpKINode Title="RemoveGenericMessageHandler method">
     <HelpKINode Title="ISubscribeClient.RemoveGenericMessageHandler Method " Url="html/a53cd9fd-794b-55be-6c75-ffe3f69fd3d0.htm" />
@@ -4635,10 +4830,14 @@
   <HelpKINode Title="Ruyi.SDK.CommonType.ErrorException class" Url="html/09f9192e-2a45-54cb-8a0e-31aa691b7b70.htm" />
   <HelpKINode Title="Ruyi.SDK.CommonType.ErrorException.Isset structure" Url="html/f6bb35f3-75b6-1a4c-83de-f69e43228134.htm" />
   <HelpKINode Title="Ruyi.SDK.CommonType.eUIType enumeration" Url="html/014797d2-3bba-b17c-7377-23c749041757.htm" />
+  <HelpKINode Title="Ruyi.SDK.CommonType.EventNotification class" Url="html/04cc34ed-6fac-5dd8-d396-edb0e4ea613f.htm" />
+  <HelpKINode Title="Ruyi.SDK.CommonType.EventNotification.Isset structure" Url="html/ce7e4ac8-467f-e440-34d3-028ddf626268.htm" />
   <HelpKINode Title="Ruyi.SDK.CommonType.InputCategory enumeration" Url="html/bb8e447a-85a4-4499-bf65-c91b3a8f5440.htm" />
   <HelpKINode Title="Ruyi.SDK.CommonType.InputModifier class" Url="html/caa0bc44-1569-6436-2c02-4064bcee8d96.htm" />
   <HelpKINode Title="Ruyi.SDK.CommonType.InputModifier.Isset structure" Url="html/12dde9cd-da3c-de12-6242-01463665049c.htm" />
   <HelpKINode Title="Ruyi.SDK.CommonType.LoginState enumeration" Url="html/6f60c390-151b-a8ff-207e-9c8f5f940ab8.htm" />
+  <HelpKINode Title="Ruyi.SDK.CommonType.ModuleBaseInfo class" Url="html/a9d553d7-483e-656a-359e-61fac31a6394.htm" />
+  <HelpKINode Title="Ruyi.SDK.CommonType.ModuleBaseInfo.Isset structure" Url="html/0586f9f6-7640-b010-99cc-ba533ec48e02.htm" />
   <HelpKINode Title="Ruyi.SDK.CommonType.ModuleSetting class" Url="html/345763d5-bcd4-9a5c-8552-f7385985fb72.htm" />
   <HelpKINode Title="Ruyi.SDK.CommonType.ModuleSetting.Isset structure" Url="html/1f67a176-7dcc-e058-0162-176180b19a79.htm" />
   <HelpKINode Title="Ruyi.SDK.CommonType.notification class" Url="html/bcca81a4-90ae-69bf-91e2-c69cb8af67bb.htm" />
@@ -4670,6 +4869,8 @@
   <HelpKINode Title="Ruyi.SDK.InputManager..Client class" Url="html/6030bb4b-befd-8438-909e-a15df234c9bd.htm" />
   <HelpKINode Title="Ruyi.SDK.InputManager.AxisActionTriggered class" Url="html/c07eabe7-8631-88c9-4e5e-df5eba470e0d.htm" />
   <HelpKINode Title="Ruyi.SDK.InputManager.AxisActionTriggered.Isset structure" Url="html/b5d091a6-a7e5-ea2f-8160-c47d21169f16.htm" />
+  <HelpKINode Title="Ruyi.SDK.InputManager.GamepadInfo class" Url="html/11a9d2e2-2762-1360-840d-ee7fabcfe394.htm" />
+  <HelpKINode Title="Ruyi.SDK.InputManager.GamepadInfo.Isset structure" Url="html/25954e37-18c1-0484-acdb-26d6d8218909.htm" />
   <HelpKINode Title="Ruyi.SDK.InputManager.InputActionTriggered class" Url="html/5c9b6df8-812a-832a-4045-2fcd2d0e3adf.htm" />
   <HelpKINode Title="Ruyi.SDK.InputManager.InputActionTriggered.Isset structure" Url="html/e1b538ba-78e0-4637-667d-ac7de02ed0f5.htm" />
   <HelpKINode Title="Ruyi.SDK.InputManager.JoystickOffset enumeration" Url="html/cbb0cab9-92a2-3592-cd87-940fda42f007.htm" />
@@ -4819,6 +5020,8 @@
   <HelpKINode Title="Ruyi.SDK.Online.RuyiNetGetSocialLeaderboardResponse.Data class" Url="html/338fdc84-4eda-1699-c281-f8b8cf3ecbd4.htm" />
   <HelpKINode Title="Ruyi.SDK.Online.RuyiNetGetSocialLeaderboardResponse.Data.LeaderboardEntry class" Url="html/ef2dd2f5-a06c-a9e1-19f0-493323ae1a74.htm" />
   <HelpKINode Title="Ruyi.SDK.Online.RuyiNetGetSummaryDataForProfileIdResponse class" Url="html/03e055a1-7143-9c39-3db3-a44237200607.htm" />
+  <HelpKINode Title="Ruyi.SDK.Online.RuyiNetGetSummaryDataMultipleResponse class" Url="html/ed52aec0-3627-0677-9750-d719a2ed3476.htm" />
+  <HelpKINode Title="Ruyi.SDK.Online.RuyiNetGetSummaryDataMultipleResponse.Data class" Url="html/6bed41ac-1d11-e8f7-ba2d-028473a73c08.htm" />
   <HelpKINode Title="Ruyi.SDK.Online.RuyiNetHttpStatus class" Url="html/a7cb993c-84cc-8cf4-fe01-af744ec33812.htm" />
   <HelpKINode Title="Ruyi.SDK.Online.RuyiNetLeaderboardConfig class" Url="html/3ef4559b-8eed-78ee-dbe0-ff179dd9752b.htm" />
   <HelpKINode Title="Ruyi.SDK.Online.RuyiNetLeaderboardEntry class" Url="html/b6ad95e5-3ba4-5280-ccd3-7abb60de2034.htm" />
@@ -4928,6 +5131,8 @@
   <HelpKINode Title="Ruyi.SDK.OverlayManagerExternal..Client class" Url="html/9b4fa41d-155e-5317-107c-aaee0194a78b.htm" />
   <HelpKINode Title="Ruyi.SDK.OverlayManagerExternal.NotifyTakeScreenShot class" Url="html/5dfe82de-2e3c-5fe3-e68f-c6e3e6d34865.htm" />
   <HelpKINode Title="Ruyi.SDK.PublisherSubscriber namespace" Url="html/997d2072-cc0d-84c1-ad20-6a10fc7312ad.htm" />
+  <HelpKINode Title="Ruyi.SDK.PublisherSubscriber.PubHeader class" Url="html/7959ebca-a30a-a8b2-60e2-cb71729cd185.htm" />
+  <HelpKINode Title="Ruyi.SDK.PublisherSubscriber.PubHeader.Isset structure" Url="html/6e2b0489-00cf-c304-9d91-2eb3fbc1b4bd.htm" />
   <HelpKINode Title="Ruyi.SDK.PublisherSubscriber.PubSubSDKDataTypesConstants class" Url="html/dc50f443-d216-e13c-6cb3-15de4e309b27.htm" />
   <HelpKINode Title="Ruyi.SDK.PublisherSubscriber.ServiceLaunchEvent class" Url="html/1d1567ad-7b91-942a-b6ba-5b13480ae5be.htm" />
   <HelpKINode Title="Ruyi.SDK.PublisherSubscriber.ServiceLaunchEvent.Isset structure" Url="html/3159b5df-07c8-564a-cc8b-e79f7635ea8c.htm" />
@@ -4941,6 +5146,8 @@
   <HelpKINode Title="Ruyi.SDK.SettingSystem.Api..Client class" Url="html/90215efd-e7da-2e67-3a3a-ccf4287f2e11.htm" />
   <HelpKINode Title="Ruyi.SDK.SettingSystem.Api.CategoryNode class" Url="html/3a3c053b-121e-b747-d0cb-7d93f26e976f.htm" />
   <HelpKINode Title="Ruyi.SDK.SettingSystem.Api.CategoryNode.Isset structure" Url="html/b3c451dc-fae3-e96d-c790-ae2cbf263a94.htm" />
+  <HelpKINode Title="Ruyi.SDK.SettingSystem.Api.NetworkConnectionStatus class" Url="html/1a94793e-119f-46c1-6bbb-b5647922b5d0.htm" />
+  <HelpKINode Title="Ruyi.SDK.SettingSystem.Api.NetworkConnectionStatus.Isset structure" Url="html/8ff5ad99-cf0d-d4cc-88b2-9e55e28d3789.htm" />
   <HelpKINode Title="Ruyi.SDK.SettingSystem.Api.NodeList class" Url="html/4888f7b5-a378-7318-ff44-c52ebcb02fe9.htm" />
   <HelpKINode Title="Ruyi.SDK.SettingSystem.Api.NodeList.Isset structure" Url="html/b0ab30fc-7ea9-9b71-a8f3-b6a26126e977.htm" />
   <HelpKINode Title="Ruyi.SDK.SettingSystem.Api.NodeType enumeration" Url="html/2ea25597-d0f0-811b-ffe2-bf8470950d04.htm" />
@@ -4954,8 +5161,6 @@
   <HelpKINode Title="Ruyi.SDK.SettingSystem.Api.RuyiNetworkTestItem.Isset structure" Url="html/533c378a-6c83-bfe2-5f2f-17dac8cf8563.htm" />
   <HelpKINode Title="Ruyi.SDK.SettingSystem.Api.RuyiNetworkTestResult class" Url="html/4c1f626a-236b-eae9-585a-edfb24c056da.htm" />
   <HelpKINode Title="Ruyi.SDK.SettingSystem.Api.RuyiNetworkTestResult.Isset structure" Url="html/f5bcdcf3-c6ba-cf26-f510-a48bd090ae85.htm" />
-  <HelpKINode Title="Ruyi.SDK.SettingSystem.Api.SettingItemNotification class" Url="html/aeea06ee-899b-feaa-5dd4-e15f79b233b0.htm" />
-  <HelpKINode Title="Ruyi.SDK.SettingSystem.Api.SettingItemNotification.Isset structure" Url="html/fcca8206-22a9-d4d3-99b2-d9e49344a2fd.htm" />
   <HelpKINode Title="Ruyi.SDK.SettingSystem.Api.SettingSearchResult class" Url="html/f6e18d54-376c-d7c6-c011-ee1a044f9864.htm" />
   <HelpKINode Title="Ruyi.SDK.SettingSystem.Api.SettingSearchResult.Isset structure" Url="html/71e2e9d7-f5b5-1bd5-a2aa-d8dcf582b5a3.htm" />
   <HelpKINode Title="Ruyi.SDK.SettingSystem.Api.SettingTree class" Url="html/6c9514f6-0aa0-655d-9fb1-bd4bddd10dce.htm" />
@@ -5341,8 +5546,8 @@
   <HelpKINode Title="RuyiNetFriendResponseSummaryData to RuyiNetFriendSummaryData conversion" Url="html/281257c4-fdbc-b4c2-419a-6e4c49b6c0f8.htm" />
   <HelpKINode Title="RuyiNetFriendResponseSummaryData.email field" Url="html/b785b102-769b-3100-c447-ec905a1fcb79.htm" />
   <HelpKINode Title="RuyiNetFriendResponseSummaryData.pictureUrl field" Url="html/f3923ffc-9e39-ebea-1824-d162e5f64b48.htm" />
-  <HelpKINode Title="RuyiNetFriendResponseSummaryData.profileId field" Url="html/7fa18ce8-baee-4ec6-618f-4aaa65283a77.htm" />
-  <HelpKINode Title="RuyiNetFriendResponseSummaryData.profileName field" Url="html/4c7febce-a814-1e99-bf0e-d57be897b83b.htm" />
+  <HelpKINode Title="RuyiNetFriendResponseSummaryData.playerId field" Url="html/e3cbd55f-8aab-6c91-6a6b-01422da7e447.htm" />
+  <HelpKINode Title="RuyiNetFriendResponseSummaryData.playerName field" Url="html/671cb562-7bcb-a9c4-f08a-685a53e4744a.htm" />
   <HelpKINode Title="RuyiNetFriendResponseSummaryData.RuyiNetFriendResponseSummaryData constructor" Url="html/8ef4dab3-17e7-bb3b-3996-ee14f4ebee4a.htm" />
   <HelpKINode Title="RuyiNetFriendResponseSummaryData.summaryFriendData field" Url="html/3b3717b8-aae5-2942-bd08-70baf6a8faaf.htm" />
   <HelpKINode Title="RuyiNetFriendService class">
@@ -5357,6 +5562,7 @@
   <HelpKINode Title="RuyiNetFriendService.GetProfile method" Url="html/1455164b-debe-b3d8-fded-ee33dec90e76.htm" />
   <HelpKINode Title="RuyiNetFriendService.GetProfiles method" Url="html/7632a3c8-7233-c034-98cf-6e901971ca69.htm" />
   <HelpKINode Title="RuyiNetFriendService.GetSummaryDataForPlayerId method" Url="html/1fcc0751-907b-dad4-86b6-8586d02af0a4.htm" />
+  <HelpKINode Title="RuyiNetFriendService.GetSummaryDataForPlayerIds method" Url="html/93cb7152-906d-5553-af7c-7151c6ffd9c5.htm" />
   <HelpKINode Title="RuyiNetFriendService.GetUsersOnlineStatus method" Url="html/e5021a6e-665d-3c8f-ea98-4ed0b07683a4.htm" />
   <HelpKINode Title="RuyiNetFriendService.ListFriendInvitationsRecieved method" Url="html/1899b361-d1be-3d6f-6d88-d55e0709e864.htm" />
   <HelpKINode Title="RuyiNetFriendService.ListFriendInvitationsSent method" Url="html/b1de262a-62d5-afb0-62cd-748f0fbe6b58.htm" />
@@ -5732,6 +5938,22 @@
   <HelpKINode Title="RuyiNetGetSummaryDataForProfileIdResponse.data field" Url="html/c7ce5e61-451c-0cd4-3c34-08b532a86ad2.htm" />
   <HelpKINode Title="RuyiNetGetSummaryDataForProfileIdResponse.RuyiNetGetSummaryDataForProfileIdResponse constructor" Url="html/0921291a-8232-0fe4-0a9e-c610b0a3b83d.htm" />
   <HelpKINode Title="RuyiNetGetSummaryDataForProfileIdResponse.status field" Url="html/0148de3f-e325-8fdc-51f1-b6802e5c6905.htm" />
+  <HelpKINode Title="RuyiNetGetSummaryDataMultipleResponse class">
+    <HelpKINode Title="RuyiNetGetSummaryDataMultipleResponse Class" Url="html/ed52aec0-3627-0677-9750-d719a2ed3476.htm" />
+    <HelpKINode Title="about RuyiNetGetSummaryDataMultipleResponse class" Url="html/ed52aec0-3627-0677-9750-d719a2ed3476.htm" />
+    <HelpKINode Title="constructor" Url="html/bd799272-cd4a-2dca-33d9-54d49960fac3.htm" />
+    <HelpKINode Title="fields" Url="html/17621e3e-365f-840b-3425-a806f929ef1a.htm" />
+  </HelpKINode>
+  <HelpKINode Title="RuyiNetGetSummaryDataMultipleResponse.Data class">
+    <HelpKINode Title="RuyiNetGetSummaryDataMultipleResponse.Data Class" Url="html/6bed41ac-1d11-e8f7-ba2d-028473a73c08.htm" />
+    <HelpKINode Title="about RuyiNetGetSummaryDataMultipleResponse.Data class" Url="html/6bed41ac-1d11-e8f7-ba2d-028473a73c08.htm" />
+    <HelpKINode Title="constructor" Url="html/d236d11f-91e4-62d9-6ba6-8988092d4344.htm" />
+  </HelpKINode>
+  <HelpKINode Title="RuyiNetGetSummaryDataMultipleResponse.data field" Url="html/9f4dc1fd-af8e-a6c4-7bcd-bd6d230632af.htm" />
+  <HelpKINode Title="RuyiNetGetSummaryDataMultipleResponse.Data.Data constructor" Url="html/d236d11f-91e4-62d9-6ba6-8988092d4344.htm" />
+  <HelpKINode Title="RuyiNetGetSummaryDataMultipleResponse.Data.profiles field" Url="html/e1e375b4-a720-a3aa-f5c9-537ac95e828b.htm" />
+  <HelpKINode Title="RuyiNetGetSummaryDataMultipleResponse.RuyiNetGetSummaryDataMultipleResponse constructor" Url="html/bd799272-cd4a-2dca-33d9-54d49960fac3.htm" />
+  <HelpKINode Title="RuyiNetGetSummaryDataMultipleResponse.status field" Url="html/5025b22c-8a77-2ee6-dcf3-be5a6c2d656a.htm" />
   <HelpKINode Title="RuyiNetHttpStatus class">
     <HelpKINode Title="RuyiNetHttpStatus Class" Url="html/a7cb993c-84cc-8cf4-fe01-af744ec33812.htm" />
     <HelpKINode Title="about RuyiNetHttpStatus class" Url="html/a7cb993c-84cc-8cf4-fe01-af744ec33812.htm" />
@@ -6655,6 +6877,10 @@
   <HelpKINode Title="RuyiSDKContext.RemoteAddress property" Url="html/1e07ee8f-8791-4fe5-c4d6-9cf34cb56cd2.htm" />
   <HelpKINode Title="RuyiSDKContext.RuyiSDKContext constructor" Url="html/45ce48e7-ee4d-bf23-e2f9-b11802f3f6cd.htm" />
   <HelpKINode Title="RuyiSDKContext.Timeout property" Url="html/39742520-77e7-67db-1e67-4739a5382953.htm" />
+  <HelpKINode Title="RuyiStartNetworkSpeedTest method" Url="html/1451c37d-fbd7-f936-a584-6d7fb1d57d88.htm" />
+  <HelpKINode Title="RuyiStartNetworkSpeedTestAsync method" Url="html/2eff39db-a67f-77f6-046b-a20fda887e98.htm" />
+  <HelpKINode Title="RuyiStopNetworkSpeedTest method" Url="html/4b4e7788-61e5-a6df-5c30-95ed59b2449c.htm" />
+  <HelpKINode Title="RuyiStopNetworkSpeedTestAsync method" Url="html/22e30a3e-9396-5af3-cb29-c22ace03754c.htm" />
   <HelpKINode Title="RuyiTestNetwork method" Url="html/9c535d26-ec15-cf5e-79aa-be43f49e5128.htm" />
   <HelpKINode Title="RuyiTestNetworkAsync method" Url="html/233b7a23-8975-6f30-974a-10e88f36f9e5.htm" />
   <HelpKINode Title="S enumeration member" Url="html/5f8f146b-80ac-9763-7e1a-151e8b3d36cb.htm" />
@@ -6743,8 +6969,8 @@
   <HelpKINode Title="ScheduleStep&lt;T&gt;.ScheduleStep constructor" Url="html/650b703a-c02b-7756-a8ff-a0a206edd48d.htm" />
   <HelpKINode Title="ScheduleStep&lt;T&gt;.Visit method" Url="html/d88e3fb7-8e56-72e1-3202-4cfc58bddb2a.htm" />
   <HelpKINode Title="Score class">
-    <HelpKINode Title="fields" Url="html/ddd3b3f0-7988-fca1-e793-1d389fee0414.htm" />
     <HelpKINode Title="fields" Url="html/37b45aa0-399c-65b8-1d1e-3ad7461c34c0.htm" />
+    <HelpKINode Title="fields" Url="html/ddd3b3f0-7988-fca1-e793-1d389fee0414.htm" />
   </HelpKINode>
   <HelpKINode Title="score field">
     <HelpKINode Title="RuyiNetGetGlobalLeaderboardPageResponse.Data.LeaderboardEntry.score Field" Url="html/85392639-3b9e-f87f-85a1-126dade7b72f.htm" />
@@ -6862,6 +7088,10 @@
   <HelpKINode Title="SERVICE_UNAVAILABLE field" Url="html/3e7eaa3a-ffa7-2140-6eed-d539d78af4e7.htm" />
   <HelpKINode Title="sessionTiming field" Url="html/d255f0a3-125b-cb31-4e04-b9107f2023d2.htm" />
   <HelpKINode Title="SetAddress method" Url="html/3f60865c-1613-a1e8-9a07-5ead3499fab3.htm" />
+  <HelpKINode Title="SetGamepadLight method" Url="html/522bf486-7c6e-77f6-d184-5e1e913d1428.htm" />
+  <HelpKINode Title="SetGamepadLightAsync method" Url="html/63690388-7931-e0e8-e24b-6197aa3ff0ad.htm" />
+  <HelpKINode Title="SetGamepadVibration method" Url="html/c03ea6e0-e005-e0e8-0586-54355a5ecb5f.htm" />
+  <HelpKINode Title="SetGamepadVibrationAsync method" Url="html/1bd10afc-3aed-df08-a8ed-5e13c4c002d5.htm" />
   <HelpKINode Title="SetNetworkProxy method" Url="html/a561e815-58ef-edae-b8f8-1b1a1ad9cdd7.htm" />
   <HelpKINode Title="SetNetworkProxyAsync method" Url="html/ddb2c276-4408-6cbf-4469-73c4fadf396e.htm" />
   <HelpKINode Title="SetNetworkSettings method" Url="html/03330bf6-9cbb-87b9-2166-133b09a17250.htm" />
@@ -6895,6 +7125,7 @@
   <HelpKINode Title="SettingCategory.Description property" Url="html/9b90a098-84a4-e72d-d3e0-d373f8f423ee.htm" />
   <HelpKINode Title="SettingCategory.Display property" Url="html/45d323dd-1380-3950-e14a-a393b6653910.htm" />
   <HelpKINode Title="SettingCategory.Enable property" Url="html/d5e8584e-89bd-ebc6-932d-3e2138d220ac.htm" />
+  <HelpKINode Title="SettingCategory.Icon property" Url="html/053eb0c4-2904-be36-40fb-bc47155f59de.htm" />
   <HelpKINode Title="SettingCategory.Id property" Url="html/3e3cde54-4a92-2c95-5e8d-d52e8ac4cc73.htm" />
   <HelpKINode Title="SettingCategory.Isset structure">
     <HelpKINode Title="SettingCategory.Isset Structure" Url="html/e5aee998-4d87-3b0f-0833-384baca87507.htm" />
@@ -6903,6 +7134,7 @@
   <HelpKINode Title="SettingCategory.Isset.description field" Url="html/7be2feb5-a101-04ee-11e5-b1b2a2a579f0.htm" />
   <HelpKINode Title="SettingCategory.Isset.display field" Url="html/08628b58-596e-a737-2f44-496e2abdae24.htm" />
   <HelpKINode Title="SettingCategory.Isset.enable field" Url="html/234db210-be91-7d76-2228-f526e8413a93.htm" />
+  <HelpKINode Title="SettingCategory.Isset.icon field" Url="html/563dd0ff-e787-7167-bc9c-c9005a692a98.htm" />
   <HelpKINode Title="SettingCategory.Isset.id field" Url="html/1b73d827-ee1e-5a21-caf7-168eede8e99e.htm" />
   <HelpKINode Title="SettingCategory.Isset.isSystemCategory field" Url="html/a7ec67a2-bad5-4bb7-1f91-1403a2a2e962.htm" />
   <HelpKINode Title="SettingCategory.Isset.items field" Url="html/a57fe280-7584-f279-625f-72a519413c15.htm" />
@@ -6979,27 +7211,6 @@
   <HelpKINode Title="SettingItem.Validation property" Url="html/26615685-5c3e-0ff0-e88f-9e36a3fcb8f0.htm" />
   <HelpKINode Title="SettingItem.Write method" Url="html/e23f3031-919d-6cd5-1109-73e3aa747f1b.htm" />
   <HelpKINode Title="SettingItem.__isset field" Url="html/f35373da-76a8-a768-c666-fa3827087f0b.htm" />
-  <HelpKINode Title="SettingItemNotification class">
-    <HelpKINode Title="SettingItemNotification Class" Url="html/aeea06ee-899b-feaa-5dd4-e15f79b233b0.htm" />
-    <HelpKINode Title="about SettingItemNotification class" Url="html/aeea06ee-899b-feaa-5dd4-e15f79b233b0.htm" />
-    <HelpKINode Title="constructor" Url="html/d884ed5c-3fda-afbf-e6df-7a60d942cdf9.htm" />
-    <HelpKINode Title="fields" Url="html/c34b243f-ad1d-633d-00b9-490e5c78443b.htm" />
-    <HelpKINode Title="methods" Url="html/d628e4af-15fb-f55b-2503-befc00154b60.htm" />
-    <HelpKINode Title="properties" Url="html/54d11bd9-d317-20cf-8bd0-e18c13949e24.htm" />
-  </HelpKINode>
-  <HelpKINode Title="SettingItemNotification.Contents property" Url="html/eb6564d1-8597-c465-8537-bb87952aa640.htm" />
-  <HelpKINode Title="SettingItemNotification.Isset structure">
-    <HelpKINode Title="SettingItemNotification.Isset Structure" Url="html/fcca8206-22a9-d4d3-99b2-d9e49344a2fd.htm" />
-    <HelpKINode Title="about SettingItemNotification.Isset structure" Url="html/fcca8206-22a9-d4d3-99b2-d9e49344a2fd.htm" />
-  </HelpKINode>
-  <HelpKINode Title="SettingItemNotification.Isset.contents field" Url="html/296c3cd6-795f-54e4-ebd6-20d57b725f76.htm" />
-  <HelpKINode Title="SettingItemNotification.Isset.key field" Url="html/83d38ae5-ea93-5434-9904-c3f1b3d5b873.htm" />
-  <HelpKINode Title="SettingItemNotification.Key property" Url="html/ab8cee62-5afb-f85d-09d5-99980310e4be.htm" />
-  <HelpKINode Title="SettingItemNotification.Read method" Url="html/c7c6cfda-9804-b63a-68ed-9b7ecd9c4641.htm" />
-  <HelpKINode Title="SettingItemNotification.SettingItemNotification constructor" Url="html/d884ed5c-3fda-afbf-e6df-7a60d942cdf9.htm" />
-  <HelpKINode Title="SettingItemNotification.ToString method" Url="html/3abb9cde-0eea-e742-c726-fca7b6e6a545.htm" />
-  <HelpKINode Title="SettingItemNotification.Write method" Url="html/e7622dcb-279f-f638-a040-1ff9653aed20.htm" />
-  <HelpKINode Title="SettingItemNotification.__isset field" Url="html/bd4574f5-9cb4-88f7-e910-348e820db78d.htm" />
   <HelpKINode Title="SettingItemNotify method" Url="html/50593bee-3136-f5bb-a072-1266642da72b.htm" />
   <HelpKINode Title="SettingItemNotifyAsync method" Url="html/9b16ed1e-7540-ced6-c4ad-19234ed88411.htm" />
   <HelpKINode Title="SettingItems field">
@@ -7257,6 +7468,7 @@
     <HelpKINode Title="RuyiNetGetProfilesResponse.status Field" Url="html/0d7556b0-87c9-da71-998c-5fbfe2793f57.htm" />
     <HelpKINode Title="RuyiNetGetSocialLeaderboardResponse.status Field" Url="html/b8bb2c58-b78e-8537-bc6f-42c832f9fe10.htm" />
     <HelpKINode Title="RuyiNetGetSummaryDataForProfileIdResponse.status Field" Url="html/0148de3f-e325-8fdc-51f1-b6802e5c6905.htm" />
+    <HelpKINode Title="RuyiNetGetSummaryDataMultipleResponse.status Field" Url="html/5025b22c-8a77-2ee6-dcf3-be5a6c2d656a.htm" />
     <HelpKINode Title="RuyiNetListAllLeaderboardsResponse.status Field" Url="html/40348727-cdfd-fbc0-ac8d-5b8f7398233f.htm" />
     <HelpKINode Title="RuyiNetListFriendsResponse.status Field" Url="html/f8df3327-2e72-d6bf-1953-77780c0fb8c7.htm" />
     <HelpKINode Title="RuyiNetListUserFilesResponse.status Field" Url="html/489a1be4-2f71-792d-fb81-2704f49f4001.htm" />
@@ -7485,16 +7697,16 @@
   </HelpKINode>
   <HelpKINode Title="TimeBeforeReset property" Url="html/47d62c39-6a98-2b92-201e-9cc29bac3ee3.htm" />
   <HelpKINode Title="Timeout property" Url="html/39742520-77e7-67db-1e67-4739a5382953.htm" />
-  <HelpKINode Title="Timestamp field">
-    <HelpKINode Title="RuyiMouseInput.Isset.Timestamp Field" Url="html/593c8c58-7132-bddd-1882-c88e80b0ca60.htm" />
-    <HelpKINode Title="RuyiJoystickInput.Isset.Timestamp Field" Url="html/ba061b82-2416-b6c5-c7e0-0590f12489a5.htm" />
-    <HelpKINode Title="RuyiKeyboardInput.Isset.Timestamp Field" Url="html/637d7025-88d8-5087-d0ff-48d61052481d.htm" />
-  </HelpKINode>
   <HelpKINode Title="timestamp field">
+    <HelpKINode Title="InputActionTriggered.Isset.timestamp Field" Url="html/34c5a872-0603-1ed6-0091-91ad20e5662a.htm" />
     <HelpKINode Title="AxisActionTriggered.Isset.timestamp Field" Url="html/46192a9a-52af-5110-00c6-78137dd02eda.htm" />
     <HelpKINode Title="InputActionEvent.Isset.timestamp Field" Url="html/f62794e5-4ce8-54ae-5a9c-8337dbc45907.htm" />
-    <HelpKINode Title="InputActionTriggered.Isset.timestamp Field" Url="html/34c5a872-0603-1ed6-0091-91ad20e5662a.htm" />
     <HelpKINode Title="RuyiNetTelemetrySessionResponse.Data.timestamp Field" Url="html/bd2d2915-c05f-60c5-a354-5e3319f10b10.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Timestamp field">
+    <HelpKINode Title="RuyiJoystickInput.Isset.Timestamp Field" Url="html/ba061b82-2416-b6c5-c7e0-0590f12489a5.htm" />
+    <HelpKINode Title="RuyiKeyboardInput.Isset.Timestamp Field" Url="html/637d7025-88d8-5087-d0ff-48d61052481d.htm" />
+    <HelpKINode Title="RuyiMouseInput.Isset.Timestamp Field" Url="html/593c8c58-7132-bddd-1882-c88e80b0ca60.htm" />
   </HelpKINode>
   <HelpKINode Title="Timestamp property">
     <HelpKINode Title="AxisActionTriggered.Timestamp Property " Url="html/f43ea5a0-1225-708a-bbcf-f7691a4499ca.htm" />
@@ -7561,11 +7773,13 @@
     <HelpKINode Title="CategoryNode.ToString Method " Url="html/f380613a-df11-e080-f996-df1dbbace4ca.htm" />
     <HelpKINode Title="dataListItem.ToString Method " Url="html/adf3b72e-9ce7-ff3c-0ce1-b55317eee822.htm" />
     <HelpKINode Title="ErrorException.ToString Method " Url="html/b2121909-3a39-6d9a-42b0-cbea8167fc36.htm" />
+    <HelpKINode Title="EventNotification.ToString Method " Url="html/b116111d-0411-ddc0-ad77-755d929f6b64.htm" />
     <HelpKINode Title="ExternalErrorInfos.ToString Method " Url="html/5b13f34b-7dd4-cadf-5205-b9d16e567a80.htm" />
     <HelpKINode Title="Factor(TValue).ToString Method " Url="html/11f1364e-a372-a4e2-0e4b-d3581871186f.htm" />
     <HelpKINode Title="File.ToString Method " Url="html/a53174b3-1f47-8997-d888-7b9292098bb3.htm" />
     <HelpKINode Title="FileUploadFailedResult.ToString Method " Url="html/7b7a5896-4fb1-b831-52aa-377167943461.htm" />
     <HelpKINode Title="FileUploadSuccessResult.ToString Method " Url="html/f512052e-ff22-ee60-d4f1-6a0cda44d898.htm" />
+    <HelpKINode Title="GamepadInfo.ToString Method " Url="html/4bd405cc-1384-43fd-3fff-7bc3433c78fe.htm" />
     <HelpKINode Title="GaussianDistribution.ToString Method " Url="html/cebf1047-72d1-a574-1c78-d2932736b30b.htm" />
     <HelpKINode Title="GetLocalPathResult.ToString Method " Url="html/12c64f60-69f3-6a7b-9bca-b4866d430f65.htm" />
     <HelpKINode Title="InputActionEvent.ToString Method " Url="html/fb17e62e-19eb-f2d7-c288-cfb21b79d852.htm" />
@@ -7575,7 +7789,9 @@
     <HelpKINode Title="MediaFile.ToString Method " Url="html/ad12dee6-c7bd-40b9-dff4-add799c8d000.htm" />
     <HelpKINode Title="MediaFileEvent.ToString Method " Url="html/2a8fc614-39d7-c2bf-1cb8-353e4e9559dd.htm" />
     <HelpKINode Title="Message(T).ToString Method " Url="html/92b97436-5e17-3064-4155-bfaa4ce2459e.htm" />
+    <HelpKINode Title="ModuleBaseInfo.ToString Method " Url="html/5a5d6dc6-060d-c6f6-54b2-a328a50726d6.htm" />
     <HelpKINode Title="ModuleSetting.ToString Method " Url="html/9868acb2-8af8-61c4-e42f-ca5f849581b4.htm" />
+    <HelpKINode Title="NetworkConnectionStatus.ToString Method " Url="html/403e3090-75c9-c4c6-5d7d-3c9961fa2429.htm" />
     <HelpKINode Title="NodeList.ToString Method " Url="html/b950170a-2f5f-8bf5-ad70-a4f319658845.htm" />
     <HelpKINode Title="notification.ToString Method " Url="html/a23234d0-9974-3915-5ecd-5ab3226e899b.htm" />
     <HelpKINode Title="NotifyTakeScreenShot.ToString Method " Url="html/91fddcca-4009-a3e8-3cf6-d46b7e1557cb.htm" />
@@ -7584,6 +7800,7 @@
     <HelpKINode Title="Player(T).ToString Method " Url="html/76e03d6a-889a-d8be-899c-8c7adedf81db.htm" />
     <HelpKINode Title="PlayMsg.ToString Method " Url="html/5522db52-4b86-04a5-ff8f-45f546ae52dd.htm" />
     <HelpKINode Title="PopupNotification.ToString Method " Url="html/02f70ae0-4d44-1ffc-9e4f-1c1ce140c207.htm" />
+    <HelpKINode Title="PubHeader.ToString Method " Url="html/f9760ce1-9416-352f-73a5-ade58037d171.htm" />
     <HelpKINode Title="QueryMsg.ToString Method " Url="html/0cb507de-ddb6-2a45-be03-0f9b15542bed.htm" />
     <HelpKINode Title="QueryResultMsg.ToString Method " Url="html/d6270e56-9972-d555-4c05-3c25635593f4.htm" />
     <HelpKINode Title="range.ToString Method " Url="html/123cdd67-8102-09f9-bfb2-0000071a814a.htm" />
@@ -7603,7 +7820,6 @@
     <HelpKINode Title="ServiceLaunchEvent.ToString Method " Url="html/e7a5ffe4-61e0-2da5-63bd-fe0154673c70.htm" />
     <HelpKINode Title="SettingCategory.ToString Method " Url="html/e8d3acb9-e9f3-e0f8-8f50-bc7dd00d8c7e.htm" />
     <HelpKINode Title="SettingItem.ToString Method " Url="html/9650c4ce-d997-7182-89b1-af1e0fd69313.htm" />
-    <HelpKINode Title="SettingItemNotification.ToString Method " Url="html/3abb9cde-0eea-e742-c726-fca7b6e6a545.htm" />
     <HelpKINode Title="SettingSearchResult.ToString Method " Url="html/054b699d-3801-cf18-5804-d8e6cb669fee.htm" />
     <HelpKINode Title="SettingTree.ToString Method " Url="html/01fc10b9-42b8-c13a-b673-029bad61a5ac.htm" />
     <HelpKINode Title="SettingValue.ToString Method " Url="html/5809b861-5860-5485-476f-b0d836adb79f.htm" />
@@ -7859,18 +8075,18 @@
   <HelpKINode Title="UserExists property" Url="html/8b9ef913-3278-7f31-ca98-7421f8afe025.htm" />
   <HelpKINode Title="UserFileService property" Url="html/818a856b-074f-f8f7-4b48-74156ec85be6.htm" />
   <HelpKINode Title="UserGender enumeration" Url="html/518927d0-b54c-1c12-8074-104592ef7858.htm" />
-  <HelpKINode Title="userId field">
-    <HelpKINode Title="InputActionEvent.Isset.userId Field" Url="html/ded887f2-2da2-90c6-680a-520b2be4e8f0.htm" />
-    <HelpKINode Title="UserInfo_Public.Isset.userId Field" Url="html/f6f4c47e-8190-eb35-2444-b8d6466787b6.htm" />
-    <HelpKINode Title="InputActionTriggered.Isset.userId Field" Url="html/c559b747-bff2-25a1-a045-9a2051cc772e.htm" />
-    <HelpKINode Title="UserEvent.Isset.userId Field" Url="html/f24aadb1-3807-ccba-e2a7-8f72d71ddaa5.htm" />
-    <HelpKINode Title="AxisActionTriggered.Isset.userId Field" Url="html/56f4355e-d1e7-5c81-d179-7a2e370f94a0.htm" />
-  </HelpKINode>
   <HelpKINode Title="UserId field">
     <HelpKINode Title="RuyiGamePadInput.Isset.UserId Field" Url="html/24ba11af-ddb3-6b41-9c9e-68acdb03af93.htm" />
     <HelpKINode Title="RuyiJoystickInput.Isset.UserId Field" Url="html/468c7be1-5ca6-3874-c763-e1cec5c05bb7.htm" />
-    <HelpKINode Title="RuyiKeyboardInput.Isset.UserId Field" Url="html/1b84ca68-03a0-26a2-c833-31f070e01214.htm" />
     <HelpKINode Title="RuyiMouseInput.Isset.UserId Field" Url="html/f2629128-4264-7864-4d47-2982f7674ed5.htm" />
+    <HelpKINode Title="RuyiKeyboardInput.Isset.UserId Field" Url="html/1b84ca68-03a0-26a2-c833-31f070e01214.htm" />
+  </HelpKINode>
+  <HelpKINode Title="userId field">
+    <HelpKINode Title="InputActionEvent.Isset.userId Field" Url="html/ded887f2-2da2-90c6-680a-520b2be4e8f0.htm" />
+    <HelpKINode Title="InputActionTriggered.Isset.userId Field" Url="html/c559b747-bff2-25a1-a045-9a2051cc772e.htm" />
+    <HelpKINode Title="UserInfo_Public.Isset.userId Field" Url="html/f6f4c47e-8190-eb35-2444-b8d6466787b6.htm" />
+    <HelpKINode Title="AxisActionTriggered.Isset.userId Field" Url="html/56f4355e-d1e7-5c81-d179-7a2e370f94a0.htm" />
+    <HelpKINode Title="UserEvent.Isset.userId Field" Url="html/f24aadb1-3807-ccba-e2a7-8f72d71ddaa5.htm" />
   </HelpKINode>
   <HelpKINode Title="UserId property">
     <HelpKINode Title="AxisActionTriggered.UserId Property " Url="html/467c1fa2-085d-2e0f-7cb2-965c02f161d3.htm" />
@@ -7941,12 +8157,12 @@
   <HelpKINode Title="validation field" Url="html/7f80495e-5f72-f9fc-1e03-236db9d3c003.htm" />
   <HelpKINode Title="Validation property" Url="html/26615685-5c3e-0ff0-e88f-9e36a3fcb8f0.htm" />
   <HelpKINode Title="VALIDATOR enumeration member" Url="html/fed01917-bdcd-1fbf-6740-db16dbb53d04.htm" />
-  <HelpKINode Title="value field" Url="html/6e5f7bb1-8147-2e37-7a5a-2c9869660713.htm" />
   <HelpKINode Title="Value field">
     <HelpKINode Title="RuyiJoystickInput.Isset.Value Field" Url="html/adb29bf1-1856-8b7c-642a-393ac8147f09.htm" />
     <HelpKINode Title="RuyiKeyboardInput.Isset.Value Field" Url="html/07d0a584-39ef-88f7-f430-48b9cdde73b8.htm" />
     <HelpKINode Title="RuyiMouseInput.Isset.Value Field" Url="html/4d3c2449-622d-2a72-accf-189c1695a3d0.htm" />
   </HelpKINode>
+  <HelpKINode Title="value field" Url="html/6e5f7bb1-8147-2e37-7a5a-2c9869660713.htm" />
   <HelpKINode Title="Value property">
     <HelpKINode Title="DefaultVariable(TValue).Value Property " Url="html/17def6c8-4359-326a-f5f6-8734240a795d.htm" />
     <HelpKINode Title="Message(T).Value Property " Url="html/e821d229-129f-7f2e-7cc2-7614b14040d6.htm" />
@@ -8010,14 +8226,14 @@
     <HelpKINode Title="history" Url="html/02ab61b8-7e08-4304-b94d-501fbafea82b.htm" />
   </HelpKINode>
   <HelpKINode Title="version field">
-    <HelpKINode Title="ModuleSetting.Isset.version Field" Url="html/72727731-0283-acb0-d640-b0d4416c3d8a.htm" />
-    <HelpKINode Title="RuyiNetGetFriendsVideosResponse.Data.Entity.version Field" Url="html/ff8c8ea6-b205-0c7f-7353-98fc79669b16.htm" />
-    <HelpKINode Title="RuyiNetResponseGroup.version Field" Url="html/8d6d7c54-e4b5-eded-5a1f-94d9926cb15a.htm" />
+    <HelpKINode Title="ModuleBaseInfo.Isset.version Field" Url="html/999f1cf3-1d58-f5a6-3e46-9902fbf37367.htm" />
     <HelpKINode Title="RuyiNetEntityData.version Field" Url="html/3e51a40b-b00c-a5be-d497-379449505c37.htm" />
+    <HelpKINode Title="RuyiNetResponseGroup.version Field" Url="html/8d6d7c54-e4b5-eded-5a1f-94d9926cb15a.htm" />
+    <HelpKINode Title="RuyiNetGetFriendsVideosResponse.Data.Entity.version Field" Url="html/ff8c8ea6-b205-0c7f-7353-98fc79669b16.htm" />
   </HelpKINode>
   <HelpKINode Title="Version field" Url="html/b6088503-7d2e-c294-365b-a78b40bfabb5.htm" />
   <HelpKINode Title="Version property">
-    <HelpKINode Title="ModuleSetting.Version Property " Url="html/cb3a8a21-c049-c3f5-d94c-e2d52ceff108.htm" />
+    <HelpKINode Title="ModuleBaseInfo.Version Property " Url="html/453ffb98-ff0b-4dca-3e09-b9514b284691.htm" />
     <HelpKINode Title="RuyiNetEntity.Version Property " Url="html/f93d4a64-1c6b-b96f-7067-f3847303d2fa.htm" />
     <HelpKINode Title="SettingSearchResult.Version Property " Url="html/ec5c4fad-c43d-fb1c-5801-896faf3cd88c.htm" />
   </HelpKINode>
@@ -8129,10 +8345,12 @@
     <HelpKINode Title="CategoryNode.Write Method " Url="html/bca6ec4d-0968-0bd8-5b6b-6a10638eb115.htm" />
     <HelpKINode Title="dataListItem.Write Method " Url="html/e70590c0-1bee-99a0-d0e5-860c02c75015.htm" />
     <HelpKINode Title="ErrorException.Write Method " Url="html/6bbf27bc-b3a5-c0eb-602b-721022a81398.htm" />
+    <HelpKINode Title="EventNotification.Write Method " Url="html/338b6181-67ba-f0df-ed22-250e49969791.htm" />
     <HelpKINode Title="ExternalErrorInfos.Write Method " Url="html/12a01d07-68ac-4ac6-70c8-862dadf331fd.htm" />
     <HelpKINode Title="File.Write Method " Url="html/eea0e9ea-928a-ca7f-e5a5-5f52cd22310f.htm" />
     <HelpKINode Title="FileUploadFailedResult.Write Method " Url="html/003fd8fa-80a7-1916-2db8-5ee0e517d360.htm" />
     <HelpKINode Title="FileUploadSuccessResult.Write Method " Url="html/4dd0532d-dee2-2c93-231e-fdbd6029c322.htm" />
+    <HelpKINode Title="GamepadInfo.Write Method " Url="html/d9250490-6387-6256-9c3e-6e851c6f0b75.htm" />
     <HelpKINode Title="GetLocalPathResult.Write Method " Url="html/2469b5f8-628d-e829-b2c1-2ce7e0ce7b76.htm" />
     <HelpKINode Title="InputActionEvent.Write Method " Url="html/e2a86987-00ea-4e6a-822b-feab685d6c9f.htm" />
     <HelpKINode Title="InputActionTriggered.Write Method " Url="html/86d52fd7-f955-7dc1-cfcc-380ab9b60d9d.htm" />
@@ -8140,7 +8358,9 @@
     <HelpKINode Title="LanguageChangedMsg.Write Method " Url="html/e1a4dca7-4ea0-b5d9-2f94-455d5ec1473a.htm" />
     <HelpKINode Title="MediaFile.Write Method " Url="html/105b9895-68d4-0b1c-6b28-0747d0b70286.htm" />
     <HelpKINode Title="MediaFileEvent.Write Method " Url="html/88e26e24-fefe-c676-e122-31ccc44df237.htm" />
+    <HelpKINode Title="ModuleBaseInfo.Write Method " Url="html/9322e4fb-984f-732a-27c5-b3ef94d6ce56.htm" />
     <HelpKINode Title="ModuleSetting.Write Method " Url="html/cc5c7b7d-97fe-bb1c-ed48-fec14a44b710.htm" />
+    <HelpKINode Title="NetworkConnectionStatus.Write Method " Url="html/739f1e75-41b5-651c-8d53-b7db5c44f1db.htm" />
     <HelpKINode Title="NodeList.Write Method " Url="html/8594bca6-5b85-054d-03c5-776407f4ac5e.htm" />
     <HelpKINode Title="notification.Write Method " Url="html/537f9b5c-6393-553a-1c38-22929c998dd1.htm" />
     <HelpKINode Title="NotifyTakeScreenShot.Write Method " Url="html/c54a6ee5-6931-d204-91e3-d73b40b981a2.htm" />
@@ -8148,6 +8368,7 @@
     <HelpKINode Title="PlaybackProgressMsg.Write Method " Url="html/e2954e5f-2d9b-df7b-0e73-a67c8237d243.htm" />
     <HelpKINode Title="PlayMsg.Write Method " Url="html/38dcf8a6-b955-6b2e-c6e5-e3244874f374.htm" />
     <HelpKINode Title="PopupNotification.Write Method " Url="html/85029cd1-204f-a670-06f1-d931e6937528.htm" />
+    <HelpKINode Title="PubHeader.Write Method " Url="html/4af752ce-c627-e783-1f86-cf10cd5b2cfd.htm" />
     <HelpKINode Title="QueryMsg.Write Method " Url="html/d9f3fa66-0691-7a76-ffa4-8869bb2a14b6.htm" />
     <HelpKINode Title="QueryResultMsg.Write Method " Url="html/dbe15839-2709-b5f1-d463-e87dd178408d.htm" />
     <HelpKINode Title="range.Write Method " Url="html/9c6c4c8d-8fd8-7ccc-0925-cea40a187763.htm" />
@@ -8165,7 +8386,6 @@
     <HelpKINode Title="ServiceLaunchEvent.Write Method " Url="html/0ca27478-cf69-8676-c8e1-0ad170e5457a.htm" />
     <HelpKINode Title="SettingCategory.Write Method " Url="html/9921093a-b166-962c-2b31-a1960757092f.htm" />
     <HelpKINode Title="SettingItem.Write Method " Url="html/e23f3031-919d-6cd5-1109-73e3aa747f1b.htm" />
-    <HelpKINode Title="SettingItemNotification.Write Method " Url="html/e7622dcb-279f-f638-a040-1ff9653aed20.htm" />
     <HelpKINode Title="SettingSearchResult.Write Method " Url="html/325dc6f7-ca04-0bd7-ae2b-7271484e71ea.htm" />
     <HelpKINode Title="SettingTree.Write Method " Url="html/0382c185-ee83-495c-9e73-cb31ded27cfe.htm" />
     <HelpKINode Title="SettingValue.Write Method " Url="html/390e12af-df1c-f78b-1319-dd0354b70417.htm" />
@@ -8213,10 +8433,12 @@
     <HelpKINode Title="CategoryNode.__isset Field" Url="html/13e80063-3c1c-e7ae-5c3b-57919a52a767.htm" />
     <HelpKINode Title="dataListItem.__isset Field" Url="html/48a7b771-5f85-9bd2-36e7-abc798a60e0a.htm" />
     <HelpKINode Title="ErrorException.__isset Field" Url="html/a9a38301-b781-1aac-7e02-1438362caec5.htm" />
+    <HelpKINode Title="EventNotification.__isset Field" Url="html/b8b4d612-d047-9ef0-c9d3-6576e2e7d68b.htm" />
     <HelpKINode Title="ExternalErrorInfos.__isset Field" Url="html/77428a8b-88c0-f6d9-771a-48aab74c3f03.htm" />
     <HelpKINode Title="File.__isset Field" Url="html/c4d8557d-15d8-445e-1240-dde48124b626.htm" />
     <HelpKINode Title="FileUploadFailedResult.__isset Field" Url="html/fc6241c1-b460-72a0-cd7e-eba94db68d40.htm" />
     <HelpKINode Title="FileUploadSuccessResult.__isset Field" Url="html/8591949f-b672-3173-4590-c7cf9d610894.htm" />
+    <HelpKINode Title="GamepadInfo.__isset Field" Url="html/35f8f695-bd52-03fd-3b27-eb9ab5cda60f.htm" />
     <HelpKINode Title="GetLocalPathResult.__isset Field" Url="html/a3754449-b56f-e00a-70b5-55e6841f0bfd.htm" />
     <HelpKINode Title="InputActionEvent.__isset Field" Url="html/cd8a79ff-4d29-c780-b342-d137e1daab29.htm" />
     <HelpKINode Title="InputActionTriggered.__isset Field" Url="html/e713f1d0-7b2d-b096-98da-28b757cc832a.htm" />
@@ -8224,13 +8446,16 @@
     <HelpKINode Title="LanguageChangedMsg.__isset Field" Url="html/19eb5c88-509b-03cd-874b-d4e59aaaaa11.htm" />
     <HelpKINode Title="MediaFile.__isset Field" Url="html/2ecad36a-8db2-fe7b-87aa-94b5e6934ec4.htm" />
     <HelpKINode Title="MediaFileEvent.__isset Field" Url="html/1eb536b7-c730-a17f-54ec-2b24f8af5734.htm" />
+    <HelpKINode Title="ModuleBaseInfo.__isset Field" Url="html/022003de-22bd-91a6-432f-fb562af1f512.htm" />
     <HelpKINode Title="ModuleSetting.__isset Field" Url="html/d1791bc7-a4b1-b50b-5194-4e81aeb41907.htm" />
+    <HelpKINode Title="NetworkConnectionStatus.__isset Field" Url="html/d2417fa6-d1e0-ce52-92ae-1f4153468e56.htm" />
     <HelpKINode Title="NodeList.__isset Field" Url="html/b79f5bcc-962a-443a-9431-d560d5e7d340.htm" />
     <HelpKINode Title="notification.__isset Field" Url="html/1b77ab46-cf9b-0585-e62e-7362f838018c.htm" />
     <HelpKINode Title="PauseMsg.__isset Field" Url="html/f3eaf1ed-0941-494c-e601-222e10f1b114.htm" />
     <HelpKINode Title="PlaybackProgressMsg.__isset Field" Url="html/7e467401-10e8-6c82-c80a-be3256162244.htm" />
     <HelpKINode Title="PlayMsg.__isset Field" Url="html/7194c903-e4af-2707-42c8-66fc8d079a17.htm" />
     <HelpKINode Title="PopupNotification.__isset Field" Url="html/8b2a88e6-0750-fd7f-a3dc-2454ebdbd906.htm" />
+    <HelpKINode Title="PubHeader.__isset Field" Url="html/16eb8ca7-0820-4d74-890d-b3afb3816ac0.htm" />
     <HelpKINode Title="QueryMsg.__isset Field" Url="html/47a14660-1804-1533-7c55-17d51617c43c.htm" />
     <HelpKINode Title="QueryResultMsg.__isset Field" Url="html/1b28bfa7-435e-6ffa-fb7c-ece8ea7fdc66.htm" />
     <HelpKINode Title="range.__isset Field" Url="html/59dbcdd6-8980-b493-18f6-3ad8911dae4f.htm" />
@@ -8248,7 +8473,6 @@
     <HelpKINode Title="ServiceLaunchEvent.__isset Field" Url="html/25520322-1d2a-021b-0b39-511b6cf19552.htm" />
     <HelpKINode Title="SettingCategory.__isset Field" Url="html/cb478174-503e-ab1e-e4a9-816a87100906.htm" />
     <HelpKINode Title="SettingItem.__isset Field" Url="html/f35373da-76a8-a768-c666-fa3827087f0b.htm" />
-    <HelpKINode Title="SettingItemNotification.__isset Field" Url="html/bd4574f5-9cb4-88f7-e910-348e820db78d.htm" />
     <HelpKINode Title="SettingSearchResult.__isset Field" Url="html/30124721-5a7b-4478-16b7-48dc766efa5d.htm" />
     <HelpKINode Title="SettingTree.__isset Field" Url="html/f51480a8-3735-213d-6d8c-d0e7040a0e21.htm" />
     <HelpKINode Title="SettingValue.__isset Field" Url="html/bf75eacc-c329-93d6-eb40-dc18152cd68c.htm" />

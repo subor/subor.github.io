@@ -4,6 +4,7 @@ var searchData=
   ['eplatform',['ePlatform',['../struct_ruyi_1_1_s_d_k_1_1_common_type_1_1e_platform.html',1,'Ruyi::SDK::CommonType']]],
   ['errorexception',['ErrorException',['../class_ruyi_1_1_s_d_k_1_1_common_type_1_1_error_exception.html',1,'Ruyi::SDK::CommonType']]],
   ['euitype',['eUIType',['../struct_ruyi_1_1_s_d_k_1_1_common_type_1_1e_u_i_type.html',1,'Ruyi::SDK::CommonType']]],
+  ['eventnotification',['EventNotification',['../class_ruyi_1_1_s_d_k_1_1_common_type_1_1_event_notification.html',1,'Ruyi::SDK::CommonType']]],
   ['externaloverlaymanagerservice_5ftakescreenshot_5fargs',['ExternalOverlayManagerService_TakeScreenShot_args',['../class_ruyi_1_1_s_d_k_1_1_overlay_manager_external_1_1_external_overlay_manager_service___take_screen_shot__args.html',1,'Ruyi::SDK::OverlayManagerExternal']]],
   ['externaloverlaymanagerservice_5ftakescreenshot_5fpargs',['ExternalOverlayManagerService_TakeScreenShot_pargs',['../class_ruyi_1_1_s_d_k_1_1_overlay_manager_external_1_1_external_overlay_manager_service___take_screen_shot__pargs.html',1,'Ruyi::SDK::OverlayManagerExternal']]],
   ['externaloverlaymanagerservice_5ftakescreenshot_5fpresult',['ExternalOverlayManagerService_TakeScreenShot_presult',['../class_ruyi_1_1_s_d_k_1_1_overlay_manager_external_1_1_external_overlay_manager_service___take_screen_shot__presult.html',1,'Ruyi::SDK::OverlayManagerExternal']]],

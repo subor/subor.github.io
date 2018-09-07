@@ -93,6 +93,12 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a34586e72c3b2452162db988656fee9ff"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a8eb06d51b07c00f98d35fb47ce666d73"><td class="memItemLeft" align="right" valign="top">virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ruyi_1_1_s_d_k_1_1_input_manager_1_1_input_manager_service_multiface.html#a8eb06d51b07c00f98d35fb47ce666d73">~InputManagerServiceMultiface</a> ()</td></tr>
 <tr class="separator:a8eb06d51b07c00f98d35fb47ce666d73"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a95139f07c40a9ef940e5225b127b3c9c"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ruyi_1_1_s_d_k_1_1_input_manager_1_1_input_manager_service_multiface.html#a95139f07c40a9ef940e5225b127b3c9c">GetConnectedGamepads</a> (std::vector&lt; ::<a class="el" href="class_ruyi_1_1_s_d_k_1_1_input_manager_1_1_gamepad_info.html">Ruyi::SDK::InputManager::GamepadInfo</a> &gt; &amp;_return)</td></tr>
+<tr class="separator:a95139f07c40a9ef940e5225b127b3c9c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aabbbfb5ad4c2a8d94100107a80b23de4"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ruyi_1_1_s_d_k_1_1_input_manager_1_1_input_manager_service_multiface.html#aabbbfb5ad4c2a8d94100107a80b23de4">SetGamepadVibration</a> (const std::string &amp;deviceId, const int8_t motor1Value, const int8_t motor1Time, const int8_t motor2Value, const int8_t motor2Time)</td></tr>
+<tr class="separator:aabbbfb5ad4c2a8d94100107a80b23de4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7378740a196c843ea375426fcc37a685"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ruyi_1_1_s_d_k_1_1_input_manager_1_1_input_manager_service_multiface.html#a7378740a196c843ea375426fcc37a685">SetGamepadLight</a> (const std::string &amp;deviceId, const int8_t RValue, const int8_t GValue, const int8_t BValue)</td></tr>
+<tr class="separator:a7378740a196c843ea375426fcc37a685"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9a1af475b73a692025e859c5bb8bbc9f"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ruyi_1_1_s_d_k_1_1_input_manager_1_1_input_manager_service_multiface.html#a9a1af475b73a692025e859c5bb8bbc9f">SetRuyiControllerStatus</a> (const int8_t channel, const bool enableR, const bool enableG, const bool enableB, const bool enableMotor1, const bool enableMotor2, const bool shutdown, const int8_t RValue, const int8_t GValue, const int8_t BValue, const int8_t motor1Value, const int8_t motor1Time, const int8_t motor2Value, const int8_t motor2Time)</td></tr>
 <tr class="separator:a9a1af475b73a692025e859c5bb8bbc9f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header pub_methods_class_ruyi_1_1_s_d_k_1_1_input_manager_1_1_input_manager_service_if"><td colspan="2" onclick="javascript:toggleInherit('pub_methods_class_ruyi_1_1_s_d_k_1_1_input_manager_1_1_input_manager_service_if')"><img src="closed.png" alt="-"/>&#160;Public Member Functions inherited from <a class="el" href="class_ruyi_1_1_s_d_k_1_1_input_manager_1_1_input_manager_service_if.html">Ruyi::SDK::InputManager::InputManagerServiceIf</a></td></tr>
@@ -215,6 +221,162 @@ Protected Attributes</h2></td></tr>
 
 </div>
 </div>
+<a id="a95139f07c40a9ef940e5225b127b3c9c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a95139f07c40a9ef940e5225b127b3c9c">&#9670;&nbsp;</a></span>GetConnectedGamepads()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Ruyi::SDK::InputManager::InputManagerServiceMultiface::GetConnectedGamepads </td>
+          <td>(</td>
+          <td class="paramtype">std::vector&lt; ::<a class="el" href="class_ruyi_1_1_s_d_k_1_1_input_manager_1_1_gamepad_info.html">Ruyi::SDK::InputManager::GamepadInfo</a> &gt; &amp;&#160;</td>
+          <td class="paramname"><em>_return</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>Get the gamepads that are connected corrently </p>
+
+<p>Implements <a class="el" href="class_ruyi_1_1_s_d_k_1_1_input_manager_1_1_input_manager_service_if.html#a64403799995f589b27514bbb7e931591">Ruyi::SDK::InputManager::InputManagerServiceIf</a>.</p>
+
+</div>
+</div>
+<a id="a7378740a196c843ea375426fcc37a685"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7378740a196c843ea375426fcc37a685">&#9670;&nbsp;</a></span>SetGamepadLight()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool Ruyi::SDK::InputManager::InputManagerServiceMultiface::SetGamepadLight </td>
+          <td>(</td>
+          <td class="paramtype">const std::string &amp;&#160;</td>
+          <td class="paramname"><em>deviceId</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const int8_t&#160;</td>
+          <td class="paramname"><em>RValue</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const int8_t&#160;</td>
+          <td class="paramname"><em>GValue</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const int8_t&#160;</td>
+          <td class="paramname"><em>BValue</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>SetGamepadLight_desc</p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">deviceId</td><td>The device id of the gamepad</td></tr>
+    <tr><td class="paramname">RValue</td><td></td></tr>
+    <tr><td class="paramname">GValue</td><td></td></tr>
+    <tr><td class="paramname">BValue</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p>Implements <a class="el" href="class_ruyi_1_1_s_d_k_1_1_input_manager_1_1_input_manager_service_if.html#ae27b824cb4370259d48c2a3993b0e99d">Ruyi::SDK::InputManager::InputManagerServiceIf</a>.</p>
+
+</div>
+</div>
+<a id="aabbbfb5ad4c2a8d94100107a80b23de4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aabbbfb5ad4c2a8d94100107a80b23de4">&#9670;&nbsp;</a></span>SetGamepadVibration()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool Ruyi::SDK::InputManager::InputManagerServiceMultiface::SetGamepadVibration </td>
+          <td>(</td>
+          <td class="paramtype">const std::string &amp;&#160;</td>
+          <td class="paramname"><em>deviceId</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const int8_t&#160;</td>
+          <td class="paramname"><em>motor1Value</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const int8_t&#160;</td>
+          <td class="paramname"><em>motor1Time</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const int8_t&#160;</td>
+          <td class="paramname"><em>motor2Value</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const int8_t&#160;</td>
+          <td class="paramname"><em>motor2Time</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>Activate the vibration of gamepad</p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">deviceId</td><td>The deviceid of the gamepad</td></tr>
+    <tr><td class="paramname">motor1Value</td><td></td></tr>
+    <tr><td class="paramname">motor1Time</td><td></td></tr>
+    <tr><td class="paramname">motor2Value</td><td></td></tr>
+    <tr><td class="paramname">motor2Time</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p>Implements <a class="el" href="class_ruyi_1_1_s_d_k_1_1_input_manager_1_1_input_manager_service_if.html#aaaca487e6f48a57bdd03f6bbaabe213e">Ruyi::SDK::InputManager::InputManagerServiceIf</a>.</p>
+
+</div>
+</div>
 <a id="a9a1af475b73a692025e859c5bb8bbc9f"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a9a1af475b73a692025e859c5bb8bbc9f">&#9670;&nbsp;</a></span>SetRuyiControllerStatus()</h2>
 
@@ -320,6 +482,26 @@ Protected Attributes</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
+<p>Obsolete. Temporary api the change the ruyi controller's state, will be removed later.</p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">channel</td><td></td></tr>
+    <tr><td class="paramname">enableR</td><td></td></tr>
+    <tr><td class="paramname">enableG</td><td></td></tr>
+    <tr><td class="paramname">enableB</td><td></td></tr>
+    <tr><td class="paramname">enableMotor1</td><td></td></tr>
+    <tr><td class="paramname">enableMotor2</td><td></td></tr>
+    <tr><td class="paramname">shutdown</td><td></td></tr>
+    <tr><td class="paramname">RValue</td><td></td></tr>
+    <tr><td class="paramname">GValue</td><td></td></tr>
+    <tr><td class="paramname">BValue</td><td></td></tr>
+    <tr><td class="paramname">motor1Value</td><td></td></tr>
+    <tr><td class="paramname">motor1Time</td><td></td></tr>
+    <tr><td class="paramname">motor2Value</td><td></td></tr>
+    <tr><td class="paramname">motor2Time</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
 
 <p>Implements <a class="el" href="class_ruyi_1_1_s_d_k_1_1_input_manager_1_1_input_manager_service_if.html#a992d8482db9f4e9ef1fadc7842f4d93f">Ruyi::SDK::InputManager::InputManagerServiceIf</a>.</p>
 
