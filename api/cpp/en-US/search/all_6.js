@@ -55,6 +55,7 @@ var searchData=
   ['friend_5fgetsummarydataforfriends',['Friend_GetSummaryDataForFriends',['../class_brain_cloud_service_handler.html#a9aced495d4c34b5663246b7bdef85138',1,'BrainCloudServiceHandler']]],
   ['friend_5fgetsummarydataforprofileid',['Friend_GetSummaryDataForProfileId',['../class_brain_cloud_service_handler.html#abbdbdd87dc4320c8aa1df92bd584b37f',1,'BrainCloudServiceHandler']]],
   ['friend_5fgetsummarydataforprofileids',['Friend_GetSummaryDataForProfileIds',['../class_brain_cloud_service_handler.html#a8ee7f1f7d518998e9f98051b48d8c991',1,'BrainCloudServiceHandler']]],
+  ['friend_5fgetsummarydataforrecentlymetplayers',['Friend_GetSummaryDataForRecentlyMetPlayers',['../class_brain_cloud_service_handler.html#a43efe5e12e1169eea0fb2e438adb13d8',1,'BrainCloudServiceHandler']]],
   ['friend_5fgetusersonlinestatus',['Friend_GetUsersOnlineStatus',['../class_brain_cloud_service_handler.html#a39824d29f4b1bc906ed32f533698c0b3',1,'BrainCloudServiceHandler']]],
   ['friend_5flistfriendinvitationsreceived',['Friend_ListFriendInvitationsReceived',['../class_brain_cloud_service_handler.html#aa0f16306d500d6bdb962dcc6d74cd45d',1,'BrainCloudServiceHandler']]],
   ['friend_5flistfriendinvitationssent',['Friend_ListFriendInvitationsSent',['../class_brain_cloud_service_handler.html#a6d72497b0c9adbeee6608ce1cc6f9e38',1,'BrainCloudServiceHandler']]],
@@ -66,6 +67,8 @@ var searchData=
   ['friend_5fremovefriend',['Friend_RemoveFriend',['../class_brain_cloud_service_handler.html#a23302167e18906bf9e5de3ea90a88476',1,'BrainCloudServiceHandler']]],
   ['friend_5fremovefriends',['Friend_RemoveFriends',['../class_brain_cloud_service_handler.html#ac32786af396f1fc5819aef678ab7d94a',1,'BrainCloudServiceHandler']]],
   ['friend_5fsendfriendinvitation',['Friend_SendFriendInvitation',['../class_brain_cloud_service_handler.html#a129e7f2890618e8b41c0948dd899a5b0',1,'BrainCloudServiceHandler']]],
+  ['friendaccept',['FriendAccept',['../struct_ruyi_1_1_s_d_k_1_1_common_type_1_1_title_main_icon_notification_type.html#aac16420d986acdd7396e62a9b8af5fe3a3e3e6f1d319ab08f5bca614d06a02c82',1,'Ruyi::SDK::CommonType::TitleMainIconNotificationType']]],
+  ['friendrequest',['FriendRequest',['../struct_ruyi_1_1_s_d_k_1_1_common_type_1_1_title_main_icon_notification_type.html#aac16420d986acdd7396e62a9b8af5fe3abad00adcfd792fdef5f202362a783711',1,'Ruyi::SDK::CommonType::TitleMainIconNotificationType']]],
   ['friends',['friends',['../struct_ruyi_1_1_s_d_k_1_1_online_1_1_ruyi_net_friend_list_response_1_1_data_1_1_response.html#abafde8236f3bf69d86aedc5e5fd9a1e8',1,'Ruyi::SDK::Online::RuyiNetFriendListResponse::Data::Response']]],
   ['fromversion',['fromVersion',['../struct_ruyi_1_1_s_d_k_1_1_online_1_1_ruyi_net_get_game_manifest_response_1_1_data_1_1_patch.html#a9c50b364cd3db2b436ea3d54186a2e10',1,'Ruyi::SDK::Online::RuyiNetGetGameManifestResponse::Data::Patch::fromVersion()'],['../struct_ruyi_1_1_s_d_k_1_1_online_1_1_ruyi_net_game_manifest_1_1_patch.html#a5f0701d6edfa04da2a5b32b4cd11c799',1,'Ruyi::SDK::Online::RuyiNetGameManifest::Patch::FromVersion()']]]
 ];

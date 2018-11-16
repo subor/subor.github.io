@@ -21,5 +21,7 @@ var searchData=
   ['forcesliders1',['ForceSliders1',['../struct_ruyi_1_1_s_d_k_1_1_input_manager_1_1_joystick_offset.html#adbe64574f2127a871be6a9b5d77b98d5a11f44d5bf40fc8f509453671f2951e52',1,'Ruyi::SDK::InputManager::JoystickOffset']]],
   ['forcex',['ForceX',['../struct_ruyi_1_1_s_d_k_1_1_input_manager_1_1_joystick_offset.html#adbe64574f2127a871be6a9b5d77b98d5a76013813c85f7eee1d6727e858c8bb43',1,'Ruyi::SDK::InputManager::JoystickOffset']]],
   ['forcey',['ForceY',['../struct_ruyi_1_1_s_d_k_1_1_input_manager_1_1_joystick_offset.html#adbe64574f2127a871be6a9b5d77b98d5a1277405d7219a8ef8cd23c6bcc54d48a',1,'Ruyi::SDK::InputManager::JoystickOffset']]],
-  ['forcez',['ForceZ',['../struct_ruyi_1_1_s_d_k_1_1_input_manager_1_1_joystick_offset.html#adbe64574f2127a871be6a9b5d77b98d5ae90c1099fbf94c06e78d994806b6d820',1,'Ruyi::SDK::InputManager::JoystickOffset']]]
+  ['forcez',['ForceZ',['../struct_ruyi_1_1_s_d_k_1_1_input_manager_1_1_joystick_offset.html#adbe64574f2127a871be6a9b5d77b98d5ae90c1099fbf94c06e78d994806b6d820',1,'Ruyi::SDK::InputManager::JoystickOffset']]],
+  ['friendaccept',['FriendAccept',['../struct_ruyi_1_1_s_d_k_1_1_common_type_1_1_title_main_icon_notification_type.html#aac16420d986acdd7396e62a9b8af5fe3a3e3e6f1d319ab08f5bca614d06a02c82',1,'Ruyi::SDK::CommonType::TitleMainIconNotificationType']]],
+  ['friendrequest',['FriendRequest',['../struct_ruyi_1_1_s_d_k_1_1_common_type_1_1_title_main_icon_notification_type.html#aac16420d986acdd7396e62a9b8af5fe3abad00adcfd792fdef5f202362a783711',1,'Ruyi::SDK::CommonType::TitleMainIconNotificationType']]]
 ];

@@ -21,6 +21,7 @@ var searchData=
   ['friend_5fgetsummarydataforfriends',['Friend_GetSummaryDataForFriends',['../class_brain_cloud_service_handler.html#a9aced495d4c34b5663246b7bdef85138',1,'BrainCloudServiceHandler']]],
   ['friend_5fgetsummarydataforprofileid',['Friend_GetSummaryDataForProfileId',['../class_brain_cloud_service_handler.html#abbdbdd87dc4320c8aa1df92bd584b37f',1,'BrainCloudServiceHandler']]],
   ['friend_5fgetsummarydataforprofileids',['Friend_GetSummaryDataForProfileIds',['../class_brain_cloud_service_handler.html#a8ee7f1f7d518998e9f98051b48d8c991',1,'BrainCloudServiceHandler']]],
+  ['friend_5fgetsummarydataforrecentlymetplayers',['Friend_GetSummaryDataForRecentlyMetPlayers',['../class_brain_cloud_service_handler.html#a43efe5e12e1169eea0fb2e438adb13d8',1,'BrainCloudServiceHandler']]],
   ['friend_5fgetusersonlinestatus',['Friend_GetUsersOnlineStatus',['../class_brain_cloud_service_handler.html#a39824d29f4b1bc906ed32f533698c0b3',1,'BrainCloudServiceHandler']]],
   ['friend_5flistfriendinvitationsreceived',['Friend_ListFriendInvitationsReceived',['../class_brain_cloud_service_handler.html#aa0f16306d500d6bdb962dcc6d74cd45d',1,'BrainCloudServiceHandler']]],
   ['friend_5flistfriendinvitationssent',['Friend_ListFriendInvitationsSent',['../class_brain_cloud_service_handler.html#a6d72497b0c9adbeee6608ce1cc6f9e38',1,'BrainCloudServiceHandler']]],

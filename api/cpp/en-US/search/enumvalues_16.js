@@ -9,5 +9,6 @@ var searchData=
   ['webhome',['WebHome',['../struct_ruyi_1_1_s_d_k_1_1_input_manager_1_1_key.html#aac445ba69ee7e6295ed80fb9e2432dbea4dcb2d21567eb523a8d50feae3ba2de1',1,'Ruyi::SDK::InputManager::Key']]],
   ['webrefresh',['WebRefresh',['../struct_ruyi_1_1_s_d_k_1_1_input_manager_1_1_key.html#aac445ba69ee7e6295ed80fb9e2432dbea3ed08396886e6f74e1f505e90441868d',1,'Ruyi::SDK::InputManager::Key']]],
   ['websearch',['WebSearch',['../struct_ruyi_1_1_s_d_k_1_1_input_manager_1_1_key.html#aac445ba69ee7e6295ed80fb9e2432dbea495768900d6e8e5d3182d4936feb68c6',1,'Ruyi::SDK::InputManager::Key']]],
-  ['webstop',['WebStop',['../struct_ruyi_1_1_s_d_k_1_1_input_manager_1_1_key.html#aac445ba69ee7e6295ed80fb9e2432dbeaf40443e3007b89cd5e040bab43ebac0b',1,'Ruyi::SDK::InputManager::Key']]]
+  ['webstop',['WebStop',['../struct_ruyi_1_1_s_d_k_1_1_input_manager_1_1_key.html#aac445ba69ee7e6295ed80fb9e2432dbeaf40443e3007b89cd5e040bab43ebac0b',1,'Ruyi::SDK::InputManager::Key']]],
+  ['weekly',['WEEKLY',['../namespace_ruyi_1_1_s_d_k_1_1_online.html#a01a139b5d192c7efc7487bd24ecca3baae02bdcb0346eae777467601cc73de889',1,'Ruyi::SDK::Online']]]
 ];

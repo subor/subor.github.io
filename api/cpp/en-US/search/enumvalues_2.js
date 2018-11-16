@@ -8,5 +8,6 @@ var searchData=
   ['colon',['Colon',['../struct_ruyi_1_1_s_d_k_1_1_input_manager_1_1_key.html#aac445ba69ee7e6295ed80fb9e2432dbea7e3067836b47f211026b7e439dd34387',1,'Ruyi::SDK::InputManager::Key']]],
   ['comma',['Comma',['../struct_ruyi_1_1_s_d_k_1_1_input_manager_1_1_key.html#aac445ba69ee7e6295ed80fb9e2432dbead9db91871707ae9bdfa9ae0f81a9af44',1,'Ruyi::SDK::InputManager::Key']]],
   ['console',['Console',['../struct_ruyi_1_1_s_d_k_1_1_common_type_1_1e_platform.html#ab4bc4c9c1ec5ab4584a9a836f586f5b5ae7725a82895fb8d5bfa83710893fe906',1,'Ruyi::SDK::CommonType::ePlatform::Console()'],['../class_ruyi_1_1_ruyi_s_d_k_context.html#ab04410b654cabb40e21863491077c751a6d16cd67c9f9dc8fcdfb43afc4bd1134',1,'Ruyi::RuyiSDKContext::Console()']]],
-  ['convert',['Convert',['../struct_ruyi_1_1_s_d_k_1_1_input_manager_1_1_key.html#aac445ba69ee7e6295ed80fb9e2432dbea2452ac0a99ea876d5c4c165d65c0bae5',1,'Ruyi::SDK::InputManager::Key']]]
+  ['convert',['Convert',['../struct_ruyi_1_1_s_d_k_1_1_input_manager_1_1_key.html#aac445ba69ee7e6295ed80fb9e2432dbea2452ac0a99ea876d5c4c165d65c0bae5',1,'Ruyi::SDK::InputManager::Key']]],
+  ['cumulative',['CUMULATIVE',['../namespace_ruyi_1_1_s_d_k_1_1_online.html#aa0ab0254803ab8cc998fbff92dc64c05a520438466a0121e40ad9e801dabcdbb4',1,'Ruyi::SDK::Online']]]
 ];

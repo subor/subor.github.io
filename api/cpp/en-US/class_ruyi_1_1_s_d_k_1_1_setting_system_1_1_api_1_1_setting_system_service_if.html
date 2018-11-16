@@ -22,7 +22,7 @@
  <tr style="height: 56px;">
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">Subor SDK API
-   &#160;<span id="projectnumber">0.9.0</span>
+   &#160;<span id="projectnumber">0.9.2</span>
    </div>
   </td>
  </tr>
@@ -130,6 +130,8 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a3af375dbf1826772c141dd96c0a21d8f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:afaa8c53beccfe0ef37d394b403792a25"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ruyi_1_1_s_d_k_1_1_setting_system_1_1_api_1_1_setting_system_service_if.html#afaa8c53beccfe0ef37d394b403792a25">ConnectToWifi</a> (const std::string &amp;profileName, const std::string &amp;key)=0</td></tr>
 <tr class="separator:afaa8c53beccfe0ef37d394b403792a25"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab638c4b3b8e9660785ff203a90f7dcd1"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ruyi_1_1_s_d_k_1_1_setting_system_1_1_api_1_1_setting_system_service_if.html#ab638c4b3b8e9660785ff203a90f7dcd1">ConnectToAppointedWifi</a> (const std::string &amp;profileName, const std::string &amp;Auth, const std::string &amp;Ciper, const std::string &amp;KeyType, const std::string &amp;key)=0</td></tr>
+<tr class="separator:ab638c4b3b8e9660785ff203a90f7dcd1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:abc2a5bc90cde79e6e785c19a757e7755"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ruyi_1_1_s_d_k_1_1_setting_system_1_1_api_1_1_setting_system_service_if.html#abc2a5bc90cde79e6e785c19a757e7755">GetNetworkSettings</a> (::<a class="el" href="class_ruyi_1_1_s_d_k_1_1_setting_system_1_1_api_1_1_ruyi_network_settings.html">Ruyi::SDK::SettingSystem::Api::RuyiNetworkSettings</a> &amp;_return)=0</td></tr>
 <tr class="separator:abc2a5bc90cde79e6e785c19a757e7755"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aade4fa1a3349717867be71d71ee7e612"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ruyi_1_1_s_d_k_1_1_setting_system_1_1_api_1_1_setting_system_service_if.html#aade4fa1a3349717867be71d71ee7e612">GetNetworkStatus</a> (::<a class="el" href="class_ruyi_1_1_s_d_k_1_1_setting_system_1_1_api_1_1_ruyi_network_status.html">Ruyi::SDK::SettingSystem::Api::RuyiNetworkStatus</a> &amp;_return)=0</td></tr>
@@ -215,6 +217,62 @@ Public Member Functions</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Implemented in <a class="el" href="class_ruyi_1_1_s_d_k_1_1_setting_system_1_1_api_1_1_setting_system_service_concurrent_client.html#a7f6f04acd7c53577ba4aa4a041a17c61">Ruyi::SDK::SettingSystem::Api::SettingSystemServiceConcurrentClient</a>, <a class="el" href="class_ruyi_1_1_s_d_k_1_1_setting_system_1_1_api_1_1_setting_system_service_multiface.html#ab4b271441d60d1294131e0b1168d9895">Ruyi::SDK::SettingSystem::Api::SettingSystemServiceMultiface</a>, <a class="el" href="class_ruyi_1_1_s_d_k_1_1_setting_system_1_1_api_1_1_setting_system_service_client.html#ac71b95c5f094b753b5ec32ddbdf1712b">Ruyi::SDK::SettingSystem::Api::SettingSystemServiceClient</a>, and <a class="el" href="class_ruyi_1_1_s_d_k_1_1_setting_system_1_1_api_1_1_setting_system_service_null.html#a099206878daf7274afe6504cd095de31">Ruyi::SDK::SettingSystem::Api::SettingSystemServiceNull</a>.</p>
+
+</div>
+</div>
+<a id="ab638c4b3b8e9660785ff203a90f7dcd1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab638c4b3b8e9660785ff203a90f7dcd1">&#9670;&nbsp;</a></span>ConnectToAppointedWifi()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual bool Ruyi::SDK::SettingSystem::Api::SettingSystemServiceIf::ConnectToAppointedWifi </td>
+          <td>(</td>
+          <td class="paramtype">const std::string &amp;&#160;</td>
+          <td class="paramname"><em>profileName</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const std::string &amp;&#160;</td>
+          <td class="paramname"><em>Auth</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const std::string &amp;&#160;</td>
+          <td class="paramname"><em>Ciper</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const std::string &amp;&#160;</td>
+          <td class="paramname"><em>KeyType</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const std::string &amp;&#160;</td>
+          <td class="paramname"><em>key</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">pure virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Implemented in <a class="el" href="class_ruyi_1_1_s_d_k_1_1_setting_system_1_1_api_1_1_setting_system_service_concurrent_client.html#a91ee488cf32c7e0c126c6d17eb965420">Ruyi::SDK::SettingSystem::Api::SettingSystemServiceConcurrentClient</a>, <a class="el" href="class_ruyi_1_1_s_d_k_1_1_setting_system_1_1_api_1_1_setting_system_service_multiface.html#a4cf2e6705e83a6152838ea20762750e7">Ruyi::SDK::SettingSystem::Api::SettingSystemServiceMultiface</a>, <a class="el" href="class_ruyi_1_1_s_d_k_1_1_setting_system_1_1_api_1_1_setting_system_service_client.html#afe5257ad96fbdf901e9ca692b0c7e8fd">Ruyi::SDK::SettingSystem::Api::SettingSystemServiceClient</a>, and <a class="el" href="class_ruyi_1_1_s_d_k_1_1_setting_system_1_1_api_1_1_setting_system_service_null.html#a915f80866d34750f29b153d9017862fc">Ruyi::SDK::SettingSystem::Api::SettingSystemServiceNull</a>.</p>
 
 </div>
 </div>

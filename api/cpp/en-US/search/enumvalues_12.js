@@ -1,7 +1,6 @@
 var searchData=
 [
   ['s',['S',['../struct_ruyi_1_1_s_d_k_1_1_input_manager_1_1_key.html#aac445ba69ee7e6295ed80fb9e2432dbea71013ab1b21845124c0fa6479bbabebe',1,'Ruyi::SDK::InputManager::Key']]],
-  ['screenshotinfo',['ScreenshotInfo',['../struct_ruyi_1_1_s_d_k_1_1_common_type_1_1_notification_type.html#aba5a7592b5c630fea0d5c2e42ce9d137a5bf125cdeca776fc94da4f57a87d6912',1,'Ruyi::SDK::CommonType::NotificationType']]],
   ['scrolllock',['ScrollLock',['../struct_ruyi_1_1_s_d_k_1_1_input_manager_1_1_key.html#aac445ba69ee7e6295ed80fb9e2432dbeaece9be22399c96d7851442abba8bbb8f',1,'Ruyi::SDK::InputManager::Key']]],
   ['semicolon',['Semicolon',['../struct_ruyi_1_1_s_d_k_1_1_input_manager_1_1_key.html#aac445ba69ee7e6295ed80fb9e2432dbea23c82a02a673910c79bf68af419b78ba',1,'Ruyi::SDK::InputManager::Key']]],
   ['settingitem',['SettingItem',['../struct_ruyi_1_1_s_d_k_1_1_setting_system_1_1_api_1_1_node_type.html#a4fe81f9cdddf441abc563fc5132a22eea74f4c645f0c3a3cf12c36857687b82c3',1,'Ruyi::SDK::SettingSystem::Api::NodeType']]],
