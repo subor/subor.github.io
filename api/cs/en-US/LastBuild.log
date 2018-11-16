@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
-<shfbBuild product="Sandcastle Help File Builder and Tools" version="2017.5.15.0" projectFile="D:\usr\jade\jade\dev_tools\SDKDocsBuilder\en-US-tempBuild.shfbproj" started="9/7/2018 5:22:00 PM">
+<shfbBuild product="Sandcastle Help File Builder and Tools" version="2017.5.15.0" projectFile="C:\Jenkins\workspace\API-Docs-Gen\jade\dev_tools\SDKDocsBuilder\en-US-tempBuild.shfbproj" started="11/12/2018 5:01:21 PM">
 <buildStep step="Initializing">
 Finding tools...
-The Sandcastle tools are located in &#39;D:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\&#39;
+The Sandcastle tools are located in &#39;C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\&#39;
 Locating components in the following folder(s):
-    D:\usr\jade\jade\output\Debug\DevTools\Ruyi\
-    D:\usr\jade\jade\dev_tools\SDKDocsBuilder
+    C:\Jenkins\workspace\API-Docs-Gen\Tools\DevTools\DevToolsInternal\Ruyi\
+    C:\Jenkins\workspace\API-Docs-Gen\jade\dev_tools\SDKDocsBuilder
     C:\ProgramData\EWSoftware\Sandcastle Help File Builder\Components and Plug-Ins\
-    D:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\
-Using framework reflection data for &#39;.NET Framework 4.6.1&#39; located in &#39;D:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Data\.NETFramework&#39;
-Using presentation style &#39;SDKLibPresentation&#39; located in &#39;D:\usr\jade\jade\output\Debug\DevTools\Ruyi\Presentation&#39;
+    C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\
+Using framework reflection data for &#39;.NET Framework 4.6.1&#39; located in &#39;C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Data\.NETFramework&#39;
+Using presentation style &#39;SDKLibPresentation&#39; located in &#39;C:\Jenkins\workspace\API-Docs-Gen\Tools\DevTools\DevToolsInternal\Ruyi\Presentation&#39;
 Loading and initializing plug-ins...
 RuyiSDKApiFilter Version 1.0.0.0
 Copyright &#169;RuYi 2017, Used internal only, All Rights Reserved.
@@ -25,37 +25,37 @@ Clearing any prior web/markdown output...
 </buildStep>
 <buildStep step="ValidatingDocumentationSources">
 Validating and copying documentation source information
-Source: D:\usr\jade\jade\output\Debug\RuyiSDK\netstandard2.0\RuyiSDK.dll
-    Found assembly &#39;D:\usr\jade\jade\output\Debug\RuyiSDK\netstandard2.0\RuyiSDK.dll&#39;
-Source: D:\usr\jade\jade\output\Debug\RuyiSDK\netstandard2.0\RuyiSDK.xml
-Source: D:\usr\jade\jade\output\Debug\RuyiSDK\netstandard2.0\SDK.Base.dll
-    Found assembly &#39;D:\usr\jade\jade\output\Debug\RuyiSDK\netstandard2.0\SDK.Base.dll&#39;
-Source: D:\usr\jade\jade\output\Debug\RuyiSDK\netstandard2.0\SDK.Base.xml
-Source: D:\usr\jade\jade\output\Debug\RuyiSDK\netstandard2.0\ServiceCommon.dll
-    Found assembly &#39;D:\usr\jade\jade\output\Debug\RuyiSDK\netstandard2.0\ServiceCommon.dll&#39;
-Source: D:\usr\jade\jade\output\Debug\RuyiSDK\netstandard2.0\ServiceGenerated.dll
-    Found assembly &#39;D:\usr\jade\jade\output\Debug\RuyiSDK\netstandard2.0\ServiceGenerated.dll&#39;
-Source: D:\usr\jade\jade\dev_tools\SDKDocsBuilder\ServiceGenerated.xml
+Source: C:\Jenkins\workspace\API-Docs-Gen\Tools\DevTools\RuyiSDK\netstandard2.0\RuyiSDK.dll
+    Found assembly &#39;C:\Jenkins\workspace\API-Docs-Gen\Tools\DevTools\RuyiSDK\netstandard2.0\RuyiSDK.dll&#39;
+Source: C:\Jenkins\workspace\API-Docs-Gen\Tools\DevTools\RuyiSDK\netstandard2.0\RuyiSDK.xml
+Source: C:\Jenkins\workspace\API-Docs-Gen\Tools\DevTools\RuyiSDK\netstandard2.0\SDK.Base.dll
+    Found assembly &#39;C:\Jenkins\workspace\API-Docs-Gen\Tools\DevTools\RuyiSDK\netstandard2.0\SDK.Base.dll&#39;
+Source: C:\Jenkins\workspace\API-Docs-Gen\Tools\DevTools\RuyiSDK\netstandard2.0\SDK.Base.xml
+Source: C:\Jenkins\workspace\API-Docs-Gen\Tools\DevTools\RuyiSDK\netstandard2.0\ServiceCommon.dll
+    Found assembly &#39;C:\Jenkins\workspace\API-Docs-Gen\Tools\DevTools\RuyiSDK\netstandard2.0\ServiceCommon.dll&#39;
+Source: C:\Jenkins\workspace\API-Docs-Gen\Tools\DevTools\RuyiSDK\netstandard2.0\ServiceGenerated.dll
+    Found assembly &#39;C:\Jenkins\workspace\API-Docs-Gen\Tools\DevTools\RuyiSDK\netstandard2.0\ServiceGenerated.dll&#39;
+Source: C:\Jenkins\workspace\API-Docs-Gen\jade\dev_tools\SDKDocsBuilder\ServiceGenerated.xml
 
 Copying XML comments files
-    D:\usr\jade\jade\output\Debug\RuyiSDK\netstandard2.0\RuyiSDK.xml -&gt; D:\usr\jade\jade\dev_tools\SDKDocsBuilder\WorkDir\RuyiSDK.xml
-    D:\usr\jade\jade\output\Debug\RuyiSDK\netstandard2.0\SDK.Base.xml -&gt; D:\usr\jade\jade\dev_tools\SDKDocsBuilder\WorkDir\SDK.Base.xml
-    D:\usr\jade\jade\dev_tools\SDKDocsBuilder\ServiceGenerated.xml -&gt; D:\usr\jade\jade\dev_tools\SDKDocsBuilder\WorkDir\ServiceGenerated.xml
+    C:\Jenkins\workspace\API-Docs-Gen\Tools\DevTools\RuyiSDK\netstandard2.0\RuyiSDK.xml -&gt; C:\Jenkins\workspace\API-Docs-Gen\jade\dev_tools\SDKDocsBuilder\WorkDir\RuyiSDK.xml
+    C:\Jenkins\workspace\API-Docs-Gen\Tools\DevTools\RuyiSDK\netstandard2.0\SDK.Base.xml -&gt; C:\Jenkins\workspace\API-Docs-Gen\jade\dev_tools\SDKDocsBuilder\WorkDir\SDK.Base.xml
+    C:\Jenkins\workspace\API-Docs-Gen\jade\dev_tools\SDKDocsBuilder\ServiceGenerated.xml -&gt; C:\Jenkins\workspace\API-Docs-Gen\jade\dev_tools\SDKDocsBuilder\WorkDir\ServiceGenerated.xml
 <plugIn name="RuyiSDKCommentsModifier" behavior="After" priority="1000">
-In DocumentsSHFBPluginsPlugIn Execute() method: D:\usr\jade\jade\dev_tools\SDKDocsBuilder\WorkDir\
+In DocumentsSHFBPluginsPlugIn Execute() method: C:\Jenkins\workspace\API-Docs-Gen\jade\dev_tools\SDKDocsBuilder\WorkDir\
 comments file copied!
 </plugIn></buildStep>
 <buildStep step="GenerateSharedContent">
 Generating shared content files (en-US, English (United States))...
 <plugIn name="Lightweight Website Style" behavior="After" priority="1000">
-</plugIn>    Last step completed in 00:00:00.0411
+</plugIn>    Last step completed in 00:00:00.0096
 </buildStep>
 <buildStep step="GenerateApiFilter">
 Generating API filter for MRefBuilder...
 <plugIn name="RuyiSDKApiFilter" behavior="After" priority="1000">
 In DocumentsSHFBPluginsPlugIn Execute() method
-32 filters copied!
-</plugIn>    Last step completed in 00:00:00.0743
+0 filters copied!
+</plugIn>    Last step completed in 00:00:00.0124
 </buildStep>
 <buildStep step="GenerateReflectionInfo">
 Generating reflection information...
@@ -65,73 +65,72 @@ Adding ignored assembly names to assembly resolver configuration:
     Microsoft.VisualStudio.TestTools.UITest.Playback
     NetMQ
 </plugIn>[C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\MSBuild\15.0\Bin\MSBuild.exe - GenerateRefInfo.proj]
-Build started 9/7/2018 5:22:02 PM.
-Project &quot;D:\usr\jade\jade\dev_tools\SDKDocsBuilder\WorkDir\GenerateRefInfo.proj&quot; on node 1 (default targets).
+Build started 11/12/2018 5:01:22 PM.
+Project &quot;C:\Jenkins\workspace\API-Docs-Gen\jade\dev_tools\SDKDocsBuilder\WorkDir\GenerateRefInfo.proj&quot; on node 1 (default targets).
 PrepareForBuild:
   Creating directory &quot;obj\Debug\&quot;.
 GenerateRefInfo:
   MRefBuilder (v2017.5.15.0)
-  Copyright c 2006-2017, Microsoft Corporation, All Rights Reserved.
-  Portions Copyright c 2006-2016, Eric Woodruff, All Rights Reserved.
+  Copyright ? 2006-2017, Microsoft Corporation, All Rights Reserved.
+  Portions Copyright ? 2006-2016, Eric Woodruff, All Rights Reserved.
   No source code context base path specified.  Source context information is unavailable.
   Loaded 4 assemblies for reflection and 1 dependency assemblies.
-MRefBuilder : warning : Ignoring unresolved assembly reference: NetMQ (NetMQ, Version=4.0.0.1, Culture=neutral, PublicKeyToken=a6decef4ddc58b3a) required by SDK.Base [D:\usr\jade\jade\dev_tools\SDKDocsBuilder\WorkDir\GenerateRefInfo.proj]
-  Wrote information on 17 namespaces, 374 types, and 3107 members
+MRefBuilder : warning : Ignoring unresolved assembly reference: NetMQ (NetMQ, Version=4.0.0.1, Culture=neutral, PublicKeyToken=a6decef4ddc58b3a) required by SDK.Base [C:\Jenkins\workspace\API-Docs-Gen\jade\dev_tools\SDKDocsBuilder\WorkDir\GenerateRefInfo.proj]
+  Wrote information on 19 namespaces, 2048 types, and 14541 members
   Copying file from &quot;reflection.org&quot; to &quot;reflection.all&quot;.
   XslTransform (v2017.5.15.0)
-  Copyright c 2006-2017, Microsoft Corporation, All Rights Reserved.
-  Portions Copyright c 2006-2016, Eric Woodruff, All Rights Reserved.
-  Applying XSL transformation &#39;D:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\ProductionTransforms\MergeDuplicates.xsl&#39;.
-Done Building Project &quot;D:\usr\jade\jade\dev_tools\SDKDocsBuilder\WorkDir\GenerateRefInfo.proj&quot; (default targets).
-    Last step completed in 00:00:15.1821
+  Copyright ? 2006-2017, Microsoft Corporation, All Rights Reserved.
+  Portions Copyright ? 2006-2016, Eric Woodruff, All Rights Reserved.
+  Applying XSL transformation &#39;C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\ProductionTransforms\MergeDuplicates.xsl&#39;.
+Done Building Project &quot;C:\Jenkins\workspace\API-Docs-Gen\jade\dev_tools\SDKDocsBuilder\WorkDir\GenerateRefInfo.proj&quot; (default targets).
+    Last step completed in 00:00:03.4014
 </buildStep>
 <buildStep step="TransformReflectionInfo">
 Transforming reflection output...
 [C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\MSBuild\15.0\Bin\MSBuild.exe - TransformManifest.proj]
-Build started 9/7/2018 5:22:17 PM.
-Project &quot;D:\usr\jade\jade\dev_tools\SDKDocsBuilder\WorkDir\TransformManifest.proj&quot; on node 1 (default targets).
+Build started 11/12/2018 5:01:25 PM.
+Project &quot;C:\Jenkins\workspace\API-Docs-Gen\jade\dev_tools\SDKDocsBuilder\WorkDir\TransformManifest.proj&quot; on node 1 (default targets).
 TransformManifest:
   XslTransform (v2017.5.15.0)
-  Copyright c 2006-2017, Microsoft Corporation, All Rights Reserved.
-  Portions Copyright c 2006-2016, Eric Woodruff, All Rights Reserved.
-  Applying XSL transformation &#39;D:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\\ProductionTransforms\ApplyVSDocModel.xsl&#39;.
+  Copyright ? 2006-2017, Microsoft Corporation, All Rights Reserved.
+  Portions Copyright ? 2006-2016, Eric Woodruff, All Rights Reserved.
+  Applying XSL transformation &#39;C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\\ProductionTransforms\ApplyVSDocModel.xsl&#39;.
   Copying file from &quot;reflection.xml&quot; to &quot;reflection.nofilenames&quot;.
   XslTransform (v2017.5.15.0)
-  Copyright c 2006-2017, Microsoft Corporation, All Rights Reserved.
-  Portions Copyright c 2006-2016, Eric Woodruff, All Rights Reserved.
-  Applying XSL transformation &#39;D:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\ProductionTransforms\AddFilenames.xsl&#39;.
+  Copyright ? 2006-2017, Microsoft Corporation, All Rights Reserved.
+  Portions Copyright ? 2006-2016, Eric Woodruff, All Rights Reserved.
+  Applying XSL transformation &#39;C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\ProductionTransforms\AddFilenames.xsl&#39;.
   XslTransform (v2017.5.15.0)
-  Copyright c 2006-2017, Microsoft Corporation, All Rights Reserved.
-  Portions Copyright c 2006-2016, Eric Woodruff, All Rights Reserved.
-  Applying XSL transformation &#39;D:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\ProductionTransforms\ReflectionToManifest.xsl&#39;.
-Done Building Project &quot;D:\usr\jade\jade\dev_tools\SDKDocsBuilder\WorkDir\TransformManifest.proj&quot; (default targets).
-    Last step completed in 00:00:07.5255
+  Copyright ? 2006-2017, Microsoft Corporation, All Rights Reserved.
+  Portions Copyright ? 2006-2016, Eric Woodruff, All Rights Reserved.
+  Applying XSL transformation &#39;C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\ProductionTransforms\ReflectionToManifest.xsl&#39;.
+Done Building Project &quot;C:\Jenkins\workspace\API-Docs-Gen\jade\dev_tools\SDKDocsBuilder\WorkDir\TransformManifest.proj&quot; (default targets).
+    Last step completed in 00:01:36.7955
 </buildStep>
 <buildStep step="GenerateNamespaceSummaries">
 Generating namespace summary information...
-    Last step completed in 00:00:00.1470
+    Last step completed in 00:00:00.2862
 </buildStep>
 <buildStep step="GenerateInheritedDocumentation">
 Generating inherited documentation...
 [C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\MSBuild\15.0\Bin\MSBuild.exe - GenerateInheritedDocs.proj]
 Sandcastle Help File Builder and Tools, version 2017.5.15.0
-Copyright c 2006-2017, Eric Woodruff, All Rights Reserved
+Copyright ? 2006-2017, Eric Woodruff, All Rights Reserved
 E-Mail: Eric@EWoodruff.us
 
 Reflection information will be retrieved from &#39;reflection.xml&#39;
 Inherited documentation will be written to &#39;_InheritedDocs_.xml&#39;
 Indexing C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.6.1\*.xml
 Indexing C:\Program Files (x86)\Reference Assemblies\Microsoft\FSharp\.NETFramework\v4.0\4.4.0.0\*.xml
-Indexing D:\usr\jade\jade\dev_tools\SDKDocsBuilder\WorkDir\RuyiSDK.xml
-Indexing D:\usr\jade\jade\dev_tools\SDKDocsBuilder\WorkDir\SDK.Base.xml
-Indexing D:\usr\jade\jade\dev_tools\SDKDocsBuilder\WorkDir\ServiceGenerated.xml
-Indexed 5135 members in 128 file(s).  3 file(s) to scan for &lt;inheritdoc /&gt; tags.
+Indexing C:\Jenkins\workspace\API-Docs-Gen\jade\dev_tools\SDKDocsBuilder\WorkDir\RuyiSDK.xml
+Indexing C:\Jenkins\workspace\API-Docs-Gen\jade\dev_tools\SDKDocsBuilder\WorkDir\SDK.Base.xml
+Indexing C:\Jenkins\workspace\API-Docs-Gen\jade\dev_tools\SDKDocsBuilder\WorkDir\ServiceGenerated.xml
+Indexed 160393 members in 130 file(s).  3 file(s) to scan for &lt;inheritdoc /&gt; tags.
 Merging inherited documentation...
 
-SHFB: Warning GID0004: No comments found for member &#39;M:Ruyi.SDK.Online.TwoTeamTrueSkillCalculator.#ctor&#39;
 
 Documentation merged successfully
-    Last step completed in 00:00:00.4405
+    Last step completed in 00:00:01.4923
 </buildStep>
 <buildStep step="CopyConceptualContent">
 Copying conceptual content...
@@ -140,192 +139,190 @@ Checking for other token files...
 Checking for code snippets files...
 Copying images and creating the media map file...
 Generating conceptual topic files
-    Parsing topic file &#39;D:\usr\jade\jade\dev_tools\SDKDocsBuilder\Content\Welcome.aml&#39;
-    D:\usr\jade\jade\dev_tools\SDKDocsBuilder\Content\Welcome.aml -&gt; D:\usr\jade\jade\dev_tools\SDKDocsBuilder\WorkDir\ddueXml\424e585c-0de3-417c-9f85-22202b648796.xml
-    Parsing topic file &#39;D:\usr\jade\jade\dev_tools\SDKDocsBuilder\Content\VersionHistory\VersionHistory.aml&#39;
-    D:\usr\jade\jade\dev_tools\SDKDocsBuilder\Content\VersionHistory\VersionHistory.aml -&gt; D:\usr\jade\jade\dev_tools\SDKDocsBuilder\WorkDir\ddueXml\02ab61b8-7e08-4304-b94d-501fbafea82b.xml
-    Parsing topic file &#39;D:\usr\jade\jade\dev_tools\SDKDocsBuilder\Content\VersionHistory\v1.0.0.0.aml&#39;
-    D:\usr\jade\jade\dev_tools\SDKDocsBuilder\Content\VersionHistory\v1.0.0.0.aml -&gt; D:\usr\jade\jade\dev_tools\SDKDocsBuilder\WorkDir\ddueXml\4638930d-5f28-4168-b184-f59fbd638dd8.xml
-    Last step completed in 00:00:00.1528
+    Parsing topic file &#39;C:\Jenkins\workspace\API-Docs-Gen\jade\dev_tools\SDKDocsBuilder\Content\Welcome.aml&#39;
+    C:\Jenkins\workspace\API-Docs-Gen\jade\dev_tools\SDKDocsBuilder\Content\Welcome.aml -&gt; C:\Jenkins\workspace\API-Docs-Gen\jade\dev_tools\SDKDocsBuilder\WorkDir\ddueXml\424e585c-0de3-417c-9f85-22202b648796.xml
+    Parsing topic file &#39;C:\Jenkins\workspace\API-Docs-Gen\jade\dev_tools\SDKDocsBuilder\Content\VersionHistory\VersionHistory.aml&#39;
+    C:\Jenkins\workspace\API-Docs-Gen\jade\dev_tools\SDKDocsBuilder\Content\VersionHistory\VersionHistory.aml -&gt; C:\Jenkins\workspace\API-Docs-Gen\jade\dev_tools\SDKDocsBuilder\WorkDir\ddueXml\02ab61b8-7e08-4304-b94d-501fbafea82b.xml
+    Parsing topic file &#39;C:\Jenkins\workspace\API-Docs-Gen\jade\dev_tools\SDKDocsBuilder\Content\VersionHistory\v1.0.0.0.aml&#39;
+    C:\Jenkins\workspace\API-Docs-Gen\jade\dev_tools\SDKDocsBuilder\Content\VersionHistory\v1.0.0.0.aml -&gt; C:\Jenkins\workspace\API-Docs-Gen\jade\dev_tools\SDKDocsBuilder\WorkDir\ddueXml\4638930d-5f28-4168-b184-f59fbd638dd8.xml
+    Last step completed in 00:00:00.0279
 </buildStep>
 <buildStep step="CreateConceptualTopicConfigs">
 Creating conceptual topic configuration files...
     Companion files
     _ContentMetadata_.xml
     Merging topic IDs into manifest.xml
-    Last step completed in 00:00:00.0240
+    Last step completed in 00:00:00.0359
 </buildStep>
 <buildStep step="CopyAdditionalContent">
 Copying additional content files...
-D:\usr\jade\jade\dev_tools\SDKDocsBuilder\icons\Help.png -&gt; D:\usr\jade\jade\dev_tools\SDKDocsBuilder\WorkDir\Output\Website\icons\Help.png
-    Last step completed in 00:00:00.0110
+C:\Jenkins\workspace\API-Docs-Gen\jade\dev_tools\SDKDocsBuilder\icons\Help.png -&gt; C:\Jenkins\workspace\API-Docs-Gen\jade\dev_tools\SDKDocsBuilder\WorkDir\Output\Website\icons\Help.png
+    Last step completed in 00:00:00.0040
 </buildStep>
 <buildStep step="MergeTablesOfContents">
 Merging conceptual and additional tables of contents...
-    Last step completed in 00:00:00.0040
+    Last step completed in 00:00:00.0020
 </buildStep>
 <buildStep step="GenerateIntermediateTableOfContents">
 Generating intermediate table of contents file...
 [C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\MSBuild\15.0\Bin\MSBuild.exe - GenerateIntermediateTOC.proj]
-Build started 9/7/2018 5:22:26 PM.
-Project &quot;D:\usr\jade\jade\dev_tools\SDKDocsBuilder\WorkDir\GenerateIntermediateTOC.proj&quot; on node 1 (default targets).
+Build started 11/12/2018 5:03:04 PM.
+Project &quot;C:\Jenkins\workspace\API-Docs-Gen\jade\dev_tools\SDKDocsBuilder\WorkDir\GenerateIntermediateTOC.proj&quot; on node 1 (default targets).
 GenerateIntermediateTOC:
   XslTransform (v2017.5.15.0)
-  Copyright c 2006-2017, Microsoft Corporation, All Rights Reserved.
-  Portions Copyright c 2006-2016, Eric Woodruff, All Rights Reserved.
-  Applying XSL transformation &#39;D:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\\ProductionTransforms\CreateVSToc.xsl&#39;.
-Done Building Project &quot;D:\usr\jade\jade\dev_tools\SDKDocsBuilder\WorkDir\GenerateIntermediateTOC.proj&quot; (default targets).
+  Copyright ? 2006-2017, Microsoft Corporation, All Rights Reserved.
+  Portions Copyright ? 2006-2016, Eric Woodruff, All Rights Reserved.
+  Applying XSL transformation &#39;C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\\ProductionTransforms\CreateVSToc.xsl&#39;.
+Done Building Project &quot;C:\Jenkins\workspace\API-Docs-Gen\jade\dev_tools\SDKDocsBuilder\WorkDir\GenerateIntermediateTOC.proj&quot; (default targets).
 Generating conceptual content intermediate TOC file...
-    Last step completed in 00:00:00.3953
+    Last step completed in 00:00:00.9333
 </buildStep>
 <buildStep step="CreateBuildAssemblerConfigs">
 Creating Sandcastle configuration files...
     sandcastle.config
-    Last step completed in 00:00:00.2584
+    Last step completed in 00:00:00.2841
 </buildStep>
 <buildStep step="MergeCustomConfigs">
 Merging custom build component configurations
-D:\usr\jade\jade\dev_tools\SDKDocsBuilder\WorkDir\sandcastle.config
+C:\Jenkins\workspace\API-Docs-Gen\jade\dev_tools\SDKDocsBuilder\WorkDir\sandcastle.config
   Updating reference topic configurations.
     The configuration for &#39;Code Block Component&#39; is disabled and will not be used.
   Updating conceptual topic configurations.
     The configuration for &#39;Code Block Component&#39; is disabled and will not be used.
     Removing unused ExampleComponent.
-    Last step completed in 00:00:00.0100
+    Last step completed in 00:00:00.0060
 </buildStep>
 <buildStep step="BuildTopics">
 Building help topics...
 [C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\MSBuild\15.0\Bin\MSBuild.exe - BuildTopics.proj]
-Build started 9/7/2018 5:22:26 PM.
-Project &quot;D:\usr\jade\jade\dev_tools\SDKDocsBuilder\WorkDir\BuildTopics.proj&quot; on node 1 (default targets).
+Build started 11/12/2018 5:03:05 PM.
+Project &quot;C:\Jenkins\workspace\API-Docs-Gen\jade\dev_tools\SDKDocsBuilder\WorkDir\BuildTopics.proj&quot; on node 1 (default targets).
 BuildTopics:
   BuildAssembler (v2017.5.15.0)
-  Copyright c 2006-2017, Microsoft Corporation, All Rights Reserved.
-  Portions Copyright c 2006-2016, Eric Woodruff, All Rights Reserved.
+  Copyright ? 2006-2017, Microsoft Corporation, All Rights Reserved.
+  Portions Copyright ? 2006-2016, Eric Woodruff, All Rights Reserved.
   Loading configuration...
-  ResolveReferenceLinksComponent: The MSDN content ID cache &#39;D:\Profiles\jake\AppData\Local\EWSoftware\Sandcastle Help File Builder\Cache\MsdnContentId.cache&#39; does not exist yet.  All IDs will be looked up in this build which will slow it down.
   Processing topics...
-  Processed 3549 topic(s)
+  Processed 19899 topic(s)
   CopyFromIndexComponent: &quot;metadata&quot; in-memory cache entries used: 1 of 15.
   ResolveArtLinksComponent: Copying media files...
-  ResolveReferenceLinksComponent: 31 entries added to the MSDN content ID cache.  New cache size: 31 entries
   CopyFromIndexComponent: &quot;reflection&quot; in-memory cache entries used: 6 of 15.
-  CopyFromIndexComponent: &quot;comments&quot; in-memory cache entries used: 4 of 30.
-Done Building Project &quot;D:\usr\jade\jade\dev_tools\SDKDocsBuilder\WorkDir\BuildTopics.proj&quot; (default targets).
-    Last step completed in 00:00:42.2961
+  CopyFromIndexComponent: &quot;comments&quot; in-memory cache entries used: 3 of 30.
+Done Building Project &quot;C:\Jenkins\workspace\API-Docs-Gen\jade\dev_tools\SDKDocsBuilder\WorkDir\BuildTopics.proj&quot; (default targets).
+    Last step completed in 00:01:23.3379
 </buildStep>
 <buildStep step="CombiningIntermediateTocFiles">
 Combining conceptual and API intermediate TOC files...
-    Last step completed in 00:00:00.0260
+    Last step completed in 00:00:00.1137
 </buildStep>
 <buildStep step="ExtractingHtmlInfo">
 Extracting HTML info for HTML Help 1 and/or website...
 [C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\MSBuild\15.0\Bin\MSBuild.exe - ExtractHtmlInfo.proj]
 Sandcastle Help File Builder and Tools, version 2017.5.15.0
-Copyright c 2006-2017, Eric Woodruff, All Rights Reserved
+Copyright ? 2006-2017, Eric Woodruff, All Rights Reserved
 E-Mail: Eric@EWoodruff.us
 
 Using LCID &#39;1033&#39;, code page &#39;65001&#39;, encoding charset &#39;UTF-8&#39;.
 
-Processing website files in D:\usr\jade\jade\dev_tools\SDKDocsBuilder\WorkDir\Output\Website
-Processed 3549 HTML files
+Processing website files in C:\Jenkins\workspace\API-Docs-Gen\jade\dev_tools\SDKDocsBuilder\WorkDir\Output\Website
+Processed 19899 HTML files
 Sorting keywords and generating See Also indices
-Saving website keyword index to D:\usr\jade\jade\dev_tools\SDKDocsBuilder\WorkDir\WebKI.xml
-Saving website table of contents to D:\usr\jade\jade\dev_tools\SDKDocsBuilder\WorkDir\WebTOC.xml
-    Last step completed in 00:00:02.5760
+Saving website keyword index to C:\Jenkins\workspace\API-Docs-Gen\jade\dev_tools\SDKDocsBuilder\WorkDir\WebKI.xml
+Saving website table of contents to C:\Jenkins\workspace\API-Docs-Gen\jade\dev_tools\SDKDocsBuilder\WorkDir\WebTOC.xml
+    Last step completed in 00:00:10.8767
 </buildStep>
 <buildStep step="CopyStandardHelpContent">
 Copying standard help content...
-D:\usr\jade\jade\output\Debug\DevTools\Ruyi\Presentation\icons\AlertCaution.png -&gt; D:\usr\jade\jade\dev_tools\SDKDocsBuilder\WorkDir\Output\Website\icons\AlertCaution.png
-D:\usr\jade\jade\output\Debug\DevTools\Ruyi\Presentation\icons\AlertNote.png -&gt; D:\usr\jade\jade\dev_tools\SDKDocsBuilder\WorkDir\Output\Website\icons\AlertNote.png
-D:\usr\jade\jade\output\Debug\DevTools\Ruyi\Presentation\icons\AlertSecurity.png -&gt; D:\usr\jade\jade\dev_tools\SDKDocsBuilder\WorkDir\Output\Website\icons\AlertSecurity.png
-D:\usr\jade\jade\output\Debug\DevTools\Ruyi\Presentation\icons\CFW.gif -&gt; D:\usr\jade\jade\dev_tools\SDKDocsBuilder\WorkDir\Output\Website\icons\CFW.gif
-D:\usr\jade\jade\output\Debug\DevTools\Ruyi\Presentation\icons\CodeExample.png -&gt; D:\usr\jade\jade\dev_tools\SDKDocsBuilder\WorkDir\Output\Website\icons\CodeExample.png
-D:\usr\jade\jade\output\Debug\DevTools\Ruyi\Presentation\icons\favicon.ico -&gt; D:\usr\jade\jade\dev_tools\SDKDocsBuilder\WorkDir\Output\Website\icons\favicon.ico
-D:\usr\jade\jade\output\Debug\DevTools\Ruyi\Presentation\icons\privclass.gif -&gt; D:\usr\jade\jade\dev_tools\SDKDocsBuilder\WorkDir\Output\Website\icons\privclass.gif
-D:\usr\jade\jade\output\Debug\DevTools\Ruyi\Presentation\icons\privdelegate.gif -&gt; D:\usr\jade\jade\dev_tools\SDKDocsBuilder\WorkDir\Output\Website\icons\privdelegate.gif
-D:\usr\jade\jade\output\Debug\DevTools\Ruyi\Presentation\icons\privenumeration.gif -&gt; D:\usr\jade\jade\dev_tools\SDKDocsBuilder\WorkDir\Output\Website\icons\privenumeration.gif
-D:\usr\jade\jade\output\Debug\DevTools\Ruyi\Presentation\icons\privevent.gif -&gt; D:\usr\jade\jade\dev_tools\SDKDocsBuilder\WorkDir\Output\Website\icons\privevent.gif
-D:\usr\jade\jade\output\Debug\DevTools\Ruyi\Presentation\icons\privextension.gif -&gt; D:\usr\jade\jade\dev_tools\SDKDocsBuilder\WorkDir\Output\Website\icons\privextension.gif
-D:\usr\jade\jade\output\Debug\DevTools\Ruyi\Presentation\icons\privfield.gif -&gt; D:\usr\jade\jade\dev_tools\SDKDocsBuilder\WorkDir\Output\Website\icons\privfield.gif
-D:\usr\jade\jade\output\Debug\DevTools\Ruyi\Presentation\icons\privinterface.gif -&gt; D:\usr\jade\jade\dev_tools\SDKDocsBuilder\WorkDir\Output\Website\icons\privinterface.gif
-D:\usr\jade\jade\output\Debug\DevTools\Ruyi\Presentation\icons\privmethod.gif -&gt; D:\usr\jade\jade\dev_tools\SDKDocsBuilder\WorkDir\Output\Website\icons\privmethod.gif
-D:\usr\jade\jade\output\Debug\DevTools\Ruyi\Presentation\icons\privproperty.gif -&gt; D:\usr\jade\jade\dev_tools\SDKDocsBuilder\WorkDir\Output\Website\icons\privproperty.gif
-D:\usr\jade\jade\output\Debug\DevTools\Ruyi\Presentation\icons\privstructure.gif -&gt; D:\usr\jade\jade\dev_tools\SDKDocsBuilder\WorkDir\Output\Website\icons\privstructure.gif
-D:\usr\jade\jade\output\Debug\DevTools\Ruyi\Presentation\icons\protclass.gif -&gt; D:\usr\jade\jade\dev_tools\SDKDocsBuilder\WorkDir\Output\Website\icons\protclass.gif
-D:\usr\jade\jade\output\Debug\DevTools\Ruyi\Presentation\icons\protdelegate.gif -&gt; D:\usr\jade\jade\dev_tools\SDKDocsBuilder\WorkDir\Output\Website\icons\protdelegate.gif
-D:\usr\jade\jade\output\Debug\DevTools\Ruyi\Presentation\icons\protenumeration.gif -&gt; D:\usr\jade\jade\dev_tools\SDKDocsBuilder\WorkDir\Output\Website\icons\protenumeration.gif
-D:\usr\jade\jade\output\Debug\DevTools\Ruyi\Presentation\icons\protevent.gif -&gt; D:\usr\jade\jade\dev_tools\SDKDocsBuilder\WorkDir\Output\Website\icons\protevent.gif
-D:\usr\jade\jade\output\Debug\DevTools\Ruyi\Presentation\icons\protextension.gif -&gt; D:\usr\jade\jade\dev_tools\SDKDocsBuilder\WorkDir\Output\Website\icons\protextension.gif
-D:\usr\jade\jade\output\Debug\DevTools\Ruyi\Presentation\icons\protfield.gif -&gt; D:\usr\jade\jade\dev_tools\SDKDocsBuilder\WorkDir\Output\Website\icons\protfield.gif
-D:\usr\jade\jade\output\Debug\DevTools\Ruyi\Presentation\icons\protinterface.gif -&gt; D:\usr\jade\jade\dev_tools\SDKDocsBuilder\WorkDir\Output\Website\icons\protinterface.gif
-D:\usr\jade\jade\output\Debug\DevTools\Ruyi\Presentation\icons\protmethod.gif -&gt; D:\usr\jade\jade\dev_tools\SDKDocsBuilder\WorkDir\Output\Website\icons\protmethod.gif
-D:\usr\jade\jade\output\Debug\DevTools\Ruyi\Presentation\icons\protoperator.gif -&gt; D:\usr\jade\jade\dev_tools\SDKDocsBuilder\WorkDir\Output\Website\icons\protoperator.gif
-D:\usr\jade\jade\output\Debug\DevTools\Ruyi\Presentation\icons\protproperty.gif -&gt; D:\usr\jade\jade\dev_tools\SDKDocsBuilder\WorkDir\Output\Website\icons\protproperty.gif
-D:\usr\jade\jade\output\Debug\DevTools\Ruyi\Presentation\icons\protstructure.gif -&gt; D:\usr\jade\jade\dev_tools\SDKDocsBuilder\WorkDir\Output\Website\icons\protstructure.gif
-D:\usr\jade\jade\output\Debug\DevTools\Ruyi\Presentation\icons\pubclass.gif -&gt; D:\usr\jade\jade\dev_tools\SDKDocsBuilder\WorkDir\Output\Website\icons\pubclass.gif
-D:\usr\jade\jade\output\Debug\DevTools\Ruyi\Presentation\icons\pubdelegate.gif -&gt; D:\usr\jade\jade\dev_tools\SDKDocsBuilder\WorkDir\Output\Website\icons\pubdelegate.gif
-D:\usr\jade\jade\output\Debug\DevTools\Ruyi\Presentation\icons\pubenumeration.gif -&gt; D:\usr\jade\jade\dev_tools\SDKDocsBuilder\WorkDir\Output\Website\icons\pubenumeration.gif
-D:\usr\jade\jade\output\Debug\DevTools\Ruyi\Presentation\icons\pubevent.gif -&gt; D:\usr\jade\jade\dev_tools\SDKDocsBuilder\WorkDir\Output\Website\icons\pubevent.gif
-D:\usr\jade\jade\output\Debug\DevTools\Ruyi\Presentation\icons\pubextension.gif -&gt; D:\usr\jade\jade\dev_tools\SDKDocsBuilder\WorkDir\Output\Website\icons\pubextension.gif
-D:\usr\jade\jade\output\Debug\DevTools\Ruyi\Presentation\icons\pubfield.gif -&gt; D:\usr\jade\jade\dev_tools\SDKDocsBuilder\WorkDir\Output\Website\icons\pubfield.gif
-D:\usr\jade\jade\output\Debug\DevTools\Ruyi\Presentation\icons\pubinterface.gif -&gt; D:\usr\jade\jade\dev_tools\SDKDocsBuilder\WorkDir\Output\Website\icons\pubinterface.gif
-D:\usr\jade\jade\output\Debug\DevTools\Ruyi\Presentation\icons\pubmethod.gif -&gt; D:\usr\jade\jade\dev_tools\SDKDocsBuilder\WorkDir\Output\Website\icons\pubmethod.gif
-D:\usr\jade\jade\output\Debug\DevTools\Ruyi\Presentation\icons\puboperator.gif -&gt; D:\usr\jade\jade\dev_tools\SDKDocsBuilder\WorkDir\Output\Website\icons\puboperator.gif
-D:\usr\jade\jade\output\Debug\DevTools\Ruyi\Presentation\icons\pubproperty.gif -&gt; D:\usr\jade\jade\dev_tools\SDKDocsBuilder\WorkDir\Output\Website\icons\pubproperty.gif
-D:\usr\jade\jade\output\Debug\DevTools\Ruyi\Presentation\icons\pubstructure.gif -&gt; D:\usr\jade\jade\dev_tools\SDKDocsBuilder\WorkDir\Output\Website\icons\pubstructure.gif
-D:\usr\jade\jade\output\Debug\DevTools\Ruyi\Presentation\icons\SectionCollapsed.png -&gt; D:\usr\jade\jade\dev_tools\SDKDocsBuilder\WorkDir\Output\Website\icons\SectionCollapsed.png
-D:\usr\jade\jade\output\Debug\DevTools\Ruyi\Presentation\icons\SectionExpanded.png -&gt; D:\usr\jade\jade\dev_tools\SDKDocsBuilder\WorkDir\Output\Website\icons\SectionExpanded.png
-D:\usr\jade\jade\output\Debug\DevTools\Ruyi\Presentation\icons\slMobile.gif -&gt; D:\usr\jade\jade\dev_tools\SDKDocsBuilder\WorkDir\Output\Website\icons\slMobile.gif
-D:\usr\jade\jade\output\Debug\DevTools\Ruyi\Presentation\icons\static.gif -&gt; D:\usr\jade\jade\dev_tools\SDKDocsBuilder\WorkDir\Output\Website\icons\static.gif
-D:\usr\jade\jade\output\Debug\DevTools\Ruyi\Presentation\icons\xna.gif -&gt; D:\usr\jade\jade\dev_tools\SDKDocsBuilder\WorkDir\Output\Website\icons\xna.gif
-D:\usr\jade\jade\output\Debug\DevTools\Ruyi\Presentation\scripts\branding.js -&gt; D:\usr\jade\jade\dev_tools\SDKDocsBuilder\WorkDir\Output\Website\scripts\branding.js
-D:\usr\jade\jade\output\Debug\DevTools\Ruyi\Presentation\styles\branding-cs-CZ.css -&gt; D:\usr\jade\jade\dev_tools\SDKDocsBuilder\WorkDir\Output\Website\styles\branding-cs-CZ.css
-D:\usr\jade\jade\output\Debug\DevTools\Ruyi\Presentation\styles\branding-de-DE.css -&gt; D:\usr\jade\jade\dev_tools\SDKDocsBuilder\WorkDir\Output\Website\styles\branding-de-DE.css
-D:\usr\jade\jade\output\Debug\DevTools\Ruyi\Presentation\styles\branding-en-US.css -&gt; D:\usr\jade\jade\dev_tools\SDKDocsBuilder\WorkDir\Output\Website\styles\branding-en-US.css
-D:\usr\jade\jade\output\Debug\DevTools\Ruyi\Presentation\styles\branding-es-ES.css -&gt; D:\usr\jade\jade\dev_tools\SDKDocsBuilder\WorkDir\Output\Website\styles\branding-es-ES.css
-D:\usr\jade\jade\output\Debug\DevTools\Ruyi\Presentation\styles\branding-fr-FR.css -&gt; D:\usr\jade\jade\dev_tools\SDKDocsBuilder\WorkDir\Output\Website\styles\branding-fr-FR.css
-D:\usr\jade\jade\output\Debug\DevTools\Ruyi\Presentation\styles\branding-Help1.css -&gt; D:\usr\jade\jade\dev_tools\SDKDocsBuilder\WorkDir\Output\Website\styles\branding-Help1.css
-D:\usr\jade\jade\output\Debug\DevTools\Ruyi\Presentation\styles\branding-HelpViewer.css -&gt; D:\usr\jade\jade\dev_tools\SDKDocsBuilder\WorkDir\Output\Website\styles\branding-HelpViewer.css
-D:\usr\jade\jade\output\Debug\DevTools\Ruyi\Presentation\styles\branding-it-IT.css -&gt; D:\usr\jade\jade\dev_tools\SDKDocsBuilder\WorkDir\Output\Website\styles\branding-it-IT.css
-D:\usr\jade\jade\output\Debug\DevTools\Ruyi\Presentation\styles\branding-ja-JP.css -&gt; D:\usr\jade\jade\dev_tools\SDKDocsBuilder\WorkDir\Output\Website\styles\branding-ja-JP.css
-D:\usr\jade\jade\output\Debug\DevTools\Ruyi\Presentation\styles\branding-ko-KR.css -&gt; D:\usr\jade\jade\dev_tools\SDKDocsBuilder\WorkDir\Output\Website\styles\branding-ko-KR.css
-D:\usr\jade\jade\output\Debug\DevTools\Ruyi\Presentation\styles\branding-pl-PL.css -&gt; D:\usr\jade\jade\dev_tools\SDKDocsBuilder\WorkDir\Output\Website\styles\branding-pl-PL.css
-D:\usr\jade\jade\output\Debug\DevTools\Ruyi\Presentation\styles\branding-pt-BR.css -&gt; D:\usr\jade\jade\dev_tools\SDKDocsBuilder\WorkDir\Output\Website\styles\branding-pt-BR.css
-D:\usr\jade\jade\output\Debug\DevTools\Ruyi\Presentation\styles\branding-ru-RU.css -&gt; D:\usr\jade\jade\dev_tools\SDKDocsBuilder\WorkDir\Output\Website\styles\branding-ru-RU.css
-D:\usr\jade\jade\output\Debug\DevTools\Ruyi\Presentation\styles\branding-tr-TR.css -&gt; D:\usr\jade\jade\dev_tools\SDKDocsBuilder\WorkDir\Output\Website\styles\branding-tr-TR.css
-D:\usr\jade\jade\output\Debug\DevTools\Ruyi\Presentation\styles\branding-Website.css -&gt; D:\usr\jade\jade\dev_tools\SDKDocsBuilder\WorkDir\Output\Website\styles\branding-Website.css
-D:\usr\jade\jade\output\Debug\DevTools\Ruyi\Presentation\styles\branding-zh-CN.css -&gt; D:\usr\jade\jade\dev_tools\SDKDocsBuilder\WorkDir\Output\Website\styles\branding-zh-CN.css
-D:\usr\jade\jade\output\Debug\DevTools\Ruyi\Presentation\styles\branding-zh-TW.css -&gt; D:\usr\jade\jade\dev_tools\SDKDocsBuilder\WorkDir\Output\Website\styles\branding-zh-TW.css
-D:\usr\jade\jade\output\Debug\DevTools\Ruyi\Presentation\styles\branding.css -&gt; D:\usr\jade\jade\dev_tools\SDKDocsBuilder\WorkDir\Output\Website\styles\branding.css
-D:\usr\jade\jade\output\Debug\DevTools\Ruyi\Presentation\Web\index.html -&gt; D:\usr\jade\jade\dev_tools\SDKDocsBuilder\WorkDir\Output\Website\index.html
-D:\usr\jade\jade\output\Debug\DevTools\Ruyi\Presentation\Web\search.html -&gt; D:\usr\jade\jade\dev_tools\SDKDocsBuilder\WorkDir\Output\Website\search.html
-D:\usr\jade\jade\output\Debug\DevTools\Ruyi\Presentation\Web\SearchHelp.aspx -&gt; D:\usr\jade\jade\dev_tools\SDKDocsBuilder\WorkDir\Output\Website\SearchHelp.aspx
-D:\usr\jade\jade\output\Debug\DevTools\Ruyi\Presentation\Web\SearchHelp.inc.php -&gt; D:\usr\jade\jade\dev_tools\SDKDocsBuilder\WorkDir\Output\Website\SearchHelp.inc.php
-D:\usr\jade\jade\output\Debug\DevTools\Ruyi\Presentation\Web\SearchHelp.php -&gt; D:\usr\jade\jade\dev_tools\SDKDocsBuilder\WorkDir\Output\Website\SearchHelp.php
-D:\usr\jade\jade\output\Debug\DevTools\Ruyi\Presentation\Web\Web.Config -&gt; D:\usr\jade\jade\dev_tools\SDKDocsBuilder\WorkDir\Output\Website\Web.Config
-D:\usr\jade\jade\output\Debug\DevTools\Ruyi\Presentation\Web\html\GeneralError.htm -&gt; D:\usr\jade\jade\dev_tools\SDKDocsBuilder\WorkDir\Output\Website\html\GeneralError.htm
-D:\usr\jade\jade\output\Debug\DevTools\Ruyi\Presentation\Web\html\PageNotFound.htm -&gt; D:\usr\jade\jade\dev_tools\SDKDocsBuilder\WorkDir\Output\Website\html\PageNotFound.htm
-D:\usr\jade\jade\output\Debug\DevTools\Ruyi\Presentation\Web\icons\Search.png -&gt; D:\usr\jade\jade\dev_tools\SDKDocsBuilder\WorkDir\Output\Website\icons\Search.png
-D:\usr\jade\jade\output\Debug\DevTools\Ruyi\Presentation\Web\icons\TocClose.gif -&gt; D:\usr\jade\jade\dev_tools\SDKDocsBuilder\WorkDir\Output\Website\icons\TocClose.gif
-D:\usr\jade\jade\output\Debug\DevTools\Ruyi\Presentation\Web\icons\TocCollapsed.gif -&gt; D:\usr\jade\jade\dev_tools\SDKDocsBuilder\WorkDir\Output\Website\icons\TocCollapsed.gif
-D:\usr\jade\jade\output\Debug\DevTools\Ruyi\Presentation\Web\icons\TocExpanded.gif -&gt; D:\usr\jade\jade\dev_tools\SDKDocsBuilder\WorkDir\Output\Website\icons\TocExpanded.gif
-D:\usr\jade\jade\output\Debug\DevTools\Ruyi\Presentation\Web\icons\TocOpen.gif -&gt; D:\usr\jade\jade\dev_tools\SDKDocsBuilder\WorkDir\Output\Website\icons\TocOpen.gif
-D:\usr\jade\jade\output\Debug\DevTools\Ruyi\Presentation\Web\scripts\branding-Website.js -&gt; D:\usr\jade\jade\dev_tools\SDKDocsBuilder\WorkDir\Output\Website\scripts\branding-Website.js
-D:\usr\jade\jade\output\Debug\DevTools\Ruyi\Presentation\Web\scripts\clipboard.min.js -&gt; D:\usr\jade\jade\dev_tools\SDKDocsBuilder\WorkDir\Output\Website\scripts\clipboard.min.js
-D:\usr\jade\jade\output\Debug\DevTools\Ruyi\Presentation\Web\scripts\jquery-1.11.0.min.js -&gt; D:\usr\jade\jade\dev_tools\SDKDocsBuilder\WorkDir\Output\Website\scripts\jquery-1.11.0.min.js
-    Last step completed in 00:00:01.2060
+C:\Jenkins\workspace\API-Docs-Gen\Tools\DevTools\DevToolsInternal\Ruyi\Presentation\icons\AlertCaution.png -&gt; C:\Jenkins\workspace\API-Docs-Gen\jade\dev_tools\SDKDocsBuilder\WorkDir\Output\Website\icons\AlertCaution.png
+C:\Jenkins\workspace\API-Docs-Gen\Tools\DevTools\DevToolsInternal\Ruyi\Presentation\icons\AlertNote.png -&gt; C:\Jenkins\workspace\API-Docs-Gen\jade\dev_tools\SDKDocsBuilder\WorkDir\Output\Website\icons\AlertNote.png
+C:\Jenkins\workspace\API-Docs-Gen\Tools\DevTools\DevToolsInternal\Ruyi\Presentation\icons\AlertSecurity.png -&gt; C:\Jenkins\workspace\API-Docs-Gen\jade\dev_tools\SDKDocsBuilder\WorkDir\Output\Website\icons\AlertSecurity.png
+C:\Jenkins\workspace\API-Docs-Gen\Tools\DevTools\DevToolsInternal\Ruyi\Presentation\icons\CFW.gif -&gt; C:\Jenkins\workspace\API-Docs-Gen\jade\dev_tools\SDKDocsBuilder\WorkDir\Output\Website\icons\CFW.gif
+C:\Jenkins\workspace\API-Docs-Gen\Tools\DevTools\DevToolsInternal\Ruyi\Presentation\icons\CodeExample.png -&gt; C:\Jenkins\workspace\API-Docs-Gen\jade\dev_tools\SDKDocsBuilder\WorkDir\Output\Website\icons\CodeExample.png
+C:\Jenkins\workspace\API-Docs-Gen\Tools\DevTools\DevToolsInternal\Ruyi\Presentation\icons\favicon.ico -&gt; C:\Jenkins\workspace\API-Docs-Gen\jade\dev_tools\SDKDocsBuilder\WorkDir\Output\Website\icons\favicon.ico
+C:\Jenkins\workspace\API-Docs-Gen\Tools\DevTools\DevToolsInternal\Ruyi\Presentation\icons\privclass.gif -&gt; C:\Jenkins\workspace\API-Docs-Gen\jade\dev_tools\SDKDocsBuilder\WorkDir\Output\Website\icons\privclass.gif
+C:\Jenkins\workspace\API-Docs-Gen\Tools\DevTools\DevToolsInternal\Ruyi\Presentation\icons\privdelegate.gif -&gt; C:\Jenkins\workspace\API-Docs-Gen\jade\dev_tools\SDKDocsBuilder\WorkDir\Output\Website\icons\privdelegate.gif
+C:\Jenkins\workspace\API-Docs-Gen\Tools\DevTools\DevToolsInternal\Ruyi\Presentation\icons\privenumeration.gif -&gt; C:\Jenkins\workspace\API-Docs-Gen\jade\dev_tools\SDKDocsBuilder\WorkDir\Output\Website\icons\privenumeration.gif
+C:\Jenkins\workspace\API-Docs-Gen\Tools\DevTools\DevToolsInternal\Ruyi\Presentation\icons\privevent.gif -&gt; C:\Jenkins\workspace\API-Docs-Gen\jade\dev_tools\SDKDocsBuilder\WorkDir\Output\Website\icons\privevent.gif
+C:\Jenkins\workspace\API-Docs-Gen\Tools\DevTools\DevToolsInternal\Ruyi\Presentation\icons\privextension.gif -&gt; C:\Jenkins\workspace\API-Docs-Gen\jade\dev_tools\SDKDocsBuilder\WorkDir\Output\Website\icons\privextension.gif
+C:\Jenkins\workspace\API-Docs-Gen\Tools\DevTools\DevToolsInternal\Ruyi\Presentation\icons\privfield.gif -&gt; C:\Jenkins\workspace\API-Docs-Gen\jade\dev_tools\SDKDocsBuilder\WorkDir\Output\Website\icons\privfield.gif
+C:\Jenkins\workspace\API-Docs-Gen\Tools\DevTools\DevToolsInternal\Ruyi\Presentation\icons\privinterface.gif -&gt; C:\Jenkins\workspace\API-Docs-Gen\jade\dev_tools\SDKDocsBuilder\WorkDir\Output\Website\icons\privinterface.gif
+C:\Jenkins\workspace\API-Docs-Gen\Tools\DevTools\DevToolsInternal\Ruyi\Presentation\icons\privmethod.gif -&gt; C:\Jenkins\workspace\API-Docs-Gen\jade\dev_tools\SDKDocsBuilder\WorkDir\Output\Website\icons\privmethod.gif
+C:\Jenkins\workspace\API-Docs-Gen\Tools\DevTools\DevToolsInternal\Ruyi\Presentation\icons\privproperty.gif -&gt; C:\Jenkins\workspace\API-Docs-Gen\jade\dev_tools\SDKDocsBuilder\WorkDir\Output\Website\icons\privproperty.gif
+C:\Jenkins\workspace\API-Docs-Gen\Tools\DevTools\DevToolsInternal\Ruyi\Presentation\icons\privstructure.gif -&gt; C:\Jenkins\workspace\API-Docs-Gen\jade\dev_tools\SDKDocsBuilder\WorkDir\Output\Website\icons\privstructure.gif
+C:\Jenkins\workspace\API-Docs-Gen\Tools\DevTools\DevToolsInternal\Ruyi\Presentation\icons\protclass.gif -&gt; C:\Jenkins\workspace\API-Docs-Gen\jade\dev_tools\SDKDocsBuilder\WorkDir\Output\Website\icons\protclass.gif
+C:\Jenkins\workspace\API-Docs-Gen\Tools\DevTools\DevToolsInternal\Ruyi\Presentation\icons\protdelegate.gif -&gt; C:\Jenkins\workspace\API-Docs-Gen\jade\dev_tools\SDKDocsBuilder\WorkDir\Output\Website\icons\protdelegate.gif
+C:\Jenkins\workspace\API-Docs-Gen\Tools\DevTools\DevToolsInternal\Ruyi\Presentation\icons\protenumeration.gif -&gt; C:\Jenkins\workspace\API-Docs-Gen\jade\dev_tools\SDKDocsBuilder\WorkDir\Output\Website\icons\protenumeration.gif
+C:\Jenkins\workspace\API-Docs-Gen\Tools\DevTools\DevToolsInternal\Ruyi\Presentation\icons\protevent.gif -&gt; C:\Jenkins\workspace\API-Docs-Gen\jade\dev_tools\SDKDocsBuilder\WorkDir\Output\Website\icons\protevent.gif
+C:\Jenkins\workspace\API-Docs-Gen\Tools\DevTools\DevToolsInternal\Ruyi\Presentation\icons\protextension.gif -&gt; C:\Jenkins\workspace\API-Docs-Gen\jade\dev_tools\SDKDocsBuilder\WorkDir\Output\Website\icons\protextension.gif
+C:\Jenkins\workspace\API-Docs-Gen\Tools\DevTools\DevToolsInternal\Ruyi\Presentation\icons\protfield.gif -&gt; C:\Jenkins\workspace\API-Docs-Gen\jade\dev_tools\SDKDocsBuilder\WorkDir\Output\Website\icons\protfield.gif
+C:\Jenkins\workspace\API-Docs-Gen\Tools\DevTools\DevToolsInternal\Ruyi\Presentation\icons\protinterface.gif -&gt; C:\Jenkins\workspace\API-Docs-Gen\jade\dev_tools\SDKDocsBuilder\WorkDir\Output\Website\icons\protinterface.gif
+C:\Jenkins\workspace\API-Docs-Gen\Tools\DevTools\DevToolsInternal\Ruyi\Presentation\icons\protmethod.gif -&gt; C:\Jenkins\workspace\API-Docs-Gen\jade\dev_tools\SDKDocsBuilder\WorkDir\Output\Website\icons\protmethod.gif
+C:\Jenkins\workspace\API-Docs-Gen\Tools\DevTools\DevToolsInternal\Ruyi\Presentation\icons\protoperator.gif -&gt; C:\Jenkins\workspace\API-Docs-Gen\jade\dev_tools\SDKDocsBuilder\WorkDir\Output\Website\icons\protoperator.gif
+C:\Jenkins\workspace\API-Docs-Gen\Tools\DevTools\DevToolsInternal\Ruyi\Presentation\icons\protproperty.gif -&gt; C:\Jenkins\workspace\API-Docs-Gen\jade\dev_tools\SDKDocsBuilder\WorkDir\Output\Website\icons\protproperty.gif
+C:\Jenkins\workspace\API-Docs-Gen\Tools\DevTools\DevToolsInternal\Ruyi\Presentation\icons\protstructure.gif -&gt; C:\Jenkins\workspace\API-Docs-Gen\jade\dev_tools\SDKDocsBuilder\WorkDir\Output\Website\icons\protstructure.gif
+C:\Jenkins\workspace\API-Docs-Gen\Tools\DevTools\DevToolsInternal\Ruyi\Presentation\icons\pubclass.gif -&gt; C:\Jenkins\workspace\API-Docs-Gen\jade\dev_tools\SDKDocsBuilder\WorkDir\Output\Website\icons\pubclass.gif
+C:\Jenkins\workspace\API-Docs-Gen\Tools\DevTools\DevToolsInternal\Ruyi\Presentation\icons\pubdelegate.gif -&gt; C:\Jenkins\workspace\API-Docs-Gen\jade\dev_tools\SDKDocsBuilder\WorkDir\Output\Website\icons\pubdelegate.gif
+C:\Jenkins\workspace\API-Docs-Gen\Tools\DevTools\DevToolsInternal\Ruyi\Presentation\icons\pubenumeration.gif -&gt; C:\Jenkins\workspace\API-Docs-Gen\jade\dev_tools\SDKDocsBuilder\WorkDir\Output\Website\icons\pubenumeration.gif
+C:\Jenkins\workspace\API-Docs-Gen\Tools\DevTools\DevToolsInternal\Ruyi\Presentation\icons\pubevent.gif -&gt; C:\Jenkins\workspace\API-Docs-Gen\jade\dev_tools\SDKDocsBuilder\WorkDir\Output\Website\icons\pubevent.gif
+C:\Jenkins\workspace\API-Docs-Gen\Tools\DevTools\DevToolsInternal\Ruyi\Presentation\icons\pubextension.gif -&gt; C:\Jenkins\workspace\API-Docs-Gen\jade\dev_tools\SDKDocsBuilder\WorkDir\Output\Website\icons\pubextension.gif
+C:\Jenkins\workspace\API-Docs-Gen\Tools\DevTools\DevToolsInternal\Ruyi\Presentation\icons\pubfield.gif -&gt; C:\Jenkins\workspace\API-Docs-Gen\jade\dev_tools\SDKDocsBuilder\WorkDir\Output\Website\icons\pubfield.gif
+C:\Jenkins\workspace\API-Docs-Gen\Tools\DevTools\DevToolsInternal\Ruyi\Presentation\icons\pubinterface.gif -&gt; C:\Jenkins\workspace\API-Docs-Gen\jade\dev_tools\SDKDocsBuilder\WorkDir\Output\Website\icons\pubinterface.gif
+C:\Jenkins\workspace\API-Docs-Gen\Tools\DevTools\DevToolsInternal\Ruyi\Presentation\icons\pubmethod.gif -&gt; C:\Jenkins\workspace\API-Docs-Gen\jade\dev_tools\SDKDocsBuilder\WorkDir\Output\Website\icons\pubmethod.gif
+C:\Jenkins\workspace\API-Docs-Gen\Tools\DevTools\DevToolsInternal\Ruyi\Presentation\icons\puboperator.gif -&gt; C:\Jenkins\workspace\API-Docs-Gen\jade\dev_tools\SDKDocsBuilder\WorkDir\Output\Website\icons\puboperator.gif
+C:\Jenkins\workspace\API-Docs-Gen\Tools\DevTools\DevToolsInternal\Ruyi\Presentation\icons\pubproperty.gif -&gt; C:\Jenkins\workspace\API-Docs-Gen\jade\dev_tools\SDKDocsBuilder\WorkDir\Output\Website\icons\pubproperty.gif
+C:\Jenkins\workspace\API-Docs-Gen\Tools\DevTools\DevToolsInternal\Ruyi\Presentation\icons\pubstructure.gif -&gt; C:\Jenkins\workspace\API-Docs-Gen\jade\dev_tools\SDKDocsBuilder\WorkDir\Output\Website\icons\pubstructure.gif
+C:\Jenkins\workspace\API-Docs-Gen\Tools\DevTools\DevToolsInternal\Ruyi\Presentation\icons\SectionCollapsed.png -&gt; C:\Jenkins\workspace\API-Docs-Gen\jade\dev_tools\SDKDocsBuilder\WorkDir\Output\Website\icons\SectionCollapsed.png
+C:\Jenkins\workspace\API-Docs-Gen\Tools\DevTools\DevToolsInternal\Ruyi\Presentation\icons\SectionExpanded.png -&gt; C:\Jenkins\workspace\API-Docs-Gen\jade\dev_tools\SDKDocsBuilder\WorkDir\Output\Website\icons\SectionExpanded.png
+C:\Jenkins\workspace\API-Docs-Gen\Tools\DevTools\DevToolsInternal\Ruyi\Presentation\icons\slMobile.gif -&gt; C:\Jenkins\workspace\API-Docs-Gen\jade\dev_tools\SDKDocsBuilder\WorkDir\Output\Website\icons\slMobile.gif
+C:\Jenkins\workspace\API-Docs-Gen\Tools\DevTools\DevToolsInternal\Ruyi\Presentation\icons\static.gif -&gt; C:\Jenkins\workspace\API-Docs-Gen\jade\dev_tools\SDKDocsBuilder\WorkDir\Output\Website\icons\static.gif
+C:\Jenkins\workspace\API-Docs-Gen\Tools\DevTools\DevToolsInternal\Ruyi\Presentation\icons\xna.gif -&gt; C:\Jenkins\workspace\API-Docs-Gen\jade\dev_tools\SDKDocsBuilder\WorkDir\Output\Website\icons\xna.gif
+C:\Jenkins\workspace\API-Docs-Gen\Tools\DevTools\DevToolsInternal\Ruyi\Presentation\scripts\branding.js -&gt; C:\Jenkins\workspace\API-Docs-Gen\jade\dev_tools\SDKDocsBuilder\WorkDir\Output\Website\scripts\branding.js
+C:\Jenkins\workspace\API-Docs-Gen\Tools\DevTools\DevToolsInternal\Ruyi\Presentation\styles\branding-cs-CZ.css -&gt; C:\Jenkins\workspace\API-Docs-Gen\jade\dev_tools\SDKDocsBuilder\WorkDir\Output\Website\styles\branding-cs-CZ.css
+C:\Jenkins\workspace\API-Docs-Gen\Tools\DevTools\DevToolsInternal\Ruyi\Presentation\styles\branding-de-DE.css -&gt; C:\Jenkins\workspace\API-Docs-Gen\jade\dev_tools\SDKDocsBuilder\WorkDir\Output\Website\styles\branding-de-DE.css
+C:\Jenkins\workspace\API-Docs-Gen\Tools\DevTools\DevToolsInternal\Ruyi\Presentation\styles\branding-en-US.css -&gt; C:\Jenkins\workspace\API-Docs-Gen\jade\dev_tools\SDKDocsBuilder\WorkDir\Output\Website\styles\branding-en-US.css
+C:\Jenkins\workspace\API-Docs-Gen\Tools\DevTools\DevToolsInternal\Ruyi\Presentation\styles\branding-es-ES.css -&gt; C:\Jenkins\workspace\API-Docs-Gen\jade\dev_tools\SDKDocsBuilder\WorkDir\Output\Website\styles\branding-es-ES.css
+C:\Jenkins\workspace\API-Docs-Gen\Tools\DevTools\DevToolsInternal\Ruyi\Presentation\styles\branding-fr-FR.css -&gt; C:\Jenkins\workspace\API-Docs-Gen\jade\dev_tools\SDKDocsBuilder\WorkDir\Output\Website\styles\branding-fr-FR.css
+C:\Jenkins\workspace\API-Docs-Gen\Tools\DevTools\DevToolsInternal\Ruyi\Presentation\styles\branding-Help1.css -&gt; C:\Jenkins\workspace\API-Docs-Gen\jade\dev_tools\SDKDocsBuilder\WorkDir\Output\Website\styles\branding-Help1.css
+C:\Jenkins\workspace\API-Docs-Gen\Tools\DevTools\DevToolsInternal\Ruyi\Presentation\styles\branding-HelpViewer.css -&gt; C:\Jenkins\workspace\API-Docs-Gen\jade\dev_tools\SDKDocsBuilder\WorkDir\Output\Website\styles\branding-HelpViewer.css
+C:\Jenkins\workspace\API-Docs-Gen\Tools\DevTools\DevToolsInternal\Ruyi\Presentation\styles\branding-it-IT.css -&gt; C:\Jenkins\workspace\API-Docs-Gen\jade\dev_tools\SDKDocsBuilder\WorkDir\Output\Website\styles\branding-it-IT.css
+C:\Jenkins\workspace\API-Docs-Gen\Tools\DevTools\DevToolsInternal\Ruyi\Presentation\styles\branding-ja-JP.css -&gt; C:\Jenkins\workspace\API-Docs-Gen\jade\dev_tools\SDKDocsBuilder\WorkDir\Output\Website\styles\branding-ja-JP.css
+C:\Jenkins\workspace\API-Docs-Gen\Tools\DevTools\DevToolsInternal\Ruyi\Presentation\styles\branding-ko-KR.css -&gt; C:\Jenkins\workspace\API-Docs-Gen\jade\dev_tools\SDKDocsBuilder\WorkDir\Output\Website\styles\branding-ko-KR.css
+C:\Jenkins\workspace\API-Docs-Gen\Tools\DevTools\DevToolsInternal\Ruyi\Presentation\styles\branding-pl-PL.css -&gt; C:\Jenkins\workspace\API-Docs-Gen\jade\dev_tools\SDKDocsBuilder\WorkDir\Output\Website\styles\branding-pl-PL.css
+C:\Jenkins\workspace\API-Docs-Gen\Tools\DevTools\DevToolsInternal\Ruyi\Presentation\styles\branding-pt-BR.css -&gt; C:\Jenkins\workspace\API-Docs-Gen\jade\dev_tools\SDKDocsBuilder\WorkDir\Output\Website\styles\branding-pt-BR.css
+C:\Jenkins\workspace\API-Docs-Gen\Tools\DevTools\DevToolsInternal\Ruyi\Presentation\styles\branding-ru-RU.css -&gt; C:\Jenkins\workspace\API-Docs-Gen\jade\dev_tools\SDKDocsBuilder\WorkDir\Output\Website\styles\branding-ru-RU.css
+C:\Jenkins\workspace\API-Docs-Gen\Tools\DevTools\DevToolsInternal\Ruyi\Presentation\styles\branding-tr-TR.css -&gt; C:\Jenkins\workspace\API-Docs-Gen\jade\dev_tools\SDKDocsBuilder\WorkDir\Output\Website\styles\branding-tr-TR.css
+C:\Jenkins\workspace\API-Docs-Gen\Tools\DevTools\DevToolsInternal\Ruyi\Presentation\styles\branding-Website.css -&gt; C:\Jenkins\workspace\API-Docs-Gen\jade\dev_tools\SDKDocsBuilder\WorkDir\Output\Website\styles\branding-Website.css
+C:\Jenkins\workspace\API-Docs-Gen\Tools\DevTools\DevToolsInternal\Ruyi\Presentation\styles\branding-zh-CN.css -&gt; C:\Jenkins\workspace\API-Docs-Gen\jade\dev_tools\SDKDocsBuilder\WorkDir\Output\Website\styles\branding-zh-CN.css
+C:\Jenkins\workspace\API-Docs-Gen\Tools\DevTools\DevToolsInternal\Ruyi\Presentation\styles\branding-zh-TW.css -&gt; C:\Jenkins\workspace\API-Docs-Gen\jade\dev_tools\SDKDocsBuilder\WorkDir\Output\Website\styles\branding-zh-TW.css
+C:\Jenkins\workspace\API-Docs-Gen\Tools\DevTools\DevToolsInternal\Ruyi\Presentation\styles\branding.css -&gt; C:\Jenkins\workspace\API-Docs-Gen\jade\dev_tools\SDKDocsBuilder\WorkDir\Output\Website\styles\branding.css
+C:\Jenkins\workspace\API-Docs-Gen\Tools\DevTools\DevToolsInternal\Ruyi\Presentation\Web\index.html -&gt; C:\Jenkins\workspace\API-Docs-Gen\jade\dev_tools\SDKDocsBuilder\WorkDir\Output\Website\index.html
+C:\Jenkins\workspace\API-Docs-Gen\Tools\DevTools\DevToolsInternal\Ruyi\Presentation\Web\search.html -&gt; C:\Jenkins\workspace\API-Docs-Gen\jade\dev_tools\SDKDocsBuilder\WorkDir\Output\Website\search.html
+C:\Jenkins\workspace\API-Docs-Gen\Tools\DevTools\DevToolsInternal\Ruyi\Presentation\Web\SearchHelp.aspx -&gt; C:\Jenkins\workspace\API-Docs-Gen\jade\dev_tools\SDKDocsBuilder\WorkDir\Output\Website\SearchHelp.aspx
+C:\Jenkins\workspace\API-Docs-Gen\Tools\DevTools\DevToolsInternal\Ruyi\Presentation\Web\SearchHelp.inc.php -&gt; C:\Jenkins\workspace\API-Docs-Gen\jade\dev_tools\SDKDocsBuilder\WorkDir\Output\Website\SearchHelp.inc.php
+C:\Jenkins\workspace\API-Docs-Gen\Tools\DevTools\DevToolsInternal\Ruyi\Presentation\Web\SearchHelp.php -&gt; C:\Jenkins\workspace\API-Docs-Gen\jade\dev_tools\SDKDocsBuilder\WorkDir\Output\Website\SearchHelp.php
+C:\Jenkins\workspace\API-Docs-Gen\Tools\DevTools\DevToolsInternal\Ruyi\Presentation\Web\Web.Config -&gt; C:\Jenkins\workspace\API-Docs-Gen\jade\dev_tools\SDKDocsBuilder\WorkDir\Output\Website\Web.Config
+C:\Jenkins\workspace\API-Docs-Gen\Tools\DevTools\DevToolsInternal\Ruyi\Presentation\Web\html\GeneralError.htm -&gt; C:\Jenkins\workspace\API-Docs-Gen\jade\dev_tools\SDKDocsBuilder\WorkDir\Output\Website\html\GeneralError.htm
+C:\Jenkins\workspace\API-Docs-Gen\Tools\DevTools\DevToolsInternal\Ruyi\Presentation\Web\html\PageNotFound.htm -&gt; C:\Jenkins\workspace\API-Docs-Gen\jade\dev_tools\SDKDocsBuilder\WorkDir\Output\Website\html\PageNotFound.htm
+C:\Jenkins\workspace\API-Docs-Gen\Tools\DevTools\DevToolsInternal\Ruyi\Presentation\Web\icons\Search.png -&gt; C:\Jenkins\workspace\API-Docs-Gen\jade\dev_tools\SDKDocsBuilder\WorkDir\Output\Website\icons\Search.png
+C:\Jenkins\workspace\API-Docs-Gen\Tools\DevTools\DevToolsInternal\Ruyi\Presentation\Web\icons\TocClose.gif -&gt; C:\Jenkins\workspace\API-Docs-Gen\jade\dev_tools\SDKDocsBuilder\WorkDir\Output\Website\icons\TocClose.gif
+C:\Jenkins\workspace\API-Docs-Gen\Tools\DevTools\DevToolsInternal\Ruyi\Presentation\Web\icons\TocCollapsed.gif -&gt; C:\Jenkins\workspace\API-Docs-Gen\jade\dev_tools\SDKDocsBuilder\WorkDir\Output\Website\icons\TocCollapsed.gif
+C:\Jenkins\workspace\API-Docs-Gen\Tools\DevTools\DevToolsInternal\Ruyi\Presentation\Web\icons\TocExpanded.gif -&gt; C:\Jenkins\workspace\API-Docs-Gen\jade\dev_tools\SDKDocsBuilder\WorkDir\Output\Website\icons\TocExpanded.gif
+C:\Jenkins\workspace\API-Docs-Gen\Tools\DevTools\DevToolsInternal\Ruyi\Presentation\Web\icons\TocOpen.gif -&gt; C:\Jenkins\workspace\API-Docs-Gen\jade\dev_tools\SDKDocsBuilder\WorkDir\Output\Website\icons\TocOpen.gif
+C:\Jenkins\workspace\API-Docs-Gen\Tools\DevTools\DevToolsInternal\Ruyi\Presentation\Web\scripts\branding-Website.js -&gt; C:\Jenkins\workspace\API-Docs-Gen\jade\dev_tools\SDKDocsBuilder\WorkDir\Output\Website\scripts\branding-Website.js
+C:\Jenkins\workspace\API-Docs-Gen\Tools\DevTools\DevToolsInternal\Ruyi\Presentation\Web\scripts\clipboard.min.js -&gt; C:\Jenkins\workspace\API-Docs-Gen\jade\dev_tools\SDKDocsBuilder\WorkDir\Output\Website\scripts\clipboard.min.js
+C:\Jenkins\workspace\API-Docs-Gen\Tools\DevTools\DevToolsInternal\Ruyi\Presentation\Web\scripts\jquery-1.11.0.min.js -&gt; C:\Jenkins\workspace\API-Docs-Gen\jade\dev_tools\SDKDocsBuilder\WorkDir\Output\Website\scripts\jquery-1.11.0.min.js
+    Last step completed in 00:00:09.2949
 </buildStep>
 <buildStep step="GenerateHelpFormatTableOfContents">
 Generating website table of contents file...
-    Last step completed in 00:00:00.0010
+    Last step completed in 00:00:00.0000
 </buildStep>
 <buildStep step="GenerateFullTextIndex">
 Generating full-text index for the website...
 
 <plugIn name="Lightweight Website Style" behavior="After" priority="1000">
 Adding lightweight search and TOC elements to each topic...
-</plugIn>    Last step completed in 00:00:07.6010
+</plugIn>    Last step completed in 00:02:17.7374
 </buildStep>
 <buildStep step="CopyingWebsiteFiles">
 Copying website files to output folder...
@@ -339,12 +336,54 @@ Copied 3000 files
 Copied 3500 files
 Copied 4000 files
 Copied 4500 files
-Copied 4534 files for the website content
-    Last step completed in 00:00:09.1740
+Copied 5000 files
+Copied 5500 files
+Copied 6000 files
+Copied 6500 files
+Copied 7000 files
+Copied 7500 files
+Copied 8000 files
+Copied 8500 files
+Copied 9000 files
+Copied 9500 files
+Copied 10000 files
+Copied 10500 files
+Copied 11000 files
+Copied 11500 files
+Copied 12000 files
+Copied 12500 files
+Copied 13000 files
+Copied 13500 files
+Copied 14000 files
+Copied 14500 files
+Copied 15000 files
+Copied 15500 files
+Copied 16000 files
+Copied 16500 files
+Copied 17000 files
+Copied 17500 files
+Copied 18000 files
+Copied 18500 files
+Copied 19000 files
+Copied 19500 files
+Copied 20000 files
+Copied 20500 files
+Copied 21000 files
+Copied 21500 files
+Copied 22000 files
+Copied 22500 files
+Copied 23000 files
+Copied 23500 files
+Copied 24000 files
+Copied 24500 files
+Copied 25000 files
+Copied 25500 files
+Copied 25804 files for the website content
+    Last step completed in 00:01:00.5544
 </buildStep>
 <buildStep step="Completed">
 
-Build completed successfully at 9/7/2018 5:23:29 PM.  Total time: 00:01:29.5358
+Build completed successfully at 11/12/2018 5:08:07 PM.  Total time: 00:06:45.8342
 
 </buildStep>
 </shfbBuild>
