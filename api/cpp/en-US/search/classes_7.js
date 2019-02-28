@@ -1,5 +1,6 @@
 var searchData=
 [
+  ['if',['If',['../class_ruyi_1_1_s_d_k_1_1_common_type_1_1_if.html',1,'Ruyi::SDK::CommonType']]],
   ['ignore_5fassign',['ignore_assign',['../structignore__assign.html',1,'']]],
   ['inputactionevent',['InputActionEvent',['../class_ruyi_1_1_s_d_k_1_1_user_service_external_1_1_input_action_event.html',1,'Ruyi::SDK::UserServiceExternal']]],
   ['inputactiontriggered',['InputActionTriggered',['../class_ruyi_1_1_s_d_k_1_1_input_manager_1_1_input_action_triggered.html',1,'Ruyi::SDK::InputManager']]],

@@ -22,5 +22,6 @@ var searchData=
   ['gamepad_5fup',['GamePad_Up',['../struct_ruyi_1_1_s_d_k_1_1_common_type_1_1_ruyi_game_pad_button_flags.html#a44abbb568a0d76d685ad07340792b78ea8102119be6916992048e7e531b5802d0',1,'Ruyi::SDK::CommonType::RuyiGamePadButtonFlags']]],
   ['gamepad_5fx',['GamePad_X',['../struct_ruyi_1_1_s_d_k_1_1_common_type_1_1_ruyi_game_pad_button_flags.html#a44abbb568a0d76d685ad07340792b78eaf68cb69d019e4bd85753b32de6339b02',1,'Ruyi::SDK::CommonType::RuyiGamePadButtonFlags']]],
   ['gamepad_5fy',['GamePad_Y',['../struct_ruyi_1_1_s_d_k_1_1_common_type_1_1_ruyi_game_pad_button_flags.html#a44abbb568a0d76d685ad07340792b78ea218e02a5cfd6e60e2dfe03611c6a098f',1,'Ruyi::SDK::CommonType::RuyiGamePadButtonFlags']]],
-  ['grave',['Grave',['../struct_ruyi_1_1_s_d_k_1_1_input_manager_1_1_key.html#aac445ba69ee7e6295ed80fb9e2432dbea43433c872f4b569912dbcb20c7e6c4a9',1,'Ruyi::SDK::InputManager::Key']]]
+  ['grave',['Grave',['../struct_ruyi_1_1_s_d_k_1_1_input_manager_1_1_key.html#aac445ba69ee7e6295ed80fb9e2432dbea43433c872f4b569912dbcb20c7e6c4a9',1,'Ruyi::SDK::InputManager::Key']]],
+  ['guest',['Guest',['../struct_ruyi_1_1_s_d_k_1_1_common_type_1_1_user_type.html#ae29dad3e6d436ae3e2d3e00c2622f9d9ade0a7667ad8fc59b31a62c4d238bbcac',1,'Ruyi::SDK::CommonType::UserType']]]
 ];

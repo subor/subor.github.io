@@ -22,7 +22,7 @@
  <tr style="height: 56px;">
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">Subor SDK API
-   &#160;<span id="projectnumber">0.9.2</span>
+   &#160;<span id="projectnumber">0.9.3</span>
    </div>
   </td>
  </tr>
@@ -90,8 +90,8 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a36e794caa4da26e2ee5a3367661adc34"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9639dd92953a9b9f6e19316f80741d54"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_setting_system_service_handler.html#a9639dd92953a9b9f6e19316f80741d54">GetCategoryNode</a> (::<a class="el" href="class_ruyi_1_1_s_d_k_1_1_setting_system_1_1_api_1_1_setting_tree.html">Ruyi::SDK::SettingSystem::Api::SettingTree</a> &amp;_return)</td></tr>
 <tr class="separator:a9639dd92953a9b9f6e19316f80741d54"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a38b1995e5ac0fde2333da653b93f606a"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_setting_system_service_handler.html#a38b1995e5ac0fde2333da653b93f606a">GetChildNode</a> (::<a class="el" href="class_ruyi_1_1_s_d_k_1_1_setting_system_1_1_api_1_1_node_list.html">Ruyi::SDK::SettingSystem::Api::NodeList</a> &amp;_return, const std::string &amp;parent, const ::<a class="el" href="struct_ruyi_1_1_s_d_k_1_1_setting_system_1_1_api_1_1_node_type.html#a4fe81f9cdddf441abc563fc5132a22ee">Ruyi::SDK::SettingSystem::Api::NodeType::type</a> nodeType, const std::string &amp;param)</td></tr>
-<tr class="separator:a38b1995e5ac0fde2333da653b93f606a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a038d41fd5b7d4c9fdd974d84c16bf00a"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_setting_system_service_handler.html#a038d41fd5b7d4c9fdd974d84c16bf00a">GetChildNode</a> (::<a class="el" href="class_ruyi_1_1_s_d_k_1_1_setting_system_1_1_api_1_1_node_list.html">Ruyi::SDK::SettingSystem::Api::NodeList</a> &amp;_return, const std::string &amp;parent, const ::<a class="el" href="struct_ruyi_1_1_s_d_k_1_1_setting_system_1_1_api_1_1_node_type.html#a4fe81f9cdddf441abc563fc5132a22ee">Ruyi::SDK::SettingSystem::Api::NodeType::type</a> nodeType, const std::string &amp;param, const std::vector&lt; std::string &gt; &amp;tags)</td></tr>
+<tr class="separator:a038d41fd5b7d4c9fdd974d84c16bf00a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a2cb2691db11bafae1b4346be5dcb091f"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_setting_system_service_handler.html#a2cb2691db11bafae1b4346be5dcb091f">SetSettingItem</a> (const std::string &amp;key, const std::string &amp;val)</td></tr>
 <tr class="separator:a2cb2691db11bafae1b4346be5dcb091f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a4ef830bf0df2765d3473959e5072a66c"><td class="memItemLeft" align="right" valign="top">int32_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_setting_system_service_handler.html#a4ef830bf0df2765d3473959e5072a66c">SetSettingItems</a> (const std::map&lt; std::string, std::string &gt; &amp;keyValues)</td></tr>
@@ -437,8 +437,8 @@ Public Member Functions</h2></td></tr>
 
 </div>
 </div>
-<a id="a38b1995e5ac0fde2333da653b93f606a"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a38b1995e5ac0fde2333da653b93f606a">&#9670;&nbsp;</a></span>GetChildNode()</h2>
+<a id="a038d41fd5b7d4c9fdd974d84c16bf00a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a038d41fd5b7d4c9fdd974d84c16bf00a">&#9670;&nbsp;</a></span>GetChildNode()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -468,7 +468,13 @@ Public Member Functions</h2></td></tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">const std::string &amp;&#160;</td>
-          <td class="paramname"><em>param</em>&#160;</td>
+          <td class="paramname"><em>param</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const std::vector&lt; std::string &gt; &amp;&#160;</td>
+          <td class="paramname"><em>tags</em>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -487,7 +493,8 @@ Public Member Functions</h2></td></tr>
   <table class="params">
     <tr><td class="paramname">parent</td><td>The parent node</td></tr>
     <tr><td class="paramname">nodeType</td><td>Specifies whether the child nodes containing setting item or setting category, or both</td></tr>
-    <tr><td class="paramname">param</td><td>The parameter passed to the function which will be called while getting the item value </td></tr>
+    <tr><td class="paramname">param</td><td>The parameter passed to the function which will be called while getting the item value</td></tr>
+    <tr><td class="paramname">tags</td><td>Tags used to filter the setting items. Only items with specified tags will be added in the result </td></tr>
   </table>
   </dd>
 </dl>
@@ -736,6 +743,14 @@ Public Member Functions</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">userId</td><td></td></tr>
+    <tr><td class="paramname">category</td><td></td></tr>
+    <tr><td class="paramname">settingKeys</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
 
 </div>
 </div>
@@ -814,6 +829,14 @@ Public Member Functions</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">userId</td><td></td></tr>
+    <tr><td class="paramname">category</td><td></td></tr>
+    <tr><td class="paramname">settingKeys</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
 
 </div>
 </div>
@@ -900,6 +923,14 @@ Public Member Functions</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">userId</td><td></td></tr>
+    <tr><td class="paramname">moduleName</td><td></td></tr>
+    <tr><td class="paramname">category</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
 
 </div>
 </div>
@@ -1286,6 +1317,14 @@ Public Member Functions</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">userId</td><td></td></tr>
+    <tr><td class="paramname">category</td><td></td></tr>
+    <tr><td class="paramname">settingItems</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
 
 </div>
 </div>

@@ -4,19 +4,5 @@ var searchData=
   ['eplatform',['ePlatform',['../struct_ruyi_1_1_s_d_k_1_1_common_type_1_1e_platform.html',1,'Ruyi::SDK::CommonType']]],
   ['errorexception',['ErrorException',['../class_ruyi_1_1_s_d_k_1_1_common_type_1_1_error_exception.html',1,'Ruyi::SDK::CommonType']]],
   ['euitype',['eUIType',['../struct_ruyi_1_1_s_d_k_1_1_common_type_1_1e_u_i_type.html',1,'Ruyi::SDK::CommonType']]],
-  ['eventnotification',['EventNotification',['../class_ruyi_1_1_s_d_k_1_1_common_type_1_1_event_notification.html',1,'Ruyi::SDK::CommonType']]],
-  ['externaloverlaymanagerservice_5ftakescreenshot_5fargs',['ExternalOverlayManagerService_TakeScreenShot_args',['../class_ruyi_1_1_s_d_k_1_1_overlay_manager_external_1_1_external_overlay_manager_service___take_screen_shot__args.html',1,'Ruyi::SDK::OverlayManagerExternal']]],
-  ['externaloverlaymanagerservice_5ftakescreenshot_5fpargs',['ExternalOverlayManagerService_TakeScreenShot_pargs',['../class_ruyi_1_1_s_d_k_1_1_overlay_manager_external_1_1_external_overlay_manager_service___take_screen_shot__pargs.html',1,'Ruyi::SDK::OverlayManagerExternal']]],
-  ['externaloverlaymanagerservice_5ftakescreenshot_5fpresult',['ExternalOverlayManagerService_TakeScreenShot_presult',['../class_ruyi_1_1_s_d_k_1_1_overlay_manager_external_1_1_external_overlay_manager_service___take_screen_shot__presult.html',1,'Ruyi::SDK::OverlayManagerExternal']]],
-  ['externaloverlaymanagerservice_5ftakescreenshot_5fresult',['ExternalOverlayManagerService_TakeScreenShot_result',['../class_ruyi_1_1_s_d_k_1_1_overlay_manager_external_1_1_external_overlay_manager_service___take_screen_shot__result.html',1,'Ruyi::SDK::OverlayManagerExternal']]],
-  ['externaloverlaymanagerserviceclient',['ExternalOverlayManagerServiceClient',['../class_ruyi_1_1_s_d_k_1_1_overlay_manager_external_1_1_external_overlay_manager_service_client.html',1,'Ruyi::SDK::OverlayManagerExternal']]],
-  ['externaloverlaymanagerserviceconcurrentclient',['ExternalOverlayManagerServiceConcurrentClient',['../class_ruyi_1_1_s_d_k_1_1_overlay_manager_external_1_1_external_overlay_manager_service_concurrent_client.html',1,'Ruyi::SDK::OverlayManagerExternal']]],
-  ['externaloverlaymanagerservicehandler',['ExternalOverlayManagerServiceHandler',['../class_external_overlay_manager_service_handler.html',1,'']]],
-  ['externaloverlaymanagerserviceif',['ExternalOverlayManagerServiceIf',['../class_ruyi_1_1_s_d_k_1_1_overlay_manager_external_1_1_external_overlay_manager_service_if.html',1,'Ruyi::SDK::OverlayManagerExternal']]],
-  ['externaloverlaymanagerserviceiffactory',['ExternalOverlayManagerServiceIfFactory',['../class_ruyi_1_1_s_d_k_1_1_overlay_manager_external_1_1_external_overlay_manager_service_if_factory.html',1,'Ruyi::SDK::OverlayManagerExternal']]],
-  ['externaloverlaymanagerserviceifsingletonfactory',['ExternalOverlayManagerServiceIfSingletonFactory',['../class_ruyi_1_1_s_d_k_1_1_overlay_manager_external_1_1_external_overlay_manager_service_if_singleton_factory.html',1,'Ruyi::SDK::OverlayManagerExternal']]],
-  ['externaloverlaymanagerservicemultiface',['ExternalOverlayManagerServiceMultiface',['../class_ruyi_1_1_s_d_k_1_1_overlay_manager_external_1_1_external_overlay_manager_service_multiface.html',1,'Ruyi::SDK::OverlayManagerExternal']]],
-  ['externaloverlaymanagerservicenull',['ExternalOverlayManagerServiceNull',['../class_ruyi_1_1_s_d_k_1_1_overlay_manager_external_1_1_external_overlay_manager_service_null.html',1,'Ruyi::SDK::OverlayManagerExternal']]],
-  ['externaloverlaymanagerserviceprocessor',['ExternalOverlayManagerServiceProcessor',['../class_ruyi_1_1_s_d_k_1_1_overlay_manager_external_1_1_external_overlay_manager_service_processor.html',1,'Ruyi::SDK::OverlayManagerExternal']]],
-  ['externaloverlaymanagerserviceprocessorfactory',['ExternalOverlayManagerServiceProcessorFactory',['../class_ruyi_1_1_s_d_k_1_1_overlay_manager_external_1_1_external_overlay_manager_service_processor_factory.html',1,'Ruyi::SDK::OverlayManagerExternal']]]
+  ['eventnotification',['EventNotification',['../class_ruyi_1_1_s_d_k_1_1_common_type_1_1_event_notification.html',1,'Ruyi::SDK::CommonType']]]
 ];

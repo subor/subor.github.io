@@ -16,6 +16,8 @@ var searchData=
   ['days',['DAYS',['../namespace_ruyi_1_1_s_d_k_1_1_online.html#a01a139b5d192c7efc7487bd24ecca3baacb9fc9461119a10794df2ec148dec10f',1,'Ruyi::SDK::Online']]],
   ['decimal',['Decimal',['../struct_ruyi_1_1_s_d_k_1_1_input_manager_1_1_key.html#aac445ba69ee7e6295ed80fb9e2432dbea50c5eda114728350d0212fa4588e8480',1,'Ruyi::SDK::InputManager::Key']]],
   ['delete',['Delete',['../struct_ruyi_1_1_s_d_k_1_1_input_manager_1_1_key.html#aac445ba69ee7e6295ed80fb9e2432dbea11ad22c1dc7615b253e54a7e5d7a1739',1,'Ruyi::SDK::InputManager::Key']]],
+  ['developer',['Developer',['../struct_ruyi_1_1_s_d_k_1_1_common_type_1_1_user_type.html#ae29dad3e6d436ae3e2d3e00c2622f9d9af82dba8d15aa08fe6713708c85166f35',1,'Ruyi::SDK::CommonType::UserType']]],
+  ['direct3d',['Direct3D',['../struct_ruyi_1_1_s_d_k_1_1_common_type_1_1_overlay_renderer.html#a6c4d7de8ef2ae2bf58718bcf6191e740ae23a7dc86eed686b8450b249b1520985',1,'Ruyi::SDK::CommonType::OverlayRenderer']]],
   ['divide',['Divide',['../struct_ruyi_1_1_s_d_k_1_1_input_manager_1_1_key.html#aac445ba69ee7e6295ed80fb9e2432dbeac302210f82b6278ea54b598dd78e0af6',1,'Ruyi::SDK::InputManager::Key']]],
   ['down',['Down',['../struct_ruyi_1_1_s_d_k_1_1_input_manager_1_1_key.html#aac445ba69ee7e6295ed80fb9e2432dbeafe71142d8af6697159cef1903ab6d2c7',1,'Ruyi::SDK::InputManager::Key']]]
 ];

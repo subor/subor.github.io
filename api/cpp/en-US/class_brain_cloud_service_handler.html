@@ -22,7 +22,7 @@
  <tr style="height: 56px;">
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">Subor SDK API
-   &#160;<span id="projectnumber">0.9.2</span>
+   &#160;<span id="projectnumber">0.9.3</span>
    </div>
   </td>
  </tr>
@@ -124,10 +124,22 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:aa5c0da3580199b277eb6cca1154bc664"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a0d4c14f2b812e53d2f3972b9597c380a"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_brain_cloud_service_handler.html#a0d4c14f2b812e53d2f3972b9597c380a">Authentication_ResetEmailPassword</a> (std::string &amp;_return, const std::string &amp;externalId, const int32_t clientIndex)</td></tr>
 <tr class="separator:a0d4c14f2b812e53d2f3972b9597c380a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad2b7c1073ff73b3a02a717a5ffc0ab76"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_brain_cloud_service_handler.html#ad2b7c1073ff73b3a02a717a5ffc0ab76">Authentication_RequestSmsCode</a> (std::string &amp;_return, const std::string &amp;phoneNumber, const bool forceCreate, const int32_t clientIndex)</td></tr>
-<tr class="separator:ad2b7c1073ff73b3a02a717a5ffc0ab76"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac8908acf3d3a83add9026ca3e64ad8cd"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_brain_cloud_service_handler.html#ac8908acf3d3a83add9026ca3e64ad8cd">Authentication_RequestSmsCode</a> (std::string &amp;_return, const std::string &amp;phoneNumber, const bool forceCreate, const bool isInternational, const int32_t clientIndex)</td></tr>
+<tr class="separator:ac8908acf3d3a83add9026ca3e64ad8cd"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a678725797bc024a6057c6a68422aebbb"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_brain_cloud_service_handler.html#a678725797bc024a6057c6a68422aebbb">Authentication_CheckUsernameExists</a> (std::string &amp;_return, const std::string &amp;gameId, const std::string &amp;playerName, const int32_t clientIndex)</td></tr>
 <tr class="separator:a678725797bc024a6057c6a68422aebbb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afd60b1f6ae71ccf61117973be70555b0"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_brain_cloud_service_handler.html#afd60b1f6ae71ccf61117973be70555b0">Client_GetSessionId</a> (std::string &amp;_return, const int32_t clientIndex)</td></tr>
+<tr class="separator:afd60b1f6ae71ccf61117973be70555b0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af4b83ae60f47d746da3fc8b069b86f28"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_brain_cloud_service_handler.html#af4b83ae60f47d746da3fc8b069b86f28">Client_IsAuthenticated</a> (const int32_t clientIndex)</td></tr>
+<tr class="separator:af4b83ae60f47d746da3fc8b069b86f28"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad6be50fb6daad958ebc4d587ba510c06"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_brain_cloud_service_handler.html#ad6be50fb6daad958ebc4d587ba510c06">Client_IsInitialized</a> (const int32_t clientIndex)</td></tr>
+<tr class="separator:ad6be50fb6daad958ebc4d587ba510c06"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab06edcc355f996868fc1af4f1f5ed5b5"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_brain_cloud_service_handler.html#ab06edcc355f996868fc1af4f1f5ed5b5">Client_Initialize_SSS</a> (const std::string &amp;secretKey, const std::string &amp;appId, const std::string &amp;appVersion, const int32_t clientIndex)</td></tr>
+<tr class="separator:ab06edcc355f996868fc1af4f1f5ed5b5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3b261ddb8c9c6c5a4093bc972f85a669"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_brain_cloud_service_handler.html#a3b261ddb8c9c6c5a4093bc972f85a669">Client_Initialize_SSSS</a> (const std::string &amp;serverURL, const std::string &amp;secretKey, const std::string &amp;appId, const std::string &amp;appVersion, const int32_t clientIndex)</td></tr>
+<tr class="separator:a3b261ddb8c9c6c5a4093bc972f85a669"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6ca6fc54d5c291fa2f9e2bb21e10ab75"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_brain_cloud_service_handler.html#a6ca6fc54d5c291fa2f9e2bb21e10ab75">Client_InitializeIdentity</a> (const std::string &amp;profileId, const std::string &amp;anonymousId, const int32_t clientIndex)</td></tr>
+<tr class="separator:a6ca6fc54d5c291fa2f9e2bb21e10ab75"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad2a6521b5054132fc3a04b66769d73d6"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_brain_cloud_service_handler.html#ad2a6521b5054132fc3a04b66769d73d6">Client_Update</a> (const int32_t clientIndex)</td></tr>
 <tr class="separator:ad2a6521b5054132fc3a04b66769d73d6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a107a9a0036254c3b279fbcc81147be33"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_brain_cloud_service_handler.html#a107a9a0036254c3b279fbcc81147be33">Client_EnableLogging</a> (const bool enable, const int32_t clientIndex)</td></tr>
@@ -164,18 +176,6 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a5b36e0153f5b6139c7ffd5b8f27ff0e1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab05b4e09e41e8701ca688ba3e516c6a3"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_brain_cloud_service_handler.html#ab05b4e09e41e8701ca688ba3e516c6a3">Client_OverrideLanguageCode</a> (const std::string &amp;languageCode, const int32_t clientIndex)</td></tr>
 <tr class="separator:ab05b4e09e41e8701ca688ba3e516c6a3"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:afd60b1f6ae71ccf61117973be70555b0"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_brain_cloud_service_handler.html#afd60b1f6ae71ccf61117973be70555b0">Client_GetSessionId</a> (std::string &amp;_return, const int32_t clientIndex)</td></tr>
-<tr class="separator:afd60b1f6ae71ccf61117973be70555b0"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af4b83ae60f47d746da3fc8b069b86f28"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_brain_cloud_service_handler.html#af4b83ae60f47d746da3fc8b069b86f28">Client_IsAuthenticated</a> (const int32_t clientIndex)</td></tr>
-<tr class="separator:af4b83ae60f47d746da3fc8b069b86f28"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad6be50fb6daad958ebc4d587ba510c06"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_brain_cloud_service_handler.html#ad6be50fb6daad958ebc4d587ba510c06">Client_IsInitialized</a> (const int32_t clientIndex)</td></tr>
-<tr class="separator:ad6be50fb6daad958ebc4d587ba510c06"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab06edcc355f996868fc1af4f1f5ed5b5"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_brain_cloud_service_handler.html#ab06edcc355f996868fc1af4f1f5ed5b5">Client_Initialize_SSS</a> (const std::string &amp;secretKey, const std::string &amp;appId, const std::string &amp;appVersion, const int32_t clientIndex)</td></tr>
-<tr class="separator:ab06edcc355f996868fc1af4f1f5ed5b5"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a3b261ddb8c9c6c5a4093bc972f85a669"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_brain_cloud_service_handler.html#a3b261ddb8c9c6c5a4093bc972f85a669">Client_Initialize_SSSS</a> (const std::string &amp;serverURL, const std::string &amp;secretKey, const std::string &amp;appId, const std::string &amp;appVersion, const int32_t clientIndex)</td></tr>
-<tr class="separator:a3b261ddb8c9c6c5a4093bc972f85a669"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a6ca6fc54d5c291fa2f9e2bb21e10ab75"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_brain_cloud_service_handler.html#a6ca6fc54d5c291fa2f9e2bb21e10ab75">Client_InitializeIdentity</a> (const std::string &amp;profileId, const std::string &amp;anonymousId, const int32_t clientIndex)</td></tr>
-<tr class="separator:a6ca6fc54d5c291fa2f9e2bb21e10ab75"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a6f94f78d0359d7fa352df77cd7ebb352"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_brain_cloud_service_handler.html#a6f94f78d0359d7fa352df77cd7ebb352">DataStream_CustomPageEvent</a> (std::string &amp;_return, const std::string &amp;eventName, const std::string &amp;jsonEventProperties, const int32_t clientIndex)</td></tr>
 <tr class="separator:a6f94f78d0359d7fa352df77cd7ebb352"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a390bcf4d455ab0378bed7ef8f566bcd0"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_brain_cloud_service_handler.html#a390bcf4d455ab0378bed7ef8f566bcd0">DataStream_CustomScreenEvent</a> (std::string &amp;_return, const std::string &amp;eventName, const std::string &amp;jsonEventProperties, const int32_t clientIndex)</td></tr>
@@ -246,6 +246,8 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:afbdd9dde6bf0ffd2c6429260f0893bf7"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac6321333e87837625d90962c2dca12cf"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_brain_cloud_service_handler.html#ac6321333e87837625d90962c2dca12cf">File_GetCDNUrl</a> (std::string &amp;_return, const std::string &amp;cloudPath, const std::string &amp;cloudFilename, const int32_t clientIndex)</td></tr>
 <tr class="separator:ac6321333e87837625d90962c2dca12cf"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9a0c5b5cfd5ab9a21239b7d641b660bb"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_brain_cloud_service_handler.html#a9a0c5b5cfd5ab9a21239b7d641b660bb">Friend_FindUserByUniversalId</a> (std::string &amp;_return, const std::string &amp;searchText, const int32_t maxResults, const int32_t clientIndex)</td></tr>
+<tr class="separator:a9a0c5b5cfd5ab9a21239b7d641b660bb"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a64d693ebe42392cb5919a5cbbae7f06b"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_brain_cloud_service_handler.html#a64d693ebe42392cb5919a5cbbae7f06b">Friend_ReadFriendEntity</a> (std::string &amp;_return, const std::string &amp;entityId, const std::string &amp;friendId, const int32_t clientIndex)</td></tr>
 <tr class="separator:a64d693ebe42392cb5919a5cbbae7f06b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab46f67b0acee4d9d1d3da49d1b77f636"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_brain_cloud_service_handler.html#ab46f67b0acee4d9d1d3da49d1b77f636">Friend_ReadFriendsEntities</a> (std::string &amp;_return, const std::string &amp;entityType, const int32_t clientIndex)</td></tr>
@@ -732,6 +734,74 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a470182494fd39f9ecedd88ac0616aee2"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a85aa5be85c2c0e07421cefdd1da8ce0e"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_brain_cloud_service_handler.html#a85aa5be85c2c0e07421cefdd1da8ce0e">Patch_GetGameManifest</a> (std::string &amp;_return, const std::string &amp;gameId, const int32_t clientIndex)</td></tr>
 <tr class="separator:a85aa5be85c2c0e07421cefdd1da8ce0e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afbadfcdb5dd5f2741d43dc70e31cc19e"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_brain_cloud_service_handler.html#afbadfcdb5dd5f2741d43dc70e31cc19e">Shopping_AddToCart_SISFO</a> (std::string &amp;_return, const std::string &amp;productId, const int32_t quantity, const int32_t clientIndex)</td></tr>
+<tr class="separator:afbadfcdb5dd5f2741d43dc70e31cc19e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac380394acccda20a4c9a7304d7901f9b"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_brain_cloud_service_handler.html#ac380394acccda20a4c9a7304d7901f9b">Shopping_AddToCart_ISFO</a> (std::string &amp;_return, const std::vector&lt; std::string &gt; &amp;productIds, const int32_t clientIndex)</td></tr>
+<tr class="separator:ac380394acccda20a4c9a7304d7901f9b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad4834cca2b6c0e918c8761d8fd390804"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_brain_cloud_service_handler.html#ad4834cca2b6c0e918c8761d8fd390804">Shopping_EmptyCart</a> (std::string &amp;_return, const int32_t clientIndex)</td></tr>
+<tr class="separator:ad4834cca2b6c0e918c8761d8fd390804"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a529f7f6e7d7c31e0a42e036fc844c180"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_brain_cloud_service_handler.html#a529f7f6e7d7c31e0a42e036fc844c180">Shopping_GetCart</a> (std::string &amp;_return, const bool includeDetails, const int32_t clientIndex)</td></tr>
+<tr class="separator:a529f7f6e7d7c31e0a42e036fc844c180"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a21f2420e2b72e9cb56359f04d27157d7"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_brain_cloud_service_handler.html#a21f2420e2b72e9cb56359f04d27157d7">Shopping_RemoveFromCart</a> (std::string &amp;_return, const std::string &amp;productId, const int32_t quantity, const int32_t clientIndex)</td></tr>
+<tr class="separator:a21f2420e2b72e9cb56359f04d27157d7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6239a5cf5a1a6734f1cb823fde178d26"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_brain_cloud_service_handler.html#a6239a5cf5a1a6734f1cb823fde178d26">Shopping_AddToWishlist</a> (std::string &amp;_return, const std::string &amp;productId, const int32_t clientIndex)</td></tr>
+<tr class="separator:a6239a5cf5a1a6734f1cb823fde178d26"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3b2dcded2bcb7be6d5ea1f296a9c1784"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_brain_cloud_service_handler.html#a3b2dcded2bcb7be6d5ea1f296a9c1784">Shopping_EmptyWishlist</a> (std::string &amp;_return, const int32_t clientIndex)</td></tr>
+<tr class="separator:a3b2dcded2bcb7be6d5ea1f296a9c1784"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ade2a6d8b386f81f042292d9be24fc440"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_brain_cloud_service_handler.html#ade2a6d8b386f81f042292d9be24fc440">Shopping_GetMyWishlist</a> (std::string &amp;_return, const bool includeDetails, const int32_t clientIndex)</td></tr>
+<tr class="separator:ade2a6d8b386f81f042292d9be24fc440"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a63370de1e5cbbfa8eb8f8347249f30a6"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_brain_cloud_service_handler.html#a63370de1e5cbbfa8eb8f8347249f30a6">Shopping_GetWishlist</a> (std::string &amp;_return, const std::string &amp;playerId, const bool includeDetails, const int32_t clientIndex)</td></tr>
+<tr class="separator:a63370de1e5cbbfa8eb8f8347249f30a6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6bc966ff03f2210168f2c095bf40e7a6"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_brain_cloud_service_handler.html#a6bc966ff03f2210168f2c095bf40e7a6">Shopping_RemoveFromWishlist_SSFO</a> (std::string &amp;_return, const std::string &amp;productId, const int32_t clientIndex)</td></tr>
+<tr class="separator:a6bc966ff03f2210168f2c095bf40e7a6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad013a25abc0afdd04e428a0ceacc26e1"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_brain_cloud_service_handler.html#ad013a25abc0afdd04e428a0ceacc26e1">Shopping_RemoveFromWishlist_ISFO</a> (std::string &amp;_return, const std::vector&lt; std::string &gt; &amp;productIds, const int32_t clientIndex)</td></tr>
+<tr class="separator:ad013a25abc0afdd04e428a0ceacc26e1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aaa1a0dc6eecb89b77d3bc10ebac9a041"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_brain_cloud_service_handler.html#aaa1a0dc6eecb89b77d3bc10ebac9a041">Shopping_GetUserReviews</a> (std::string &amp;_return, const std::string &amp;productId, const int32_t page, const int32_t pageSize, const int32_t clientIndex)</td></tr>
+<tr class="separator:aaa1a0dc6eecb89b77d3bc10ebac9a041"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac066aeefbc5f8257529ec2bc770549d8"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_brain_cloud_service_handler.html#ac066aeefbc5f8257529ec2bc770549d8">Shopping_SubmitUserReview</a> (std::string &amp;_return, const std::string &amp;productId, const std::string &amp;reviewText, const bool positive, const int32_t clientIndex)</td></tr>
+<tr class="separator:ac066aeefbc5f8257529ec2bc770549d8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2c21e8b0b7babae512f04b6c36666bf1"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_brain_cloud_service_handler.html#a2c21e8b0b7babae512f04b6c36666bf1">Shopping_LikeUserReview</a> (std::string &amp;_return, const std::string &amp;productId, const std::string &amp;reviewId, const int32_t clientIndex)</td></tr>
+<tr class="separator:a2c21e8b0b7babae512f04b6c36666bf1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aba59b6541249a517369b649e6a2a723b"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_brain_cloud_service_handler.html#aba59b6541249a517369b649e6a2a723b">Shopping_UnlikeUserReview</a> (std::string &amp;_return, const std::string &amp;productId, const std::string &amp;reviewId, const int32_t clientIndex)</td></tr>
+<tr class="separator:aba59b6541249a517369b649e6a2a723b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a44885eee493ec20ce54dd3d6d4eb41e9"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_brain_cloud_service_handler.html#a44885eee493ec20ce54dd3d6d4eb41e9">Shopping_FunnyUserReview</a> (std::string &amp;_return, const std::string &amp;productId, const std::string &amp;reviewId, const int32_t clientIndex)</td></tr>
+<tr class="separator:a44885eee493ec20ce54dd3d6d4eb41e9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1c16f0cf12bd9edae131b5cd9bbc6e54"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_brain_cloud_service_handler.html#a1c16f0cf12bd9edae131b5cd9bbc6e54">Shopping_UnfunnyUserReview</a> (std::string &amp;_return, const std::string &amp;productId, const std::string &amp;reviewId, const int32_t clientIndex)</td></tr>
+<tr class="separator:a1c16f0cf12bd9edae131b5cd9bbc6e54"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af1fbbe3686265a52c431faf360948bca"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_brain_cloud_service_handler.html#af1fbbe3686265a52c431faf360948bca">Shopping_GetRecentlyCreatedProducts</a> (std::string &amp;_return, const int32_t page, const int32_t pageSize, const int32_t clientIndex)</td></tr>
+<tr class="separator:af1fbbe3686265a52c431faf360948bca"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acea10cfdb0852051363fb3df6881365c"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_brain_cloud_service_handler.html#acea10cfdb0852051363fb3df6881365c">Shopping_GetRecentlyUpdatedProducts</a> (std::string &amp;_return, const int32_t page, const int32_t pageSize, const int32_t clientIndex)</td></tr>
+<tr class="separator:acea10cfdb0852051363fb3df6881365c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a40c6269b022c65c9c63e31b3957eea7b"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_brain_cloud_service_handler.html#a40c6269b022c65c9c63e31b3957eea7b">Shopping_GetFeaturedProducts</a> (std::string &amp;_return, const bool includeDetails, const int32_t clientIndex)</td></tr>
+<tr class="separator:a40c6269b022c65c9c63e31b3957eea7b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a15b5f1ff3633dacee2747c8c38fdc03d"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_brain_cloud_service_handler.html#a15b5f1ff3633dacee2747c8c38fdc03d">Shopping_GetPopularProducts</a> (std::string &amp;_return, const int32_t page, const int32_t pageSize, const int32_t clientIndex)</td></tr>
+<tr class="separator:a15b5f1ff3633dacee2747c8c38fdc03d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac5c6fda8a3871d96ba3826ce56c789e2"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_brain_cloud_service_handler.html#ac5c6fda8a3871d96ba3826ce56c789e2">Shopping_GetSpecialOffers</a> (std::string &amp;_return, const int32_t page, const int32_t pageSize, const int32_t clientIndex)</td></tr>
+<tr class="separator:ac5c6fda8a3871d96ba3826ce56c789e2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8c4f1f856d7e7e8619e913bd80136fd6"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_brain_cloud_service_handler.html#a8c4f1f856d7e7e8619e913bd80136fd6">Shopping_GetMyLibrary</a> (std::string &amp;_return, const bool includeDetails, const int32_t clientIndex)</td></tr>
+<tr class="separator:a8c4f1f856d7e7e8619e913bd80136fd6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3bf864e8fd0cff6781af29a054366147"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_brain_cloud_service_handler.html#a3bf864e8fd0cff6781af29a054366147">Shopping_GetPopularTags</a> (std::string &amp;_return, const int32_t page, const int32_t pageSize, const int32_t clientIndex)</td></tr>
+<tr class="separator:a3bf864e8fd0cff6781af29a054366147"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aeb2332eb9018abf72a90f919bb69b6cb"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_brain_cloud_service_handler.html#aeb2332eb9018abf72a90f919bb69b6cb">Shopping_GetProductsByTag</a> (std::string &amp;_return, const std::string &amp;tag, const int32_t page, const int32_t pageSize, const int32_t clientIndex)</td></tr>
+<tr class="separator:aeb2332eb9018abf72a90f919bb69b6cb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:adb04216d482b7088f30f9e358e16dc4e"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_brain_cloud_service_handler.html#adb04216d482b7088f30f9e358e16dc4e">Shopping_GetProductsByTags</a> (std::string &amp;_return, const std::vector&lt; std::string &gt; &amp;tags, const int32_t page, const int32_t pageSize, const int32_t clientIndex)</td></tr>
+<tr class="separator:adb04216d482b7088f30f9e358e16dc4e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7f42ddaaf45be5120c202c2729b612d4"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_brain_cloud_service_handler.html#a7f42ddaaf45be5120c202c2729b612d4">Shopping_GetRecommendedProducts</a> (std::string &amp;_return, const int32_t count, const int32_t clientIndex)</td></tr>
+<tr class="separator:a7f42ddaaf45be5120c202c2729b612d4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6a256c0c3772479cb47f247a03a08bdb"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_brain_cloud_service_handler.html#a6a256c0c3772479cb47f247a03a08bdb">Shopping_GetMyOrders</a> (std::string &amp;_return, const bool includeCompleted, const int32_t clientIndex)</td></tr>
+<tr class="separator:a6a256c0c3772479cb47f247a03a08bdb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aeda2c7419c28e233df3abf85077f71ff"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_brain_cloud_service_handler.html#aeda2c7419c28e233df3abf85077f71ff">Shopping_GetProduct</a> (std::string &amp;_return, const std::string &amp;productId, const int32_t clientIndex)</td></tr>
+<tr class="separator:aeda2c7419c28e233df3abf85077f71ff"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a403e25691052e78d7149441e703e0726"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_brain_cloud_service_handler.html#a403e25691052e78d7149441e703e0726">Shopping_GetUserTags</a> (std::string &amp;_return, const std::string &amp;productId, const int32_t page, const int32_t pageSize, const int32_t clientIndex)</td></tr>
+<tr class="separator:a403e25691052e78d7149441e703e0726"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a19c11f0862d018788638e87009c156c0"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_brain_cloud_service_handler.html#a19c11f0862d018788638e87009c156c0">Shopping_GetMyUserTags</a> (std::string &amp;_return, const std::string &amp;productId, const int32_t clientIndex)</td></tr>
+<tr class="separator:a19c11f0862d018788638e87009c156c0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aab84deae41616b856de523a614719d51"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_brain_cloud_service_handler.html#aab84deae41616b856de523a614719d51">Shopping_SubmitUserTag</a> (std::string &amp;_return, const std::string &amp;productId, const std::string &amp;tag, const int32_t clientIndex)</td></tr>
+<tr class="separator:aab84deae41616b856de523a614719d51"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a638036724abe7e1309eb3e3e212cd1ea"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_brain_cloud_service_handler.html#a638036724abe7e1309eb3e3e212cd1ea">Shopping_SubmitUserTags</a> (std::string &amp;_return, const std::string &amp;productId, const std::vector&lt; std::string &gt; &amp;tags, const int32_t clientIndex)</td></tr>
+<tr class="separator:a638036724abe7e1309eb3e3e212cd1ea"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4305dec04fa6787ff353ecb90b863e6f"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_brain_cloud_service_handler.html#a4305dec04fa6787ff353ecb90b863e6f">Shopping_RemoveUserTag</a> (std::string &amp;_return, const std::string &amp;productId, const std::string &amp;tag, const int32_t clientIndex)</td></tr>
+<tr class="separator:a4305dec04fa6787ff353ecb90b863e6f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a4c201d340cd0751cc3de14995466857f"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_brain_cloud_service_handler.html#a4c201d340cd0751cc3de14995466857f">SocialFeed_ShareVideo</a> (std::string &amp;_return, const int32_t timestamp, const std::string &amp;resource, const std::vector&lt; std::string &gt; &amp;tagged, const std::vector&lt; std::string &gt; &amp;show, const std::vector&lt; std::string &gt; &amp;block, const int32_t clientIndex)</td></tr>
 <tr class="separator:a4c201d340cd0751cc3de14995466857f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a6421c87a30170a87efe697648efa5715"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_brain_cloud_service_handler.html#a6421c87a30170a87efe697648efa5715">SocialFeed_ShareScreenshot</a> (std::string &amp;_return, const int32_t timestamp, const std::string &amp;resource, const std::vector&lt; std::string &gt; &amp;tagged, const std::vector&lt; std::string &gt; &amp;show, const std::vector&lt; std::string &gt; &amp;block, const int32_t clientIndex)</td></tr>
@@ -2052,6 +2122,12 @@ Public Member Functions</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">clientIndex</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
 
 </div>
 </div>
@@ -2106,8 +2182,8 @@ Public Member Functions</h2></td></tr>
 
 </div>
 </div>
-<a id="ad2b7c1073ff73b3a02a717a5ffc0ab76"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ad2b7c1073ff73b3a02a717a5ffc0ab76">&#9670;&nbsp;</a></span>Authentication_RequestSmsCode()</h2>
+<a id="ac8908acf3d3a83add9026ca3e64ad8cd"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac8908acf3d3a83add9026ca3e64ad8cd">&#9670;&nbsp;</a></span>Authentication_RequestSmsCode()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -2136,6 +2212,12 @@ Public Member Functions</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
+          <td class="paramtype">const bool&#160;</td>
+          <td class="paramname"><em>isInternational</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
           <td class="paramtype">const int32_t&#160;</td>
           <td class="paramname"><em>clientIndex</em>&#160;</td>
         </tr>
@@ -2156,6 +2238,7 @@ Public Member Functions</h2></td></tr>
   <table class="params">
     <tr><td class="paramname">phoneNumber</td><td>The phone number to send the code to.</td></tr>
     <tr><td class="paramname">forceCreate</td><td>Whether or not to create a new player if they don't exist.</td></tr>
+    <tr><td class="paramname">isInternational</td><td></td></tr>
     <tr><td class="paramname">clientIndex</td><td></td></tr>
   </table>
   </dd>
@@ -4713,6 +4796,14 @@ Public Member Functions</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">cloudPath</td><td></td></tr>
+    <tr><td class="paramname">cloudFilename</td><td></td></tr>
+    <tr><td class="paramname">clientIndex</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
 
 </div>
 </div>
@@ -4925,6 +5016,15 @@ Public Member Functions</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">cloudPath</td><td></td></tr>
+    <tr><td class="paramname">cloudFilename</td><td></td></tr>
+    <tr><td class="paramname">replaceIfExists</td><td></td></tr>
+    <tr><td class="paramname">clientIndex</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
 
 </div>
 </div>
@@ -5030,6 +5130,14 @@ Public Member Functions</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">cloudPath</td><td></td></tr>
+    <tr><td class="paramname">cloudFilename</td><td></td></tr>
+    <tr><td class="paramname">clientIndex</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
 
 </div>
 </div>
@@ -5432,6 +5540,54 @@ Public Member Functions</h2></td></tr>
   </table>
   </dd>
 </dl>
+
+</div>
+</div>
+<a id="a9a0c5b5cfd5ab9a21239b7d641b660bb"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9a0c5b5cfd5ab9a21239b7d641b660bb">&#9670;&nbsp;</a></span>Friend_FindUserByUniversalId()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void BrainCloudServiceHandler::Friend_FindUserByUniversalId </td>
+          <td>(</td>
+          <td class="paramtype">std::string &amp;&#160;</td>
+          <td class="paramname"><em>_return</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const std::string &amp;&#160;</td>
+          <td class="paramname"><em>searchText</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const int32_t&#160;</td>
+          <td class="paramname"><em>maxResults</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const int32_t&#160;</td>
+          <td class="paramname"><em>clientIndex</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
 
 </div>
 </div>
@@ -17157,6 +17313,1867 @@ Public Member Functions</h2></td></tr>
     <tr><td class="paramname">scriptName</td><td>Name of script</td></tr>
     <tr><td class="paramname">jsonScriptData</td><td>JSON bundle to pass to script</td></tr>
     <tr><td class="paramname">startDateInUTC</td><td>The start date as a DateTime object</td></tr>
+    <tr><td class="paramname">clientIndex</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="ac380394acccda20a4c9a7304d7901f9b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac380394acccda20a4c9a7304d7901f9b">&#9670;&nbsp;</a></span>Shopping_AddToCart_ISFO()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void BrainCloudServiceHandler::Shopping_AddToCart_ISFO </td>
+          <td>(</td>
+          <td class="paramtype">std::string &amp;&#160;</td>
+          <td class="paramname"><em>_return</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const std::vector&lt; std::string &gt; &amp;&#160;</td>
+          <td class="paramname"><em>productIds</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const int32_t&#160;</td>
+          <td class="paramname"><em>clientIndex</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>Add a product to the player's shopping cart.</p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">productIds</td><td></td></tr>
+    <tr><td class="paramname">clientIndex</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="afbadfcdb5dd5f2741d43dc70e31cc19e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#afbadfcdb5dd5f2741d43dc70e31cc19e">&#9670;&nbsp;</a></span>Shopping_AddToCart_SISFO()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void BrainCloudServiceHandler::Shopping_AddToCart_SISFO </td>
+          <td>(</td>
+          <td class="paramtype">std::string &amp;&#160;</td>
+          <td class="paramname"><em>_return</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const std::string &amp;&#160;</td>
+          <td class="paramname"><em>productId</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const int32_t&#160;</td>
+          <td class="paramname"><em>quantity</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const int32_t&#160;</td>
+          <td class="paramname"><em>clientIndex</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>Add a product to the player's shopping cart.</p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">productId</td><td>The ID of the product to add to the cart (usually a Game ID).</td></tr>
+    <tr><td class="paramname">quantity</td><td>The amount of this product to add.</td></tr>
+    <tr><td class="paramname">clientIndex</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="a6239a5cf5a1a6734f1cb823fde178d26"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6239a5cf5a1a6734f1cb823fde178d26">&#9670;&nbsp;</a></span>Shopping_AddToWishlist()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void BrainCloudServiceHandler::Shopping_AddToWishlist </td>
+          <td>(</td>
+          <td class="paramtype">std::string &amp;&#160;</td>
+          <td class="paramname"><em>_return</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const std::string &amp;&#160;</td>
+          <td class="paramname"><em>productId</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const int32_t&#160;</td>
+          <td class="paramname"><em>clientIndex</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>Add an item to the player's wishlist.</p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">productId</td><td>The ID of the product to add.</td></tr>
+    <tr><td class="paramname">clientIndex</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="ad4834cca2b6c0e918c8761d8fd390804"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad4834cca2b6c0e918c8761d8fd390804">&#9670;&nbsp;</a></span>Shopping_EmptyCart()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void BrainCloudServiceHandler::Shopping_EmptyCart </td>
+          <td>(</td>
+          <td class="paramtype">std::string &amp;&#160;</td>
+          <td class="paramname"><em>_return</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const int32_t&#160;</td>
+          <td class="paramname"><em>clientIndex</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>Empty the player's shopping cart.</p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">clientIndex</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="a3b2dcded2bcb7be6d5ea1f296a9c1784"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3b2dcded2bcb7be6d5ea1f296a9c1784">&#9670;&nbsp;</a></span>Shopping_EmptyWishlist()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void BrainCloudServiceHandler::Shopping_EmptyWishlist </td>
+          <td>(</td>
+          <td class="paramtype">std::string &amp;&#160;</td>
+          <td class="paramname"><em>_return</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const int32_t&#160;</td>
+          <td class="paramname"><em>clientIndex</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>Remove all items from the player's wishlist.</p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">clientIndex</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="a44885eee493ec20ce54dd3d6d4eb41e9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a44885eee493ec20ce54dd3d6d4eb41e9">&#9670;&nbsp;</a></span>Shopping_FunnyUserReview()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void BrainCloudServiceHandler::Shopping_FunnyUserReview </td>
+          <td>(</td>
+          <td class="paramtype">std::string &amp;&#160;</td>
+          <td class="paramname"><em>_return</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const std::string &amp;&#160;</td>
+          <td class="paramname"><em>productId</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const std::string &amp;&#160;</td>
+          <td class="paramname"><em>reviewId</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const int32_t&#160;</td>
+          <td class="paramname"><em>clientIndex</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>@2222188570</p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">productId</td><td>The ID of the product being reviewed.</td></tr>
+    <tr><td class="paramname">reviewId</td><td>@2487545452</td></tr>
+    <tr><td class="paramname">clientIndex</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="a529f7f6e7d7c31e0a42e036fc844c180"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a529f7f6e7d7c31e0a42e036fc844c180">&#9670;&nbsp;</a></span>Shopping_GetCart()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void BrainCloudServiceHandler::Shopping_GetCart </td>
+          <td>(</td>
+          <td class="paramtype">std::string &amp;&#160;</td>
+          <td class="paramname"><em>_return</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const bool&#160;</td>
+          <td class="paramname"><em>includeDetails</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const int32_t&#160;</td>
+          <td class="paramname"><em>clientIndex</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>Retrieve the player's current shopping cart.</p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">includeDetails</td><td></td></tr>
+    <tr><td class="paramname">clientIndex</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="a40c6269b022c65c9c63e31b3957eea7b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a40c6269b022c65c9c63e31b3957eea7b">&#9670;&nbsp;</a></span>Shopping_GetFeaturedProducts()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void BrainCloudServiceHandler::Shopping_GetFeaturedProducts </td>
+          <td>(</td>
+          <td class="paramtype">std::string &amp;&#160;</td>
+          <td class="paramname"><em>_return</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const bool&#160;</td>
+          <td class="paramname"><em>includeDetails</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const int32_t&#160;</td>
+          <td class="paramname"><em>clientIndex</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>Return a list of featured products.</p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">includeDetails</td><td>If true will also return full descriptions of games in the list.</td></tr>
+    <tr><td class="paramname">clientIndex</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="a8c4f1f856d7e7e8619e913bd80136fd6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8c4f1f856d7e7e8619e913bd80136fd6">&#9670;&nbsp;</a></span>Shopping_GetMyLibrary()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void BrainCloudServiceHandler::Shopping_GetMyLibrary </td>
+          <td>(</td>
+          <td class="paramtype">std::string &amp;&#160;</td>
+          <td class="paramname"><em>_return</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const bool&#160;</td>
+          <td class="paramname"><em>includeDetails</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const int32_t&#160;</td>
+          <td class="paramname"><em>clientIndex</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>@2304250631</p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">includeDetails</td><td></td></tr>
+    <tr><td class="paramname">clientIndex</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="a6a256c0c3772479cb47f247a03a08bdb"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6a256c0c3772479cb47f247a03a08bdb">&#9670;&nbsp;</a></span>Shopping_GetMyOrders()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void BrainCloudServiceHandler::Shopping_GetMyOrders </td>
+          <td>(</td>
+          <td class="paramtype">std::string &amp;&#160;</td>
+          <td class="paramname"><em>_return</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const bool&#160;</td>
+          <td class="paramname"><em>includeCompleted</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const int32_t&#160;</td>
+          <td class="paramname"><em>clientIndex</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>@919332756</p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">includeCompleted</td><td>@1616325051</td></tr>
+    <tr><td class="paramname">clientIndex</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="a19c11f0862d018788638e87009c156c0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a19c11f0862d018788638e87009c156c0">&#9670;&nbsp;</a></span>Shopping_GetMyUserTags()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void BrainCloudServiceHandler::Shopping_GetMyUserTags </td>
+          <td>(</td>
+          <td class="paramtype">std::string &amp;&#160;</td>
+          <td class="paramname"><em>_return</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const std::string &amp;&#160;</td>
+          <td class="paramname"><em>productId</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const int32_t&#160;</td>
+          <td class="paramname"><em>clientIndex</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>@274383141</p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">productId</td><td>@3110420339</td></tr>
+    <tr><td class="paramname">clientIndex</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="ade2a6d8b386f81f042292d9be24fc440"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ade2a6d8b386f81f042292d9be24fc440">&#9670;&nbsp;</a></span>Shopping_GetMyWishlist()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void BrainCloudServiceHandler::Shopping_GetMyWishlist </td>
+          <td>(</td>
+          <td class="paramtype">std::string &amp;&#160;</td>
+          <td class="paramname"><em>_return</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const bool&#160;</td>
+          <td class="paramname"><em>includeDetails</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const int32_t&#160;</td>
+          <td class="paramname"><em>clientIndex</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>Returns the current player's wishlist.</p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">includeDetails</td><td></td></tr>
+    <tr><td class="paramname">clientIndex</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="a15b5f1ff3633dacee2747c8c38fdc03d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a15b5f1ff3633dacee2747c8c38fdc03d">&#9670;&nbsp;</a></span>Shopping_GetPopularProducts()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void BrainCloudServiceHandler::Shopping_GetPopularProducts </td>
+          <td>(</td>
+          <td class="paramtype">std::string &amp;&#160;</td>
+          <td class="paramname"><em>_return</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const int32_t&#160;</td>
+          <td class="paramname"><em>page</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const int32_t&#160;</td>
+          <td class="paramname"><em>pageSize</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const int32_t&#160;</td>
+          <td class="paramname"><em>clientIndex</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>Return a list of the mos tpopular products.</p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">page</td><td>The 1-indexed page of the review list to fetch.</td></tr>
+    <tr><td class="paramname">pageSize</td><td>The size of each page.</td></tr>
+    <tr><td class="paramname">clientIndex</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="a3bf864e8fd0cff6781af29a054366147"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3bf864e8fd0cff6781af29a054366147">&#9670;&nbsp;</a></span>Shopping_GetPopularTags()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void BrainCloudServiceHandler::Shopping_GetPopularTags </td>
+          <td>(</td>
+          <td class="paramtype">std::string &amp;&#160;</td>
+          <td class="paramname"><em>_return</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const int32_t&#160;</td>
+          <td class="paramname"><em>page</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const int32_t&#160;</td>
+          <td class="paramname"><em>pageSize</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const int32_t&#160;</td>
+          <td class="paramname"><em>clientIndex</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>@1350446922</p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">page</td><td>@1144882702</td></tr>
+    <tr><td class="paramname">pageSize</td><td>The size of each page.</td></tr>
+    <tr><td class="paramname">clientIndex</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="aeda2c7419c28e233df3abf85077f71ff"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aeda2c7419c28e233df3abf85077f71ff">&#9670;&nbsp;</a></span>Shopping_GetProduct()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void BrainCloudServiceHandler::Shopping_GetProduct </td>
+          <td>(</td>
+          <td class="paramtype">std::string &amp;&#160;</td>
+          <td class="paramname"><em>_return</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const std::string &amp;&#160;</td>
+          <td class="paramname"><em>productId</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const int32_t&#160;</td>
+          <td class="paramname"><em>clientIndex</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>@2681224790</p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">productId</td><td></td></tr>
+    <tr><td class="paramname">clientIndex</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="aeb2332eb9018abf72a90f919bb69b6cb"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aeb2332eb9018abf72a90f919bb69b6cb">&#9670;&nbsp;</a></span>Shopping_GetProductsByTag()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void BrainCloudServiceHandler::Shopping_GetProductsByTag </td>
+          <td>(</td>
+          <td class="paramtype">std::string &amp;&#160;</td>
+          <td class="paramname"><em>_return</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const std::string &amp;&#160;</td>
+          <td class="paramname"><em>tag</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const int32_t&#160;</td>
+          <td class="paramname"><em>page</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const int32_t&#160;</td>
+          <td class="paramname"><em>pageSize</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const int32_t&#160;</td>
+          <td class="paramname"><em>clientIndex</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>@3387279661</p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">tag</td><td></td></tr>
+    <tr><td class="paramname">page</td><td>@1144882702</td></tr>
+    <tr><td class="paramname">pageSize</td><td>The size of each page.</td></tr>
+    <tr><td class="paramname">clientIndex</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="adb04216d482b7088f30f9e358e16dc4e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#adb04216d482b7088f30f9e358e16dc4e">&#9670;&nbsp;</a></span>Shopping_GetProductsByTags()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void BrainCloudServiceHandler::Shopping_GetProductsByTags </td>
+          <td>(</td>
+          <td class="paramtype">std::string &amp;&#160;</td>
+          <td class="paramname"><em>_return</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const std::vector&lt; std::string &gt; &amp;&#160;</td>
+          <td class="paramname"><em>tags</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const int32_t&#160;</td>
+          <td class="paramname"><em>page</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const int32_t&#160;</td>
+          <td class="paramname"><em>pageSize</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const int32_t&#160;</td>
+          <td class="paramname"><em>clientIndex</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>@2681224790</p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">tags</td><td></td></tr>
+    <tr><td class="paramname">page</td><td>@1144882702</td></tr>
+    <tr><td class="paramname">pageSize</td><td>The size of each page.</td></tr>
+    <tr><td class="paramname">clientIndex</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="af1fbbe3686265a52c431faf360948bca"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af1fbbe3686265a52c431faf360948bca">&#9670;&nbsp;</a></span>Shopping_GetRecentlyCreatedProducts()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void BrainCloudServiceHandler::Shopping_GetRecentlyCreatedProducts </td>
+          <td>(</td>
+          <td class="paramtype">std::string &amp;&#160;</td>
+          <td class="paramname"><em>_return</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const int32_t&#160;</td>
+          <td class="paramname"><em>page</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const int32_t&#160;</td>
+          <td class="paramname"><em>pageSize</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const int32_t&#160;</td>
+          <td class="paramname"><em>clientIndex</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>Return a list of recently created products.</p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">page</td><td>The 1-indexed page of the review list to fetch.</td></tr>
+    <tr><td class="paramname">pageSize</td><td>The size of each page.</td></tr>
+    <tr><td class="paramname">clientIndex</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="acea10cfdb0852051363fb3df6881365c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#acea10cfdb0852051363fb3df6881365c">&#9670;&nbsp;</a></span>Shopping_GetRecentlyUpdatedProducts()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void BrainCloudServiceHandler::Shopping_GetRecentlyUpdatedProducts </td>
+          <td>(</td>
+          <td class="paramtype">std::string &amp;&#160;</td>
+          <td class="paramname"><em>_return</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const int32_t&#160;</td>
+          <td class="paramname"><em>page</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const int32_t&#160;</td>
+          <td class="paramname"><em>pageSize</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const int32_t&#160;</td>
+          <td class="paramname"><em>clientIndex</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>Return a list of recently updated products.</p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">page</td><td>The 1-indexed page of the review list to fetch.</td></tr>
+    <tr><td class="paramname">pageSize</td><td>The size of each page.</td></tr>
+    <tr><td class="paramname">clientIndex</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="a7f42ddaaf45be5120c202c2729b612d4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7f42ddaaf45be5120c202c2729b612d4">&#9670;&nbsp;</a></span>Shopping_GetRecommendedProducts()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void BrainCloudServiceHandler::Shopping_GetRecommendedProducts </td>
+          <td>(</td>
+          <td class="paramtype">std::string &amp;&#160;</td>
+          <td class="paramname"><em>_return</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const int32_t&#160;</td>
+          <td class="paramname"><em>count</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const int32_t&#160;</td>
+          <td class="paramname"><em>clientIndex</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>@2681224790</p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">count</td><td></td></tr>
+    <tr><td class="paramname">clientIndex</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="ac5c6fda8a3871d96ba3826ce56c789e2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac5c6fda8a3871d96ba3826ce56c789e2">&#9670;&nbsp;</a></span>Shopping_GetSpecialOffers()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void BrainCloudServiceHandler::Shopping_GetSpecialOffers </td>
+          <td>(</td>
+          <td class="paramtype">std::string &amp;&#160;</td>
+          <td class="paramname"><em>_return</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const int32_t&#160;</td>
+          <td class="paramname"><em>page</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const int32_t&#160;</td>
+          <td class="paramname"><em>pageSize</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const int32_t&#160;</td>
+          <td class="paramname"><em>clientIndex</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>Return a list of special offers.</p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">page</td><td>The 1-indexed page of the review list to fetch.</td></tr>
+    <tr><td class="paramname">pageSize</td><td>The size of each page.</td></tr>
+    <tr><td class="paramname">clientIndex</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="aaa1a0dc6eecb89b77d3bc10ebac9a041"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aaa1a0dc6eecb89b77d3bc10ebac9a041">&#9670;&nbsp;</a></span>Shopping_GetUserReviews()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void BrainCloudServiceHandler::Shopping_GetUserReviews </td>
+          <td>(</td>
+          <td class="paramtype">std::string &amp;&#160;</td>
+          <td class="paramname"><em>_return</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const std::string &amp;&#160;</td>
+          <td class="paramname"><em>productId</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const int32_t&#160;</td>
+          <td class="paramname"><em>page</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const int32_t&#160;</td>
+          <td class="paramname"><em>pageSize</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const int32_t&#160;</td>
+          <td class="paramname"><em>clientIndex</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>Get a list of user reviews for a product.</p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">productId</td><td>The ID of the product to get reviews for.</td></tr>
+    <tr><td class="paramname">page</td><td>The 1-indexed page of the review list to fetch.</td></tr>
+    <tr><td class="paramname">pageSize</td><td>The size of each page.</td></tr>
+    <tr><td class="paramname">clientIndex</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="a403e25691052e78d7149441e703e0726"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a403e25691052e78d7149441e703e0726">&#9670;&nbsp;</a></span>Shopping_GetUserTags()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void BrainCloudServiceHandler::Shopping_GetUserTags </td>
+          <td>(</td>
+          <td class="paramtype">std::string &amp;&#160;</td>
+          <td class="paramname"><em>_return</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const std::string &amp;&#160;</td>
+          <td class="paramname"><em>productId</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const int32_t&#160;</td>
+          <td class="paramname"><em>page</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const int32_t&#160;</td>
+          <td class="paramname"><em>pageSize</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const int32_t&#160;</td>
+          <td class="paramname"><em>clientIndex</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>@1777617418</p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">productId</td><td>@3110420339</td></tr>
+    <tr><td class="paramname">page</td><td>@1144882702</td></tr>
+    <tr><td class="paramname">pageSize</td><td>The size of each page.</td></tr>
+    <tr><td class="paramname">clientIndex</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="a63370de1e5cbbfa8eb8f8347249f30a6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a63370de1e5cbbfa8eb8f8347249f30a6">&#9670;&nbsp;</a></span>Shopping_GetWishlist()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void BrainCloudServiceHandler::Shopping_GetWishlist </td>
+          <td>(</td>
+          <td class="paramtype">std::string &amp;&#160;</td>
+          <td class="paramname"><em>_return</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const std::string &amp;&#160;</td>
+          <td class="paramname"><em>playerId</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const bool&#160;</td>
+          <td class="paramname"><em>includeDetails</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const int32_t&#160;</td>
+          <td class="paramname"><em>clientIndex</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>Returns the specified player's wishlist.</p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">playerId</td><td>The ID of the player to get the wishlist for.</td></tr>
+    <tr><td class="paramname">includeDetails</td><td></td></tr>
+    <tr><td class="paramname">clientIndex</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="a2c21e8b0b7babae512f04b6c36666bf1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2c21e8b0b7babae512f04b6c36666bf1">&#9670;&nbsp;</a></span>Shopping_LikeUserReview()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void BrainCloudServiceHandler::Shopping_LikeUserReview </td>
+          <td>(</td>
+          <td class="paramtype">std::string &amp;&#160;</td>
+          <td class="paramname"><em>_return</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const std::string &amp;&#160;</td>
+          <td class="paramname"><em>productId</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const std::string &amp;&#160;</td>
+          <td class="paramname"><em>reviewId</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const int32_t&#160;</td>
+          <td class="paramname"><em>clientIndex</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>@3972606582</p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">productId</td><td>The ID of the product being reviewed.</td></tr>
+    <tr><td class="paramname">reviewId</td><td>@2487545452</td></tr>
+    <tr><td class="paramname">clientIndex</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="a21f2420e2b72e9cb56359f04d27157d7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a21f2420e2b72e9cb56359f04d27157d7">&#9670;&nbsp;</a></span>Shopping_RemoveFromCart()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void BrainCloudServiceHandler::Shopping_RemoveFromCart </td>
+          <td>(</td>
+          <td class="paramtype">std::string &amp;&#160;</td>
+          <td class="paramname"><em>_return</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const std::string &amp;&#160;</td>
+          <td class="paramname"><em>productId</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const int32_t&#160;</td>
+          <td class="paramname"><em>quantity</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const int32_t&#160;</td>
+          <td class="paramname"><em>clientIndex</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>Remove an item from the player's shopping cart.</p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">productId</td><td>The ID of the product to remove.</td></tr>
+    <tr><td class="paramname">quantity</td><td></td></tr>
+    <tr><td class="paramname">clientIndex</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="ad013a25abc0afdd04e428a0ceacc26e1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad013a25abc0afdd04e428a0ceacc26e1">&#9670;&nbsp;</a></span>Shopping_RemoveFromWishlist_ISFO()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void BrainCloudServiceHandler::Shopping_RemoveFromWishlist_ISFO </td>
+          <td>(</td>
+          <td class="paramtype">std::string &amp;&#160;</td>
+          <td class="paramname"><em>_return</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const std::vector&lt; std::string &gt; &amp;&#160;</td>
+          <td class="paramname"><em>productIds</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const int32_t&#160;</td>
+          <td class="paramname"><em>clientIndex</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>Remove multiple items from the player's wishlist.</p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">productIds</td><td></td></tr>
+    <tr><td class="paramname">clientIndex</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="a6bc966ff03f2210168f2c095bf40e7a6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6bc966ff03f2210168f2c095bf40e7a6">&#9670;&nbsp;</a></span>Shopping_RemoveFromWishlist_SSFO()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void BrainCloudServiceHandler::Shopping_RemoveFromWishlist_SSFO </td>
+          <td>(</td>
+          <td class="paramtype">std::string &amp;&#160;</td>
+          <td class="paramname"><em>_return</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const std::string &amp;&#160;</td>
+          <td class="paramname"><em>productId</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const int32_t&#160;</td>
+          <td class="paramname"><em>clientIndex</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>Remove an item from the player's wishlist.</p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">productId</td><td>The ID of the product to remove.</td></tr>
+    <tr><td class="paramname">clientIndex</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="a4305dec04fa6787ff353ecb90b863e6f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4305dec04fa6787ff353ecb90b863e6f">&#9670;&nbsp;</a></span>Shopping_RemoveUserTag()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void BrainCloudServiceHandler::Shopping_RemoveUserTag </td>
+          <td>(</td>
+          <td class="paramtype">std::string &amp;&#160;</td>
+          <td class="paramname"><em>_return</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const std::string &amp;&#160;</td>
+          <td class="paramname"><em>productId</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const std::string &amp;&#160;</td>
+          <td class="paramname"><em>tag</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const int32_t&#160;</td>
+          <td class="paramname"><em>clientIndex</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>@2944656417</p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">productId</td><td>@3110420339</td></tr>
+    <tr><td class="paramname">tag</td><td>@3017888560</td></tr>
+    <tr><td class="paramname">clientIndex</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="ac066aeefbc5f8257529ec2bc770549d8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac066aeefbc5f8257529ec2bc770549d8">&#9670;&nbsp;</a></span>Shopping_SubmitUserReview()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void BrainCloudServiceHandler::Shopping_SubmitUserReview </td>
+          <td>(</td>
+          <td class="paramtype">std::string &amp;&#160;</td>
+          <td class="paramname"><em>_return</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const std::string &amp;&#160;</td>
+          <td class="paramname"><em>productId</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const std::string &amp;&#160;</td>
+          <td class="paramname"><em>reviewText</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const bool&#160;</td>
+          <td class="paramname"><em>positive</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const int32_t&#160;</td>
+          <td class="paramname"><em>clientIndex</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>Submit a user review of a product.</p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">productId</td><td>The ID of the product being reviewed.</td></tr>
+    <tr><td class="paramname">reviewText</td><td>The text of the review.</td></tr>
+    <tr><td class="paramname">positive</td><td></td></tr>
+    <tr><td class="paramname">clientIndex</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="aab84deae41616b856de523a614719d51"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aab84deae41616b856de523a614719d51">&#9670;&nbsp;</a></span>Shopping_SubmitUserTag()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void BrainCloudServiceHandler::Shopping_SubmitUserTag </td>
+          <td>(</td>
+          <td class="paramtype">std::string &amp;&#160;</td>
+          <td class="paramname"><em>_return</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const std::string &amp;&#160;</td>
+          <td class="paramname"><em>productId</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const std::string &amp;&#160;</td>
+          <td class="paramname"><em>tag</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const int32_t&#160;</td>
+          <td class="paramname"><em>clientIndex</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>@3717774610</p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">productId</td><td>@3110420339</td></tr>
+    <tr><td class="paramname">tag</td><td>@605655784</td></tr>
+    <tr><td class="paramname">clientIndex</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="a638036724abe7e1309eb3e3e212cd1ea"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a638036724abe7e1309eb3e3e212cd1ea">&#9670;&nbsp;</a></span>Shopping_SubmitUserTags()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void BrainCloudServiceHandler::Shopping_SubmitUserTags </td>
+          <td>(</td>
+          <td class="paramtype">std::string &amp;&#160;</td>
+          <td class="paramname"><em>_return</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const std::string &amp;&#160;</td>
+          <td class="paramname"><em>productId</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const std::vector&lt; std::string &gt; &amp;&#160;</td>
+          <td class="paramname"><em>tags</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const int32_t&#160;</td>
+          <td class="paramname"><em>clientIndex</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>@3717774610</p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">productId</td><td>@3110420339</td></tr>
+    <tr><td class="paramname">tags</td><td></td></tr>
+    <tr><td class="paramname">clientIndex</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="a1c16f0cf12bd9edae131b5cd9bbc6e54"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1c16f0cf12bd9edae131b5cd9bbc6e54">&#9670;&nbsp;</a></span>Shopping_UnfunnyUserReview()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void BrainCloudServiceHandler::Shopping_UnfunnyUserReview </td>
+          <td>(</td>
+          <td class="paramtype">std::string &amp;&#160;</td>
+          <td class="paramname"><em>_return</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const std::string &amp;&#160;</td>
+          <td class="paramname"><em>productId</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const std::string &amp;&#160;</td>
+          <td class="paramname"><em>reviewId</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const int32_t&#160;</td>
+          <td class="paramname"><em>clientIndex</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>@2806051775</p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">productId</td><td>The ID of the product being reviewed.</td></tr>
+    <tr><td class="paramname">reviewId</td><td>@2487545452</td></tr>
+    <tr><td class="paramname">clientIndex</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="aba59b6541249a517369b649e6a2a723b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aba59b6541249a517369b649e6a2a723b">&#9670;&nbsp;</a></span>Shopping_UnlikeUserReview()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void BrainCloudServiceHandler::Shopping_UnlikeUserReview </td>
+          <td>(</td>
+          <td class="paramtype">std::string &amp;&#160;</td>
+          <td class="paramname"><em>_return</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const std::string &amp;&#160;</td>
+          <td class="paramname"><em>productId</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const std::string &amp;&#160;</td>
+          <td class="paramname"><em>reviewId</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const int32_t&#160;</td>
+          <td class="paramname"><em>clientIndex</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>@594218927</p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">productId</td><td>The ID of the product being reviewed.</td></tr>
+    <tr><td class="paramname">reviewId</td><td>@2487545452</td></tr>
     <tr><td class="paramname">clientIndex</td><td></td></tr>
   </table>
   </dd>

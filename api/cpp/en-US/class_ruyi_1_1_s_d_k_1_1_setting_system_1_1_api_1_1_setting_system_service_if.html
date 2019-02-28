@@ -22,7 +22,7 @@
  <tr style="height: 56px;">
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">Subor SDK API
-   &#160;<span id="projectnumber">0.9.2</span>
+   &#160;<span id="projectnumber">0.9.3</span>
    </div>
   </td>
  </tr>
@@ -100,8 +100,8 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:ad06072380219f023ece46aacc4b76d9f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a0c47fb7aca9ec1ff1c0699bf297d85a1"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ruyi_1_1_s_d_k_1_1_setting_system_1_1_api_1_1_setting_system_service_if.html#a0c47fb7aca9ec1ff1c0699bf297d85a1">GetCategoryNode</a> (::<a class="el" href="class_ruyi_1_1_s_d_k_1_1_setting_system_1_1_api_1_1_setting_tree.html">Ruyi::SDK::SettingSystem::Api::SettingTree</a> &amp;_return)=0</td></tr>
 <tr class="separator:a0c47fb7aca9ec1ff1c0699bf297d85a1"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a87566df33d7b6b53412511353c18597f"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ruyi_1_1_s_d_k_1_1_setting_system_1_1_api_1_1_setting_system_service_if.html#a87566df33d7b6b53412511353c18597f">GetChildNode</a> (::<a class="el" href="class_ruyi_1_1_s_d_k_1_1_setting_system_1_1_api_1_1_node_list.html">Ruyi::SDK::SettingSystem::Api::NodeList</a> &amp;_return, const std::string &amp;parent, const ::<a class="el" href="struct_ruyi_1_1_s_d_k_1_1_setting_system_1_1_api_1_1_node_type.html#a4fe81f9cdddf441abc563fc5132a22ee">Ruyi::SDK::SettingSystem::Api::NodeType::type</a> nodeType, const std::string &amp;param)=0</td></tr>
-<tr class="separator:a87566df33d7b6b53412511353c18597f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4beed27994c884b0973033a19965141c"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ruyi_1_1_s_d_k_1_1_setting_system_1_1_api_1_1_setting_system_service_if.html#a4beed27994c884b0973033a19965141c">GetChildNode</a> (::<a class="el" href="class_ruyi_1_1_s_d_k_1_1_setting_system_1_1_api_1_1_node_list.html">Ruyi::SDK::SettingSystem::Api::NodeList</a> &amp;_return, const std::string &amp;parent, const ::<a class="el" href="struct_ruyi_1_1_s_d_k_1_1_setting_system_1_1_api_1_1_node_type.html#a4fe81f9cdddf441abc563fc5132a22ee">Ruyi::SDK::SettingSystem::Api::NodeType::type</a> nodeType, const std::string &amp;param, const std::vector&lt; std::string &gt; &amp;tags)=0</td></tr>
+<tr class="separator:a4beed27994c884b0973033a19965141c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a3c80625af55e762759732ed8ad71b548"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ruyi_1_1_s_d_k_1_1_setting_system_1_1_api_1_1_setting_system_service_if.html#a3c80625af55e762759732ed8ad71b548">SetSettingItem</a> (const std::string &amp;key, const std::string &amp;val)=0</td></tr>
 <tr class="separator:a3c80625af55e762759732ed8ad71b548"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a3b14e3e196a92bcfa3090702bd1574b1"><td class="memItemLeft" align="right" valign="top">virtual int32_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ruyi_1_1_s_d_k_1_1_setting_system_1_1_api_1_1_setting_system_service_if.html#a3b14e3e196a92bcfa3090702bd1574b1">SetSettingItems</a> (const std::map&lt; std::string, std::string &gt; &amp;keyValues)=0</td></tr>
@@ -463,8 +463,8 @@ Public Member Functions</h2></td></tr>
 
 </div>
 </div>
-<a id="a87566df33d7b6b53412511353c18597f"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a87566df33d7b6b53412511353c18597f">&#9670;&nbsp;</a></span>GetChildNode()</h2>
+<a id="a4beed27994c884b0973033a19965141c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4beed27994c884b0973033a19965141c">&#9670;&nbsp;</a></span>GetChildNode()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -494,7 +494,13 @@ Public Member Functions</h2></td></tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">const std::string &amp;&#160;</td>
-          <td class="paramname"><em>param</em>&#160;</td>
+          <td class="paramname"><em>param</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const std::vector&lt; std::string &gt; &amp;&#160;</td>
+          <td class="paramname"><em>tags</em>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -513,12 +519,13 @@ Public Member Functions</h2></td></tr>
   <table class="params">
     <tr><td class="paramname">parent</td><td>The parent node</td></tr>
     <tr><td class="paramname">nodeType</td><td>Specifies whether the child nodes containing setting item or setting category, or both</td></tr>
-    <tr><td class="paramname">param</td><td>The parameter passed to the function which will be called while getting the item value </td></tr>
+    <tr><td class="paramname">param</td><td>The parameter passed to the function which will be called while getting the item value</td></tr>
+    <tr><td class="paramname">tags</td><td>Tags used to filter the setting items. Only items with specified tags will be added in the result </td></tr>
   </table>
   </dd>
 </dl>
 
-<p>Implemented in <a class="el" href="class_ruyi_1_1_s_d_k_1_1_setting_system_1_1_api_1_1_setting_system_service_concurrent_client.html#ad51bbe62e0b852dece3950acad9f9a8a">Ruyi::SDK::SettingSystem::Api::SettingSystemServiceConcurrentClient</a>, <a class="el" href="class_ruyi_1_1_s_d_k_1_1_setting_system_1_1_api_1_1_setting_system_service_multiface.html#a00ec6a31fdc9de450644b300f83fc83f">Ruyi::SDK::SettingSystem::Api::SettingSystemServiceMultiface</a>, <a class="el" href="class_ruyi_1_1_s_d_k_1_1_setting_system_1_1_api_1_1_setting_system_service_client.html#a0651e8c7114a008c78e715043cd62984">Ruyi::SDK::SettingSystem::Api::SettingSystemServiceClient</a>, and <a class="el" href="class_ruyi_1_1_s_d_k_1_1_setting_system_1_1_api_1_1_setting_system_service_null.html#aea3ac3182fef9a840978147de7acab22">Ruyi::SDK::SettingSystem::Api::SettingSystemServiceNull</a>.</p>
+<p>Implemented in <a class="el" href="class_ruyi_1_1_s_d_k_1_1_setting_system_1_1_api_1_1_setting_system_service_concurrent_client.html#a3a9c42327876ca9dda9496b843d34dc4">Ruyi::SDK::SettingSystem::Api::SettingSystemServiceConcurrentClient</a>, <a class="el" href="class_ruyi_1_1_s_d_k_1_1_setting_system_1_1_api_1_1_setting_system_service_multiface.html#adec21aa04854cb32a7e7b4936a20799f">Ruyi::SDK::SettingSystem::Api::SettingSystemServiceMultiface</a>, <a class="el" href="class_ruyi_1_1_s_d_k_1_1_setting_system_1_1_api_1_1_setting_system_service_client.html#aa7f141e41faa0f94e22fedf895aa9dea">Ruyi::SDK::SettingSystem::Api::SettingSystemServiceClient</a>, and <a class="el" href="class_ruyi_1_1_s_d_k_1_1_setting_system_1_1_api_1_1_setting_system_service_null.html#afd2d92a54023922e6c570a505546d9b4">Ruyi::SDK::SettingSystem::Api::SettingSystemServiceNull</a>.</p>
 
 </div>
 </div>
@@ -776,6 +783,14 @@ Public Member Functions</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">userId</td><td></td></tr>
+    <tr><td class="paramname">category</td><td></td></tr>
+    <tr><td class="paramname">settingKeys</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
 
 <p>Implemented in <a class="el" href="class_ruyi_1_1_s_d_k_1_1_setting_system_1_1_api_1_1_setting_system_service_concurrent_client.html#a1e3a9a9e7b715cd27e136b297ae0a9c5">Ruyi::SDK::SettingSystem::Api::SettingSystemServiceConcurrentClient</a>, <a class="el" href="class_ruyi_1_1_s_d_k_1_1_setting_system_1_1_api_1_1_setting_system_service_multiface.html#a74eddded2e54bc76dd5ba1dd77f0747b">Ruyi::SDK::SettingSystem::Api::SettingSystemServiceMultiface</a>, <a class="el" href="class_ruyi_1_1_s_d_k_1_1_setting_system_1_1_api_1_1_setting_system_service_client.html#aaff5c3f4fdbd78bac8a17953f15e325b">Ruyi::SDK::SettingSystem::Api::SettingSystemServiceClient</a>, and <a class="el" href="class_ruyi_1_1_s_d_k_1_1_setting_system_1_1_api_1_1_setting_system_service_null.html#addc868b7712ec3e7e30fb96f3960848e">Ruyi::SDK::SettingSystem::Api::SettingSystemServiceNull</a>.</p>
 
@@ -858,6 +873,14 @@ Public Member Functions</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">userId</td><td></td></tr>
+    <tr><td class="paramname">category</td><td></td></tr>
+    <tr><td class="paramname">settingKeys</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
 
 <p>Implemented in <a class="el" href="class_ruyi_1_1_s_d_k_1_1_setting_system_1_1_api_1_1_setting_system_service_concurrent_client.html#a048c6f71a69fef05d6a158219f657203">Ruyi::SDK::SettingSystem::Api::SettingSystemServiceConcurrentClient</a>, <a class="el" href="class_ruyi_1_1_s_d_k_1_1_setting_system_1_1_api_1_1_setting_system_service_multiface.html#acfa4d70d59ddcd694b628ac1f9c8133e">Ruyi::SDK::SettingSystem::Api::SettingSystemServiceMultiface</a>, <a class="el" href="class_ruyi_1_1_s_d_k_1_1_setting_system_1_1_api_1_1_setting_system_service_client.html#ab756174499f0ebaa6a7b1153e10200ae">Ruyi::SDK::SettingSystem::Api::SettingSystemServiceClient</a>, and <a class="el" href="class_ruyi_1_1_s_d_k_1_1_setting_system_1_1_api_1_1_setting_system_service_null.html#aa074efdfb4e76e5a6da40171f98ea72d">Ruyi::SDK::SettingSystem::Api::SettingSystemServiceNull</a>.</p>
 
@@ -948,6 +971,14 @@ Public Member Functions</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">userId</td><td></td></tr>
+    <tr><td class="paramname">moduleName</td><td></td></tr>
+    <tr><td class="paramname">category</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
 
 <p>Implemented in <a class="el" href="class_ruyi_1_1_s_d_k_1_1_setting_system_1_1_api_1_1_setting_system_service_concurrent_client.html#adad12c637b238d8499b384d2e24c2c68">Ruyi::SDK::SettingSystem::Api::SettingSystemServiceConcurrentClient</a>, <a class="el" href="class_ruyi_1_1_s_d_k_1_1_setting_system_1_1_api_1_1_setting_system_service_multiface.html#ab8b8a6327a5839b531632aa3e1501a0b">Ruyi::SDK::SettingSystem::Api::SettingSystemServiceMultiface</a>, <a class="el" href="class_ruyi_1_1_s_d_k_1_1_setting_system_1_1_api_1_1_setting_system_service_client.html#a6bcac4811244e5c0c6183a5e6592c780">Ruyi::SDK::SettingSystem::Api::SettingSystemServiceClient</a>, and <a class="el" href="class_ruyi_1_1_s_d_k_1_1_setting_system_1_1_api_1_1_setting_system_service_null.html#a1a226381e51901c4b18652a809daf734">Ruyi::SDK::SettingSystem::Api::SettingSystemServiceNull</a>.</p>
 
@@ -1354,6 +1385,14 @@ Public Member Functions</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">userId</td><td></td></tr>
+    <tr><td class="paramname">category</td><td></td></tr>
+    <tr><td class="paramname">settingItems</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
 
 <p>Implemented in <a class="el" href="class_ruyi_1_1_s_d_k_1_1_setting_system_1_1_api_1_1_setting_system_service_concurrent_client.html#ab938e7933004fc0c205d0492f4b81bfa">Ruyi::SDK::SettingSystem::Api::SettingSystemServiceConcurrentClient</a>, <a class="el" href="class_ruyi_1_1_s_d_k_1_1_setting_system_1_1_api_1_1_setting_system_service_multiface.html#afcacf667424da82a6646fe186e04ebff">Ruyi::SDK::SettingSystem::Api::SettingSystemServiceMultiface</a>, <a class="el" href="class_ruyi_1_1_s_d_k_1_1_setting_system_1_1_api_1_1_setting_system_service_client.html#a4a1df0504e49c1012033bf23cff81699">Ruyi::SDK::SettingSystem::Api::SettingSystemServiceClient</a>, and <a class="el" href="class_ruyi_1_1_s_d_k_1_1_setting_system_1_1_api_1_1_setting_system_service_null.html#a1455d9355cde66f4ae624f495cb3082d">Ruyi::SDK::SettingSystem::Api::SettingSystemServiceNull</a>.</p>
 

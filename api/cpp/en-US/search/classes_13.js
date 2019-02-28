@@ -14,5 +14,7 @@ var searchData=
   ['validatorservicenull',['ValidatorServiceNull',['../class_ruyi_1_1_s_d_k_1_1_s_d_k_validator_1_1_validator_service_null.html',1,'Ruyi::SDK::SDKValidator']]],
   ['validatorserviceprocessor',['ValidatorServiceProcessor',['../class_ruyi_1_1_s_d_k_1_1_s_d_k_validator_1_1_validator_service_processor.html',1,'Ruyi::SDK::SDKValidator']]],
   ['validatorserviceprocessorfactory',['ValidatorServiceProcessorFactory',['../class_ruyi_1_1_s_d_k_1_1_s_d_k_validator_1_1_validator_service_processor_factory.html',1,'Ruyi::SDK::SDKValidator']]],
-  ['versioninfo',['VersionInfo',['../struct_ruyi_1_1_s_d_k_1_1_online_1_1_ruyi_net_get_global_leaderboard_versions_response_1_1_data_1_1_version_info.html',1,'Ruyi::SDK::Online::RuyiNetGetGlobalLeaderboardVersionsResponse::Data']]]
+  ['variant',['Variant',['../class_ruyi_1_1_s_d_k_1_1_common_type_1_1_variant.html',1,'Ruyi::SDK::CommonType']]],
+  ['versioninfo',['VersionInfo',['../struct_ruyi_1_1_s_d_k_1_1_online_1_1_ruyi_net_get_global_leaderboard_versions_response_1_1_data_1_1_version_info.html',1,'Ruyi::SDK::Online::RuyiNetGetGlobalLeaderboardVersionsResponse::Data']]],
+  ['videocapturestate',['VideoCaptureState',['../class_ruyi_1_1_s_d_k_1_1_overlay_1_1_video_capture_state.html',1,'Ruyi::SDK::Overlay']]]
 ];

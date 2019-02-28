@@ -7,7 +7,7 @@ var searchData=
   ['inputmanager',['InputManager',['../namespace_ruyi_1_1_s_d_k_1_1_input_manager.html',1,'Ruyi::SDK']]],
   ['localizationservice',['LocalizationService',['../namespace_ruyi_1_1_s_d_k_1_1_localization_service.html',1,'Ruyi::SDK']]],
   ['online',['Online',['../namespace_ruyi_1_1_s_d_k_1_1_online.html',1,'Ruyi::SDK']]],
-  ['overlaymanagerexternal',['OverlayManagerExternal',['../namespace_ruyi_1_1_s_d_k_1_1_overlay_manager_external.html',1,'Ruyi::SDK']]],
+  ['overlay',['Overlay',['../namespace_ruyi_1_1_s_d_k_1_1_overlay.html',1,'Ruyi::SDK']]],
   ['ruyi',['Ruyi',['../namespace_ruyi.html',1,'']]],
   ['sdk',['SDK',['../namespace_ruyi_1_1_s_d_k.html',1,'Ruyi']]],
   ['sdkvalidator',['SDKValidator',['../namespace_ruyi_1_1_s_d_k_1_1_s_d_k_validator.html',1,'Ruyi::SDK']]],

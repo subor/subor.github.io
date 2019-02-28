@@ -18,5 +18,6 @@ var searchData=
   ['userservexternalprocessor',['UserServExternalProcessor',['../class_ruyi_1_1_s_d_k_1_1_user_service_external_1_1_user_serv_external_processor.html',1,'Ruyi::SDK::UserServiceExternal']]],
   ['userservexternalprocessorfactory',['UserServExternalProcessorFactory',['../class_ruyi_1_1_s_d_k_1_1_user_service_external_1_1_user_serv_external_processor_factory.html',1,'Ruyi::SDK::UserServiceExternal']]],
   ['userserviceexternalsdkdatatypesconstants',['UserServiceExternalSDKDataTypesConstants',['../class_ruyi_1_1_s_d_k_1_1_user_service_external_1_1_user_service_external_s_d_k_data_types_constants.html',1,'Ruyi::SDK::UserServiceExternal']]],
-  ['userserviceexternalsdkservicesconstants',['UserServiceExternalSDKServicesConstants',['../class_ruyi_1_1_s_d_k_1_1_user_service_external_1_1_user_service_external_s_d_k_services_constants.html',1,'Ruyi::SDK::UserServiceExternal']]]
+  ['userserviceexternalsdkservicesconstants',['UserServiceExternalSDKServicesConstants',['../class_ruyi_1_1_s_d_k_1_1_user_service_external_1_1_user_service_external_s_d_k_services_constants.html',1,'Ruyi::SDK::UserServiceExternal']]],
+  ['usertype',['UserType',['../struct_ruyi_1_1_s_d_k_1_1_common_type_1_1_user_type.html',1,'Ruyi::SDK::CommonType']]]
 ];

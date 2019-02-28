@@ -19,6 +19,7 @@ var searchData=
   ['identity_5fswitchtochildprofile',['Identity_SwitchToChildProfile',['../class_brain_cloud_service_handler.html#aef3577e539fe206bbd4cd906be49a183',1,'BrainCloudServiceHandler']]],
   ['identity_5fswitchtoparentprofile',['Identity_SwitchToParentProfile',['../class_brain_cloud_service_handler.html#a75171494b15551efd2ee9079b6646c62',1,'BrainCloudServiceHandler']]],
   ['identity_5fswitchtosingletonchildprofile',['Identity_SwitchToSingletonChildProfile',['../class_brain_cloud_service_handler.html#aabc356790c6821674d4a27382c1cb7c6',1,'BrainCloudServiceHandler']]],
+  ['if',['If',['../class_ruyi_1_1_s_d_k_1_1_common_type_1_1_if.html#a4cb0f45adfa08e55f7c6727ad2754c42',1,'Ruyi::SDK::CommonType::If::If(const If &amp;)'],['../class_ruyi_1_1_s_d_k_1_1_common_type_1_1_if.html#a5a72be0e4e6413d8f106361cc2aeec92',1,'Ruyi::SDK::CommonType::If::If()']]],
   ['ignore_5fassign',['ignore_assign',['../structignore__assign.html#a5f0f0baf0c3a6e7c00d85fe05818f00d',1,'ignore_assign']]],
   ['initialise',['Initialise',['../class_ruyi_1_1_s_d_k_1_1_online_1_1_ruyi_net_client.html#a9bfb7414737b799570b579c0ac8bda83',1,'Ruyi::SDK::Online::RuyiNetClient']]],
   ['initwithresponse',['InitWithResponse',['../class_ruyi_1_1_s_d_k_1_1_online_1_1_ruyi_net_lobby.html#af54ed157f87a64423882feb47f9d4721',1,'Ruyi::SDK::Online::RuyiNetLobby']]],

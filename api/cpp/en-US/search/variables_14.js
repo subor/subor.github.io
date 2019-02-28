@@ -1,5 +1,6 @@
 var searchData=
 [
+  ['tags',['Tags',['../class_ruyi_1_1_s_d_k_1_1_common_type_1_1_setting_item.html#a88b06a834d2742c0d22a4301452139a0',1,'Ruyi::SDK::CommonType::SettingItem::Tags()'],['../class_ruyi_1_1_s_d_k_1_1_common_type_1_1_setting_category.html#a14f12f8e16d2e90f13e3ef4ea1053017',1,'Ruyi::SDK::CommonType::SettingCategory::Tags()'],['../class_ruyi_1_1_s_d_k_1_1_setting_system_1_1_api_1_1_setting_system_service___get_child_node__args.html#a1e9090d1c60f54d52f5b435b1c62c223',1,'Ruyi::SDK::SettingSystem::Api::SettingSystemService_GetChildNode_args::tags()'],['../class_ruyi_1_1_s_d_k_1_1_setting_system_1_1_api_1_1_setting_system_service___get_child_node__pargs.html#a1cdf247782ef462745ed6a9e5b4618cd',1,'Ruyi::SDK::SettingSystem::Api::SettingSystemService_GetChildNode_pargs::tags()']]],
   ['telemetrysessionid',['telemetrySessionId',['../struct_ruyi_1_1_s_d_k_1_1_online_1_1_ruyi_net_telemetry_session_response_1_1_data.html#aec64a258c8a5ce48c14845db1c6cbaa5',1,'Ruyi::SDK::Online::RuyiNetTelemetrySessionResponse::Data']]],
   ['temporary_5fredirect',['TEMPORARY_REDIRECT',['../class_ruyi_1_1_s_d_k_1_1_online_1_1_ruyi_net_http_status.html#a5c2c2a8180de03a9ecb15a33f262f8ac',1,'Ruyi::SDK::Online::RuyiNetHttpStatus']]],
   ['terminators',['terminators',['../_enum_8h.html#ad4c427cf03db912534b039f82fd30d34',1,'Enum.h']]],
@@ -14,5 +15,5 @@ var searchData=
   ['triggerbuttons',['TriggerButtons',['../class_ruyi_1_1_s_d_k_1_1_common_type_1_1_action_trigger.html#a5c4defcc0c9e7b854a1dd426384103ac',1,'Ruyi::SDK::CommonType::ActionTrigger']]],
   ['triggers',['Triggers',['../class_ruyi_1_1_s_d_k_1_1_user_service_external_1_1_input_action_event.html#a65d649a04370c1bbb7d25a50f3850220',1,'Ruyi::SDK::UserServiceExternal::InputActionEvent']]],
   ['triggervalue',['TriggerValue',['../class_ruyi_1_1_s_d_k_1_1_common_type_1_1_action_trigger.html#afa977298b8599350659c7d2b90ebff0c',1,'Ruyi::SDK::CommonType::ActionTrigger']]],
-  ['type',['type',['../class_ruyi_1_1_s_d_k_1_1_online_1_1_ruyi_net_leaderboard_service.html#a8505907749de5fd9ec0b8917f93807fb',1,'Ruyi::SDK::Online::RuyiNetLeaderboardService']]]
+  ['type',['type',['../class_ruyi_1_1_s_d_k_1_1_common_type_1_1_game_d_b.html#a0b19e75aaa85b4c37346d8771819b48a',1,'Ruyi::SDK::CommonType::GameDB::type()'],['../class_ruyi_1_1_s_d_k_1_1_common_type_1_1_cond.html#a4c3c3fe4807a37d6e804ee1c3e199321',1,'Ruyi::SDK::CommonType::Cond::type()'],['../class_ruyi_1_1_s_d_k_1_1_online_1_1_ruyi_net_leaderboard_service.html#a8505907749de5fd9ec0b8917f93807fb',1,'Ruyi::SDK::Online::RuyiNetLeaderboardService::type()']]]
 ];

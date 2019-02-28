@@ -1,5 +1,6 @@
 var searchData=
 [
+  ['features',['Features',['../class_ruyi_1_1_s_d_k_1_1_common_type_1_1_features.html#a7c559fab9d851c8ef0f5b1de1898682b',1,'Ruyi::SDK::CommonType::Features::Features(const Features &amp;)'],['../class_ruyi_1_1_s_d_k_1_1_common_type_1_1_features.html#af72e2c842d89eeb84f7f23ed04ee9a1a',1,'Ruyi::SDK::CommonType::Features::Features()']]],
   ['file_5fcanceldownload',['File_CancelDownload',['../class_brain_cloud_service_handler.html#ab714aa3c5e6b36557cf8bcdf6fc5c40e',1,'BrainCloudServiceHandler']]],
   ['file_5fcancelupload',['File_CancelUpload',['../class_brain_cloud_service_handler.html#a6177958b76b0c802f4ac0440970a8389',1,'BrainCloudServiceHandler']]],
   ['file_5fdeleteuserfile',['File_DeleteUserFile',['../class_brain_cloud_service_handler.html#a65e667c179161e45b732f78a855390d8',1,'BrainCloudServiceHandler']]],
@@ -16,6 +17,7 @@ var searchData=
   ['findlobbies',['FindLobbies',['../class_ruyi_1_1_s_d_k_1_1_online_1_1_ruyi_net_lobby_service.html#a64086cad3f3d7c144047aef1ee7690a5',1,'Ruyi::SDK::Online::RuyiNetLobbyService::FindLobbies(int index, int numResults, RuyiNetLobbyType lobbyType, std::list&lt; RuyiNetLobby *&gt; &amp;lobbyList, RuyiNetLobbyFindResponse &amp;response)'],['../class_ruyi_1_1_s_d_k_1_1_online_1_1_ruyi_net_lobby_service.html#a0f8a48aaffef0afd4b5138586f620ef4',1,'Ruyi::SDK::Online::RuyiNetLobbyService::FindLobbies(int index, int numResults, RuyiNetLobbyType lobbyType, int freeSlots, std::list&lt; RuyiNetLobby *&gt; &amp;lobbyList, RuyiNetLobbyFindResponse &amp;response)'],['../class_ruyi_1_1_s_d_k_1_1_online_1_1_ruyi_net_lobby_service.html#a77bbaf0ff7b6b65f137c232a976bce24',1,'Ruyi::SDK::Online::RuyiNetLobbyService::FindLobbies(int index, int numResults, RuyiNetLobbyType lobbyType, int freeSlots, std::string searchCriteria, std::list&lt; RuyiNetLobby *&gt; &amp;lobbyList, RuyiNetLobbyFindResponse &amp;response)']]],
   ['friend_5facceptfriendinvitation',['Friend_AcceptFriendInvitation',['../class_brain_cloud_service_handler.html#ab137cb8175387dddd679d9fe4a1152e9',1,'BrainCloudServiceHandler']]],
   ['friend_5faddfriends',['Friend_AddFriends',['../class_brain_cloud_service_handler.html#a8c48d21396b3d0cdd307d973994e9bdb',1,'BrainCloudServiceHandler']]],
+  ['friend_5ffinduserbyuniversalid',['Friend_FindUserByUniversalId',['../class_brain_cloud_service_handler.html#a9a0c5b5cfd5ab9a21239b7d641b660bb',1,'BrainCloudServiceHandler']]],
   ['friend_5ffindusersbyexactname',['Friend_FindUsersByExactName',['../class_brain_cloud_service_handler.html#a8058a287d039936e2c923644d2d7c120',1,'BrainCloudServiceHandler']]],
   ['friend_5ffindusersbysubstrname',['Friend_FindUsersBySubstrName',['../class_brain_cloud_service_handler.html#ac41f5b6b5551414e00263d378ff0c145',1,'BrainCloudServiceHandler']]],
   ['friend_5fgetsummarydataforfriends',['Friend_GetSummaryDataForFriends',['../class_brain_cloud_service_handler.html#a9aced495d4c34b5663246b7bdef85138',1,'BrainCloudServiceHandler']]],

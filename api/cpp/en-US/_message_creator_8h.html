@@ -22,7 +22,7 @@
  <tr style="height: 56px;">
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">Subor SDK API
-   &#160;<span id="projectnumber">0.9.2</span>
+   &#160;<span id="projectnumber">0.9.3</span>
    </div>
   </td>
  </tr>
@@ -77,14 +77,6 @@ $(function() {
 </div><!--header-->
 <div class="contents">
 <div class="textblock"><code>#include &quot;thrift/TBase.h&quot;</code><br />
-<code>#include &quot;<a class="el" href="_input_manager_s_d_k_data_types__types_8h.html">../Generated/InputManager/InputManagerSDKDataTypes_types.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="_storage_layer_s_d_k_data_types__types_8h.html">../Generated/StorageLayer/StorageLayerSDKDataTypes_types.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="_setting_system_s_d_k_data_types__types_8h.html">../Generated/SettingSystem/SettingSystemSDKDataTypes_types.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="_brain_cloud_service_s_d_k_data_types__types_8h.html">../Generated/BrainCloudService/BrainCloudServiceSDKDataTypes_types.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="_localization_service_s_d_k_data_types__types_8h.html">../Generated/LocalizationService/LocalizationServiceSDKDataTypes_types.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="_user_service_external_s_d_k_data_types__types_8h.html">../Generated/UserServiceExternal/UserServiceExternalSDKDataTypes_types.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="_overlay_manager_s_d_k_data_types__types_8h.html">../Generated/OverlayManager/OverlayManagerSDKDataTypes_types.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="_ruyi_s_d_k_8h.html">../RuyiSDK.h</a>&quot;</code><br />
 </div><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="nested-classes"></a>
 Classes</h2></td></tr>
@@ -139,7 +131,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<b>Value:</b><div class="fragment"><div class="line">{\</div><div class="line">        MessageCreatorFunc p = &amp;CreateMessagePtr&lt;msgType&gt;; \</div><div class="line">        ccs.insert(std::make_pair(msgName, p));\</div><div class="line">    }</div></div><!-- fragment -->
+<b>Value:</b><div class="fragment"><div class="line">{\</div><div class="line">        MessageCreator::Register&lt;msgType&gt;(msgName);\</div><div class="line">    }</div></div><!-- fragment -->
 </div>
 </div>
 <h2 class="groupheader">Typedef Documentation</h2>

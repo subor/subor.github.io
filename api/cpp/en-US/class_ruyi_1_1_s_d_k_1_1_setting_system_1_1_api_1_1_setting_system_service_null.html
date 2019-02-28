@@ -22,7 +22,7 @@
  <tr style="height: 56px;">
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">Subor SDK API
-   &#160;<span id="projectnumber">0.9.2</span>
+   &#160;<span id="projectnumber">0.9.3</span>
    </div>
   </td>
  </tr>
@@ -97,8 +97,8 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a68efa12a2775630e11ce1f183ad55aea"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad6de209b8b38aca124f5c9d712d5e61b"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ruyi_1_1_s_d_k_1_1_setting_system_1_1_api_1_1_setting_system_service_null.html#ad6de209b8b38aca124f5c9d712d5e61b">GetCategoryNode</a> (::<a class="el" href="class_ruyi_1_1_s_d_k_1_1_setting_system_1_1_api_1_1_setting_tree.html">Ruyi::SDK::SettingSystem::Api::SettingTree</a> &amp;)</td></tr>
 <tr class="separator:ad6de209b8b38aca124f5c9d712d5e61b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aea3ac3182fef9a840978147de7acab22"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ruyi_1_1_s_d_k_1_1_setting_system_1_1_api_1_1_setting_system_service_null.html#aea3ac3182fef9a840978147de7acab22">GetChildNode</a> (::<a class="el" href="class_ruyi_1_1_s_d_k_1_1_setting_system_1_1_api_1_1_node_list.html">Ruyi::SDK::SettingSystem::Api::NodeList</a> &amp;, const std::string &amp;, const ::<a class="el" href="struct_ruyi_1_1_s_d_k_1_1_setting_system_1_1_api_1_1_node_type.html#a4fe81f9cdddf441abc563fc5132a22ee">Ruyi::SDK::SettingSystem::Api::NodeType::type</a>, const std::string &amp;)</td></tr>
-<tr class="separator:aea3ac3182fef9a840978147de7acab22"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afd2d92a54023922e6c570a505546d9b4"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ruyi_1_1_s_d_k_1_1_setting_system_1_1_api_1_1_setting_system_service_null.html#afd2d92a54023922e6c570a505546d9b4">GetChildNode</a> (::<a class="el" href="class_ruyi_1_1_s_d_k_1_1_setting_system_1_1_api_1_1_node_list.html">Ruyi::SDK::SettingSystem::Api::NodeList</a> &amp;, const std::string &amp;, const ::<a class="el" href="struct_ruyi_1_1_s_d_k_1_1_setting_system_1_1_api_1_1_node_type.html#a4fe81f9cdddf441abc563fc5132a22ee">Ruyi::SDK::SettingSystem::Api::NodeType::type</a>, const std::string &amp;, const std::vector&lt; std::string &gt; &amp;)</td></tr>
+<tr class="separator:afd2d92a54023922e6c570a505546d9b4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aedabe0bed05287fe6af02b97a101fd60"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ruyi_1_1_s_d_k_1_1_setting_system_1_1_api_1_1_setting_system_service_null.html#aedabe0bed05287fe6af02b97a101fd60">SetSettingItem</a> (const std::string &amp;, const std::string &amp;)</td></tr>
 <tr class="separator:aedabe0bed05287fe6af02b97a101fd60"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:abe3d13761937a92a1817c05a859ff29f"><td class="memItemLeft" align="right" valign="top">int32_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ruyi_1_1_s_d_k_1_1_setting_system_1_1_api_1_1_setting_system_service_null.html#abe3d13761937a92a1817c05a859ff29f">SetSettingItems</a> (const std::map&lt; std::string, std::string &gt; &amp;)</td></tr>
@@ -463,8 +463,8 @@ Public Member Functions</h2></td></tr>
 
 </div>
 </div>
-<a id="aea3ac3182fef9a840978147de7acab22"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aea3ac3182fef9a840978147de7acab22">&#9670;&nbsp;</a></span>GetChildNode()</h2>
+<a id="afd2d92a54023922e6c570a505546d9b4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#afd2d92a54023922e6c570a505546d9b4">&#9670;&nbsp;</a></span>GetChildNode()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -494,7 +494,13 @@ Public Member Functions</h2></td></tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">const std::string &amp;&#160;</td>
-          <td class="paramname"><em>param</em>&#160;</td>
+          <td class="paramname"><em>param</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const std::vector&lt; std::string &gt; &amp;&#160;</td>
+          <td class="paramname"><em>tags</em>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -513,12 +519,13 @@ Public Member Functions</h2></td></tr>
   <table class="params">
     <tr><td class="paramname">parent</td><td>The parent node</td></tr>
     <tr><td class="paramname">nodeType</td><td>Specifies whether the child nodes containing setting item or setting category, or both</td></tr>
-    <tr><td class="paramname">param</td><td>The parameter passed to the function which will be called while getting the item value </td></tr>
+    <tr><td class="paramname">param</td><td>The parameter passed to the function which will be called while getting the item value</td></tr>
+    <tr><td class="paramname">tags</td><td>Tags used to filter the setting items. Only items with specified tags will be added in the result </td></tr>
   </table>
   </dd>
 </dl>
 
-<p>Implements <a class="el" href="class_ruyi_1_1_s_d_k_1_1_setting_system_1_1_api_1_1_setting_system_service_if.html#a87566df33d7b6b53412511353c18597f">Ruyi::SDK::SettingSystem::Api::SettingSystemServiceIf</a>.</p>
+<p>Implements <a class="el" href="class_ruyi_1_1_s_d_k_1_1_setting_system_1_1_api_1_1_setting_system_service_if.html#a4beed27994c884b0973033a19965141c">Ruyi::SDK::SettingSystem::Api::SettingSystemServiceIf</a>.</p>
 
 </div>
 </div>
@@ -744,25 +751,25 @@ Public Member Functions</h2></td></tr>
           <td class="memname">void Ruyi::SDK::SettingSystem::Api::SettingSystemServiceNull::GetUserAppData </td>
           <td>(</td>
           <td class="paramtype">::<a class="el" href="class_ruyi_1_1_s_d_k_1_1_common_type_1_1_app_data.html">Ruyi::SDK::CommonType::AppData</a> &amp;&#160;</td>
-          <td class="paramname">, </td>
+          <td class="paramname"><em>_return</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">const std::string &amp;&#160;</td>
-          <td class="paramname">, </td>
+          <td class="paramname"><em>userId</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">const std::string &amp;&#160;</td>
-          <td class="paramname">, </td>
+          <td class="paramname"><em>category</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">const std::vector&lt; std::string &gt; &amp;&#160;</td>
-          <td class="paramname">&#160;</td>
+          <td class="paramname"><em>settingKeys</em>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -776,6 +783,14 @@ Public Member Functions</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">userId</td><td></td></tr>
+    <tr><td class="paramname">category</td><td></td></tr>
+    <tr><td class="paramname">settingKeys</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
 
 <p>Implements <a class="el" href="class_ruyi_1_1_s_d_k_1_1_setting_system_1_1_api_1_1_setting_system_service_if.html#a2767217adf2bf08b5442ce870b8b1277">Ruyi::SDK::SettingSystem::Api::SettingSystemServiceIf</a>.</p>
 
@@ -832,19 +847,19 @@ Public Member Functions</h2></td></tr>
           <td class="memname">int32_t Ruyi::SDK::SettingSystem::Api::SettingSystemServiceNull::RemoveUserAppData </td>
           <td>(</td>
           <td class="paramtype">const std::string &amp;&#160;</td>
-          <td class="paramname">, </td>
+          <td class="paramname"><em>userId</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">const std::string &amp;&#160;</td>
-          <td class="paramname">, </td>
+          <td class="paramname"><em>category</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">const std::vector&lt; std::string &gt; &amp;&#160;</td>
-          <td class="paramname">&#160;</td>
+          <td class="paramname"><em>settingKeys</em>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -858,6 +873,14 @@ Public Member Functions</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">userId</td><td></td></tr>
+    <tr><td class="paramname">category</td><td></td></tr>
+    <tr><td class="paramname">settingKeys</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
 
 <p>Implements <a class="el" href="class_ruyi_1_1_s_d_k_1_1_setting_system_1_1_api_1_1_setting_system_service_if.html#aec2822f087940bc9ec1a85208350b7b3">Ruyi::SDK::SettingSystem::Api::SettingSystemServiceIf</a>.</p>
 
@@ -922,19 +945,19 @@ Public Member Functions</h2></td></tr>
           <td class="memname">bool Ruyi::SDK::SettingSystem::Api::SettingSystemServiceNull::RestoreUserDefault </td>
           <td>(</td>
           <td class="paramtype">const std::string &amp;&#160;</td>
-          <td class="paramname">, </td>
+          <td class="paramname"><em>userId</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">const std::string &amp;&#160;</td>
-          <td class="paramname">, </td>
+          <td class="paramname"><em>moduleName</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">const std::string &amp;&#160;</td>
-          <td class="paramname">&#160;</td>
+          <td class="paramname"><em>category</em>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -948,6 +971,14 @@ Public Member Functions</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">userId</td><td></td></tr>
+    <tr><td class="paramname">moduleName</td><td></td></tr>
+    <tr><td class="paramname">category</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
 
 <p>Implements <a class="el" href="class_ruyi_1_1_s_d_k_1_1_setting_system_1_1_api_1_1_setting_system_service_if.html#aba6cddf8ae33dced9bb4c44553650479">Ruyi::SDK::SettingSystem::Api::SettingSystemServiceIf</a>.</p>
 
@@ -1328,19 +1359,19 @@ Public Member Functions</h2></td></tr>
           <td class="memname">int32_t Ruyi::SDK::SettingSystem::Api::SettingSystemServiceNull::SetUserAppData </td>
           <td>(</td>
           <td class="paramtype">const std::string &amp;&#160;</td>
-          <td class="paramname">, </td>
+          <td class="paramname"><em>userId</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">const std::string &amp;&#160;</td>
-          <td class="paramname">, </td>
+          <td class="paramname"><em>category</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">const std::map&lt; std::string, ::<a class="el" href="class_ruyi_1_1_s_d_k_1_1_common_type_1_1_setting_value.html">Ruyi::SDK::CommonType::SettingValue</a> &gt; &amp;&#160;</td>
-          <td class="paramname">&#160;</td>
+          <td class="paramname"><em>settingItems</em>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -1354,6 +1385,14 @@ Public Member Functions</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">userId</td><td></td></tr>
+    <tr><td class="paramname">category</td><td></td></tr>
+    <tr><td class="paramname">settingItems</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
 
 <p>Implements <a class="el" href="class_ruyi_1_1_s_d_k_1_1_setting_system_1_1_api_1_1_setting_system_service_if.html#aaaa508eb6dc4f370fc72fbd29afdf701">Ruyi::SDK::SettingSystem::Api::SettingSystemServiceIf</a>.</p>
 

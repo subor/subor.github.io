@@ -2,6 +2,7 @@ var searchData=
 [
   ['c',['C',['../struct_ruyi_1_1_s_d_k_1_1_input_manager_1_1_key.html#aac445ba69ee7e6295ed80fb9e2432dbea8f022f7a9f48372f58cd629250d00cbd',1,'Ruyi::SDK::InputManager::Key']]],
   ['calculator',['Calculator',['../struct_ruyi_1_1_s_d_k_1_1_input_manager_1_1_key.html#aac445ba69ee7e6295ed80fb9e2432dbeabc080c679f6b79699af77fbd22c4e021',1,'Ruyi::SDK::InputManager::Key']]],
+  ['cancel',['Cancel',['../struct_ruyi_1_1_s_d_k_1_1_common_type_1_1_power_operations.html#ae872b8c66a2ae8bb26fa075b980a534aaf7f3c345880dc1815b9764bf50aeaf47',1,'Ruyi::SDK::CommonType::PowerOperations']]],
   ['capital',['Capital',['../struct_ruyi_1_1_s_d_k_1_1_input_manager_1_1_key.html#aac445ba69ee7e6295ed80fb9e2432dbeada485e4bc21ee4255802abadf9c5a00d',1,'Ruyi::SDK::InputManager::Key']]],
   ['category',['Category',['../struct_ruyi_1_1_s_d_k_1_1_setting_system_1_1_api_1_1_node_type.html#a4fe81f9cdddf441abc563fc5132a22eea961078093be884dcc4e05a8b85444379',1,'Ruyi::SDK::SettingSystem::Api::NodeType']]],
   ['checklist',['CheckList',['../struct_ruyi_1_1_s_d_k_1_1_common_type_1_1e_u_i_type.html#af2512b29ade43804dae14918baf9e5fca900769a7f96847d765df812f36e82c3f',1,'Ruyi::SDK::CommonType::eUIType']]],
